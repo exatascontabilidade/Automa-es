@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Painel de Automação</title>
+  <style>
+    body { margin: 0; font-family: 'Segoe UI', sans-serif; background: #f9f9f9; }
+    header { background: #0d47a1; color: white; padding: 15px 30px; display: flex; justify-content: space-between; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; cursor: pointer; }
+    nav a:hover { text-decoration: underline; }
+    .painel { display: none; padding: 30px; }
+    .ativo { display: block; }
+    button {
+      margin: 10px 5px 20px 0; padding: 10px 20px; background-color: #3b82f6;
+      color: white; border: none; border-radius: 6px; cursor: pointer;
+    }
+    button:hover { background-color: #2563eb; }
+    textarea {
+      width: 100%; height: 200px; background-color: #111827; color: #10b981;
+      border: none; padding: 10px; font-family: monospace; font-size: 14px;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div><strong>🧠 Painel de Automação</strong></div>
+    <nav>
+      <a onclick="abrirAba('Inicio')">Inicio</a>
+      <a onclick="abrirAba('consulta_sefaz')">Consulta SEFAZ</a>
+      <a onclick="abrirAba('mensal')">Consulta Mensal</a>
+      <a onclick="abrirAba('relatorio')">Relatórios</a>
+    </nav>
+  </header>
+
+  <div id="Inicio" class="painel ativo">
+    <h2>Bem Vindo</h2>
+  </div>
+
+  <div id="consulta_sefaz" class="painel">
+    <h2>Consulta SEFAZ</h2>
+    <button onclick="selecionarPlanilha('consulta_sefaz')">📂 Selecionar Planilha</button>
+    <button onclick="executarScript('consulta_sefaz')">▶ Executar Script</button>
+    <textarea id="log_consulta_sefaz" readonly></textarea>
+  </div>
+
+  <div id="mensal" class="painel">
+    <h2>Consulta Mensal</h2>
+    <button onclick="selecionarPlanilha('mensal')">📂 Selecionar Planilha</button>
+    <button onclick="executarScript('mensal')">▶ Executar Script</button>
+    <textarea id="log_mensal" readonly></textarea>
+  </div>
+
+  <div id="relatorio" class="painel">
+    <h2>Relatórios</h2>
+    <button onclick="selecionarPlanilha('relatorio')">📂 Selecionar Planilha</button>
+    <button onclick="executarScript('relatorio')">▶ Executar Script</button>
+    <textarea id="log_relatorio" readonly></textarea>
+  </div>
+
+  <script>
+    function abrirAba(id) {
+      document.querySelectorAll('.painel').forEach(p => p.classList.remove('ativo'));
+      document.getElementById(id).classList.add('ativo');
+    }
+    function selecionarPlanilha(script) {
+      window.pywebview.api.selecionar_planilha(script).then(msg => appendLog(script, msg));
+    }
+    function executarScript(script) {
+      window.pywebview.api.executar_script(script).then(msg => appendLog(script, msg));
+    }
+    function appendLog(script, msg) {
+      const el = document.getElementById('log_' + script);
+      el.value += msg + "\n";
+      el.scrollTop = el.scrollHeight;
+    }
+  </script>
+</body>
+</html>
