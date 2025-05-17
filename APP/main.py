@@ -1,4 +1,3 @@
-
 import webview
 import os
 import sys
@@ -44,16 +43,20 @@ class Backend:
             )
 
             for linha in processo.stdout:
-                linha_formatada = f"[{nome_script}] {linha.strip()}"
+                linha_formatada = linha.strip()  # <-- Removido o prefixo do nome do script
                 print(linha_formatada)
-                webview.windows[0].evaluate_js(f'appendLog("{nome_script}", `{linha_formatada}`)')
+                webview.windows[0].evaluate_js(
+                    f'appendLog("{nome_script}", `{linha_formatada}`)'
+                )
 
             processo.wait()
-            final_msg = f"✅ Script {nome_script} finalizado com código {processo.returncode}"
-            webview.windows[0].evaluate_js(f'appendLog("{nome_script}", `{final_msg}`)')
+            final_msg = f"✅ Script finalizado com código {processo.returncode}"
+            webview.windows[0].evaluate_js(
+                f'appendLog("{nome_script}", `{final_msg}`)'
+            )
 
         except Exception as e:
-            erro_msg = f"❌ Erro ao executar {nome_script}: {e}"
+            erro_msg = f"❌ Erro ao executar: {e}"
             webview.evaluate_js(f'appendLog("{nome_script}", `{erro_msg}`)')
             return erro_msg
 
