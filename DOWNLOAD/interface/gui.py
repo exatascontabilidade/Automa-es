@@ -4,7 +4,7 @@ import sys
 import threading
 from utils.logger import RedirectText
 from automacoes.login import executar_codigo_completo, parar_automacao, iniciar_thread
-import utils.state as state
+import automacoes.state as state
 
 def iniciar_interface():
     janela = tk.Tk()

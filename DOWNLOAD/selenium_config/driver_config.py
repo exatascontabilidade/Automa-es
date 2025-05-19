@@ -3,7 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
-import utils.state as state
+import automacoes.state as state
 
 def configurar_driver(headless=False):
     options = Options()

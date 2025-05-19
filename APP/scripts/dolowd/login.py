@@ -8,8 +8,9 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
-from download import baixar_arquivos_com_blocos
-import state as state
+
+from scripts.dolowd.baixar import baixar_arquivos_com_blocos
+import scripts.dolowd.state as state
 
 usar_headless = False
 
@@ -38,10 +39,11 @@ def executar_codigo_completo():
 
     navegador = configurar_driver(headless=usar_headless)
     wait = WebDriverWait(navegador, 3)
-    navegador.get("https://www.sefaz.se.gov.br/SitePages/acesso_usuario.aspx")
-    navegador.maximize_window()
 
     try:
+        navegador.get("https://www.sefaz.se.gov.br/SitePages/acesso_usuario.aspx")
+        navegador.maximize_window()
+
         if checar_parada(navegador): return
         try:
             wait.until(EC.element_to_be_clickable((By.ID, 'accept-button'))).click()
@@ -60,7 +62,9 @@ def executar_codigo_completo():
         time.sleep(0.5)
 
         if checar_parada(navegador): return
-        navegador.switch_to.frame(wait.until(EC.presence_of_element_located((By.XPATH, "//iframe[contains(@src, 'atoAcessoContribuinte.jsp')]"))))
+        navegador.switch_to.frame(wait.until(EC.presence_of_element_located(
+            (By.XPATH, "//iframe[contains(@src, 'atoAcessoContribuinte.jsp')]")
+        )))
         tabela_login = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "tabelaVerde")))
         tabela_login.find_element(By.NAME, "UserName").send_keys("SE007829")
         tabela_login.find_element(By.NAME, "Password").send_keys("Exatas2024@")
@@ -83,8 +87,14 @@ def executar_codigo_completo():
 
         baixar_arquivos_com_blocos(navegador)
 
-    except Exception:
-        pass
+    except Exception as e:
+        print(f"[ERRO] Erro inesperado durante a execução: {str(e)}")
+
+    finally:
+        try:
+            navegador.quit()
+        except:
+            pass
 
 def iniciar_thread():
     state.executando = True
@@ -94,5 +104,3 @@ def iniciar_thread():
 def parar_automacao():
     if state.executando:
         state.executando = False
-
-iniciar_thread()
