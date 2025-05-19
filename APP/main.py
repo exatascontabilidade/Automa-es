@@ -63,4 +63,4 @@ class Backend:
 if __name__ == '__main__':
     api = Backend()
     webview.create_window("Painel de Automação", "index.html", js_api=api, width=1024, height=768)
-    webview.start(debug=False)
+    webview.start(debug=True)
