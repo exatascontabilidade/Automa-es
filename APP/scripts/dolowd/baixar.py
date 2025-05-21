@@ -2,7 +2,6 @@ import time
 import os
 from pathlib import Path
 from selenium.webdriver.common.by import By
-from scripts.dolowd.state import executando
 import scripts.dolowd.state as state
 
 def renomear_ultimo_arquivo(tipo_prefixo):
@@ -24,7 +23,7 @@ def renomear_ultimo_arquivo(tipo_prefixo):
 total_baixados = 0
 
 def baixar_arquivos_na_pagina(navegador):
-    global executando, total_baixados
+    global total_baixados
     linhas = navegador.find_elements(By.XPATH, "//tr[contains(@class, 'tr')]")
 
     prontos = 0
@@ -43,7 +42,7 @@ def baixar_arquivos_na_pagina(navegador):
 
     baixados_nessa_pagina = 0
     for linha in linhas:
-        if not state.executando:
+        if not state.get_estado():
             break
         try:
             colunas = linha.find_elements(By.TAG_NAME, "td")
@@ -68,10 +67,10 @@ def baixar_arquivos_na_pagina(navegador):
     total_baixados += baixados_nessa_pagina
 
 def baixar_arquivos_com_blocos(navegador):
-    global executando, total_baixados
+    global total_baixados
     total_baixados = 0
 
-    while executando:
+    while state.get_estado():
         try:
             print("[INFO] Verificando arquivos para download na página atual")
             baixar_arquivos_na_pagina(navegador)
@@ -80,7 +79,7 @@ def baixar_arquivos_com_blocos(navegador):
             numeros_paginas = [botao.text.strip() for botao in botoes if botao.text.strip().isdigit()]
 
             for numero in numeros_paginas:
-                if not state.executando:
+                if not state.get_estado():
                     print("[INFO] Interrupção antes de acessar próxima página.")
                     return
                 print(f"[INFO] Acessando página {numero}")
@@ -90,7 +89,7 @@ def baixar_arquivos_com_blocos(navegador):
                 time.sleep(0.5)
                 baixar_arquivos_na_pagina(navegador)
 
-            if not state.executando:
+            if not state.get_estado():
                 print("[INFO] Execução interrompida antes de avançar bloco.")
                 return
 
@@ -111,4 +110,4 @@ def baixar_arquivos_com_blocos(navegador):
     print(f"[INFO] Total de arquivos baixados: {total_baixados}")
     state.redirector.total_baixados = total_baixados
     state.redirector.gerar_relatorio_final()
-    navegador.close()
+    state.remover_estado()
