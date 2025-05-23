@@ -37,7 +37,7 @@ class Backend:
 
         try:
             self.executando = True
-            if nome_script == "mensal":
+            if nome_script == "download_xml":
                 # Executa sem argumentos
                 comando = [sys.executable, caminho_script]
             else:
@@ -83,12 +83,14 @@ class Backend:
     def encerrar_consulta(self, nome_script):
         print(f"[EXIT] Pedido de encerramento recebido para: {nome_script}")
         
-        if nome_script == 'mensal':
+        if nome_script == 'download_xml':
             return self.encerrar_dolowd()
         elif nome_script == 'relatorio':
             return self.encerrar_relatorio()
-        elif nome_script == 'consulta_sefaz':
+        elif nome_script == 'consulta_xml':
             return self.encerrar_sefaz()
+        elif nome_script == 'demonstrativo':
+            return self.encerrar_demo()
         else:
             return f"[ERRO] Script '{nome_script}' não reconhecido."
 
@@ -101,6 +103,9 @@ class Backend:
 
     def encerrar_sefaz(self):
         return "⚠️ Encerramento do SEFAZ ainda não implementado."
+    def encerrar_demo(self):
+        from scripts.demonstrativo import parar_consulta
+        return parar_consulta()
 if __name__ == '__main__':
     api = Backend()
     webview.create_window(

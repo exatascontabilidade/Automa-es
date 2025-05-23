@@ -75,7 +75,7 @@ try:
         iframe_login = wait.until(EC.presence_of_element_located((By.XPATH, "//iframe[contains(@src, 'atoAcessoContribuinte.jsp')]")))
         navegador.switch_to.frame(iframe_login)
     except:
-        print("❌ Erro: O iframe do login NÃO foi encontrado!")
+        print(" Erro: O iframe do login NÃO foi encontrado!")
         raise Exception("Iframe do login não localizado!")
     try:
         tabela_login = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "tabelaVerde")))
@@ -92,7 +92,7 @@ try:
     senha.click()
     senha.send_keys("Exatas2024@")
     botao_login.click()
-    print("🎉 Login realizado com sucesso!")
+    print(" Login realizado com sucesso!")
 except Exception as e:
     print(f"Erro ao localizar os campos de login: {e}")
 #-----------------------------------------------------------------------------------SOLICITAR XML-------------------------------------------------------------------------------------------------------------------------------------------------
@@ -105,29 +105,29 @@ try:
     if elementos:
         elementos[0].click()  
     else:
-        print("❌ Nenhum link encontrado para clicar.")
+        print(" Nenhum link encontrado para clicar.")
 except Exception as e:
-    print(f"❌ Erro ao clicar em um campo aleatório: {e}")
+    print(f" Erro ao clicar em um campo aleatório: {e}")
 try:
     menu_nfe = wait.until(EC.element_to_be_clickable((By.XPATH, "//a[contains(text(), 'DIA')]")))
 
     menu_nfe.click()
-    print("✅ 'DIA' acessada com sucesso!")
+    print(" 'DIA' acessada com sucesso!")
     time.sleep(5)  
     solicitar_xml = wait.until(EC.element_to_be_clickable((By.XPATH, "//a[contains(text(), 'Demonstrativo ICMS' )]")))   
     solicitar_xml.click()
-    print("✅ 'Demonstrativo' acessada com sucesso!")
+    print(" 'Demonstrativo' acessada com sucesso!")
     
 except Exception as e:
-    print(f"❌ Erro ao localizar e clicar na opção: {e}")
+    print(f" Erro ao localizar e clicar na opção: {e}")
 #-----------------------------------------------------------------------------------SELEÇÃO EMPRESA------------------------------------------------------------------------------------------------------------------------------------------
 try:
     select_empresas = wait.until(EC.presence_of_element_located((By.ID, "cdPessoaLookup")))
     select = Select(select_empresas)
     select.select_by_value(str(inscricao_municipal))
-    print(f"✅ Empresa '{inscricao_municipal}' selecionada!")
+    print(f" Empresa '{nome_empresa}' selecionada!")
 except Exception as e:
-    print(f"❌ Erro ao selecionar empresa: {e}")
+    print(f" Erro ao selecionar empresa: {e}")
     navegador.quit()
     sys.exit(1)
 
@@ -152,7 +152,7 @@ def renomear_arquivo_baixado(nome_empresa, download_dir):
     )
 
     if not arquivos:
-        print("❌ Nenhum arquivo encontrado para renomear.")
+        print(" Nenhum arquivo encontrado para renomear.")
         return
 
     arquivo_original = arquivos[0]
@@ -161,9 +161,9 @@ def renomear_arquivo_baixado(nome_empresa, download_dir):
 
     try:
         os.rename(arquivo_original, novo_nome)
-        print(f"✅ Arquivo renomeado para: {novo_nome}")
+        print(f" Arquivo renomeado para: {novo_nome}")
     except Exception as e:
-        print(f"❌ Erro ao renomear o arquivo: {e}")
+        print(f" Erro ao renomear o arquivo: {e}")
     
 
 
@@ -182,9 +182,9 @@ try:
     if tipo_arquivo in opcoes_disponiveis:
         # Seleciona o mês pelo texto visível
         select_mes.select_by_visible_text(tipo_arquivo)
-        print(f"✅ Mês '{tipo_arquivo}' selecionado com sucesso!")
+        print(f" Mês '{tipo_arquivo}' selecionado com sucesso!")
     else:
-        print(f"❌ Mês '{tipo_arquivo}' não encontrado. Opções disponíveis: {opcoes_disponiveis}")
+        print(f" Mês '{tipo_arquivo}' não encontrado. Opções disponíveis: {opcoes_disponiveis}")
         sys.exit(1)
         
     # --- Seleção do ano ---
@@ -197,9 +197,9 @@ try:
     
     if data in opcoes_anos:
         select_ano.select_by_visible_text(data)
-        print(f"✅ Ano '{data}' selecionado com sucesso!")
+        print(f" Ano '{data}' selecionado com sucesso!")
     else:
-        print(f"❌ Ano '{data}' não encontrado. Opções disponíveis: {opcoes_anos}")
+        print(f" Ano '{data}' não encontrado. Opções disponíveis: {opcoes_anos}")
         sys.exit(1)
 
     formato_arquivo = formato_arquivo.strip().upper()  # Ex: 'PDF' ou 'EXCEL'
@@ -211,9 +211,9 @@ try:
     
     if formato_arquivo in opcoes_formatos:
         select_formato.select_by_visible_text(formato_arquivo)
-        print(f"✅ Formato '{formato_arquivo}' selecionado com sucesso!")
+        print(f" Formato '{formato_arquivo}' selecionado com sucesso!")
     else:
-        print(f"❌ Formato '{formato_arquivo}' não encontrado. Opções disponíveis: {opcoes_formatos}")
+        print(f" Formato '{formato_arquivo}' não encontrado. Opções disponíveis: {opcoes_formatos}")
         sys.exit(1)
 
     # --- Botão OK ---
@@ -225,7 +225,7 @@ try:
 
 
 except Exception as e:
-    print(f"❌ Erro ao selecionar mês ou ano: {e}")
+    print(f" Erro ao selecionar mês ou ano: {e}")
     sys.exit(1)
 
 #---------------------------MENSAGEM DE ERRO ------------------------------------------------
@@ -234,9 +234,9 @@ try:
     mensagem_erro_element = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "fontMessageError")))
     mensagem_erro = mensagem_erro_element.text.strip()
     if mensagem_erro:
-        print(f"⚠️ Mensagem de erro detectada: {mensagem_erro}")
+        print(f" Mensagem de erro detectada: {mensagem_erro}")
 except:
-    print("✅ Nenhuma mensagem de erro detectada.")
+    print(" Nenhuma mensagem de erro detectada.")
 
 
         

@@ -1,5 +1,6 @@
 import os
 import sys
+import time
 import pandas as pd
 import subprocess
 from datetime import datetime
@@ -9,15 +10,15 @@ import shutil
 os.environ["PYTHONUTF8"] = "1"
 
 parar_execucao = False
+ # Caminho da planilha passado pelo front/terminal
 
 def log(mensagem):
     hora = datetime.now().strftime("[%H:%M:%S] ")
     print(hora + mensagem)
 
 def selecionar_planilha_terminal():
-    caminho = input("Digite o caminho completo da planilha Excel (.xlsx ou .xls): ").strip()
     if not os.path.isfile(caminho):
-        log("❌ Caminho inválido ou arquivo não encontrado.")
+        log(" Caminho inválido ou arquivo não encontrado.")
         return None
     return caminho
 
@@ -27,59 +28,67 @@ def carregar_empresas(arquivo):
         df = pd.read_excel(arquivo, usecols=colunas_necessarias, dtype=str).fillna("")
         return df if not df.empty else None
     except Exception as e:
-        log(f"❌ Erro ao carregar a planilha: {e}")
+        log(f" Erro ao carregar a planilha: {e}")
         return None
 
 def processar_consultas(df_empresas):
     global parar_execucao
     script_dir = os.path.dirname(sys.executable) if getattr(sys, 'frozen', False) else os.path.dirname(os.path.abspath(__file__))
-    caminho_script = os.path.join(script_dir, "demonstrativo.py")
+    caminho_script = os.path.join(script_dir, "demonstrativo/cons_demo.py")
 
     if not os.path.exists(caminho_script):
         log("❌ Arquivo consulta_sefaz.py não encontrado!")
         return
 
-    log("🔄 Iniciando consultas... Pressione CTRL+C para interromper.")
+    log(" Iniciando consultas...")
 
     for index, row in df_empresas.iterrows():
-        log(f"▶️ Processando empresa {index + 1} de {len(df_empresas)}")
+        log(f" Processando empresa {index + 1} de {len(df_empresas)}")
 
         if parar_execucao:
-            log("⛔ Execução interrompida pelo usuário.")
+            log(" Execução interrompida pelo usuário.")
             return
 
         inscricao_municipal = row["Inscrição Municipal"].strip()
         nome_empresa = row["Nome da Empresa"].strip()
 
         if not inscricao_municipal:
-            log(f"⚠️ Linha {index + 2}: Inscrição Municipal ausente. Pulando...")
+            log(f" Linha {index + 2}: Inscrição Municipal ausente. Pulando...")
             continue
 
-        log(f"🔍 Consultando Empresa: {nome_empresa} com inscrição: {inscricao_municipal}...")
+        log(f" Consultando Empresa: {nome_empresa} com inscrição: {inscricao_municipal}...")
 
         mMES = row["MES"].strip()
         mANO = row["ANO"].strip()
         formato_arquivo = row["FORMATO"].strip()
 
         try:
-            resultado = subprocess.run([
+            processo = subprocess.Popen([
                 sys.executable, caminho_script,
                 inscricao_municipal, nome_empresa, mMES, mANO, formato_arquivo
-            ], capture_output=True, text=True, encoding="utf-8", timeout=60)
+            ], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, encoding="utf-8")
 
-            log(f"📜 Info:\n{resultado.stdout}")
-            if resultado.stderr:
-                log(f"⚠️ Erros:\n{resultado.stderr}")
+            while processo.poll() is None:
+                if parar_execucao:
+                    processo.kill()
+                    log(" Consulta interrompida à força.")
+                    return
+                time.sleep(0.5)
 
-            separar_arquivos_em_pdf_e_excel()
+            stdout, stderr = processo.communicate()
+            log(f" Info:\n{stdout}")
+            if stderr:
+                log(f" Erros:\n{stderr}")
+
+            separar_arquivos_em_pdf_e_excel(planilha_original=caminho)
         except subprocess.TimeoutExpired:
-            log(f"⏳ Tempo excedido para {inscricao_municipal}. Pulando...")
+            log(f" Tempo excedido para {inscricao_municipal}. Pulando...")
         except Exception as e:
-            log(f"❌ Erro: {e}")
+            log(f" Erro: {e}")
 
-    log("✅ Todas as consultas foram concluídas!")
+    log(" Todas as consultas foram concluídas!")
 
-def separar_arquivos_em_pdf_e_excel():
+def separar_arquivos_em_pdf_e_excel(planilha_original=None):
     script_dir = os.path.dirname(sys.executable) if getattr(sys, 'frozen', False) else os.path.dirname(os.path.abspath(__file__))
     pasta_temp = os.path.join(script_dir, "temp")
     pasta_pdfs = os.path.join(script_dir, "pdfs")
@@ -90,20 +99,27 @@ def separar_arquivos_em_pdf_e_excel():
 
     for arquivo in os.listdir(pasta_temp):
         caminho_origem = os.path.join(pasta_temp, arquivo)
+
+        if planilha_original and os.path.abspath(caminho_origem) == os.path.abspath(planilha_original):
+            continue  # Não mover a planilha de entrada
+
         if arquivo.lower().endswith(".pdf"):
             shutil.move(caminho_origem, os.path.join(pasta_pdfs, arquivo))
         elif arquivo.lower().endswith((".xls", ".xlsx")):
             shutil.move(caminho_origem, os.path.join(pasta_excel, arquivo))
 
+def parar_consulta():
+    global parar_execucao
+    parar_execucao = True
+    log(" Interrupção solicitada. Finalizando...")
+    return "[OK] Consulta interrompida com sucesso."
+
 if __name__ == "__main__":
-    try:
-        caminho = selecionar_planilha_terminal()
-        if caminho:
-            df_empresas = carregar_empresas(caminho)
-            if df_empresas is not None:
-                processar_consultas(df_empresas)
-            else:
-                log("⚠️ Nenhuma empresa encontrada para processar.")
-    except KeyboardInterrupt:
-        parar_execucao = True
-        log("⏹️ Interrupção solicitada. Finalizando...")
+    caminho = sys.argv[1] 
+    caminho = selecionar_planilha_terminal()
+    if caminho:
+        df_empresas = carregar_empresas(caminho)
+        if df_empresas is not None:
+            processar_consultas(df_empresas)
+        else:
+            log(" Nenhuma empresa encontrada para processar.")

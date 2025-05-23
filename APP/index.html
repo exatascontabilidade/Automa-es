@@ -134,6 +134,7 @@
       <a onclick="abrirAba('Inicio')">Início</a>
       <a onclick="abrirAba('consulta_sefaz')">Consulta XML</a>
       <a onclick="abrirAba('mensal')">Download XML</a>
+      <a onclick="abrirAba('demonstrativo')">Demonstrativo</a>
       <a onclick="abrirAba('relatorio')">Relatórios</a>
     </nav>
   </header>
@@ -157,16 +158,26 @@
 
   <div id="consulta_sefaz" class="painel">
     <h2>Consulta XML</h2>
-    <button onclick="selecionarPlanilha('consulta_sefaz')">📂 Selecionar Planilha</button>
-    <button onclick="executarScript('consulta_sefaz')">▶ Executar Script</button>
+    <button onclick="selecionarPlanilha('consulta_xml')">📂 Selecionar Planilha</button>
+    <button onclick="executarScript('consulta_xml')">▶ Executar Script</button>
     <textarea id="log_consulta_sefaz" readonly></textarea>
   </div>
 
   <div id="mensal" class="painel">
     <h2>Download XML</h2>
-    <button onclick="executarScript('mensal')">▶ Executar Script</button>
-    <button onclick="encerrarConsulta('mensal')">⛔ Encerrar Consulta</button>
+    <button onclick="executarScript('download_xml')">▶ Executar Script</button>
+    <button onclick="encerrarConsulta('download_xml')">⛔ Encerrar Consulta</button>
     <textarea id="log_mensal" readonly></textarea>
+  </div>
+
+  </div>
+
+    <div id="demonstrativo" class="painel">
+    <h2>Demonstrativo</h2>
+    <button onclick="selecionarPlanilha('demonstrativo')">📂 Selecionar Planilha</button>
+    <button onclick="executarScript('demonstrativo')">▶ Executar Script</button>
+    <button onclick="encerrarConsulta('demonstrativo')">⛔ Encerrar Consulta</button>
+    <textarea id="log_demonstrativo" readonly></textarea>
   </div>
 
   <div id="relatorio" class="painel">
