@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Painel de Automação</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #111827;
+      color: #e5e7eb;
+    }
+
+    header {
+      background: #0d47a1;
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 500;
+      cursor: pointer;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .painel {
+      display: none;
+      padding: 40px 30px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .ativo {
+      display: block;
+    }
+
+    button {
+      margin: 10px 10px 20px 0;
+      padding: 10px 20px;
+      background-color: #3b82f6;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+
+    button:hover {
+      background-color: #2563eb;
+    }
+
+    textarea {
+      width: 100%;
+      height: 200px;
+      background-color: #111827;
+      color: #10b981;
+      border: 1px solid #3b82f6;
+      padding: 10px;
+      font-family: monospace;
+      font-size: 14px;
+      border-radius: 8px;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 28px;
+      font-weight: 600;
+      margin-bottom: 10px;
+      color: #3b82f6;
+    }
+
+    h4 {
+      text-align: center;
+      font-size: 16px;
+      font-weight: 400;
+      max-width: 800px;
+      margin: 0 auto 30px auto;
+      line-height: 1.6;
+      color: #d1d5db;
+    }
+
+    .diferenciais {
+      background-color: #1f2937;
+      border-radius: 12px;
+      padding: 30px;
+      margin-top: 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+
+    .diferenciais h3 {
+      font-size: 20px;
+      font-weight: 600;
+      color: #10b981;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .diferenciais ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .diferenciais li {
+      margin-bottom: 12px;
+      padding-left: 28px;
+      position: relative;
+      color: #e5e7eb;
+    }
+
+    .diferenciais li::before {
+      content: '✔️';
+      position: absolute;
+      left: 0;
+      color: #10b981;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div><strong>Controlla SEFAZ</strong></div>
+    <nav>
+      <a onclick="abrirAba('Inicio')">Início</a>
+      <a onclick="abrirAba('consulta_sefaz')">Consulta XML</a>
+      <a onclick="abrirAba('mensal')">Download XML</a>
+      <a onclick="abrirAba('demonstrativo')">Demonstrativo</a>
+      <a onclick="abrirAba('relatorio')">Relatórios</a>
+    </nav>
+  </header>
+
+  <div id="Inicio" class="painel ativo">
+    <h2>🔄 Baixe automaticamente seus documentos fiscais</h2>
+    <h4>
+      Seja NFe, NFCe ou CTe, nossa automação conecta diretamente ao portal da SEFAZ, realizando o download
+      <strong style="color:#10b981;">massivo e organizado</strong> de XMLs e PDFs, sem intervenção manual.
+    </h4>
+
+    <div class="diferenciais">
+      <h3>💡 Diferenciais da Exatas Contabilidade</h3>
+      <ul>
+        <li>🚀 Tecnologia proprietária desenvolvida por especialistas fiscais</li>
+        <li>🔒 Segurança total com criptografia e autenticação</li>
+        <li>📊 Suporte técnico humanizado e relatórios personalizáveis</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="consulta_sefaz" class="painel">
+    <h2>Consulta XML</h2>
+    <button onclick="selecionarPlanilha('consulta_xml')">📂 Selecionar Planilha</button>
+    <button onclick="executarScript('consulta_xml')">▶ Executar Script</button>
+    <textarea id="log_consulta_sefaz" readonly></textarea>
+  </div>
+
+  <div id="mensal" class="painel">
+    <h2>Download XML</h2>
+    <button onclick="executarScript('download_xml')">▶ Executar Script</button>
+    <button onclick="encerrarConsulta('download_xml')">⛔ Encerrar Consulta</button>
+    <textarea id="log_mensal" readonly></textarea>
+  </div>
+
+  </div>
+
+    <div id="demonstrativo" class="painel">
+    <h2>Demonstrativo</h2>
+    <button onclick="selecionarPlanilha('demonstrativo')">📂 Selecionar Planilha</button>
+    <button onclick="executarScript('demonstrativo')">▶ Executar Script</button>
+    <button onclick="encerrarConsulta('demonstrativo')">⛔ Encerrar Consulta</button>
+    <textarea id="log_demonstrativo" readonly></textarea>
+  </div>
+
+  <div id="relatorio" class="painel">
+    <h2>Relatórios</h2>
+    <button onclick="selecionarPlanilha('relatorio')">📂 Selecionar Planilha</button>
+    <button onclick="executarScript('relatorio')">▶ Executar Script</button>
+    <textarea id="log_relatorio" readonly></textarea>
+  </div>
+
+  <script>
+    function abrirAba(id) {
+      document.querySelectorAll('.painel').forEach(p => p.classList.remove('ativo'));
+      document.getElementById(id).classList.add('ativo');
+    }
+
+    function selecionarPlanilha(script) {
+      window.pywebview.api.selecionar_planilha(script).then(msg => appendLog(script, msg));
+    }
+
+    function executarScript(script) {
+      window.pywebview.api.executar_script(script).then(msg => appendLog(script, msg));
+    }
+
+    function appendLog(script, msg) {
+      const el = document.getElementById('log_' + script);
+      el.value += msg + "\n";
+      el.scrollTop = el.scrollHeight;
+    }
+
+    function encerrarConsulta(script) {
+      window.pywebview.api.encerrar_consulta(script).then(msg => appendLog(script, msg));
+    }
+  </script>
+</body>
+</html>
