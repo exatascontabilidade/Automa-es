@@ -1,3 +1,4 @@
+import base64
 import glob
 import sys
 import time
@@ -13,21 +14,23 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select
 from datetime import datetime
 import os
+import traceback
 
 inscricao_municipal = sys.argv[1]
 nome_empresa = sys.argv[2]
 mMes = sys.argv[3]
 mANO = sys.argv[4]
-formato_arquivo = sys.argv[5]
 
 # Configurações do Chrome
 options = Options()
 options.add_argument("--disable-gpu")
 options.add_argument("--mute-audio")
+options.add_argument("--kiosk-printing") #---- Impresão
 options.add_argument("--no-sandbox")
 options.add_argument("--disable-blink-features=AutomationControlled")
 options.add_experimental_option("useAutomationExtension", False)
 options.add_experimental_option("excludeSwitches", ["enable-automation"])
+#options.add_argument("--headless=new")
 
 # Caminho absoluto da pasta "temp" no mesmo diretório do script
 download_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "temp")
@@ -50,15 +53,11 @@ navegador.get("https://www.sefaz.se.gov.br/SitePages/acesso_usuario.aspx")
 wait = WebDriverWait(navegador, 3)
 
 
-
-
 #--------------------------------------------------------------------------------LOGIN NA PAGINA--------------------------------------------------------------------------------------------------------------------------------------------------
 try:
-    try:
-        accept_button = wait.until(EC.element_to_be_clickable((By.ID, 'accept-button')))
-        accept_button.click()
-    except:
-        print("Botão 'Aceitar' não encontrado. Continuando sem clicar.")
+
+    accept_button = wait.until(EC.element_to_be_clickable((By.ID, 'accept-button')))
+    accept_button.click()
     time.sleep(1)
     iframes = navegador.find_elements(By.TAG_NAME, "iframe")
     navegador.switch_to.frame(iframes[0])
@@ -75,7 +74,7 @@ try:
         iframe_login = wait.until(EC.presence_of_element_located((By.XPATH, "//iframe[contains(@src, 'atoAcessoContribuinte.jsp')]")))
         navegador.switch_to.frame(iframe_login)
     except:
-        print("❌ Erro: O iframe do login NÃO foi encontrado!")
+        print(" Erro: O iframe do login NÃO foi encontrado!")
         raise Exception("Iframe do login não localizado!")
     try:
         tabela_login = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "tabelaVerde")))
@@ -92,14 +91,34 @@ try:
     senha.click()
     senha.send_keys("Exatas2024@")
     botao_login.click()
-    print("🎉 Login realizado com sucesso!")
 except Exception as e:
     print(f"Erro ao localizar os campos de login: {e}")
-#-----------------------------------------------------------------------------------SOLICITAR XML-------------------------------------------------------------------------------------------------------------------------------------------------
-navegador.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-body = navegador.find_element(By.TAG_NAME, "body")
-body.send_keys(Keys.ENTER)
-wait = WebDriverWait(navegador, 2)
+
+
+
+def scroll_ate_fim_pagina(navegador, timeout=3):
+    scroll_pause = 1
+    altura_anterior = navegador.execute_script("return document.body.scrollHeight")
+
+    while True:
+        navegador.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+        time.sleep(scroll_pause)
+
+        nova_altura = navegador.execute_script("return document.body.scrollHeight")
+        if nova_altura == altura_anterior:
+            break
+        altura_anterior = nova_altura
+
+    try:
+        # Espera por qualquer novo conteúdo no final da página (ajuste o seletor se quiser algo específico)
+        WebDriverWait(navegador, timeout).until(
+            EC.presence_of_element_located((By.TAG_NAME, "footer"))
+        )
+    except:
+        pass  # Se não tiver footer, apenas continue
+scroll_ate_fim_pagina(navegador)
+
+#-----------------------------------------------------------------------------------Gerar DAE-------------------------------------------------------------------------------------------------------------------------------------------------
 try:
     elementos = navegador.find_elements(By.TAG_NAME, "a")
     if elementos:
@@ -110,122 +129,90 @@ except Exception as e:
     print(f"❌ Erro ao clicar em um campo aleatório: {e}")
 try:
     menu_nfe = wait.until(EC.element_to_be_clickable((By.XPATH, "//a[contains(text(), 'DIA')]")))
-
     menu_nfe.click()
-    print("✅ 'DIA' acessada com sucesso!")
     time.sleep(5)  
-    solicitar_xml = wait.until(EC.element_to_be_clickable((By.XPATH, "//a[contains(text(), 'Demonstrativo ICMS' )]")))   
+    solicitar_xml = wait.until(EC.element_to_be_clickable((By.XPATH, "//a[contains(text(), 'Gerar DAE' )]")))   
     solicitar_xml.click()
-    print("✅ 'Demonstrativo' acessada com sucesso!")
     
 except Exception as e:
     print(f"❌ Erro ao localizar e clicar na opção: {e}")
 #-----------------------------------------------------------------------------------SELEÇÃO EMPRESA------------------------------------------------------------------------------------------------------------------------------------------
 try:
-    select_empresas = wait.until(EC.presence_of_element_located((By.ID, "cdPessoaLookup")))
+    select_empresas = wait.until(EC.presence_of_element_located((By.ID, "cdPessoaContribuinte")))
     select = Select(select_empresas)
     select.select_by_value(str(inscricao_municipal))
-    print(f"✅ Empresa '{inscricao_municipal}' selecionada!")
+    print(f"✅ Empresa '{inscricao_municipal}' Processada!")
+    # --- Botão OK ---
+    botao_ok = wait.until(EC.element_to_be_clickable((By.ID, "okButton")))
+    botao_ok.click()
 except Exception as e:
     print(f"❌ Erro ao selecionar empresa: {e}")
     navegador.quit()
     sys.exit(1)
-
-
-
-
-#---------------------------RENOMEANDO PDFs ------------------------------------------------
-
-# Aguarda o término do download (verifica arquivos .crdownload ainda em progresso)
-def aguardar_download_completo(download_dir):
-    while any(f.endswith(".crdownload") for f in os.listdir(download_dir)):
-        time.sleep(1)
-
-# Renomeia o último arquivo baixado com a inscrição municipal, mantendo a extensão
-def renomear_arquivo_baixado(nome_empresa, download_dir):
-    aguardar_download_completo(download_dir)
-
-    arquivos = sorted(
-        glob.glob(os.path.join(download_dir, "*")),
-        key=os.path.getmtime,
-        reverse=True  # O mais novo primeiro
-    )
-
-    if not arquivos:
-        print("❌ Nenhum arquivo encontrado para renomear.")
-        return
-
-    arquivo_original = arquivos[0]
-    extensao = os.path.splitext(arquivo_original)[1]
-    novo_nome = os.path.join(download_dir, f"{nome_empresa}{extensao}")
-
-    try:
-        os.rename(arquivo_original, novo_nome)
-        print(f"✅ Arquivo renomeado para: {novo_nome}")
-    except Exception as e:
-        print(f"❌ Erro ao renomear o arquivo: {e}")
     
 
-
-
 #-------------------------------------- SELEÇÃO De ANO E MES --------------------------------------#
+
 try:
     tipo_arquivo = mMes.strip().capitalize()  # Corrige capitalização para bater com o texto do dropdown
 
     # Localiza o <select> de meses pelo ID
-    select_mes_element = wait.until(EC.presence_of_element_located((By.ID, "nrMesDia")))
+    select_mes_element = wait.until(EC.presence_of_element_located((By.ID, "dtReferenciaMes")))
     select_mes = Select(select_mes_element)
 
-    # Lista os nomes dos meses disponíveis (textos das opções)
     opcoes_disponiveis = [op.text.strip() for op in select_mes.options if op.text.strip()]
-
     if tipo_arquivo in opcoes_disponiveis:
-        # Seleciona o mês pelo texto visível
         select_mes.select_by_visible_text(tipo_arquivo)
-        print(f"✅ Mês '{tipo_arquivo}' selecionado com sucesso!")
     else:
         print(f"❌ Mês '{tipo_arquivo}' não encontrado. Opções disponíveis: {opcoes_disponiveis}")
         sys.exit(1)
-        
     # --- Seleção do ano ---
-    data = mANO.strip()  # Ex: '2025'
-
-    select_ano_element = wait.until(EC.presence_of_element_located((By.ID, "nrAno")))
+    data = mANO.strip()
+    select_ano_element = wait.until(EC.presence_of_element_located((By.ID, "dtReferenciaAno")))
     select_ano = Select(select_ano_element)
 
     opcoes_anos = [op.text.strip() for op in select_ano.options if op.text.strip()]
-    
     if data in opcoes_anos:
         select_ano.select_by_visible_text(data)
-        print(f"✅ Ano '{data}' selecionado com sucesso!")
     else:
         print(f"❌ Ano '{data}' não encontrado. Opções disponíveis: {opcoes_anos}")
         sys.exit(1)
 
-    formato_arquivo = formato_arquivo.strip().upper()  # Ex: 'PDF' ou 'EXCEL'
-
-    select_formato_element = wait.until(EC.presence_of_element_located((By.ID, "tpFormato")))
-    select_formato = Select(select_formato_element)
-
-    opcoes_formatos = [op.text.strip().upper() for op in select_formato.options if op.text.strip()]
-    
-    if formato_arquivo in opcoes_formatos:
-        select_formato.select_by_visible_text(formato_arquivo)
-        print(f"✅ Formato '{formato_arquivo}' selecionado com sucesso!")
-    else:
-        print(f"❌ Formato '{formato_arquivo}' não encontrado. Opções disponíveis: {opcoes_formatos}")
-        sys.exit(1)
-
-    # --- Botão OK ---
+    # Aguarda carregamento da tabela e clica no botão OK
+    tabela = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "tableContent")))
     botao_ok = wait.until(EC.element_to_be_clickable((By.ID, "okButton")))
+    print("Baixado!")
     botao_ok.click()
-    
-    # Aguarda o download e renomeia o arquivo baixado
-    renomear_arquivo_baixado(nome_empresa, download_dir)
 
+    # --- Espera nova janela abrir e alterna para ela ---
+    time.sleep(2)  # pequeno tempo para a janela abrir
+
+    # Lista todas as janelas e seus títulos
+    janelas = driver.window_handles
+    for idx, handle in enumerate(janelas):
+        driver.switch_to.window(handle)
+        print(f"[{idx}] Título: {driver.title}")
+    
+    driver.switch_to.window(janelas[1])     
+     
+    pdf_data = driver.execute_cdp_cmd("Page.printToPDF", {
+        "landscape": False,
+        "printBackground": True,
+        "paperWidth": 8.27,
+        "paperHeight": 11.69,
+    })
+    # Caminho para salvar
+    script_dir = os.path.dirname(sys.executable) if getattr(sys, 'frozen', False) else os.path.dirname(os.path.abspath(__file__))
+    pasta_temp = os.path.join(script_dir, "temp")
+    os.makedirs(pasta_temp, exist_ok=True)
+
+    caminho_pdf = os.path.join(pasta_temp, "DAE_Modelo_Unico.pdf")
+    with open(caminho_pdf, "wb") as f:
+        f.write(base64.b64decode(pdf_data['data']))
 
 except Exception as e:
-    print(f"❌ Erro ao selecionar mês ou ano: {e}")
+    print("❌ Ocorreu um erro durante o processo:")
+    traceback.print_exc()
     sys.exit(1)
 
 #---------------------------MENSAGEM DE ERRO ------------------------------------------------

@@ -43,7 +43,7 @@ def run_dependency_check():
 
 # Cria a janela principal
 root = tk.Tk()
-root.title("Launcher - Consulta SEFAZ Automática")
+root.title("Launcher")
 root.geometry("600x400")
 
 # Área de texto com scroll para exibir logs

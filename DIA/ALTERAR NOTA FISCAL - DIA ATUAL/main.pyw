@@ -13,6 +13,7 @@ root.title("Demonstrativo SEFAZ Automático")
 root.geometry("600x700")
 arquivo_planilha = tk.StringVar()
 parar_execucao = threading.Event()
+
 def selecionar_planilha():
     caminho = filedialog.askopenfilename(
         title="Selecione a planilha", filetypes=[("Arquivos Excel", "*.xlsx;*.xls")]
@@ -21,8 +22,13 @@ def selecionar_planilha():
         arquivo_planilha.set(caminho)
         log_output.insert("end", f"📂 Planilha selecionada: {caminho}\n")
         log_output.see("end")
+
 def carregar_empresas(arquivo):
-    colunas_necessarias = ["Inscrição Municipal", "Nome da Empresa","MES", "ANO", "FORMATO"]
+    colunas_necessarias = [
+        "Inscrição Municipal", "Nome da Empresa", "ETIQUETA",
+        "ICMS-(NOVO)", "ICMS-(ATUAL)",
+        "RECOLHIMENTO-(NOVO)", "RECOLHIMENTO-(ATUAL)", "ADIAR"
+    ]
     try:
         df = pd.read_excel(arquivo, usecols=colunas_necessarias, dtype=str).fillna("")
         return df if not df.empty else None
@@ -30,6 +36,7 @@ def carregar_empresas(arquivo):
         log_output.insert("end", f"❌ Erro ao carregar a planilha: {e}\n")
         log_output.see("end")
         return None
+
 def executar_consulta():
     if not arquivo_planilha.get():
         messagebox.showwarning("Erro", "Nenhuma planilha selecionada!")
@@ -40,8 +47,6 @@ def executar_consulta():
         return
     threading.Thread(target=processar_consultas, args=(df_empresas,), daemon=True).start()
 
-
-
 def processar_consultas(df_empresas):
     def log(mensagem):
         hora = datetime.now().strftime("[%H:%M:%S] ")
@@ -50,10 +55,10 @@ def processar_consultas(df_empresas):
 
     parar_execucao.clear()
     script_dir = os.path.dirname(sys.executable) if getattr(sys, 'frozen', False) else os.path.dirname(os.path.abspath(__file__))
-    caminho_script = os.path.join(script_dir, "consulta_sefaz.py")
+    caminho_script = os.path.join(script_dir, "exec.py")
 
     if not os.path.exists(caminho_script):
-        messagebox.showerror("Erro", "❌ Arquivo consulta_sefaz.py não encontrado!")
+        messagebox.showerror("Erro", "❌ Arquivo exec.py não encontrado!")
         return
 
     log("🔄 Iniciando consultas...")
@@ -65,40 +70,45 @@ def processar_consultas(df_empresas):
             log("⛔ Execução interrompida pelo usuário.")
             return
 
-        inscricao_municipal = row["Inscrição Municipal"].strip()
-        nome_empresa = row["Nome da Empresa"].strip()
+        argumentos = [
+            str(row["Inscrição Municipal"]).strip(),
+            str(row["Nome da Empresa"]).strip(),
+            str(row["ETIQUETA"]).strip(),
+            str(row["ICMS-(NOVO)"]).strip(),
+            str(row["ICMS-(ATUAL)"]).strip(),
+            str(row["RECOLHIMENTO-(NOVO)"]).strip(),
+            str(row["RECOLHIMENTO-(ATUAL)"]).strip(),
+            str(row["ADIAR"]).strip(),
+        ]
 
-        if not inscricao_municipal:
+        if not argumentos[0]:  # Inscrição municipal é obrigatória
             log(f"⚠️ Linha {index + 2}: Inscrição Municipal ausente. Pulando...")
             continue
 
-        log(f"🔍 Consultando Empresa: {nome_empresa} com inscrição:{inscricao_municipal}...")
-
-        mMES = row["MES"].strip()
-        mANO = row["ANO"].strip()
-        formato_arquivo = row["FORMATO"].strip() 
+        log(f"🔍 Consultando Empresa: {argumentos[1]} com inscrição: {argumentos[0]}")
+        log(f"📤 Enviando argumentos: {argumentos}")
 
         try:
-            resultado = subprocess.run([
-                sys.executable, caminho_script,
-                inscricao_municipal, nome_empresa, mMES, mANO, formato_arquivo
-            ], capture_output=True, text=True, encoding="utf-8", timeout=60)
+            resultado = subprocess.run(
+                [sys.executable, caminho_script] + argumentos,
+                capture_output=True, text=True, encoding="utf-8", timeout=60
+            )
 
             log(f"📜 Info:\n{resultado.stdout}")
             if resultado.stderr:
                 log(f"⚠️ Erros: {resultado.stderr}")
-                
-            # ✅ Separa arquivos baixados   
-            separar_arquivos_em_pdf_e_excel()
+
+            separar_arquivos_em_pdf_e_excel(argumentos[1])
+
         except subprocess.TimeoutExpired:
-            log(f"⏳ Tempo excedido para {inscricao_municipal}. Pulando...")
+            log(f"⏳ Tempo excedido para {argumentos[0]}. Pulando...")
         except Exception as e:
             log(f"❌ Erro: {e}")
 
     log("✅ Todas as consultas foram concluídas!")
     messagebox.showinfo("Concluído", "Todas as consultas foram processadas!")
-    
-def separar_arquivos_em_pdf_e_excel():
+
+def separar_arquivos_em_pdf_e_excel(nome_empresa):
     import shutil
 
     script_dir = os.path.dirname(sys.executable) if getattr(sys, 'frozen', False) else os.path.dirname(os.path.abspath(__file__))
@@ -112,18 +122,33 @@ def separar_arquivos_em_pdf_e_excel():
     for arquivo in os.listdir(pasta_temp):
         caminho_origem = os.path.join(pasta_temp, arquivo)
 
-        if arquivo.lower().endswith(".pdf"):
-            shutil.move(caminho_origem, os.path.join(pasta_pdfs, arquivo))
-        elif arquivo.lower().endswith((".xls", ".xlsx")):
-            shutil.move(caminho_origem, os.path.join(pasta_excel, arquivo))    
+        if not os.path.isfile(caminho_origem):
+            continue
 
-    
-    
+        extensao = os.path.splitext(arquivo)[1].lower()
+        nome_limpo = nome_empresa.replace(" ", "_").replace("/", "_")
+
+        novo_nome = f"{nome_limpo}{extensao}"
+        caminho_destino = None
+
+        if extensao == ".pdf":
+            caminho_destino = os.path.join(pasta_pdfs, novo_nome)
+        elif extensao in (".xls", ".xlsx"):
+            caminho_destino = os.path.join(pasta_excel, novo_nome)
+
+        if caminho_destino:
+            try:
+                shutil.move(caminho_origem, caminho_destino)
+            except Exception as e:
+                print(f"❌ Erro ao mover {arquivo}: {e}")
+
 def encerrar_consulta():
     parar_execucao.set()
     log_output.insert("end", "\n⏹️ Interrompendo consultas...\n")
     log_output.see("end")
     messagebox.showinfo("Interrompido", "As consultas estão sendo interrompidas!")
+
+# Interface
 frame = tk.Frame(root)
 frame.pack(pady=10)
 btn_selecionar = tk.Button(frame, text="Selecionar Planilha", command=selecionar_planilha)
