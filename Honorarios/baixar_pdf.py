@@ -21,7 +21,7 @@ def obter_diretorio_download():
     Retorna o caminho completo da pasta de download.
     """
     diretorio_atual = os.path.dirname(os.path.abspath(__file__))  # Obtém o diretório atual do script
-    diretorio_download = os.path.join(diretorio_atual, "temp")  # Cria o caminho da pasta temp
+    diretorio_download = os.path.join(diretorio_atual, "Gestta")  # Cria o caminho da pasta temp
 
     # Garante que a pasta temp exista
     if not os.path.exists(diretorio_download):

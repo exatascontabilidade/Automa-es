@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard Power BI - Auto Reload</title>
+    <style>
+        html, body {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #011B49;
+        }
+
+        .frame-wrapper {
+        width: 100%;     /* área visível desejada */
+        height: 100%;
+        overflow: hidden;  /* recorta o excesso do iframe */
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+
+        iframe {
+        margin-top: 5%;
+        width: 100%;
+        height: 109%;
+        position: flex;
+        justify-content: center;
+        align-items: center;
+
+        border: none;
+        }
+
+        /* Mensagem de recarregamento */
+        .reload-message {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #000000e6;
+            color: white;
+            padding: 20px 40px;
+            border-radius: 10px;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            z-index: 10000;
+        }
+
+        .reload-message p {
+            margin: 0 0 10px 0;
+            font-size: 20px;
+        }
+
+        /* Barra de carregamento */
+        .progress-bar {
+            width: 100%;
+            background-color: #9b9b9b;
+            border-radius: 5px;
+            overflow: hidden;
+            height: 10px;
+        }
+
+        .progress-bar-fill {
+            height: 100%;
+            width: 0;
+            background-color: #00ffcc;
+            animation: fillBar 2s linear forwards;
+        }
+        /* Dica de F11 - estilo de botão discreto fixo */
+        .fullscreen-tip {
+            position: fixed;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: rgb(59, 59, 59); /* fundo escuro translúcido */
+            color: #ffffff;
+            padding: 10px 25px;
+            border-radius: 30px;
+            font-family: Arial, sans-serif;
+            font-size: 15px;
+            z-index: 9999;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+            animation: fadeOutTip 1s ease-in-out 4s forwards;
+            transition: all 0.5s ease;
+            pointer-events: none; /* impede clique para parecer uma notificação */
+        }
+
+        /* Animação para desaparecer suavemente */
+        @keyframes fadeOutTip {
+            to {
+                opacity: 0;
+                visibility: hidden;
+            }
+        }
+
+        @keyframes fillBar {
+            from { width: 0; }
+            to { width: 100%; }
+        }
+    </style>
+</head>
+<body>
+
+<div id="fullscreenTip" class="fullscreen-tip">
+    🔎 Para melhor visualização, pressione <strong>F11</strong> no teclado para tela cheia.
+</div>
+
+<!-- Mensagem de recarregamento -->
+<div id="reloadMsg" class="reload-message">
+    <p>🔄 RECARREGANDO</p>
+    <div class="progress-bar">
+        <div class="progress-bar-fill"></div>
+    </div>
+</div>
+
+<!-- Iframe do Power BI -->
+<div class="frame-wrapper">
+    <iframe 
+        src="https://app.powerbi.com/view?r=eyJrIjoiNTNlMGFmMjQtMTBiMS00YjYyLWFiZWQtZjE3ZWQzMjYyYjk2IiwidCI6IjUzNzQxMzA4LTVkZGItNDc2YS1iNjc1LTdlNTYwNjcwNzVmMSJ9"
+        allowfullscreen="true">
+    </iframe>
+</div>
+
+<!-- Script -->
+<script>
+    const iframe = document.getElementById('powerbi-frame');
+    const reloadMsg = document.getElementById('reloadMsg');
+
+    function recarregarIframe() {
+        // Recarrega o iframe
+        iframe.src = iframe.src;
+
+        // Exibe a mensagem
+        reloadMsg.style.display = 'block';
+
+        // Barra de carregamento de 2 segundos
+        const progressFill = reloadMsg.querySelector('.progress-bar-fill');
+        progressFill.style.animation = 'none'; // Reset animação
+        progressFill.offsetHeight; // Força o reset
+        progressFill.style.animation = 'fillBar 2s linear forwards';
+
+        // Esconde após 2 segundos
+        setTimeout(() => {
+            reloadMsg.style.display = 'none';
+        }, 2000);
+    }
+
+    // ⏳ Tempo em milissegundos (45 minutos = 2700000)
+    const intervalo = 2700000;
+
+    // ⏲️ Executa o recarregamento automaticamente
+    setInterval(recarregarIframe, intervalo);
+    setTimeout(() => {
+        const tip = document.getElementById('fullscreenTip');
+        if (tip) {
+            tip.remove();
+        }
+    }, 9000);
+</script>
+
+</body>
+</html>

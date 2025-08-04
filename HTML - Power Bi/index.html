@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exatas Contabilidade - Relatórios Power BI</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #011B49;
+      color: white;
+      height: 100%;
+      width: 100%;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 900px;
+      width: 100%;
+    }
+
+    img.logo {
+      width: 100%;
+      max-width: 900px;
+      height: auto;
+      margin-bottom: 50px;
+      border-radius: 10px;
+      background-color: #ffffff;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin-bottom: 40px;
+    }
+
+    .button-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      margin-bottom: 60px;
+    }
+
+    .report-button {
+      background-color: #ffffff;
+      border: none;
+      color: rgb(0, 0, 0);
+      padding: 15px 30px;
+      font-size: 1rem;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    }
+
+    .report-button:hover {
+      background-color: #008db5;
+      color: white;
+    }
+
+    footer {
+      font-size: 0.9rem;
+      color: #ccc;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: 1rem;
+        padding: 0 10px;
+      }
+
+      .report-button {
+        width: 100%;
+        max-width: 300px;
+        font-size: 1rem;
+        padding: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="logo-exatas.png" alt="Logo Exatas Contabilidade" class="logo">
+    <h1>Dashboard Gestta - Tarefas</h1>
+    <p>Selecione sua localidade.</p>
+
+    <div class="button-container">
+      <a class="report-button" href="main/ARACAJU.html">Relatório Aracaju</a>
+      <a class="report-button" href="main/TOBIAS.html">Relatório Tobias Barreto</a>
+    </div>
+
+    <footer>© 2025 Exatas Contabilidade. Todos os direitos reservados.</footer>
+  </div>
+</body>
+</html>
