@@ -5,7 +5,8 @@
         "tipo_parcelamento": "FEDERAL_SIMPLIFICADO",
         "nome_arquivo": "08492189000199_AUSTREGESILO_JUNIOR_ARAGAO_MEL_SIEFPAR_02110001200584158342520_003_20250731.pdf",
         "arquivo_id": "6874e6937cb9f0bbc",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\AUSTREGESILO JUNIOR ARAGAO MELO 0001 - 08492189000199\\FEDERAL_SIMPLIFICADO"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\AUSTREGESILO JUNIOR ARAGAO MELO 0001 - 08492189000199\\FEDERAL_SIMPLIFICADO",
+        "codigo": "251"
     },
     {
         "empresa": "G & S SERVICOS E CONSTRUCOES LTDA 0001",
@@ -13,7 +14,8 @@
         "tipo_parcelamento": "FEDERAL_SIMPLIFICADO",
         "nome_arquivo": "26769939000109_G_&_S_SERVICOS_E_CONSTRUCOES_L_SIEFPAR_02110001200406302482501_005_20250731.pdf",
         "arquivo_id": "6874e4e2eb53a6da9",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\FEDERAL_SIMPLIFICADO"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\FEDERAL_SIMPLIFICADO",
+        "codigo": "522"
     },
     {
         "empresa": "ECEGH SERVICOS DE GESTAO HOSPITALAR LTDA 0001",
@@ -21,7 +23,8 @@
         "tipo_parcelamento": "FEDERAL_SIMPLIFICADO",
         "nome_arquivo": "24794078000193_ECEGH_SERVICOS_DE_GESTAO_HOSPI_SIEFPAR_02110001200378986822573_005_20250731.pdf",
         "arquivo_id": "6874e6d58b7eb7e3d",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\ECEGH SERVICOS DE GESTAO HOSPITALAR LTDA 0001 - 24794078000193\\FEDERAL_SIMPLIFICADO"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\ECEGH SERVICOS DE GESTAO HOSPITALAR LTDA 0001 - 24794078000193\\FEDERAL_SIMPLIFICADO",
+        "codigo": "557"
     },
     {
         "empresa": "MADEREIRA RONDONIA LTDA 0001",
@@ -29,7 +32,8 @@
         "tipo_parcelamento": "FEDERAL_SIMPLIFICADO",
         "nome_arquivo": "50428807000106_MADEREIRA_RONDONIA_LTDA_0001_SIEFPAR_02110001200144683592554_007_20250731.pdf",
         "arquivo_id": "6874e5347e302c2b4",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\MADEREIRA RONDONIA LTDA 0001 - 50428807000106\\FEDERAL_SIMPLIFICADO"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\MADEREIRA RONDONIA LTDA 0001 - 50428807000106\\FEDERAL_SIMPLIFICADO",
+        "codigo": "401"
     },
     {
         "empresa": "VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -37,7 +41,8 @@
         "tipo_parcelamento": "FEDERAL_SIMPLIFICADO",
         "nome_arquivo": "41210457000108_VIA_ROMA_SALVADOR_PIZZARIA,_BA_SIEFPAR_02110001200201686402573_003_20250331.pdf",
         "arquivo_id": "67cf4fb132d57be7d",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\FEDERAL_SIMPLIFICADO"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\FEDERAL_SIMPLIFICADO",
+        "codigo": "537"
     },
     {
         "empresa": "FM TOBIAS BARRETO ALMEIDA REIS LTDA 0001",
@@ -45,7 +50,8 @@
         "tipo_parcelamento": "FEDERAL_SIMPLIFICADO",
         "nome_arquivo": "03826865000108_FM_TOBIAS_BARRETO_ALMEIDA_REIS_SIEFPAR_02110001200235778142540_007_20250731.pdf",
         "arquivo_id": "6874edcea3030386c",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\FM TOBIAS BARRETO ALMEIDA REIS LTDA 0001 - 03826865000108\\FEDERAL_SIMPLIFICADO"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\FM TOBIAS BARRETO ALMEIDA REIS LTDA 0001 - 03826865000108\\FEDERAL_SIMPLIFICADO",
+        "codigo": "242"
     },
     {
         "empresa": "DELI JARDINS COMERCIO DE ALIMENTOS LTDA 0001",
@@ -53,7 +59,8 @@
         "tipo_parcelamento": "FEDERAL_SIMPLIFICADO",
         "nome_arquivo": "38030572000196_DELI_JARDINS_COMERCIO_DE_ALIME_SIEFPAR_02110001200214110282554_007_20250731.pdf",
         "arquivo_id": "6874e51c101c1b51f",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\DELI JARDINS COMERCIO DE ALIMENTOS LTDA 0001 - 38030572000196\\FEDERAL_SIMPLIFICADO"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\DELI JARDINS COMERCIO DE ALIMENTOS LTDA 0001 - 38030572000196\\FEDERAL_SIMPLIFICADO",
+        "codigo": "446"
     },
     {
         "empresa": "KOMER RESTAURANTE LTDA 0001",
@@ -61,7 +68,8 @@
         "tipo_parcelamento": "FEDERAL_SIMPLIFICADO",
         "nome_arquivo": "39265237000130_KOMER_RESTAURANTE_LTDA_0001_SIEFPAR_02110001200283760982540_006_20250731.pdf",
         "arquivo_id": "6874e63ac34b41ea7",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\KOMER RESTAURANTE LTDA 0001 - 39265237000130\\FEDERAL_SIMPLIFICADO"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\KOMER RESTAURANTE LTDA 0001 - 39265237000130\\FEDERAL_SIMPLIFICADO",
+        "codigo": "371"
     },
     {
         "empresa": "TOSCANA - RESTAURANTE E PIZZARIA LTDA 0001",
@@ -69,7 +77,8 @@
         "tipo_parcelamento": "FEDERAL_SIMPLIFICADO",
         "nome_arquivo": "51943269000142_TOSCANA_-_RESTAURANTE_E_PIZZAR_SIEFPAR_02110001200206658332501_007_20250731.pdf",
         "arquivo_id": "6874e5ed1d7b0c936",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\TOSCANA - RESTAURANTE E PIZZARIA LTDA 0001 - 51943269000142\\FEDERAL_SIMPLIFICADO"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\TOSCANA - RESTAURANTE E PIZZARIA LTDA 0001 - 51943269000142\\FEDERAL_SIMPLIFICADO",
+        "codigo": "526"
     },
     {
         "empresa": "5W ENGENHARIA E CONSULTORIA LTDA 0001",
@@ -77,7 +86,8 @@
         "tipo_parcelamento": "FEDERAL_SIMPLIFICADO",
         "nome_arquivo": "47326196000172_5W_ENGENHARIA_E_CONSULTORIA_LT_SIEFPAR_02110001200189044622540_007_20250731.pdf",
         "arquivo_id": "6874e6208a9680372",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\5W ENGENHARIA E CONSULTORIA LTDA 0001 - 47326196000172\\FEDERAL_SIMPLIFICADO"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\5W ENGENHARIA E CONSULTORIA LTDA 0001 - 47326196000172\\FEDERAL_SIMPLIFICADO",
+        "codigo": "374"
     },
     {
         "empresa": "J C REPRESENTACOES E COMERCIO DE PRODUTOS FARMACEUTICOS LTDA 0001",
@@ -85,7 +95,8 @@
         "tipo_parcelamento": "FEDERAL_SIMPLIFICADO",
         "nome_arquivo": "12217268000169_J_C_REPRESENTACOES_E_COMERCIO__SIEFPAR_02110001200104204942516_007_20250731.pdf",
         "arquivo_id": "6874e548a9811b842",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\J C REPRESENTACOES E COMERCIO DE PRODUTOS FARMACEUTICOS LTDA 0001 - 12217268000169\\FEDERAL_SIMPLIFICADO"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\J C REPRESENTACOES E COMERCIO DE PRODUTOS FARMACEUTICOS LTDA 0001 - 12217268000169\\FEDERAL_SIMPLIFICADO",
+        "codigo": "540"
     },
     {
         "empresa": "GILVAN MAQ PECAS LTDA 0001",
@@ -93,7 +104,8 @@
         "tipo_parcelamento": "FEDERAL_SIMPLIFICADO",
         "nome_arquivo": "21505061000180_GILVAN_MAQ_PECAS_LTDA_0001_SIEFPAR_02110001200084691442502_007_20250731.pdf",
         "arquivo_id": "6874e5b9b3c82020d",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\GILVAN MAQ PECAS LTDA 0001 - 21505061000180\\FEDERAL_SIMPLIFICADO"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\GILVAN MAQ PECAS LTDA 0001 - 21505061000180\\FEDERAL_SIMPLIFICADO",
+        "codigo": "296"
     },
     {
         "empresa": "AGRO PLANTAS LTDA 0001",
@@ -101,7 +113,8 @@
         "tipo_parcelamento": "FEDERAL_SIMPLIFICADO",
         "nome_arquivo": "50506734000115_AGRO_PLANTAS_LTDA_0001_SIEFPAR_02110001201173075732440_004_20250228.pdf",
         "arquivo_id": "67ab389682d1b90ac",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\AGRO PLANTAS LTDA 0001 - 50506734000115\\FEDERAL_SIMPLIFICADO"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\AGRO PLANTAS LTDA 0001 - 50506734000115\\FEDERAL_SIMPLIFICADO",
+        "codigo": null
     },
     {
         "empresa": "P & S COMERCIO DE MAQUINAS LTDA 0001",
@@ -109,7 +122,8 @@
         "tipo_parcelamento": "FEDERAL_SIMPLIFICADO",
         "nome_arquivo": "16479534000182_P_&_S_COMERCIO_DE_MAQUINAS_LTD_SIEFPAR_02110001200824852602316_023_20250731.pdf",
         "arquivo_id": "6874e4ffb9aad43b0",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\P & S COMERCIO DE MAQUINAS LTDA 0001 - 16479534000182\\FEDERAL_SIMPLIFICADO"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\P & S COMERCIO DE MAQUINAS LTDA 0001 - 16479534000182\\FEDERAL_SIMPLIFICADO",
+        "codigo": "449"
     },
     {
         "empresa": "EMPORIO BRUMAR PRODUTOS NATURAIS LTDA 0001",
@@ -117,7 +131,8 @@
         "tipo_parcelamento": "FEDERAL_SIMPLIFICADO",
         "nome_arquivo": "10485182000191_EMPORIO_BRUMAR_PRODUTOS_NATURA_SIEFPAR_02110001200313822402354_028_20250731.pdf",
         "arquivo_id": "6874e5d3bad4c7b55",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\EMPORIO BRUMAR PRODUTOS NATURAIS LTDA 0001 - 10485182000191\\FEDERAL_SIMPLIFICADO"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\EMPORIO BRUMAR PRODUTOS NATURAIS LTDA 0001 - 10485182000191\\FEDERAL_SIMPLIFICADO",
+        "codigo": "208"
     },
     {
         "empresa": "AUSTREGESILO JUNIOR ARAGAO MELO 0001",
@@ -125,7 +140,8 @@
         "tipo_parcelamento": "FEDERAL_SIMPLIFICADO",
         "nome_arquivo": "08492189000199_AUSTREGESILO_JUNIOR_ARAGAO_MEL_SIEFPAR_02110001201223128232440_009_20250731.pdf",
         "arquivo_id": "6874e68643fc07cf8",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\AUSTREGESILO JUNIOR ARAGAO MELO 0001 - 08492189000199\\FEDERAL_SIMPLIFICADO"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\AUSTREGESILO JUNIOR ARAGAO MELO 0001 - 08492189000199\\FEDERAL_SIMPLIFICADO",
+        "codigo": "251"
     },
     {
         "empresa": "AUSTREGESILO JUNIOR ARAGAO MELO 0001",
@@ -133,7 +149,8 @@
         "tipo_parcelamento": "FEDERAL_SIMPLIFICADO",
         "nome_arquivo": "08492189000199_AUSTREGESILO_JUNIOR_ARAGAO_MEL_SIEFPAR_02110001200961172822335_022_20250731.pdf",
         "arquivo_id": "6874e6756d90e3421",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\AUSTREGESILO JUNIOR ARAGAO MELO 0001 - 08492189000199\\FEDERAL_SIMPLIFICADO"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\AUSTREGESILO JUNIOR ARAGAO MELO 0001 - 08492189000199\\FEDERAL_SIMPLIFICADO",
+        "codigo": "251"
     },
     {
         "empresa": "AUSTREGESILO JUNIOR ARAGAO MELO 0001",
@@ -141,7 +158,8 @@
         "tipo_parcelamento": "FEDERAL_SIMPLIFICADO",
         "nome_arquivo": "08492189000199_AUSTREGESILO_JUNIOR_ARAGAO_MEL_SIEFPAR_02110001200622347832488_015_20250731.pdf",
         "arquivo_id": "6874ede8191a804a4",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\AUSTREGESILO JUNIOR ARAGAO MELO 0001 - 08492189000199\\FEDERAL_SIMPLIFICADO"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\AUSTREGESILO JUNIOR ARAGAO MELO 0001 - 08492189000199\\FEDERAL_SIMPLIFICADO",
+        "codigo": "251"
     },
     {
         "empresa": "AUSTREGESILO JUNIOR ARAGAO MELO 0001",
@@ -149,7 +167,8 @@
         "tipo_parcelamento": "FEDERAL_SIMPLIFICADO",
         "nome_arquivo": "08492189000199_AUSTREGESILO_JUNIOR_ARAGAO_MEL_SIEFPAR_02110001200147370892288_040_20250731.pdf",
         "arquivo_id": "6874e65f708221669",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\AUSTREGESILO JUNIOR ARAGAO MELO 0001 - 08492189000199\\FEDERAL_SIMPLIFICADO"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\AUSTREGESILO JUNIOR ARAGAO MELO 0001 - 08492189000199\\FEDERAL_SIMPLIFICADO",
+        "codigo": "251"
     },
     {
         "empresa": "SONHO REAL INDUSTRIA E COMERCIO DE CONFECCOES LTDA 0001",
@@ -157,7 +176,8 @@
         "tipo_parcelamento": "FEDERAL_SIMPLIFICADO",
         "nome_arquivo": "11076161000185_SONHO_REAL_INDUSTRIA_E_COMERCI_SIEFPAR_02110001200885051632369_023_20250731.pdf",
         "arquivo_id": "6874e6acd11b14786",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\SONHO REAL INDUSTRIA E COMERCIO DE CONFECCOES LTDA 0001 - 11076161000185\\FEDERAL_SIMPLIFICADO"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\SONHO REAL INDUSTRIA E COMERCIO DE CONFECCOES LTDA 0001 - 11076161000185\\FEDERAL_SIMPLIFICADO",
+        "codigo": "168"
     },
     {
         "empresa": "FORTNET TELECOM LTDA 0001",
@@ -165,7 +185,8 @@
         "tipo_parcelamento": "FEDERAL_SIMPLIFICADO",
         "nome_arquivo": "33097500000142_FORTNET_TELECOM_LTDA_0001_SIEFPAR_02110001200998059992469_011_20250731.pdf",
         "arquivo_id": "6874e5868ef425d34",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\FORTNET TELECOM LTDA 0001 - 33097500000142\\FEDERAL_SIMPLIFICADO"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\FORTNET TELECOM LTDA 0001 - 33097500000142\\FEDERAL_SIMPLIFICADO",
+        "codigo": "393"
     },
     {
         "empresa": "FORTNET TELECOM LTDA 0001",
@@ -173,7 +194,8 @@
         "tipo_parcelamento": "FEDERAL_SIMPLIFICADO",
         "nome_arquivo": "33097500000142_FORTNET_TELECOM_LTDA_0001_SIEFPAR_02110001200628441342401_015_20250731.pdf",
         "arquivo_id": "6874e56d491c84f9f",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\FORTNET TELECOM LTDA 0001 - 33097500000142\\FEDERAL_SIMPLIFICADO"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\FORTNET TELECOM LTDA 0001 - 33097500000142\\FEDERAL_SIMPLIFICADO",
+        "codigo": "393"
     },
     {
         "empresa": "FORTNET TELECOM LTDA 0001",
@@ -181,7 +203,8 @@
         "tipo_parcelamento": "FEDERAL_SIMPLIFICADO",
         "nome_arquivo": "33097500000142_FORTNET_TELECOM_LTDA_0001_SIEFPAR_02110001200259193862320_029_20250731.pdf",
         "arquivo_id": "6874edb600a11a090",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\FORTNET TELECOM LTDA 0001 - 33097500000142\\FEDERAL_SIMPLIFICADO"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\FORTNET TELECOM LTDA 0001 - 33097500000142\\FEDERAL_SIMPLIFICADO",
+        "codigo": "393"
     },
     {
         "empresa": "ALFA E OMEGA EMPREENDIMENTOS LTDA 0001",
@@ -189,7 +212,8 @@
         "tipo_parcelamento": "FEDERAL_SIMPLIFICADO",
         "nome_arquivo": "28878713000171_ALFA_E_OMEGA_EMPREENDIMENTOS_L_SIEFPAR_02110001200343266182416_018_20250731.pdf",
         "arquivo_id": "6874e59f63a12092c",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\ALFA E OMEGA EMPREENDIMENTOS LTDA 0001 - 28878713000171\\FEDERAL_SIMPLIFICADO"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\ALFA E OMEGA EMPREENDIMENTOS LTDA 0001 - 28878713000171\\FEDERAL_SIMPLIFICADO",
+        "codigo": "379"
     },
     {
         "empresa": "FM TOBIAS BARRETO ALMEIDA REIS LTDA 0001",
@@ -197,7 +221,8 @@
         "tipo_parcelamento": "FEDERAL_SIMPLIFICADO",
         "nome_arquivo": "03826865000108_FM_TOBIAS_BARRETO_ALMEIDA_REIS_SIEFPAR_02110001201092448552435_010_20250731.pdf",
         "arquivo_id": "6874e60c1994d991d",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\FM TOBIAS BARRETO ALMEIDA REIS LTDA 0001 - 03826865000108\\FEDERAL_SIMPLIFICADO"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\FM TOBIAS BARRETO ALMEIDA REIS LTDA 0001 - 03826865000108\\FEDERAL_SIMPLIFICADO",
+        "codigo": "242"
     },
     {
         "empresa": "FM TOBIAS BARRETO ALMEIDA REIS LTDA 0001",
@@ -205,7 +230,8 @@
         "tipo_parcelamento": "FEDERAL_SIMPLIFICADO",
         "nome_arquivo": "03826865000108_FM_TOBIAS_BARRETO_ALMEIDA_REIS_SIEFPAR_02110001200425741662401_017_20250731.pdf",
         "arquivo_id": "6874e5ff34ec08fa4",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\FM TOBIAS BARRETO ALMEIDA REIS LTDA 0001 - 03826865000108\\FEDERAL_SIMPLIFICADO"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\FM TOBIAS BARRETO ALMEIDA REIS LTDA 0001 - 03826865000108\\FEDERAL_SIMPLIFICADO",
+        "codigo": "242"
     },
     {
         "empresa": "46.535.912 LTDA 0001",
@@ -213,7 +239,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "46535912000169_46535912_LTDA_SISPAR_011605920_007_20250731.pdf",
         "arquivo_id": "688008f74eac29382",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\46.535.912 LTDA 0001 - 46535912000169\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\46.535.912 LTDA 0001 - 46535912000169\\PGFN",
+        "codigo": "525"
     },
     {
         "empresa": "46.535.912 LTDA 0001",
@@ -221,7 +248,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "46535912000169_46535912_LTDA_SISPAR_012611820_004_20250731.pdf",
         "arquivo_id": "6880087ccfe80f91b",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\46.535.912 LTDA 0001 - 46535912000169\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\46.535.912 LTDA 0001 - 46535912000169\\PGFN",
+        "codigo": "525"
     },
     {
         "empresa": "JAMED COMERCIO E SERVICOS LTDA 0001",
@@ -229,7 +257,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "17927869000189_JAMED_COMERCIO_E_SERVICOS_LTDA_SISPAR_013019271_002_20250731.pdf",
         "arquivo_id": "686e6ba8ca2ebfb0d",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\JAMED COMERCIO E SERVICOS LTDA 0001 - 17927869000189\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\JAMED COMERCIO E SERVICOS LTDA 0001 - 17927869000189\\PGFN",
+        "codigo": "558"
     },
     {
         "empresa": "CENTRO DE TERAPIA HUMANIZAR LTDA 0001",
@@ -237,7 +266,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "50393278000144_CENTRO_DE_TERAPIA_HUMANIZAR_LTDA_SISPAR_012958540_002_20250731.pdf",
         "arquivo_id": "686e6bdf0dd30c8da",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\CENTRO DE TERAPIA HUMANIZAR LTDA 0001 - 50393278000144\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\CENTRO DE TERAPIA HUMANIZAR LTDA 0001 - 50393278000144\\PGFN",
+        "codigo": "511"
     },
     {
         "empresa": "MM CONSULTORIA E SERVICOS LTDA 0001",
@@ -245,7 +275,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "26667104000148_MM_CONSULTORIA_E_SERVICOS_LTDA_SISPAR_012763705_003_20250731.pdf",
         "arquivo_id": "686e6bb639d93ff47",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\MM CONSULTORIA E SERVICOS LTDA 0001 - 26667104000148\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\MM CONSULTORIA E SERVICOS LTDA 0001 - 26667104000148\\PGFN",
+        "codigo": "180"
     },
     {
         "empresa": "MM CONSULTORIA E SERVICOS LTDA 0001",
@@ -253,7 +284,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "26667104000148_MM_CONSULTORIA_E_SERVICOS_LTDA_SISPAR_012763705_002_20250630.pdf",
         "arquivo_id": "686e6baa3c5b02e8b",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\MM CONSULTORIA E SERVICOS LTDA 0001 - 26667104000148\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\MM CONSULTORIA E SERVICOS LTDA 0001 - 26667104000148\\PGFN",
+        "codigo": "180"
     },
     {
         "empresa": "CASA DO PAO LTDA 0001",
@@ -261,7 +293,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "46333558000190_CASA_DO_PAO_LTDA_SISPAR_012687890_003_20250731.pdf",
         "arquivo_id": "686e7342e7105ecf0",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\CASA DO PAO LTDA 0001 - 46333558000190\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\CASA DO PAO LTDA 0001 - 46333558000190\\PGFN",
+        "codigo": "419"
     },
     {
         "empresa": "CASA DO PAO LTDA 0001",
@@ -269,7 +302,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "46333558000190_CASA_DO_PAO_LTDA_SISPAR_012687890_002_20250630.pdf",
         "arquivo_id": "686e733e70e9e6183",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\CASA DO PAO LTDA 0001 - 46333558000190\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\CASA DO PAO LTDA 0001 - 46333558000190\\PGFN",
+        "codigo": "419"
     },
     {
         "empresa": "DONA MARIA VARIEDADES LTDA 0001",
@@ -277,7 +311,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "42363060000119_DONA_MARIA_VARIEDADES_LTDA_SISPAR_012417485_004_20250731.pdf",
         "arquivo_id": "686e6bb5eb1b329b1",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\DONA MARIA VARIEDADES LTDA 0001 - 42363060000119\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\DONA MARIA VARIEDADES LTDA 0001 - 42363060000119\\PGFN",
+        "codigo": "339"
     },
     {
         "empresa": "DONA MARIA VARIEDADES LTDA 0001",
@@ -285,7 +320,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "42363060000119_DONA_MARIA_VARIEDADES_LTDA_SISPAR_012417485_003_20250630.pdf",
         "arquivo_id": "686e6ba8acfb48e18",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\DONA MARIA VARIEDADES LTDA 0001 - 42363060000119\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\DONA MARIA VARIEDADES LTDA 0001 - 42363060000119\\PGFN",
+        "codigo": "339"
     },
     {
         "empresa": "WALLISON OLIVEIRA GAMA 0001",
@@ -293,7 +329,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "22161614000198_WALLISON_OLIVEIRA_GAMA_SISPAR_012428435_001_20250430.pdf",
         "arquivo_id": "67f8462c228c6cfee",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\WALLISON OLIVEIRA GAMA 0001 - 22161614000198\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\WALLISON OLIVEIRA GAMA 0001 - 22161614000198\\PGFN",
+        "codigo": "58"
     },
     {
         "empresa": "G & S SERVICOS E CONSTRUCOES LTDA 0001",
@@ -301,7 +338,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "26769939000109_G_&_S_SERVICOS_E_CONSTRUCOES_LTDA_SISPAR_012310179_002_20250430.pdf",
         "arquivo_id": "686e73003066a30cd",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN",
+        "codigo": "522"
     },
     {
         "empresa": "G & S SERVICOS E CONSTRUCOES LTDA 0001",
@@ -309,7 +347,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "26769939000109_G_&_S_SERVICOS_E_CONSTRUCOES_LTDA_SISPAR_012310179_004_20250630.pdf",
         "arquivo_id": "686e73094070c38e4",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN",
+        "codigo": "522"
     },
     {
         "empresa": "G & S SERVICOS E CONSTRUCOES LTDA 0001",
@@ -317,7 +356,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "26769939000109_G_&_S_SERVICOS_E_CONSTRUCOES_LTDA_SISPAR_012310179_005_20250731.pdf",
         "arquivo_id": "686e730d298f2ed6d",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN",
+        "codigo": "522"
     },
     {
         "empresa": "G & S SERVICOS E CONSTRUCOES LTDA 0001",
@@ -325,7 +365,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "26769939000109_G_&_S_SERVICOS_E_CONSTRUCOES_LTDA_SISPAR_012310179_003_20250530.pdf",
         "arquivo_id": "686e7304b7943d2c7",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN",
+        "codigo": "522"
     },
     {
         "empresa": "PONTO CERTO COMERCIO DE PAPELARIA E BRINQUEDOS LTDA 0001",
@@ -333,7 +374,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "33242698000100_PONTO_CERTO_COMERCIO_DE_PAPELARIA_E_BRINQUEDOS_LTDA_SISPAR_012262486_005_20250731.pdf",
         "arquivo_id": "686e730b1c302f9e1",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\PONTO CERTO COMERCIO DE PAPELARIA E BRINQUEDOS LTDA 0001 - 33242698000100\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\PONTO CERTO COMERCIO DE PAPELARIA E BRINQUEDOS LTDA 0001 - 33242698000100\\PGFN",
+        "codigo": "144"
     },
     {
         "empresa": "ECEGH SERVICOS DE GESTAO HOSPITALAR LTDA 0001",
@@ -341,7 +383,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "24794078000193_ECEGH_SERVICOS_DE_GESTAO_HOSPITALAR_LTDA_SISPAR_012257735_005_20250731.pdf",
         "arquivo_id": "686e6bad0afe70ac7",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\ECEGH SERVICOS DE GESTAO HOSPITALAR LTDA 0001 - 24794078000193\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\ECEGH SERVICOS DE GESTAO HOSPITALAR LTDA 0001 - 24794078000193\\PGFN",
+        "codigo": "557"
     },
     {
         "empresa": "NARJARA RODRIGUES GENTIL 0001",
@@ -349,7 +392,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "31687476000176_NARJARA_RODRIGUES_GENTIL_SISPAR_007246209_032_20250731.pdf",
         "arquivo_id": "686e73202032310e1",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\NARJARA RODRIGUES GENTIL 0001 - 31687476000176\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\NARJARA RODRIGUES GENTIL 0001 - 31687476000176\\PGFN",
+        "codigo": "554"
     },
     {
         "empresa": "JAMED COMERCIO E SERVICOS LTDA 0001",
@@ -357,7 +401,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "17927869000189_JAMED_COMERCIO_E_SERVICOS_LTDA_SISPAR_011228925_002_20241230.pdf",
         "arquivo_id": "67cb8735277470b08",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\JAMED COMERCIO E SERVICOS LTDA 0001 - 17927869000189\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\JAMED COMERCIO E SERVICOS LTDA 0001 - 17927869000189\\PGFN",
+        "codigo": "558"
     },
     {
         "empresa": "JAMED COMERCIO E SERVICOS LTDA 0001",
@@ -365,7 +410,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "17927869000189_JAMED_COMERCIO_E_SERVICOS_LTDA_SISPAR_011228925_005_20250331.pdf",
         "arquivo_id": "67cb8742561b64ea4",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\JAMED COMERCIO E SERVICOS LTDA 0001 - 17927869000189\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\JAMED COMERCIO E SERVICOS LTDA 0001 - 17927869000189\\PGFN",
+        "codigo": "558"
     },
     {
         "empresa": "JAMED COMERCIO E SERVICOS LTDA 0001",
@@ -373,7 +419,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "17927869000189_JAMED_COMERCIO_E_SERVICOS_LTDA_SISPAR_011228925_004_20250228.pdf",
         "arquivo_id": "67cb873dce6f390bb",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\JAMED COMERCIO E SERVICOS LTDA 0001 - 17927869000189\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\JAMED COMERCIO E SERVICOS LTDA 0001 - 17927869000189\\PGFN",
+        "codigo": "558"
     },
     {
         "empresa": "JAMED COMERCIO E SERVICOS LTDA 0001",
@@ -381,7 +428,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "17927869000189_JAMED_COMERCIO_E_SERVICOS_LTDA_SISPAR_011228925_003_20250131.pdf",
         "arquivo_id": "67cb87399dd7bb088",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\JAMED COMERCIO E SERVICOS LTDA 0001 - 17927869000189\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\JAMED COMERCIO E SERVICOS LTDA 0001 - 17927869000189\\PGFN",
+        "codigo": "558"
     },
     {
         "empresa": "GILVAN MAQ PECAS LTDA 0001",
@@ -389,7 +437,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "21505061000180_GILVAN_MAQ_PECAS_LTDA_SISPAR_011632862_007_20250731.pdf",
         "arquivo_id": "686e73202994b1e94",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\GILVAN MAQ PECAS LTDA 0001 - 21505061000180\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\GILVAN MAQ PECAS LTDA 0001 - 21505061000180\\PGFN",
+        "codigo": "296"
     },
     {
         "empresa": "PRECISAO AUTOMECANICA LTDA 0001",
@@ -397,7 +446,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "31409551000137_PRECISAO_AUTOMECANICA_LTDA_SISPAR_011603101_002_20250228.pdf",
         "arquivo_id": "67f845db6d67f2952",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\PRECISAO AUTOMECANICA LTDA 0001 - 31409551000137\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\PRECISAO AUTOMECANICA LTDA 0001 - 31409551000137\\PGFN",
+        "codigo": "509"
     },
     {
         "empresa": "PRECISAO AUTOMECANICA LTDA 0001",
@@ -405,7 +455,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "31409551000137_PRECISAO_AUTOMECANICA_LTDA_SISPAR_011603101_003_20250331.pdf",
         "arquivo_id": "67f845dfef65739bc",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\PRECISAO AUTOMECANICA LTDA 0001 - 31409551000137\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\PRECISAO AUTOMECANICA LTDA 0001 - 31409551000137\\PGFN",
+        "codigo": "509"
     },
     {
         "empresa": "PRECISAO AUTOMECANICA LTDA 0001",
@@ -413,7 +464,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "31409551000137_PRECISAO_AUTOMECANICA_LTDA_SISPAR_011794913_003_20250331.pdf",
         "arquivo_id": "681b8370990d7a6f5",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\PRECISAO AUTOMECANICA LTDA 0001 - 31409551000137\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\PRECISAO AUTOMECANICA LTDA 0001 - 31409551000137\\PGFN",
+        "codigo": "509"
     },
     {
         "empresa": "PRECISAO AUTOMECANICA LTDA 0001",
@@ -421,7 +473,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "31409551000137_PRECISAO_AUTOMECANICA_LTDA_SISPAR_011794913_004_20250430.pdf",
         "arquivo_id": "681b8373ccfd56348",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\PRECISAO AUTOMECANICA LTDA 0001 - 31409551000137\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\PRECISAO AUTOMECANICA LTDA 0001 - 31409551000137\\PGFN",
+        "codigo": "509"
     },
     {
         "empresa": "PRECISAO AUTOMECANICA LTDA 0001",
@@ -429,7 +482,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "31409551000137_PRECISAO_AUTOMECANICA_LTDA_SISPAR_011794913_005_20250530.pdf",
         "arquivo_id": "681b8377434f6d458",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\PRECISAO AUTOMECANICA LTDA 0001 - 31409551000137\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\PRECISAO AUTOMECANICA LTDA 0001 - 31409551000137\\PGFN",
+        "codigo": "509"
     },
     {
         "empresa": "PRECISAO AUTOMECANICA LTDA 0001",
@@ -437,7 +491,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "31409551000137_PRECISAO_AUTOMECANICA_LTDA_SISPAR_011794913_002_20250228.pdf",
         "arquivo_id": "681b836d430842b7d",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\PRECISAO AUTOMECANICA LTDA 0001 - 31409551000137\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\PRECISAO AUTOMECANICA LTDA 0001 - 31409551000137\\PGFN",
+        "codigo": "509"
     },
     {
         "empresa": "J C REPRESENTACOES E COMERCIO DE PRODUTOS FARMACEUTICOS LTDA 0001",
@@ -445,7 +500,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "12217268000169_J_C_REPRESENTACOES_E_COMERCIO_DE_PRODUTOS_FARMACEUTICOS_LTDA_SISPAR_011609810_006_20250630.pdf",
         "arquivo_id": "686e732910522f28c",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\J C REPRESENTACOES E COMERCIO DE PRODUTOS FARMACEUTICOS LTDA 0001 - 12217268000169\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\J C REPRESENTACOES E COMERCIO DE PRODUTOS FARMACEUTICOS LTDA 0001 - 12217268000169\\PGFN",
+        "codigo": "540"
     },
     {
         "empresa": "J C REPRESENTACOES E COMERCIO DE PRODUTOS FARMACEUTICOS LTDA 0001",
@@ -453,7 +509,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "12217268000169_J_C_REPRESENTACOES_E_COMERCIO_DE_PRODUTOS_FARMACEUTICOS_LTDA_SISPAR_011609810_007_20250731.pdf",
         "arquivo_id": "686e732d4ca63a89c",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\J C REPRESENTACOES E COMERCIO DE PRODUTOS FARMACEUTICOS LTDA 0001 - 12217268000169\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\J C REPRESENTACOES E COMERCIO DE PRODUTOS FARMACEUTICOS LTDA 0001 - 12217268000169\\PGFN",
+        "codigo": "540"
     },
     {
         "empresa": "J C REPRESENTACOES E COMERCIO DE PRODUTOS FARMACEUTICOS LTDA 0001",
@@ -461,7 +518,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "12217268000169_J_C_REPRESENTACOES_E_COMERCIO_DE_PRODUTOS_FARMACEUTICOS_LTDA_SISPAR_011609810_005_20250530.pdf",
         "arquivo_id": "686e7324b5bf0e4de",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\J C REPRESENTACOES E COMERCIO DE PRODUTOS FARMACEUTICOS LTDA 0001 - 12217268000169\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\J C REPRESENTACOES E COMERCIO DE PRODUTOS FARMACEUTICOS LTDA 0001 - 12217268000169\\PGFN",
+        "codigo": "540"
     },
     {
         "empresa": "AUSTREGESILO JUNIOR ARAGAO MELO 0001",
@@ -469,7 +527,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "08492189000199_AUSTREGESILO_JUNIOR_ARAGAO_MELO_SISPAR_005478700_042_20250530.pdf",
         "arquivo_id": "686e663c3bf8ac3d2",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\AUSTREGESILO JUNIOR ARAGAO MELO 0001 - 08492189000199\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\AUSTREGESILO JUNIOR ARAGAO MELO 0001 - 08492189000199\\PGFN",
+        "codigo": "251"
     },
     {
         "empresa": "AUSTREGESILO JUNIOR ARAGAO MELO 0001",
@@ -477,7 +536,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "08492189000199_AUSTREGESILO_JUNIOR_ARAGAO_MELO_SISPAR_005478700_044_20250731.pdf",
         "arquivo_id": "686e664453bb2fbe5",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\AUSTREGESILO JUNIOR ARAGAO MELO 0001 - 08492189000199\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\AUSTREGESILO JUNIOR ARAGAO MELO 0001 - 08492189000199\\PGFN",
+        "codigo": "251"
     },
     {
         "empresa": "AUSTREGESILO JUNIOR ARAGAO MELO 0001",
@@ -485,7 +545,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "08492189000199_AUSTREGESILO_JUNIOR_ARAGAO_MELO_SISPAR_005478700_043_20250630.pdf",
         "arquivo_id": "686e664067c8e823a",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\AUSTREGESILO JUNIOR ARAGAO MELO 0001 - 08492189000199\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\AUSTREGESILO JUNIOR ARAGAO MELO 0001 - 08492189000199\\PGFN",
+        "codigo": "251"
     },
     {
         "empresa": "DONA MARIA VARIEDADES LTDA 0001",
@@ -493,7 +554,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "42363060000119_DONA_MARIA_VARIEDADES_LTDA_SISPAR_008353978_020_20250228.pdf",
         "arquivo_id": "67a68c49a6dcc719e",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\DONA MARIA VARIEDADES LTDA 0001 - 42363060000119\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\DONA MARIA VARIEDADES LTDA 0001 - 42363060000119\\PGFN",
+        "codigo": "339"
     },
     {
         "empresa": "DONA MARIA VARIEDADES LTDA 0001",
@@ -501,7 +563,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "42363060000119_DONA_MARIA_VARIEDADES_LTDA_SISPAR_008353978_017_20241129.pdf",
         "arquivo_id": "67a68c3c17fb64b6e",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\DONA MARIA VARIEDADES LTDA 0001 - 42363060000119\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\DONA MARIA VARIEDADES LTDA 0001 - 42363060000119\\PGFN",
+        "codigo": "339"
     },
     {
         "empresa": "DONA MARIA VARIEDADES LTDA 0001",
@@ -509,7 +572,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "42363060000119_DONA_MARIA_VARIEDADES_LTDA_SISPAR_008353978_019_20250131.pdf",
         "arquivo_id": "67a68c453e4febbf8",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\DONA MARIA VARIEDADES LTDA 0001 - 42363060000119\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\DONA MARIA VARIEDADES LTDA 0001 - 42363060000119\\PGFN",
+        "codigo": "339"
     },
     {
         "empresa": "DONA MARIA VARIEDADES LTDA 0001",
@@ -517,7 +581,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "42363060000119_DONA_MARIA_VARIEDADES_LTDA_SISPAR_008353978_018_20241230.pdf",
         "arquivo_id": "67a68c40a75e352be",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\DONA MARIA VARIEDADES LTDA 0001 - 42363060000119\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\DONA MARIA VARIEDADES LTDA 0001 - 42363060000119\\PGFN",
+        "codigo": "339"
     },
     {
         "empresa": "DISTRIDOCES DISTRIBUIDORA DE DOCES LTDA 0001",
@@ -525,7 +590,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "32855512000126_DISTRIDOCES_DISTRIBUIDORA_DE_DOCES_LTDA_SISPAR_010041889_012_20250331.pdf",
         "arquivo_id": "67cb86525812dd9e8",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\DISTRIDOCES DISTRIBUIDORA DE DOCES LTDA 0001 - 32855512000126\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\DISTRIDOCES DISTRIBUIDORA DE DOCES LTDA 0001 - 32855512000126\\PGFN",
+        "codigo": "19"
     },
     {
         "empresa": "ODONTOINN CLINICA ODONTOLOGICA LTDA 0001",
@@ -533,7 +599,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "27565210000183_ODONTOINN_CLINICA_ODONTOLOGICA_LTDA_SISPAR_009318422_019_20250731.pdf",
         "arquivo_id": "686e72eb74e1ec1ee",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\ODONTOINN CLINICA ODONTOLOGICA LTDA 0001 - 27565210000183\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\ODONTOINN CLINICA ODONTOLOGICA LTDA 0001 - 27565210000183\\PGFN",
+        "codigo": "49"
     },
     {
         "empresa": "CLINICA INTEGRADA DE PROCEDIMENTOS E ESPECIALIDADES MEDICAS OLIVEIRA RAMOS LTDA 0001",
@@ -541,7 +608,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "10741183000150_CLINICA_INTEGRADA_DE_PROCEDIMENTOS_E_ESPECIALIDADES_MEDICAS_OLIVEIRA_RAMOS_LTDA_SISPAR_005331846_045_20250731.pdf",
         "arquivo_id": "686e6645001e3164f",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\CLINICA INTEGRADA DE PROCEDIMENTOS E ESPECIALIDADES MEDICAS OLIVEIRA RAMOS LTDA 0001 - 10741183000150\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\CLINICA INTEGRADA DE PROCEDIMENTOS E ESPECIALIDADES MEDICAS OLIVEIRA RAMOS LTDA 0001 - 10741183000150\\PGFN",
+        "codigo": "68"
     },
     {
         "empresa": "ALFA E OMEGA EMPREENDIMENTOS LTDA 0001",
@@ -549,7 +617,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "28878713000171_ALFA_E_OMEGA_EMPREENDIMENTOS_LTDA_SISPAR_009029036_020_20250731.pdf",
         "arquivo_id": "686e6622497a50982",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\ALFA E OMEGA EMPREENDIMENTOS LTDA 0001 - 28878713000171\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\ALFA E OMEGA EMPREENDIMENTOS LTDA 0001 - 28878713000171\\PGFN",
+        "codigo": "379"
     },
     {
         "empresa": "FASITEC DESENVOLVIMENTO E TECNOLOGIA LTDA 0001",
@@ -557,7 +626,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "00483195000178_FASITEC_DESENVOLVIMENTO_E_TECNOLOGIA_LTDA_SISPAR_010991718_010_20250731.pdf",
         "arquivo_id": "686e6618a242296ef",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\FASITEC DESENVOLVIMENTO E TECNOLOGIA LTDA 0001 - 00483195000178\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\FASITEC DESENVOLVIMENTO E TECNOLOGIA LTDA 0001 - 00483195000178\\PGFN",
+        "codigo": "470"
     },
     {
         "empresa": "FASITEC DESENVOLVIMENTO E TECNOLOGIA LTDA 0001",
@@ -565,7 +635,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "00483195000178_FASITEC_DESENVOLVIMENTO_E_TECNOLOGIA_LTDA_SISPAR_004731373_048_20250731.pdf",
         "arquivo_id": "686e65e292b6225c8",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\FASITEC DESENVOLVIMENTO E TECNOLOGIA LTDA 0001 - 00483195000178\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\FASITEC DESENVOLVIMENTO E TECNOLOGIA LTDA 0001 - 00483195000178\\PGFN",
+        "codigo": "470"
     },
     {
         "empresa": "FASITEC DESENVOLVIMENTO E TECNOLOGIA LTDA 0001",
@@ -573,7 +644,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "00483195000178_FASITEC_DESENVOLVIMENTO_E_TECNOLOGIA_LTDA_SISPAR_003893581_056_20250731.pdf",
         "arquivo_id": "686e66290634b9a68",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\FASITEC DESENVOLVIMENTO E TECNOLOGIA LTDA 0001 - 00483195000178\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\FASITEC DESENVOLVIMENTO E TECNOLOGIA LTDA 0001 - 00483195000178\\PGFN",
+        "codigo": "470"
     },
     {
         "empresa": "G & S SERVICOS E CONSTRUCOES LTDA 0001",
@@ -581,7 +653,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "26769939000109_G_&_S_SERVICOS_E_CONSTRUCOES_LTDA_SISPAR_010768020_008_20250331.pdf",
         "arquivo_id": "67f8457741119cd54",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN",
+        "codigo": "522"
     },
     {
         "empresa": "G & S SERVICOS E CONSTRUCOES LTDA 0001",
@@ -589,7 +662,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "26769939000109_G_&_S_SERVICOS_E_CONSTRUCOES_LTDA_SISPAR_010768020_009_20250430.pdf",
         "arquivo_id": "67f8457b86a1c5066",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN",
+        "codigo": "522"
     },
     {
         "empresa": "G & S SERVICOS E CONSTRUCOES LTDA 0001",
@@ -597,7 +671,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "26769939000109_G_&_S_SERVICOS_E_CONSTRUCOES_LTDA_SISPAR_010767973_006_20250131.pdf",
         "arquivo_id": "67851fdef3fc19f27",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN",
+        "codigo": "522"
     },
     {
         "empresa": "G & S SERVICOS E CONSTRUCOES LTDA 0001",
@@ -605,7 +680,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "26769939000109_G_&_S_SERVICOS_E_CONSTRUCOES_LTDA_SISPAR_010767973_004_20241129.pdf",
         "arquivo_id": "67851fd66e9b14259",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN",
+        "codigo": "522"
     },
     {
         "empresa": "G & S SERVICOS E CONSTRUCOES LTDA 0001",
@@ -613,7 +689,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "26769939000109_G_&_S_SERVICOS_E_CONSTRUCOES_LTDA_SISPAR_010767973_003_20241031.pdf",
         "arquivo_id": "67851fd1a8d9f3318",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN",
+        "codigo": "522"
     },
     {
         "empresa": "G & S SERVICOS E CONSTRUCOES LTDA 0001",
@@ -621,7 +698,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "26769939000109_G_&_S_SERVICOS_E_CONSTRUCOES_LTDA_SISPAR_010767973_005_20241230.pdf",
         "arquivo_id": "67851fdab8fc963e4",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN",
+        "codigo": "522"
     },
     {
         "empresa": "G & S SERVICOS E CONSTRUCOES LTDA 0001",
@@ -629,7 +707,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "26769939000109_G_&_S_SERVICOS_E_CONSTRUCOES_LTDA_SISPAR_010767973_002_20240930.pdf",
         "arquivo_id": "67851fcd16a61ae3d",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN",
+        "codigo": "522"
     },
     {
         "empresa": "G & S SERVICOS E CONSTRUCOES LTDA 0001",
@@ -637,7 +716,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "26769939000109_G_&_S_SERVICOS_E_CONSTRUCOES_LTDA_SISPAR_010768043_011_20250630.pdf",
         "arquivo_id": "686e662c38551fbe6",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN",
+        "codigo": "522"
     },
     {
         "empresa": "G & S SERVICOS E CONSTRUCOES LTDA 0001",
@@ -645,7 +725,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "26769939000109_G_&_S_SERVICOS_E_CONSTRUCOES_LTDA_SISPAR_010768043_012_20250731.pdf",
         "arquivo_id": "686e66318c614e4d8",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN",
+        "codigo": "522"
     },
     {
         "empresa": "G & S SERVICOS E CONSTRUCOES LTDA 0001",
@@ -653,7 +734,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "26769939000109_G_&_S_SERVICOS_E_CONSTRUCOES_LTDA_SISPAR_010768043_009_20250430.pdf",
         "arquivo_id": "686e6623817343d59",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN",
+        "codigo": "522"
     },
     {
         "empresa": "G & S SERVICOS E CONSTRUCOES LTDA 0001",
@@ -661,7 +743,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "26769939000109_G_&_S_SERVICOS_E_CONSTRUCOES_LTDA_SISPAR_010768043_008_20250331.pdf",
         "arquivo_id": "686e661f20b694151",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN",
+        "codigo": "522"
     },
     {
         "empresa": "G & S SERVICOS E CONSTRUCOES LTDA 0001",
@@ -669,7 +752,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "26769939000109_G_&_S_SERVICOS_E_CONSTRUCOES_LTDA_SISPAR_010768043_010_20250530.pdf",
         "arquivo_id": "686e6627d99de8557",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN",
+        "codigo": "522"
     },
     {
         "empresa": "G & S SERVICOS E CONSTRUCOES LTDA 0001",
@@ -677,7 +761,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "26769939000109_G_&_S_SERVICOS_E_CONSTRUCOES_LTDA_SISPAR_010768065_012_20250731.pdf",
         "arquivo_id": "686e660e95582ecb8",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN",
+        "codigo": "522"
     },
     {
         "empresa": "G & S SERVICOS E CONSTRUCOES LTDA 0001",
@@ -685,7 +770,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "26769939000109_G_&_S_SERVICOS_E_CONSTRUCOES_LTDA_SISPAR_010768065_011_20250630.pdf",
         "arquivo_id": "686e6609cf7c85dc5",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN",
+        "codigo": "522"
     },
     {
         "empresa": "G & S SERVICOS E CONSTRUCOES LTDA 0001",
@@ -693,7 +779,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "26769939000109_G_&_S_SERVICOS_E_CONSTRUCOES_LTDA_SISPAR_010768065_010_20250530.pdf",
         "arquivo_id": "686e6605550b34aaf",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN",
+        "codigo": "522"
     },
     {
         "empresa": "G & S SERVICOS E CONSTRUCOES LTDA 0001",
@@ -701,7 +788,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "26769939000109_G_&_S_SERVICOS_E_CONSTRUCOES_LTDA_SISPAR_010768065_009_20250430.pdf",
         "arquivo_id": "686e6600e270cc982",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN",
+        "codigo": "522"
     },
     {
         "empresa": "G & S SERVICOS E CONSTRUCOES LTDA 0001",
@@ -709,7 +797,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "26769939000109_G_&_S_SERVICOS_E_CONSTRUCOES_LTDA_SISPAR_010768065_008_20250331.pdf",
         "arquivo_id": "686e65fc33e132425",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN",
+        "codigo": "522"
     },
     {
         "empresa": "SERGIPANA DISTRIBUIDORA DE MEDICAMENTOS LTDA 0001",
@@ -717,7 +806,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "09180777000150_SERGIPANA_DISTRIBUIDORA_DE_MEDICAMENTOS_LTDA_SISPAR_008721322_018_20250228.pdf",
         "arquivo_id": "67a68b271e852438a",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\SERGIPANA DISTRIBUIDORA DE MEDICAMENTOS LTDA 0001 - 09180777000150\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\SERGIPANA DISTRIBUIDORA DE MEDICAMENTOS LTDA 0001 - 09180777000150\\PGFN",
+        "codigo": "523"
     },
     {
         "empresa": "SERGIPANA DISTRIBUIDORA DE MEDICAMENTOS LTDA 0001",
@@ -725,7 +815,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "09180777000150_SERGIPANA_DISTRIBUIDORA_DE_MEDICAMENTOS_LTDA_SISPAR_008721322_017_20250131.pdf",
         "arquivo_id": "67a68b22b13c19e45",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\SERGIPANA DISTRIBUIDORA DE MEDICAMENTOS LTDA 0001 - 09180777000150\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\SERGIPANA DISTRIBUIDORA DE MEDICAMENTOS LTDA 0001 - 09180777000150\\PGFN",
+        "codigo": "523"
     },
     {
         "empresa": "SERGIPANA DISTRIBUIDORA DE MEDICAMENTOS LTDA 0001",
@@ -733,7 +824,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "09180777000150_SERGIPANA_DISTRIBUIDORA_DE_MEDICAMENTOS_LTDA_SISPAR_008721322_013_20240930.pdf",
         "arquivo_id": "67a68b1180e36657f",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\SERGIPANA DISTRIBUIDORA DE MEDICAMENTOS LTDA 0001 - 09180777000150\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\SERGIPANA DISTRIBUIDORA DE MEDICAMENTOS LTDA 0001 - 09180777000150\\PGFN",
+        "codigo": "523"
     },
     {
         "empresa": "SERGIPANA DISTRIBUIDORA DE MEDICAMENTOS LTDA 0001",
@@ -741,7 +833,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "09180777000150_SERGIPANA_DISTRIBUIDORA_DE_MEDICAMENTOS_LTDA_SISPAR_008721322_016_20241230.pdf",
         "arquivo_id": "67a68b1e471cac631",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\SERGIPANA DISTRIBUIDORA DE MEDICAMENTOS LTDA 0001 - 09180777000150\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\SERGIPANA DISTRIBUIDORA DE MEDICAMENTOS LTDA 0001 - 09180777000150\\PGFN",
+        "codigo": "523"
     },
     {
         "empresa": "SERGIPANA DISTRIBUIDORA DE MEDICAMENTOS LTDA 0001",
@@ -749,7 +842,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "09180777000150_SERGIPANA_DISTRIBUIDORA_DE_MEDICAMENTOS_LTDA_SISPAR_008721322_014_20241031.pdf",
         "arquivo_id": "67a68b15de949800a",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\SERGIPANA DISTRIBUIDORA DE MEDICAMENTOS LTDA 0001 - 09180777000150\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\SERGIPANA DISTRIBUIDORA DE MEDICAMENTOS LTDA 0001 - 09180777000150\\PGFN",
+        "codigo": "523"
     },
     {
         "empresa": "SERGIPANA DISTRIBUIDORA DE MEDICAMENTOS LTDA 0001",
@@ -757,7 +851,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "09180777000150_SERGIPANA_DISTRIBUIDORA_DE_MEDICAMENTOS_LTDA_SISPAR_008721322_015_20241129.pdf",
         "arquivo_id": "67a68b1a163849d2f",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\SERGIPANA DISTRIBUIDORA DE MEDICAMENTOS LTDA 0001 - 09180777000150\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\SERGIPANA DISTRIBUIDORA DE MEDICAMENTOS LTDA 0001 - 09180777000150\\PGFN",
+        "codigo": "523"
     },
     {
         "empresa": "VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -765,7 +860,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "41210457000108_VIA_ROMA_SALVADOR_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010991102_006_20250331.pdf",
         "arquivo_id": "67cb8549d391443af",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\PGFN",
+        "codigo": "537"
     },
     {
         "empresa": "VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -773,7 +869,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "41210457000108_VIA_ROMA_SALVADOR_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010991102_005_20250228.pdf",
         "arquivo_id": "67cb8545c95b3cfca",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\PGFN",
+        "codigo": "537"
     },
     {
         "empresa": "VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -781,7 +878,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "41210457000108_VIA_ROMA_SALVADOR_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010991102_003_20241230.pdf",
         "arquivo_id": "67cb853d86eb0d4cd",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\PGFN",
+        "codigo": "537"
     },
     {
         "empresa": "VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -789,7 +887,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "41210457000108_VIA_ROMA_SALVADOR_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010991102_004_20250131.pdf",
         "arquivo_id": "67cb85419ae1c8d0e",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\PGFN",
+        "codigo": "537"
     },
     {
         "empresa": "VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -797,7 +896,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "41210457000108_VIA_ROMA_SALVADOR_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010991102_002_20241129.pdf",
         "arquivo_id": "67cb8538cf46119bf",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\PGFN",
+        "codigo": "537"
     },
     {
         "empresa": "VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -805,7 +905,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "41210457000108_VIA_ROMA_SALVADOR_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010991201_009_20250630.pdf",
         "arquivo_id": "686e8759a676002ba",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\PGFN",
+        "codigo": "537"
     },
     {
         "empresa": "VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -813,7 +914,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "41210457000108_VIA_ROMA_SALVADOR_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010991201_006_20250331.pdf",
         "arquivo_id": "686e87499e5cb41fe",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\PGFN",
+        "codigo": "537"
     },
     {
         "empresa": "VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -821,7 +923,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "41210457000108_VIA_ROMA_SALVADOR_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010991201_007_20250430.pdf",
         "arquivo_id": "686e874f10a2d3138",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\PGFN",
+        "codigo": "537"
     },
     {
         "empresa": "VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -829,7 +932,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "41210457000108_VIA_ROMA_SALVADOR_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010991201_008_20250530.pdf",
         "arquivo_id": "686e87548547d5585",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\PGFN",
+        "codigo": "537"
     },
     {
         "empresa": "VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -837,7 +941,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "41210457000108_VIA_ROMA_SALVADOR_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010991201_010_20250731.pdf",
         "arquivo_id": "686e875f0b68116b4",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\PGFN",
+        "codigo": "537"
     },
     {
         "empresa": "VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -845,7 +950,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "41210457000108_VIA_ROMA_SALVADOR_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010991201_004_20250131.pdf",
         "arquivo_id": "686e873e497efbf23",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\PGFN",
+        "codigo": "537"
     },
     {
         "empresa": "VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -853,7 +959,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "41210457000108_VIA_ROMA_SALVADOR_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010991201_002_20241129.pdf",
         "arquivo_id": "686e8733275a45766",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\PGFN",
+        "codigo": "537"
     },
     {
         "empresa": "VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -861,7 +968,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "41210457000108_VIA_ROMA_SALVADOR_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010991201_003_20241230.pdf",
         "arquivo_id": "686e8738cf312505d",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\PGFN",
+        "codigo": "537"
     },
     {
         "empresa": "VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -869,7 +977,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "41210457000108_VIA_ROMA_SALVADOR_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010991201_005_20250228.pdf",
         "arquivo_id": "686e874436986d1bb",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\PGFN",
+        "codigo": "537"
     },
     {
         "empresa": "P & S PRODUTOS AGROPECUARIOS LTDA 0001",
@@ -877,7 +986,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "17204638000147_P_&_S_PRODUTOS_AGROPECUARIOS_LTDA_SISPAR_003642191_060_20250731.pdf",
         "arquivo_id": "686e65cae804a3e69",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\P & S PRODUTOS AGROPECUARIOS LTDA 0001 - 17204638000147\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\P & S PRODUTOS AGROPECUARIOS LTDA 0001 - 17204638000147\\PGFN",
+        "codigo": "448"
     },
     {
         "empresa": "J C REPRESENTACOES E COMERCIO DE PRODUTOS FARMACEUTICOS LTDA 0001",
@@ -885,7 +995,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "12217268000169_J_C_REPRESENTACOES_E_COMERCIO_DE_PRODUTOS_FARMACEUTICOS_LTDA_SISPAR_008548847_024_20250731.pdf",
         "arquivo_id": "686e661968fcf28b8",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\J C REPRESENTACOES E COMERCIO DE PRODUTOS FARMACEUTICOS LTDA 0001 - 12217268000169\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\J C REPRESENTACOES E COMERCIO DE PRODUTOS FARMACEUTICOS LTDA 0001 - 12217268000169\\PGFN",
+        "codigo": "540"
     },
     {
         "empresa": "J C REPRESENTACOES E COMERCIO DE PRODUTOS FARMACEUTICOS LTDA 0001",
@@ -893,7 +1004,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "12217268000169_J_C_REPRESENTACOES_E_COMERCIO_DE_PRODUTOS_FARMACEUTICOS_LTDA_SISPAR_008548847_023_20250630.pdf",
         "arquivo_id": "686e661543b2a2f2d",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\J C REPRESENTACOES E COMERCIO DE PRODUTOS FARMACEUTICOS LTDA 0001 - 12217268000169\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\J C REPRESENTACOES E COMERCIO DE PRODUTOS FARMACEUTICOS LTDA 0001 - 12217268000169\\PGFN",
+        "codigo": "540"
     },
     {
         "empresa": "J C REPRESENTACOES E COMERCIO DE PRODUTOS FARMACEUTICOS LTDA 0001",
@@ -901,7 +1013,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "12217268000169_J_C_REPRESENTACOES_E_COMERCIO_DE_PRODUTOS_FARMACEUTICOS_LTDA_SISPAR_008548847_022_20250530.pdf",
         "arquivo_id": "686e6611135545ba9",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\J C REPRESENTACOES E COMERCIO DE PRODUTOS FARMACEUTICOS LTDA 0001 - 12217268000169\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\J C REPRESENTACOES E COMERCIO DE PRODUTOS FARMACEUTICOS LTDA 0001 - 12217268000169\\PGFN",
+        "codigo": "540"
     },
     {
         "empresa": "PETROLUB DISTRIBUIDORA DA BAHIA LTDA 0001",
@@ -909,7 +1022,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "23300238000138_PETROLUB_DISTRIBUIDORA_DA_BAHIA_LTDA_SISPAR_009531735_019_20250731.pdf",
         "arquivo_id": "686e660cb032e5e02",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\PETROLUB DISTRIBUIDORA DA BAHIA LTDA 0001 - 23300238000138\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\PETROLUB DISTRIBUIDORA DA BAHIA LTDA 0001 - 23300238000138\\PGFN",
+        "codigo": "500"
     },
     {
         "empresa": "POSTO DE COMBUSTIVEL CEU III LTDA 0001",
@@ -917,7 +1031,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "13644570000166_POSTO_DE_COMBUSTIVEL_CEU_III_LTDA_SISPAR_009740220_012_20250131.pdf",
         "arquivo_id": "6785206371c3a201d",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\POSTO DE COMBUSTIVEL CEU III LTDA 0001 - 13644570000166\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\POSTO DE COMBUSTIVEL CEU III LTDA 0001 - 13644570000166\\PGFN",
+        "codigo": "442"
     },
     {
         "empresa": "POSTO DE COMBUSTIVEL CEU III LTDA 0001",
@@ -925,7 +1040,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "13644570000166_POSTO_DE_COMBUSTIVEL_CEU_III_LTDA_SISPAR_010059346_016_20250731.pdf",
         "arquivo_id": "686e65e8e6c4fbacb",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\POSTO DE COMBUSTIVEL CEU III LTDA 0001 - 13644570000166\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\POSTO DE COMBUSTIVEL CEU III LTDA 0001 - 13644570000166\\PGFN",
+        "codigo": "442"
     },
     {
         "empresa": "POSTO DE COMBUSTIVEL CEU III LTDA 0001",
@@ -933,7 +1049,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "13644570000166_POSTO_DE_COMBUSTIVEL_CEU_III_LTDA_SISPAR_009740210_012_20250131.pdf",
         "arquivo_id": "67852056c7287a7a4",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\POSTO DE COMBUSTIVEL CEU III LTDA 0001 - 13644570000166\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\POSTO DE COMBUSTIVEL CEU III LTDA 0001 - 13644570000166\\PGFN",
+        "codigo": "442"
     },
     {
         "empresa": "POSTO DE COMBUSTIVEL CEU III LTDA 0001",
@@ -941,7 +1058,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "13644570000166_POSTO_DE_COMBUSTIVEL_CEU_III_LTDA_SISPAR_008878203_021_20250731.pdf",
         "arquivo_id": "686e65c787a436755",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\POSTO DE COMBUSTIVEL CEU III LTDA 0001 - 13644570000166\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\POSTO DE COMBUSTIVEL CEU III LTDA 0001 - 13644570000166\\PGFN",
+        "codigo": "442"
     },
     {
         "empresa": "POSTO DE COMBUSTIVEL CEU III LTDA 0001",
@@ -949,7 +1067,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "13644570000166_POSTO_DE_COMBUSTIVEL_CEU_III_LTDA_SISPAR_008878203_019_20250530.pdf",
         "arquivo_id": "686e65c22dbaf62d8",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\POSTO DE COMBUSTIVEL CEU III LTDA 0001 - 13644570000166\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\POSTO DE COMBUSTIVEL CEU III LTDA 0001 - 13644570000166\\PGFN",
+        "codigo": "442"
     },
     {
         "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -957,7 +1076,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010823986_006_20250228.pdf",
         "arquivo_id": "67f92d16416e5c267",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
     },
     {
         "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -965,7 +1085,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010823986_008_20250430.pdf",
         "arquivo_id": "67f92d1f9e4c2f37e",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
     },
     {
         "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -973,7 +1094,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010823986_007_20250331.pdf",
         "arquivo_id": "67f92d1a8f18e7d0f",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
     },
     {
         "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -981,7 +1103,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010823986_004_20241230.pdf",
         "arquivo_id": "67f92d0dedff57c8a",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
     },
     {
         "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -989,7 +1112,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010823986_002_20241031.pdf",
         "arquivo_id": "67f92d04b4b8a1c53",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
     },
     {
         "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -997,7 +1121,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010823986_003_20241129.pdf",
         "arquivo_id": "67f92d09e520ca1ad",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
     },
     {
         "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -1005,7 +1130,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010823986_005_20250131.pdf",
         "arquivo_id": "67f92d11d0b7e5fad",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
     },
     {
         "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -1013,7 +1139,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010829640_007_20250331.pdf",
         "arquivo_id": "686e6317bfa839bbb",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
     },
     {
         "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -1021,7 +1148,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010829640_008_20250430.pdf",
         "arquivo_id": "686e631b735d7915a",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
     },
     {
         "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -1029,7 +1157,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010829640_010_20250630.pdf",
         "arquivo_id": "686e63244d37d2436",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
     },
     {
         "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -1037,7 +1166,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010829640_009_20250530.pdf",
         "arquivo_id": "686e631f6e38584f5",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
     },
     {
         "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -1045,7 +1175,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010829640_011_20250731.pdf",
         "arquivo_id": "686e632852634fbd2",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
     },
     {
         "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -1053,7 +1184,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010829640_002_20241031.pdf",
         "arquivo_id": "686e630362d395032",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
     },
     {
         "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -1061,7 +1193,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010829640_006_20250228.pdf",
         "arquivo_id": "686e6313e2e698d34",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
     },
     {
         "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -1069,7 +1202,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010829640_005_20250131.pdf",
         "arquivo_id": "686e631025c438d18",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
     },
     {
         "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -1077,7 +1211,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010829640_003_20241129.pdf",
         "arquivo_id": "686e63078cbe4346c",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
     },
     {
         "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -1085,7 +1220,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010829640_004_20241230.pdf",
         "arquivo_id": "686e630c6260c06d7",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
     },
     {
         "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -1093,7 +1229,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010824100_011_20250731.pdf",
         "arquivo_id": "686e6335e69f0f54f",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
     },
     {
         "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -1101,7 +1238,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010824100_010_20250630.pdf",
         "arquivo_id": "686e632fcaee286a0",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
     },
     {
         "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -1109,7 +1247,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010824100_008_20250430.pdf",
         "arquivo_id": "686e63263b31c74a6",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
     },
     {
         "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -1117,7 +1256,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010824100_006_20250228.pdf",
         "arquivo_id": "686e631c6891af1aa",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
     },
     {
         "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -1125,7 +1265,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010824100_009_20250530.pdf",
         "arquivo_id": "686e632b293743a67",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
     },
     {
         "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -1133,7 +1274,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010824100_007_20250331.pdf",
         "arquivo_id": "686e632118b976445",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
     },
     {
         "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -1141,7 +1283,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010824100_005_20250131.pdf",
         "arquivo_id": "686e631810db0796b",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
     },
     {
         "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -1149,7 +1292,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010824100_003_20241129.pdf",
         "arquivo_id": "686e630f31346ced2",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
     },
     {
         "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -1157,7 +1301,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010824100_004_20241230.pdf",
         "arquivo_id": "686e631375a70b080",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
     },
     {
         "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -1165,7 +1310,8 @@
         "tipo_parcelamento": "PGFN",
         "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010824100_002_20241031.pdf",
         "arquivo_id": "686e630aa8ff02711",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
     },
     {
         "empresa": "POSTO DE COMBUSTIVEL CEU III LTDA 0001",
@@ -1173,7 +1319,8 @@
         "tipo_parcelamento": "PREVIDENCIARIO",
         "nome_arquivo": "13644570000166_POSTO_DE_COMBUSTIVEL_CEU_III_LTDA_SICOB_645275522_007_20250731.pdf",
         "arquivo_id": "68705ff28859012e9",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\POSTO DE COMBUSTIVEL CEU III LTDA 0001 - 13644570000166\\PREVIDENCIARIO"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\POSTO DE COMBUSTIVEL CEU III LTDA 0001 - 13644570000166\\PREVIDENCIARIO",
+        "codigo": "442"
     },
     {
         "empresa": "46.535.912 LTDA 0001",
@@ -1181,7 +1328,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "46535912000169_46535912_LTDA_PARCSN_SIMPLIFICADO_202507_202507.pdf",
         "arquivo_id": "6880d26d983ab096f",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\46.535.912 LTDA 0001 - 46535912000169\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\46.535.912 LTDA 0001 - 46535912000169\\SIMPLES_NACIONAL",
+        "codigo": "525"
     },
     {
         "empresa": "DEEP CONNECT TELECOM LTDA 0001",
@@ -1189,7 +1337,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "12087327000121_DEEP_CONNECT_TELECOM_LTDA_PARCSN_SIMPLIFICADO_202507_202507.pdf",
         "arquivo_id": "687a63fbd11dbd469",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\DEEP CONNECT TELECOM LTDA 0001 - 12087327000121\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\DEEP CONNECT TELECOM LTDA 0001 - 12087327000121\\SIMPLES_NACIONAL",
+        "codigo": "609"
     },
     {
         "empresa": "MAX CONFECCOES TEXTIL LTDA 0001",
@@ -1197,7 +1346,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "52169106000117_MAX_CONFECCOES_TEXTIL_LTDA_PARCSN_SIMPLIFICADO_202507_202507.pdf",
         "arquivo_id": "6871193194b302b07",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\MAX CONFECCOES TEXTIL LTDA 0001 - 52169106000117\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\MAX CONFECCOES TEXTIL LTDA 0001 - 52169106000117\\SIMPLES_NACIONAL",
+        "codigo": "427"
     },
     {
         "empresa": "TAJS LTDA 0001",
@@ -1205,7 +1355,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "42187460000110_TAJS_LTDA_PARCSN_SIMPLIFICADO_202507_202507.pdf",
         "arquivo_id": "6871195b3900ebbeb",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\TAJS LTDA 0001 - 42187460000110\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\TAJS LTDA 0001 - 42187460000110\\SIMPLES_NACIONAL",
+        "codigo": "452"
     },
     {
         "empresa": "CASA DO PAO LTDA 0001",
@@ -1213,7 +1364,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "46333558000190_CASA_DO_PAO_LTDA_PARCSN_SIMPLIFICADO_202507_202507.pdf",
         "arquivo_id": "6871198daad4f8d8d",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\CASA DO PAO LTDA 0001 - 46333558000190\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\CASA DO PAO LTDA 0001 - 46333558000190\\SIMPLES_NACIONAL",
+        "codigo": "419"
     },
     {
         "empresa": "CASA DO PAO LTDA 0001",
@@ -1221,7 +1373,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "46333558000190_CASA_DO_PAO_LTDA_PARCSN_SIMPLIFICADO_202506_202507.pdf",
         "arquivo_id": "6872f3066c0e0b3c9",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\CASA DO PAO LTDA 0001 - 46333558000190\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\CASA DO PAO LTDA 0001 - 46333558000190\\SIMPLES_NACIONAL",
+        "codigo": "419"
     },
     {
         "empresa": "FM TOBIAS BARRETO ALMEIDA REIS LTDA 0001",
@@ -1229,7 +1382,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "03826865000108_FM_TOBIAS_BARRETO_ALMEIDA_REIS_PARCSN_SIMPLIFICADO_202507_202507.pdf",
         "arquivo_id": "687119323bbe73233",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\FM TOBIAS BARRETO ALMEIDA REIS LTDA 0001 - 03826865000108\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\FM TOBIAS BARRETO ALMEIDA REIS LTDA 0001 - 03826865000108\\SIMPLES_NACIONAL",
+        "codigo": "242"
     },
     {
         "empresa": "FM TOBIAS BARRETO ALMEIDA REIS LTDA 0001",
@@ -1237,7 +1391,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "03826865000108_FM_TOBIAS_BARRETO_ALMEIDA_REIS_PARCSN_SIMPLIFICADO_202506_202507.pdf",
         "arquivo_id": "6872f2c6c492c8f6a",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\FM TOBIAS BARRETO ALMEIDA REIS LTDA 0001 - 03826865000108\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\FM TOBIAS BARRETO ALMEIDA REIS LTDA 0001 - 03826865000108\\SIMPLES_NACIONAL",
+        "codigo": "242"
     },
     {
         "empresa": "SAO MIGUEL 2 IND E COMERCIO LTDA 0001",
@@ -1245,7 +1400,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "45418856000110_SAO_MIGUEL_2_IND_E_COMERCIO_LT_PARCSN_SIMPLIFICADO_202507_202507.pdf",
         "arquivo_id": "687118fb13aa5aad8",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\SAO MIGUEL 2 IND E COMERCIO LTDA 0001 - 45418856000110\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\SAO MIGUEL 2 IND E COMERCIO LTDA 0001 - 45418856000110\\SIMPLES_NACIONAL",
+        "codigo": "422"
     },
     {
         "empresa": "SAO MIGUEL 2 IND E COMERCIO LTDA 0001",
@@ -1253,7 +1409,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "45418856000110_SAO_MIGUEL_2_IND_E_COMERCIO_LT_PARCSN_SIMPLIFICADO_202506_202507.pdf",
         "arquivo_id": "6872f2ac797c6ef9c",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\SAO MIGUEL 2 IND E COMERCIO LTDA 0001 - 45418856000110\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\SAO MIGUEL 2 IND E COMERCIO LTDA 0001 - 45418856000110\\SIMPLES_NACIONAL",
+        "codigo": "422"
     },
     {
         "empresa": "SAO MIGUEL 2 IND E COMERCIO LTDA 0001",
@@ -1261,7 +1418,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "45418856000110_SAO_MIGUEL_2_IND_E_COMERCIO_LT_PARCSN_SIMPLIFICADO_202505_202507.pdf",
         "arquivo_id": "6872f29465c00602b",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\SAO MIGUEL 2 IND E COMERCIO LTDA 0001 - 45418856000110\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\SAO MIGUEL 2 IND E COMERCIO LTDA 0001 - 45418856000110\\SIMPLES_NACIONAL",
+        "codigo": "422"
     },
     {
         "empresa": "NORTE E SUL COMERCIO DE PNEUS E REPRESENTACOES LTDA 0001",
@@ -1269,7 +1427,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "28579353000107_NORTE_E_SUL_COMERCIO_DE_PNEUS__PARCSN_SIMPLIFICADO_202507_202507.pdf",
         "arquivo_id": "68711950cb619b5ea",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\NORTE E SUL COMERCIO DE PNEUS E REPRESENTACOES LTDA 0001 - 28579353000107\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\NORTE E SUL COMERCIO DE PNEUS E REPRESENTACOES LTDA 0001 - 28579353000107\\SIMPLES_NACIONAL",
+        "codigo": "499"
     },
     {
         "empresa": "NORTE E SUL COMERCIO DE PNEUS E REPRESENTACOES LTDA 0001",
@@ -1277,7 +1436,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "28579353000107_NORTE_E_SUL_COMERCIO_DE_PNEUS__PARCSN_SIMPLIFICADO_202506_202507.pdf",
         "arquivo_id": "6872f25aa34a376ba",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\NORTE E SUL COMERCIO DE PNEUS E REPRESENTACOES LTDA 0001 - 28579353000107\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\NORTE E SUL COMERCIO DE PNEUS E REPRESENTACOES LTDA 0001 - 28579353000107\\SIMPLES_NACIONAL",
+        "codigo": "499"
     },
     {
         "empresa": "NORTE E SUL COMERCIO DE PNEUS E REPRESENTACOES LTDA 0001",
@@ -1285,7 +1445,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "28579353000107_NORTE_E_SUL_COMERCIO_DE_PNEUS__PARCSN_SIMPLIFICADO_202505_202507.pdf",
         "arquivo_id": "6872f26162613a6ec",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\NORTE E SUL COMERCIO DE PNEUS E REPRESENTACOES LTDA 0001 - 28579353000107\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\NORTE E SUL COMERCIO DE PNEUS E REPRESENTACOES LTDA 0001 - 28579353000107\\SIMPLES_NACIONAL",
+        "codigo": "499"
     },
     {
         "empresa": "PONTO CERTO COMERCIO DE PAPELARIA E BRINQUEDOS LTDA 0001",
@@ -1293,7 +1454,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "33242698000100_PONTO_CERTO_COMERCIO_DE_PAPELA_PARCSN_SIMPLIFICADO_202507_202507.pdf",
         "arquivo_id": "687119c330e1edef6",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\PONTO CERTO COMERCIO DE PAPELARIA E BRINQUEDOS LTDA 0001 - 33242698000100\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\PONTO CERTO COMERCIO DE PAPELARIA E BRINQUEDOS LTDA 0001 - 33242698000100\\SIMPLES_NACIONAL",
+        "codigo": "144"
     },
     {
         "empresa": "ECEGH SERVICOS DE GESTAO HOSPITALAR LTDA 0001",
@@ -1301,7 +1463,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "24794078000193_ECEGH_SERVICOS_DE_GESTAO_HOSPI_PARCSN_SIMPLIFICADO_202507_202507.pdf",
         "arquivo_id": "6871196323d9b0c6a",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\ECEGH SERVICOS DE GESTAO HOSPITALAR LTDA 0001 - 24794078000193\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\ECEGH SERVICOS DE GESTAO HOSPITALAR LTDA 0001 - 24794078000193\\SIMPLES_NACIONAL",
+        "codigo": "557"
     },
     {
         "empresa": "WALLISON OLIVEIRA GAMA 0001",
@@ -1309,7 +1472,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "22161614000198_WALLISON_OLIVEIRA_GAMA_PARCSN_SIMPLIFICADO_202507_202507.pdf",
         "arquivo_id": "6871193a3354358cc",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\WALLISON OLIVEIRA GAMA 0001 - 22161614000198\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\WALLISON OLIVEIRA GAMA 0001 - 22161614000198\\SIMPLES_NACIONAL",
+        "codigo": "58"
     },
     {
         "empresa": "ISLAN NET TELECOM LTDA 0001",
@@ -1317,7 +1481,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "26434616000164_ISLAN_NET_TELECOM_LTDA_PARCSN_SIMPLIFICADO_202507_202507.pdf",
         "arquivo_id": "687119942e4f59c66",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\ISLAN NET TELECOM LTDA 0001 - 26434616000164\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\ISLAN NET TELECOM LTDA 0001 - 26434616000164\\SIMPLES_NACIONAL",
+        "codigo": "551"
     },
     {
         "empresa": "JEFERSON ALMEIDA DOS SANTOS 04258567558 0001",
@@ -1325,7 +1490,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "33698795000102_JEFERSON_ALMEIDA_DOS_SANTOS_04_PARCSN_SIMPLIFICADO_202507_202507.pdf",
         "arquivo_id": "6871191c879089bfa",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\JEFERSON ALMEIDA DOS SANTOS 04258567558 0001 - 33698795000102\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\JEFERSON ALMEIDA DOS SANTOS 04258567558 0001 - 33698795000102\\SIMPLES_NACIONAL",
+        "codigo": "149"
     },
     {
         "empresa": "JEFERSON ALMEIDA DOS SANTOS 04258567558 0001",
@@ -1333,7 +1499,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "33698795000102_JEFERSON_ALMEIDA_DOS_SANTOS_04_PARCSN_SIMPLIFICADO_202506_202507.pdf",
         "arquivo_id": "6872f02e9aa391dac",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\JEFERSON ALMEIDA DOS SANTOS 04258567558 0001 - 33698795000102\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\JEFERSON ALMEIDA DOS SANTOS 04258567558 0001 - 33698795000102\\SIMPLES_NACIONAL",
+        "codigo": "149"
     },
     {
         "empresa": "JEFERSON ALMEIDA DOS SANTOS 04258567558 0001",
@@ -1341,7 +1508,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "33698795000102_JEFERSON_ALMEIDA_DOS_SANTOS_04_PARCSN_SIMPLIFICADO_202505_202507.pdf",
         "arquivo_id": "6872f02d6a6f059c2",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\JEFERSON ALMEIDA DOS SANTOS 04258567558 0001 - 33698795000102\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\JEFERSON ALMEIDA DOS SANTOS 04258567558 0001 - 33698795000102\\SIMPLES_NACIONAL",
+        "codigo": "149"
     },
     {
         "empresa": "START PLAY LTDA 0001",
@@ -1349,7 +1517,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "30018375000140_START_PLAY_LTDA_PARCSN_SIMPLIFICADO_202507_202507.pdf",
         "arquivo_id": "68711a8c6b1012b9c",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\START PLAY LTDA 0001 - 30018375000140\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\START PLAY LTDA 0001 - 30018375000140\\SIMPLES_NACIONAL",
+        "codigo": "194"
     },
     {
         "empresa": "START PLAY LTDA 0001",
@@ -1357,7 +1526,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "30018375000140_START_PLAY_LTDA_PARCSN_SIMPLIFICADO_202506_202507.pdf",
         "arquivo_id": "6872e897c78a3d64f",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\START PLAY LTDA 0001 - 30018375000140\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\START PLAY LTDA 0001 - 30018375000140\\SIMPLES_NACIONAL",
+        "codigo": "194"
     },
     {
         "empresa": "START PLAY LTDA 0001",
@@ -1365,7 +1535,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "30018375000140_START_PLAY_LTDA_PARCSN_SIMPLIFICADO_202505_202507.pdf",
         "arquivo_id": "6872e89b974924ba0",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\START PLAY LTDA 0001 - 30018375000140\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\START PLAY LTDA 0001 - 30018375000140\\SIMPLES_NACIONAL",
+        "codigo": "194"
     },
     {
         "empresa": "MADEREIRA RONDONIA LTDA 0001",
@@ -1373,7 +1544,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "50428807000106_MADEREIRA_RONDONIA_LTDA_PARCSN_SIMPLIFICADO_202507_202507.pdf",
         "arquivo_id": "6871197e8d07db7e8",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\MADEREIRA RONDONIA LTDA 0001 - 50428807000106\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\MADEREIRA RONDONIA LTDA 0001 - 50428807000106\\SIMPLES_NACIONAL",
+        "codigo": "401"
     },
     {
         "empresa": "MADEREIRA RONDONIA LTDA 0001",
@@ -1381,7 +1553,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "50428807000106_MADEREIRA_RONDONIA_LTDA_PARCSN_SIMPLIFICADO_202506_202506.pdf",
         "arquivo_id": "684907d55b96b84cd",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\MADEREIRA RONDONIA LTDA 0001 - 50428807000106\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\MADEREIRA RONDONIA LTDA 0001 - 50428807000106\\SIMPLES_NACIONAL",
+        "codigo": "401"
     },
     {
         "empresa": "MADEREIRA RONDONIA LTDA 0001",
@@ -1389,7 +1562,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "50428807000106_MADEREIRA_RONDONIA_LTDA_PARCSN_SIMPLIFICADO_202505_202506.pdf",
         "arquivo_id": "684b7e8ea1a0da9a6",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\MADEREIRA RONDONIA LTDA 0001 - 50428807000106\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\MADEREIRA RONDONIA LTDA 0001 - 50428807000106\\SIMPLES_NACIONAL",
+        "codigo": "401"
     },
     {
         "empresa": "MADEREIRA RONDONIA LTDA 0001",
@@ -1397,7 +1571,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "50428807000106_MADEREIRA_RONDONIA_LTDA_PARCSN_SIMPLIFICADO_202504_202506.pdf",
         "arquivo_id": "684b7e84a70168b0e",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\MADEREIRA RONDONIA LTDA 0001 - 50428807000106\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\MADEREIRA RONDONIA LTDA 0001 - 50428807000106\\SIMPLES_NACIONAL",
+        "codigo": "401"
     },
     {
         "empresa": "MADEREIRA RONDONIA LTDA 0001",
@@ -1405,7 +1580,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "50428807000106_MADEREIRA_RONDONIA_LTDA_PARCSN_SIMPLIFICADO_202503_202505.pdf",
         "arquivo_id": "68271f17d38d039a0",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\MADEREIRA RONDONIA LTDA 0001 - 50428807000106\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\MADEREIRA RONDONIA LTDA 0001 - 50428807000106\\SIMPLES_NACIONAL",
+        "codigo": "401"
     },
     {
         "empresa": "MITIKAS TECNOLOGIA DA INFORMACAO LTDA 0001",
@@ -1413,7 +1589,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "22949522000177_MITIKAS_TECNOLOGIA_DA_INFORMAC_PARCSN_SIMPLIFICADO_202505_202505.pdf",
         "arquivo_id": "6825f1b3282e1ce36",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\MITIKAS TECNOLOGIA DA INFORMACAO LTDA 0001 - 22949522000177\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\MITIKAS TECNOLOGIA DA INFORMACAO LTDA 0001 - 22949522000177\\SIMPLES_NACIONAL",
+        "codigo": "81"
     },
     {
         "empresa": "JAMED COMERCIO E SERVICOS LTDA 0001",
@@ -1421,7 +1598,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "17927869000189_JAMED_COMERCIO_E_SERVICOS_LTDA_PARCSN_SIMPLIFICADO_202501_202502.pdf",
         "arquivo_id": "67b2a937a819f44f2",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\JAMED COMERCIO E SERVICOS LTDA 0001 - 17927869000189\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\JAMED COMERCIO E SERVICOS LTDA 0001 - 17927869000189\\SIMPLES_NACIONAL",
+        "codigo": "558"
     },
     {
         "empresa": "JAMED COMERCIO E SERVICOS LTDA 0001",
@@ -1429,7 +1607,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "17927869000189_JAMED_COMERCIO_E_SERVICOS_LTDA_PARCSN_SIMPLIFICADO_202412_202502.pdf",
         "arquivo_id": "67b2a5231e5876fa1",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\JAMED COMERCIO E SERVICOS LTDA 0001 - 17927869000189\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\JAMED COMERCIO E SERVICOS LTDA 0001 - 17927869000189\\SIMPLES_NACIONAL",
+        "codigo": "558"
     },
     {
         "empresa": "JAMED COMERCIO E SERVICOS LTDA 0001",
@@ -1437,7 +1616,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "17927869000189_JAMED_COMERCIO_E_SERVICOS_LTDA_PARCSN_SIMPLIFICADO_202502_202502.pdf",
         "arquivo_id": "67a9d73f2293924af",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\JAMED COMERCIO E SERVICOS LTDA 0001 - 17927869000189\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\JAMED COMERCIO E SERVICOS LTDA 0001 - 17927869000189\\SIMPLES_NACIONAL",
+        "codigo": "558"
     },
     {
         "empresa": "PRECISAO AUTOMECANICA LTDA 0001",
@@ -1445,7 +1625,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "31409551000137_PRECISAO_AUTOMECANICA_LTDA_PARCSN_SIMPLIFICADO_202507_202507.pdf",
         "arquivo_id": "6871193d59805230a",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\PRECISAO AUTOMECANICA LTDA 0001 - 31409551000137\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\PRECISAO AUTOMECANICA LTDA 0001 - 31409551000137\\SIMPLES_NACIONAL",
+        "codigo": "509"
     },
     {
         "empresa": "PRECISAO AUTOMECANICA LTDA 0001",
@@ -1453,7 +1634,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "31409551000137_PRECISAO_AUTOMECANICA_LTDA_PARCSN_SIMPLIFICADO_202506_202506.pdf",
         "arquivo_id": "68490807bab5664ec",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\PRECISAO AUTOMECANICA LTDA 0001 - 31409551000137\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\PRECISAO AUTOMECANICA LTDA 0001 - 31409551000137\\SIMPLES_NACIONAL",
+        "codigo": "509"
     },
     {
         "empresa": "PRECISAO AUTOMECANICA LTDA 0001",
@@ -1461,7 +1643,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "31409551000137_PRECISAO_AUTOMECANICA_LTDA_PARCSN_SIMPLIFICADO_202505_202507.pdf",
         "arquivo_id": "6872e60c94616301b",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\PRECISAO AUTOMECANICA LTDA 0001 - 31409551000137\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\PRECISAO AUTOMECANICA LTDA 0001 - 31409551000137\\SIMPLES_NACIONAL",
+        "codigo": "509"
     },
     {
         "empresa": "PRECISAO AUTOMECANICA LTDA 0001",
@@ -1469,7 +1652,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "31409551000137_PRECISAO_AUTOMECANICA_LTDA_PARCSN_SIMPLIFICADO_202504_202507.pdf",
         "arquivo_id": "6872e609df43fc882",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\PRECISAO AUTOMECANICA LTDA 0001 - 31409551000137\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\PRECISAO AUTOMECANICA LTDA 0001 - 31409551000137\\SIMPLES_NACIONAL",
+        "codigo": "509"
     },
     {
         "empresa": "PRECISAO AUTOMECANICA LTDA 0001",
@@ -1477,7 +1661,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "31409551000137_PRECISAO_AUTOMECANICA_LTDA_PARCSN_SIMPLIFICADO_202503_202505.pdf",
         "arquivo_id": "68271acdf2172c2f5",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\PRECISAO AUTOMECANICA LTDA 0001 - 31409551000137\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\PRECISAO AUTOMECANICA LTDA 0001 - 31409551000137\\SIMPLES_NACIONAL",
+        "codigo": "509"
     },
     {
         "empresa": "PRECISAO AUTOMECANICA LTDA 0001",
@@ -1485,7 +1670,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "31409551000137_PRECISAO_AUTOMECANICA_LTDA_PARCSN_SIMPLIFICADO_202502_202504.pdf",
         "arquivo_id": "67fd391d72cf08021",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\PRECISAO AUTOMECANICA LTDA 0001 - 31409551000137\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\PRECISAO AUTOMECANICA LTDA 0001 - 31409551000137\\SIMPLES_NACIONAL",
+        "codigo": "509"
     },
     {
         "empresa": "ECEGH SERVICOS DE GESTAO HOSPITALAR LTDA 0001",
@@ -1493,7 +1679,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "24794078000193_ECEGH_SERVICOS_DE_GESTAO_HOSPI_PARCSN_SIMPLIFICADO_202501_202502.pdf",
         "arquivo_id": "67b2a545d31e9ccf5",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\ECEGH SERVICOS DE GESTAO HOSPITALAR LTDA 0001 - 24794078000193\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\ECEGH SERVICOS DE GESTAO HOSPITALAR LTDA 0001 - 24794078000193\\SIMPLES_NACIONAL",
+        "codigo": "557"
     },
     {
         "empresa": "ECEGH SERVICOS DE GESTAO HOSPITALAR LTDA 0001",
@@ -1501,7 +1688,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "24794078000193_ECEGH_SERVICOS_DE_GESTAO_HOSPI_PARCSN_SIMPLIFICADO_202412_202502.pdf",
         "arquivo_id": "67b2a5332d028b14b",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\ECEGH SERVICOS DE GESTAO HOSPITALAR LTDA 0001 - 24794078000193\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\ECEGH SERVICOS DE GESTAO HOSPITALAR LTDA 0001 - 24794078000193\\SIMPLES_NACIONAL",
+        "codigo": "557"
     },
     {
         "empresa": "ECEGH SERVICOS DE GESTAO HOSPITALAR LTDA 0001",
@@ -1509,7 +1697,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "24794078000193_ECEGH_SERVICOS_DE_GESTAO_HOSPI_PARCSN_SIMPLIFICADO_202502_202502.pdf",
         "arquivo_id": "67aa12464a2aa1f1c",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\ECEGH SERVICOS DE GESTAO HOSPITALAR LTDA 0001 - 24794078000193\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\ECEGH SERVICOS DE GESTAO HOSPITALAR LTDA 0001 - 24794078000193\\SIMPLES_NACIONAL",
+        "codigo": "557"
     },
     {
         "empresa": "DELI JARDINS COMERCIO DE ALIMENTOS LTDA 0001",
@@ -1517,7 +1706,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "38030572000196_DELI_JARDINS_COMERCIO_DE_ALIME_PARCSN_SIMPLIFICADO_202507_202507.pdf",
         "arquivo_id": "687119674fa30dcbe",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\DELI JARDINS COMERCIO DE ALIMENTOS LTDA 0001 - 38030572000196\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\DELI JARDINS COMERCIO DE ALIMENTOS LTDA 0001 - 38030572000196\\SIMPLES_NACIONAL",
+        "codigo": "446"
     },
     {
         "empresa": "DELI JARDINS COMERCIO DE ALIMENTOS LTDA 0001",
@@ -1525,7 +1715,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "38030572000196_DELI_JARDINS_COMERCIO_DE_ALIME_PARCSN_SIMPLIFICADO_202506_202507.pdf",
         "arquivo_id": "6872eacf8ab090333",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\DELI JARDINS COMERCIO DE ALIMENTOS LTDA 0001 - 38030572000196\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\DELI JARDINS COMERCIO DE ALIMENTOS LTDA 0001 - 38030572000196\\SIMPLES_NACIONAL",
+        "codigo": "446"
     },
     {
         "empresa": "DELI JARDINS COMERCIO DE ALIMENTOS LTDA 0001",
@@ -1533,7 +1724,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "38030572000196_DELI_JARDINS_COMERCIO_DE_ALIME_PARCSN_SIMPLIFICADO_202505_202507.pdf",
         "arquivo_id": "6872eae15390ffbfa",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\DELI JARDINS COMERCIO DE ALIMENTOS LTDA 0001 - 38030572000196\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\DELI JARDINS COMERCIO DE ALIMENTOS LTDA 0001 - 38030572000196\\SIMPLES_NACIONAL",
+        "codigo": "446"
     },
     {
         "empresa": "DELI JARDINS COMERCIO DE ALIMENTOS LTDA 0001",
@@ -1541,7 +1733,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "38030572000196_DELI_JARDINS_COMERCIO_DE_ALIME_PARCSN_SIMPLIFICADO_202504_202507.pdf",
         "arquivo_id": "6872eada0fbc79dfa",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\DELI JARDINS COMERCIO DE ALIMENTOS LTDA 0001 - 38030572000196\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\DELI JARDINS COMERCIO DE ALIMENTOS LTDA 0001 - 38030572000196\\SIMPLES_NACIONAL",
+        "codigo": "446"
     },
     {
         "empresa": "DELI JARDINS COMERCIO DE ALIMENTOS LTDA 0001",
@@ -1549,7 +1742,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "38030572000196_DELI_JARDINS_COMERCIO_DE_ALIME_PARCSN_SIMPLIFICADO_202503_202505.pdf",
         "arquivo_id": "68271ab441036b90b",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\DELI JARDINS COMERCIO DE ALIMENTOS LTDA 0001 - 38030572000196\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\DELI JARDINS COMERCIO DE ALIMENTOS LTDA 0001 - 38030572000196\\SIMPLES_NACIONAL",
+        "codigo": "446"
     },
     {
         "empresa": "DELI JARDINS COMERCIO DE ALIMENTOS LTDA 0001",
@@ -1557,7 +1751,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "38030572000196_DELI_JARDINS_COMERCIO_DE_ALIME_PARCSN_SIMPLIFICADO_202502_202504.pdf",
         "arquivo_id": "67fcece1ca938c207",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\DELI JARDINS COMERCIO DE ALIMENTOS LTDA 0001 - 38030572000196\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\DELI JARDINS COMERCIO DE ALIMENTOS LTDA 0001 - 38030572000196\\SIMPLES_NACIONAL",
+        "codigo": "446"
     },
     {
         "empresa": "DESTAK MOTO PECAS LTDA 0001",
@@ -1565,7 +1760,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "32391143000168_DESTAK_MOTO_PECAS_LTDA_PARCSN_SIMPLIFICADO_202507_202507.pdf",
         "arquivo_id": "68711a7d48023541d",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\DESTAK MOTO PECAS LTDA 0001 - 32391143000168\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\DESTAK MOTO PECAS LTDA 0001 - 32391143000168\\SIMPLES_NACIONAL",
+        "codigo": "376"
     },
     {
         "empresa": "BORDADOS DE TOBIAS LTDA 0001",
@@ -1573,7 +1769,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "37125022000198_BORDADOS_DE_TOBIAS_LTDA_PARCSN_SIMPLIFICADO_202507_202507.pdf",
         "arquivo_id": "68711a6d52fb0267e",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\BORDADOS DE TOBIAS LTDA 0001 - 37125022000198\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\BORDADOS DE TOBIAS LTDA 0001 - 37125022000198\\SIMPLES_NACIONAL",
+        "codigo": "552"
     },
     {
         "empresa": "BORDADOS DE TOBIAS LTDA 0001",
@@ -1581,7 +1778,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "37125022000198_BORDADOS_DE_TOBIAS_LTDA_PARCSN_SIMPLIFICADO_202506_202507.pdf",
         "arquivo_id": "6872a6fc97a1688af",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\BORDADOS DE TOBIAS LTDA 0001 - 37125022000198\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\BORDADOS DE TOBIAS LTDA 0001 - 37125022000198\\SIMPLES_NACIONAL",
+        "codigo": "552"
     },
     {
         "empresa": "LICO COMERCIO DE PNEUS E ACESSORIOS LTDA 0001",
@@ -1589,7 +1787,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "43770112000134_LICO_COMERCIO_DE_PNEUS_E_ACESS_PARCSN_SIMPLIFICADO_202507_202507.pdf",
         "arquivo_id": "6871195fbb0d6bd80",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\LICO COMERCIO DE PNEUS E ACESSORIOS LTDA 0001 - 43770112000134\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\LICO COMERCIO DE PNEUS E ACESSORIOS LTDA 0001 - 43770112000134\\SIMPLES_NACIONAL",
+        "codigo": "210"
     },
     {
         "empresa": "LICO COMERCIO DE PNEUS LTDA 0001",
@@ -1597,7 +1796,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "33037737000138_LICO_COMERCIO_DE_PNEUS_LTDA_PARCSN_SIMPLIFICADO_202503_202505.pdf",
         "arquivo_id": "6827113f285e062e9",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\LICO COMERCIO DE PNEUS LTDA 0001 - 33037737000138\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\LICO COMERCIO DE PNEUS LTDA 0001 - 33037737000138\\SIMPLES_NACIONAL",
+        "codigo": "137"
     },
     {
         "empresa": "SUPERMERCADO UNIBOOM LTDA 0001",
@@ -1605,7 +1805,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "05295716000187_SUPERMERCADO_UNIBOOM_LTDA_PARCSN_SIMPLIFICADO_202507_202507.pdf",
         "arquivo_id": "687119bf009f5d7fa",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\SUPERMERCADO UNIBOOM LTDA 0001 - 05295716000187\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\SUPERMERCADO UNIBOOM LTDA 0001 - 05295716000187\\SIMPLES_NACIONAL",
+        "codigo": "294"
     },
     {
         "empresa": "JOAO BOSCO DA ROCHA DIAS LTDA 0001",
@@ -1613,7 +1814,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "02067343000107_JOAO_BOSCO_DA_ROCHA_DIAS_LTDA_PARCSN_PERT_202507_202507.pdf",
         "arquivo_id": "6871199c0e19b8c2b",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\JOAO BOSCO DA ROCHA DIAS LTDA 0001 - 02067343000107\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\JOAO BOSCO DA ROCHA DIAS LTDA 0001 - 02067343000107\\SIMPLES_NACIONAL",
+        "codigo": "33"
     },
     {
         "empresa": "MM CONSULTORIA E SERVICOS LTDA 0001",
@@ -1621,7 +1823,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "26667104000148_MM_CONSULTORIA_E_SERVICOS_LTDA_PARCSN_SIMPLIFICADO_202505_202505.pdf",
         "arquivo_id": "6825f167b59a4e8f6",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\MM CONSULTORIA E SERVICOS LTDA 0001 - 26667104000148\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\MM CONSULTORIA E SERVICOS LTDA 0001 - 26667104000148\\SIMPLES_NACIONAL",
+        "codigo": "180"
     },
     {
         "empresa": "MM CONSULTORIA E SERVICOS LTDA 0001",
@@ -1629,7 +1832,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "26667104000148_MM_CONSULTORIA_E_SERVICOS_LTDA_PARCSN_SIMPLIFICADO_202504_202505.pdf",
         "arquivo_id": "68270f5b3311e9583",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\MM CONSULTORIA E SERVICOS LTDA 0001 - 26667104000148\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\MM CONSULTORIA E SERVICOS LTDA 0001 - 26667104000148\\SIMPLES_NACIONAL",
+        "codigo": "180"
     },
     {
         "empresa": "MM CONSULTORIA E SERVICOS LTDA 0001",
@@ -1637,7 +1841,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "26667104000148_MM_CONSULTORIA_E_SERVICOS_LTDA_PARCSN_SIMPLIFICADO_202503_202505.pdf",
         "arquivo_id": "68270f65252fd213c",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\MM CONSULTORIA E SERVICOS LTDA 0001 - 26667104000148\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\MM CONSULTORIA E SERVICOS LTDA 0001 - 26667104000148\\SIMPLES_NACIONAL",
+        "codigo": "180"
     },
     {
         "empresa": "MM CONSULTORIA E SERVICOS LTDA 0001",
@@ -1645,7 +1850,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "26667104000148_MM_CONSULTORIA_E_SERVICOS_LTDA_PARCSN_SIMPLIFICADO_202502_202504.pdf",
         "arquivo_id": "67fce55c8973363bd",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\MM CONSULTORIA E SERVICOS LTDA 0001 - 26667104000148\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\MM CONSULTORIA E SERVICOS LTDA 0001 - 26667104000148\\SIMPLES_NACIONAL",
+        "codigo": "180"
     },
     {
         "empresa": "MM CONSULTORIA E SERVICOS LTDA 0001",
@@ -1653,7 +1859,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "26667104000148_MM_CONSULTORIA_E_SERVICOS_LTDA_PARCSN_SIMPLIFICADO_202501_202503.pdf",
         "arquivo_id": "67d46040c7175b000",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\MM CONSULTORIA E SERVICOS LTDA 0001 - 26667104000148\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\MM CONSULTORIA E SERVICOS LTDA 0001 - 26667104000148\\SIMPLES_NACIONAL",
+        "codigo": "180"
     },
     {
         "empresa": "MM CONSULTORIA E SERVICOS LTDA 0001",
@@ -1661,7 +1868,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "26667104000148_MM_CONSULTORIA_E_SERVICOS_LTDA_PARCSN_SIMPLIFICADO_202411_202501.pdf",
         "arquivo_id": "678872a2d529835f7",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\MM CONSULTORIA E SERVICOS LTDA 0001 - 26667104000148\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\MM CONSULTORIA E SERVICOS LTDA 0001 - 26667104000148\\SIMPLES_NACIONAL",
+        "codigo": "180"
     },
     {
         "empresa": "MM CONSULTORIA E SERVICOS LTDA 0001",
@@ -1669,7 +1877,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "26667104000148_MM_CONSULTORIA_E_SERVICOS_LTDA_PARCSN_SIMPLIFICADO_202410_202412.pdf",
         "arquivo_id": "67639d6c464e5fc87",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\MM CONSULTORIA E SERVICOS LTDA 0001 - 26667104000148\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\MM CONSULTORIA E SERVICOS LTDA 0001 - 26667104000148\\SIMPLES_NACIONAL",
+        "codigo": "180"
     },
     {
         "empresa": "MM CONSULTORIA E SERVICOS LTDA 0001",
@@ -1677,7 +1886,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "26667104000148_MM_CONSULTORIA_E_SERVICOS_LTDA_PARCSN_SIMPLIFICADO_202412_202502.pdf",
         "arquivo_id": "67aacca86283c9a68",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\MM CONSULTORIA E SERVICOS LTDA 0001 - 26667104000148\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\MM CONSULTORIA E SERVICOS LTDA 0001 - 26667104000148\\SIMPLES_NACIONAL",
+        "codigo": "180"
     },
     {
         "empresa": "CLINICA DE PROCEDIMENTOS EM SAUDE RAMOS LEITE LTDA 0001",
@@ -1685,7 +1895,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "13183699000114_CLINICA_DE_PROCEDIMENTOS_EM_SA_PARCSN_SIMPLIFICADO_202507_202507.pdf",
         "arquivo_id": "687119384d9bd788e",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\CLINICA DE PROCEDIMENTOS EM SAUDE RAMOS LEITE LTDA 0001 - 13183699000114\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\CLINICA DE PROCEDIMENTOS EM SAUDE RAMOS LEITE LTDA 0001 - 13183699000114\\SIMPLES_NACIONAL",
+        "codigo": "75"
     },
     {
         "empresa": "PAVIA SERVICOS ADMINISTRATIVOS LTDA 0001",
@@ -1693,7 +1904,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "48369199000156_PAVIA_SERVICOS_ADMINISTRATIVOS_PARCSN_SIMPLIFICADO_202505_202505.pdf",
         "arquivo_id": "682609c2be6b8685f",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\PAVIA SERVICOS ADMINISTRATIVOS LTDA 0001 - 48369199000156\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\PAVIA SERVICOS ADMINISTRATIVOS LTDA 0001 - 48369199000156\\SIMPLES_NACIONAL",
+        "codigo": "475"
     },
     {
         "empresa": "PAVIA SERVICOS ADMINISTRATIVOS LTDA 0001",
@@ -1701,7 +1913,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "48369199000156_PAVIA_SERVICOS_ADMINISTRATIVOS_PARCSN_SIMPLIFICADO_202502_202502.pdf",
         "arquivo_id": "67a9d624183d5ac9a",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\PAVIA SERVICOS ADMINISTRATIVOS LTDA 0001 - 48369199000156\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\PAVIA SERVICOS ADMINISTRATIVOS LTDA 0001 - 48369199000156\\SIMPLES_NACIONAL",
+        "codigo": "475"
     },
     {
         "empresa": "PAVIA SERVICOS ADMINISTRATIVOS LTDA 0001",
@@ -1709,7 +1922,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "48369199000156_PAVIA_SERVICOS_ADMINISTRATIVOS_PARCSN_SIMPLIFICADO_202501_202501.pdf",
         "arquivo_id": "6786a9df1c4214872",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\PAVIA SERVICOS ADMINISTRATIVOS LTDA 0001 - 48369199000156\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\PAVIA SERVICOS ADMINISTRATIVOS LTDA 0001 - 48369199000156\\SIMPLES_NACIONAL",
+        "codigo": "475"
     },
     {
         "empresa": "PAVIA SERVICOS ADMINISTRATIVOS LTDA 0001",
@@ -1717,7 +1931,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "48369199000156_PAVIA_SERVICOS_ADMINISTRATIVOS_PARCSN_SIMPLIFICADO_202411_202501.pdf",
         "arquivo_id": "678872fdab317beb8",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\PAVIA SERVICOS ADMINISTRATIVOS LTDA 0001 - 48369199000156\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\PAVIA SERVICOS ADMINISTRATIVOS LTDA 0001 - 48369199000156\\SIMPLES_NACIONAL",
+        "codigo": "475"
     },
     {
         "empresa": "PAVIA SERVICOS ADMINISTRATIVOS LTDA 0001",
@@ -1725,7 +1940,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "48369199000156_PAVIA_SERVICOS_ADMINISTRATIVOS_PARCSN_SIMPLIFICADO_202410_202412.pdf",
         "arquivo_id": "67639c818959bfb34",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\PAVIA SERVICOS ADMINISTRATIVOS LTDA 0001 - 48369199000156\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\PAVIA SERVICOS ADMINISTRATIVOS LTDA 0001 - 48369199000156\\SIMPLES_NACIONAL",
+        "codigo": "475"
     },
     {
         "empresa": "PAVIA SERVICOS ADMINISTRATIVOS LTDA 0001",
@@ -1733,7 +1949,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "48369199000156_PAVIA_SERVICOS_ADMINISTRATIVOS_PARCSN_SIMPLIFICADO_202409_202412.pdf",
         "arquivo_id": "67639da1220810a5f",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\PAVIA SERVICOS ADMINISTRATIVOS LTDA 0001 - 48369199000156\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\PAVIA SERVICOS ADMINISTRATIVOS LTDA 0001 - 48369199000156\\SIMPLES_NACIONAL",
+        "codigo": "475"
     },
     {
         "empresa": "PAVIA SERVICOS ADMINISTRATIVOS LTDA 0001",
@@ -1741,7 +1958,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "48369199000156_PAVIA_SERVICOS_ADMINISTRATIVOS_PARCSN_SIMPLIFICADO_202412_202501.pdf",
         "arquivo_id": "6788728840d2fef26",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\PAVIA SERVICOS ADMINISTRATIVOS LTDA 0001 - 48369199000156\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\PAVIA SERVICOS ADMINISTRATIVOS LTDA 0001 - 48369199000156\\SIMPLES_NACIONAL",
+        "codigo": "475"
     },
     {
         "empresa": "DONA MARIA VARIEDADES LTDA 0001",
@@ -1749,7 +1967,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "42363060000119_DONA_MARIA_VARIEDADES_LTDA_PARCSN_SIMPLIFICADO_202507_202507.pdf",
         "arquivo_id": "68711a96167ad4758",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\DONA MARIA VARIEDADES LTDA 0001 - 42363060000119\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\DONA MARIA VARIEDADES LTDA 0001 - 42363060000119\\SIMPLES_NACIONAL",
+        "codigo": "339"
     },
     {
         "empresa": "DONA MARIA VARIEDADES LTDA 0001",
@@ -1757,7 +1976,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "42363060000119_DONA_MARIA_VARIEDADES_LTDA_PARCSN_SIMPLIFICADO_202506_202507.pdf",
         "arquivo_id": "687283bbf15c682ff",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\DONA MARIA VARIEDADES LTDA 0001 - 42363060000119\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\DONA MARIA VARIEDADES LTDA 0001 - 42363060000119\\SIMPLES_NACIONAL",
+        "codigo": "339"
     },
     {
         "empresa": "JK PERFUMARIA E COSMETICO LTDA 0001",
@@ -1765,7 +1985,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "17989116000106_JK_PERFUMARIA_E_COSMETICO_LTDA_PARCSN_SIMPLIFICADO_202502_202502.pdf",
         "arquivo_id": "67a9d5d9e0d123d13",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\JK PERFUMARIA E COSMETICO LTDA 0001 - 17989116000106\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\JK PERFUMARIA E COSMETICO LTDA 0001 - 17989116000106\\SIMPLES_NACIONAL",
+        "codigo": null
     },
     {
         "empresa": "FM TOBIAS BARRETO ALMEIDA REIS LTDA 0001",
@@ -1773,7 +1994,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "03826865000108_FM_TOBIAS_BARRETO_ALMEIDA_REIS_PARCSN_SIMPLIFICADO_202503_202503.pdf",
         "arquivo_id": "67d20e1e9805a2989",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\FM TOBIAS BARRETO ALMEIDA REIS LTDA 0001 - 03826865000108\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\FM TOBIAS BARRETO ALMEIDA REIS LTDA 0001 - 03826865000108\\SIMPLES_NACIONAL",
+        "codigo": "242"
     },
     {
         "empresa": "FM TOBIAS BARRETO ALMEIDA REIS LTDA 0001",
@@ -1781,7 +2003,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "03826865000108_FM_TOBIAS_BARRETO_ALMEIDA_REIS_PARCSN_SIMPLIFICADO_202501_202503.pdf",
         "arquivo_id": "67d4cc55be696e834",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\FM TOBIAS BARRETO ALMEIDA REIS LTDA 0001 - 03826865000108\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\FM TOBIAS BARRETO ALMEIDA REIS LTDA 0001 - 03826865000108\\SIMPLES_NACIONAL",
+        "codigo": "242"
     },
     {
         "empresa": "FM TOBIAS BARRETO ALMEIDA REIS LTDA 0001",
@@ -1789,7 +2012,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "03826865000108_FM_TOBIAS_BARRETO_ALMEIDA_REIS_PARCSN_SIMPLIFICADO_202412_202503.pdf",
         "arquivo_id": "67d45fcab4a24a28a",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\FM TOBIAS BARRETO ALMEIDA REIS LTDA 0001 - 03826865000108\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\FM TOBIAS BARRETO ALMEIDA REIS LTDA 0001 - 03826865000108\\SIMPLES_NACIONAL",
+        "codigo": "242"
     },
     {
         "empresa": "SELENIUMBANK SOLUCOES EM PAGAMENTOS LIMITADA 0001",
@@ -1797,7 +2021,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "19934004000175_SELENIUMBANK_SOLUCOES_EM_PAGAM_PARCSN_SIMPLIFICADO_202507_202507.pdf",
         "arquivo_id": "68711a5c697f139be",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\SELENIUMBANK SOLUCOES EM PAGAMENTOS LIMITADA 0001 - 19934004000175\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\SELENIUMBANK SOLUCOES EM PAGAMENTOS LIMITADA 0001 - 19934004000175\\SIMPLES_NACIONAL",
+        "codigo": "483"
     },
     {
         "empresa": "GILVAN MAQ PECAS LTDA 0001",
@@ -1805,7 +2030,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "21505061000180_GILVAN_MAQ_PECAS_LTDA_PARCSN_SIMPLIFICADO_202402_202503.pdf",
         "arquivo_id": "67d45ff0b540b3930",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\GILVAN MAQ PECAS LTDA 0001 - 21505061000180\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\GILVAN MAQ PECAS LTDA 0001 - 21505061000180\\SIMPLES_NACIONAL",
+        "codigo": "296"
     },
     {
         "empresa": "GILVAN MAQ PECAS LTDA 0001",
@@ -1813,7 +2039,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "21505061000180_GILVAN_MAQ_PECAS_LTDA_PARCSN_SIMPLIFICADO_202401_202503.pdf",
         "arquivo_id": "67d45fa384a2998ab",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\GILVAN MAQ PECAS LTDA 0001 - 21505061000180\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\GILVAN MAQ PECAS LTDA 0001 - 21505061000180\\SIMPLES_NACIONAL",
+        "codigo": "296"
     },
     {
         "empresa": "REVOREDO AGROPECUARIA LTDA 0001",
@@ -1821,7 +2048,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "21043204000180_REVOREDO_AGROPECUARIA_LTDA_PARCSN_SIMPLIFICADO_202507_202507.pdf",
         "arquivo_id": "687119ab1653a11c1",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\REVOREDO AGROPECUARIA LTDA 0001 - 21043204000180\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\REVOREDO AGROPECUARIA LTDA 0001 - 21043204000180\\SIMPLES_NACIONAL",
+        "codigo": "501"
     },
     {
         "empresa": "EAP SERVICOS ADMINISTRATIVOS LTDA 0001",
@@ -1829,7 +2057,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "48812981000106_EAP_SERVICOS_ADMINISTRATIVOS_L_PARCSN_SIMPLIFICADO_202507_202507.pdf",
         "arquivo_id": "6871192e4db919905",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\EAP SERVICOS ADMINISTRATIVOS LTDA 0001 - 48812981000106\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\EAP SERVICOS ADMINISTRATIVOS LTDA 0001 - 48812981000106\\SIMPLES_NACIONAL",
+        "codigo": "474"
     },
     {
         "empresa": "EAP SERVICOS ADMINISTRATIVOS LTDA 0001",
@@ -1837,7 +2066,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "48812981000106_EAP_SERVICOS_ADMINISTRATIVOS_L_PARCSN_SIMPLIFICADO_202506_202507.pdf",
         "arquivo_id": "687281447f3e705db",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\EAP SERVICOS ADMINISTRATIVOS LTDA 0001 - 48812981000106\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\EAP SERVICOS ADMINISTRATIVOS LTDA 0001 - 48812981000106\\SIMPLES_NACIONAL",
+        "codigo": "474"
     },
     {
         "empresa": "INOVAR TELECOM LTDA 0001",
@@ -1845,7 +2075,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "25530936000155_INOVAR_TELECOM_LTDA_PARCSN_SIMPLIFICADO_202507_202507.pdf",
         "arquivo_id": "68711928ce49657a0",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\INOVAR TELECOM LTDA 0001 - 25530936000155\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\INOVAR TELECOM LTDA 0001 - 25530936000155\\SIMPLES_NACIONAL",
+        "codigo": "358"
     },
     {
         "empresa": "INOVAR TELECOM LTDA 0001",
@@ -1853,7 +2084,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "25530936000155_INOVAR_TELECOM_LTDA_PARCSN_SIMPLIFICADO_202506_202507.pdf",
         "arquivo_id": "687295dab2251d00d",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\INOVAR TELECOM LTDA 0001 - 25530936000155\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\INOVAR TELECOM LTDA 0001 - 25530936000155\\SIMPLES_NACIONAL",
+        "codigo": "358"
     },
     {
         "empresa": "VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -1861,7 +2093,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "41210457000108_VIA_ROMA_SALVADOR_PIZZARIA_BAR_PARCSN_SIMPLIFICADO_202506_202506.pdf",
         "arquivo_id": "684907dc12d0e9dda",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\SIMPLES_NACIONAL",
+        "codigo": "537"
     },
     {
         "empresa": "VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -1869,7 +2102,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "41210457000108_VIA_ROMA_SALVADOR_PIZZARIA_BAR_PARCSN_SIMPLIFICADO_202505_202505.pdf",
         "arquivo_id": "6825f1776189a6473",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\SIMPLES_NACIONAL",
+        "codigo": "537"
     },
     {
         "empresa": "VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -1877,7 +2111,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "41210457000108_VIA_ROMA_SALVADOR_PIZZARIA_BAR_PARCSN_SIMPLIFICADO_202504_202505.pdf",
         "arquivo_id": "68270e8e9a760738f",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\SIMPLES_NACIONAL",
+        "codigo": "537"
     },
     {
         "empresa": "VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -1885,7 +2120,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "41210457000108_VIA_ROMA_SALVADOR_PIZZARIA_BAR_PARCSN_SIMPLIFICADO_202503_202505.pdf",
         "arquivo_id": "68270ea07c24b24f8",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\SIMPLES_NACIONAL",
+        "codigo": "537"
     },
     {
         "empresa": "VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -1893,7 +2129,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "41210457000108_VIA_ROMA_SALVADOR_PIZZARIA_BAR_PARCSN_SIMPLIFICADO_202502_202504.pdf",
         "arquivo_id": "67fce4f2c777ecd9b",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\SIMPLES_NACIONAL",
+        "codigo": "537"
     },
     {
         "empresa": "VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -1901,7 +2138,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "41210457000108_VIA_ROMA_SALVADOR_PIZZARIA_BAR_PARCSN_SIMPLIFICADO_202501_202503.pdf",
         "arquivo_id": "67d4e04c6e1d980f7",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\SIMPLES_NACIONAL",
+        "codigo": "537"
     },
     {
         "empresa": "VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -1909,7 +2147,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "41210457000108_VIA_ROMA_SALVADOR_PIZZARIA_BAR_PARCSN_SIMPLIFICADO_202411_202501.pdf",
         "arquivo_id": "6788729b6fbcd8d06",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\SIMPLES_NACIONAL",
+        "codigo": "537"
     },
     {
         "empresa": "VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -1917,7 +2156,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "41210457000108_VIA_ROMA_SALVADOR_PIZZARIA_BAR_PARCSN_SIMPLIFICADO_202410_202412.pdf",
         "arquivo_id": "67639bc050a5b0217",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\SIMPLES_NACIONAL",
+        "codigo": "537"
     },
     {
         "empresa": "VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001",
@@ -1925,7 +2165,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "41210457000108_VIA_ROMA_SALVADOR_PIZZARIA_BAR_PARCSN_SIMPLIFICADO_202412_202502.pdf",
         "arquivo_id": "67aacb2a57fabf696",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\SIMPLES_NACIONAL",
+        "codigo": "537"
     },
     {
         "empresa": "CLINICA FERTLY LTDA 0001",
@@ -1933,7 +2174,8 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "03584783000196_CLINICA_FERTLY_LTDA_PARCSN_RELP_202506_202506.pdf",
         "arquivo_id": "684907d2bcc841681",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\CLINICA FERTLY LTDA 0001 - 03584783000196\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\CLINICA FERTLY LTDA 0001 - 03584783000196\\SIMPLES_NACIONAL",
+        "codigo": null
     },
     {
         "empresa": "P & S COMERCIO DE MAQUINAS LTDA 0001",
@@ -1941,6 +2183,7 @@
         "tipo_parcelamento": "SIMPLES_NACIONAL",
         "nome_arquivo": "16479534000182_P_&_S_COMERCIO_DE_MAQUINAS_LTD_PARCSN_RELP_202507_202507.pdf",
         "arquivo_id": "687119b7b3968601b",
-        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\P & S COMERCIO DE MAQUINAS LTDA 0001 - 16479534000182\\SIMPLES_NACIONAL"
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\P & S COMERCIO DE MAQUINAS LTDA 0001 - 16479534000182\\SIMPLES_NACIONAL",
+        "codigo": "449"
     }
 ]
