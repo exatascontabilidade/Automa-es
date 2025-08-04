@@ -1,0 +1,11 @@
+[
+    {
+        "empresa": "JAMED COMERCIO E SERVICOS LTDA 0001",
+        "cnpj": "17927869000189",
+        "tipo_parcelamento": "FEDERAL_SIMPLIFICADO",
+        "nome_arquivo": "17927869000189_JAMED_COMERCIO_E_SERVICOS_LTDA_SIEFPAR_02110001200863442482373_020_20250430.pdf",
+        "arquivo_id": "67f91dc4a5c8e8771",
+        "pasta": "c:\\Users\\Exatas\\Desktop\\SCR\\API GOB\\temp\\JAMED COMERCIO E SERVICOS LTDA 0001 - 17927869000189\\FEDERAL_SIMPLIFICADO",
+        "erro": "Arquivo não encontrado (404) para ID: 67f91dc4a5c8e8771"
+    }
+]

@@ -1,0 +1,1125 @@
+[2025-07-24 13:50:17] 🚀 Iniciando a automação no Onvio...
+[2025-07-24 13:50:28] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-24 13:50:28] INFO - Botão de continuar login clicado.
+[2025-07-24 13:50:28] INFO - Aguardando campo de e-mail...
+[2025-07-24 13:50:30] INFO - Campo de e-mail preenchido.
+[2025-07-24 13:50:31] INFO - Botão de envio do e-mail clicado.
+[2025-07-24 13:50:31] INFO - Aguardando campo de senha...
+[2025-07-24 13:50:31] INFO - Campo de senha preenchido.
+[2025-07-24 13:50:33] INFO - Botão de envio da senha clicado.
+[2025-07-24 13:50:44] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-24 13:51:07] ✅ Processo finalizado com sucesso.
+[2025-07-24 13:51:11] 🧹 Navegador fechado.
+[2025-07-24 13:53:46] 🚀 Iniciando a automação no Onvio...
+[2025-07-24 13:53:56] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-24 13:53:56] INFO - Botão de continuar login clicado.
+[2025-07-24 13:53:56] INFO - Aguardando campo de e-mail...
+[2025-07-24 13:53:58] INFO - Campo de e-mail preenchido.
+[2025-07-24 13:53:59] INFO - Botão de envio do e-mail clicado.
+[2025-07-24 13:53:59] INFO - Aguardando campo de senha...
+[2025-07-24 13:53:59] INFO - Campo de senha preenchido.
+[2025-07-24 13:53:59] INFO - Botão de envio da senha clicado.
+[2025-07-24 13:54:09] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-24 13:54:35] ✅ Processo finalizado com sucesso.
+[2025-07-24 13:54:38] 🧹 Navegador fechado.
+[2025-07-24 13:55:44] 🚀 Iniciando a automação no Onvio...
+[2025-07-24 13:55:54] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-24 13:55:54] INFO - Botão de continuar login clicado.
+[2025-07-24 13:55:54] INFO - Aguardando campo de e-mail...
+[2025-07-24 13:55:56] INFO - Campo de e-mail preenchido.
+[2025-07-24 13:55:56] INFO - Botão de envio do e-mail clicado.
+[2025-07-24 13:55:56] INFO - Aguardando campo de senha...
+[2025-07-24 13:55:56] INFO - Campo de senha preenchido.
+[2025-07-24 13:55:59] INFO - Botão de envio da senha clicado.
+[2025-07-24 13:56:09] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-24 13:56:52] ✅ Processo finalizado com sucesso.
+[2025-07-24 13:56:56] 🧹 Navegador fechado.
+[2025-07-24 13:57:51] 🚀 Iniciando a automação no Onvio...
+[2025-07-24 13:58:01] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-24 13:58:01] INFO - Botão de continuar login clicado.
+[2025-07-24 13:58:01] INFO - Aguardando campo de e-mail...
+[2025-07-24 13:58:03] INFO - Campo de e-mail preenchido.
+[2025-07-24 13:58:03] INFO - Botão de envio do e-mail clicado.
+[2025-07-24 13:58:03] INFO - Aguardando campo de senha...
+[2025-07-24 13:58:03] INFO - Campo de senha preenchido.
+[2025-07-24 13:58:03] INFO - Botão de envio da senha clicado.
+[2025-07-24 13:58:14] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-24 13:58:41] ✅ Processo finalizado com sucesso.
+[2025-07-24 13:58:44] 🧹 Navegador fechado.
+[2025-07-24 14:08:17] 🚀 Iniciando a automação no Onvio...
+[2025-07-24 14:08:27] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-24 14:08:27] INFO - Botão de continuar login clicado.
+[2025-07-24 14:08:27] INFO - Aguardando campo de e-mail...
+[2025-07-24 14:08:29] INFO - Campo de e-mail preenchido.
+[2025-07-24 14:08:30] INFO - Botão de envio do e-mail clicado.
+[2025-07-24 14:08:30] INFO - Aguardando campo de senha...
+[2025-07-24 14:08:30] INFO - Campo de senha preenchido.
+[2025-07-24 14:08:30] INFO - Botão de envio da senha clicado.
+[2025-07-24 14:08:41] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-24 14:09:33] ✅ Processo finalizado com sucesso.
+[2025-07-24 14:09:36] 🧹 Navegador fechado.
+[2025-07-24 14:15:39] 🚀 Iniciando a automação no Onvio...
+[2025-07-24 14:15:49] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-24 14:15:49] INFO - Botão de continuar login clicado.
+[2025-07-24 14:15:49] INFO - Aguardando campo de e-mail...
+[2025-07-24 14:15:51] INFO - Campo de e-mail preenchido.
+[2025-07-24 14:15:51] INFO - Botão de envio do e-mail clicado.
+[2025-07-24 14:15:51] INFO - Aguardando campo de senha...
+[2025-07-24 14:15:51] INFO - Campo de senha preenchido.
+[2025-07-24 14:15:51] INFO - Botão de envio da senha clicado.
+[2025-07-24 14:16:01] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-24 14:16:33] ✅ Processo finalizado com sucesso.
+[2025-07-24 14:16:36] 🧹 Navegador fechado.
+[2025-07-24 14:21:15] 🚀 Iniciando a automação no Onvio...
+[2025-07-24 14:21:25] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-24 14:21:30] ⚠️ Tentativa 1: Falha ao encontrar botão de continuar login: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xcb1af3+62339]
+	GetHandleVerifier [0x0xcb1b34+62404]
+	(No symbol) [0x0xaf2123]
+	(No symbol) [0x0xb3a86e]
+	(No symbol) [0x0xb3ac0b]
+	(No symbol) [0x0xb82f72]
+	(No symbol) [0x0xb5f404]
+	(No symbol) [0x0xb807a3]
+	(No symbol) [0x0xb5f1b6]
+	(No symbol) [0x0xb2e7a2]
+	(No symbol) [0x0xb2f644]
+	GetHandleVerifier [0x0xf26683+2637587]
+	GetHandleVerifier [0x0xf21a8a+2618138]
+	GetHandleVerifier [0x0xcd856a+220666]
+	GetHandleVerifier [0x0xcc8998+156200]
+	GetHandleVerifier [0x0xccf12d+182717]
+	GetHandleVerifier [0x0xcb9a38+94920]
+	GetHandleVerifier [0x0xcb9bc2+95314]
+	GetHandleVerifier [0x0xca4d0a+9626]
+	BaseThreadInitThunk [0x0x760d7ba9+25]
+	RtlInitializeExceptionChain [0x0x7759c3ab+107]
+	RtlClearBits [0x0x7759c32f+191]
+
+[2025-07-24 14:21:30] 🔄 Recarregando a página...
+[2025-07-24 14:21:34] INFO - Tentativa 2: Aguardando botão de continuar login...
+[2025-07-24 14:21:34] INFO - Botão de continuar login clicado.
+[2025-07-24 14:21:34] INFO - Aguardando campo de e-mail...
+[2025-07-24 14:21:36] INFO - Campo de e-mail preenchido.
+[2025-07-24 14:21:37] INFO - Botão de envio do e-mail clicado.
+[2025-07-24 14:21:37] INFO - Aguardando campo de senha...
+[2025-07-24 14:21:37] INFO - Campo de senha preenchido.
+[2025-07-24 14:21:37] INFO - Botão de envio da senha clicado.
+[2025-07-24 14:21:47] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-24 14:22:22] ✅ Processo finalizado com sucesso.
+[2025-07-24 14:22:25] 🧹 Navegador fechado.
+[2025-07-24 15:11:06] 🚀 Iniciando a automação no Onvio...
+[2025-07-24 15:11:16] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-24 15:11:21] ⚠️ Tentativa 1: Falha ao encontrar botão de continuar login: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xcb1af3+62339]
+	GetHandleVerifier [0x0xcb1b34+62404]
+	(No symbol) [0x0xaf2123]
+	(No symbol) [0x0xb3a86e]
+	(No symbol) [0x0xb3ac0b]
+	(No symbol) [0x0xb82f72]
+	(No symbol) [0x0xb5f404]
+	(No symbol) [0x0xb807a3]
+	(No symbol) [0x0xb5f1b6]
+	(No symbol) [0x0xb2e7a2]
+	(No symbol) [0x0xb2f644]
+	GetHandleVerifier [0x0xf26683+2637587]
+	GetHandleVerifier [0x0xf21a8a+2618138]
+	GetHandleVerifier [0x0xcd856a+220666]
+	GetHandleVerifier [0x0xcc8998+156200]
+	GetHandleVerifier [0x0xccf12d+182717]
+	GetHandleVerifier [0x0xcb9a38+94920]
+	GetHandleVerifier [0x0xcb9bc2+95314]
+	GetHandleVerifier [0x0xca4d0a+9626]
+	BaseThreadInitThunk [0x0x760d7ba9+25]
+	RtlInitializeExceptionChain [0x0x7759c3ab+107]
+	RtlClearBits [0x0x7759c32f+191]
+
+[2025-07-24 15:11:21] 🔄 Recarregando a página...
+[2025-07-24 15:11:25] INFO - Tentativa 2: Aguardando botão de continuar login...
+[2025-07-24 15:11:25] INFO - Botão de continuar login clicado.
+[2025-07-24 15:11:25] INFO - Aguardando campo de e-mail...
+[2025-07-24 15:11:27] INFO - Campo de e-mail preenchido.
+[2025-07-24 15:11:27] INFO - Botão de envio do e-mail clicado.
+[2025-07-24 15:11:27] INFO - Aguardando campo de senha...
+[2025-07-24 15:11:27] INFO - Campo de senha preenchido.
+[2025-07-24 15:11:27] INFO - Botão de envio da senha clicado.
+[2025-07-24 15:11:38] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-24 15:13:12] ❌ Erro geral na automação: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.158)
+Stacktrace:
+	GetHandleVerifier [0x0xcb1af3+62339]
+	GetHandleVerifier [0x0xcb1b34+62404]
+	(No symbol) [0x0xaf2123]
+	(No symbol) [0x0xad0fc9]
+	(No symbol) [0x0xb65aee]
+	(No symbol) [0x0xb80089]
+	(No symbol) [0x0xb5f1b6]
+	(No symbol) [0x0xb2e7a2]
+	(No symbol) [0x0xb2f644]
+	GetHandleVerifier [0x0xf26683+2637587]
+	GetHandleVerifier [0x0xf21a8a+2618138]
+	GetHandleVerifier [0x0xcd856a+220666]
+	GetHandleVerifier [0x0xcc8998+156200]
+	GetHandleVerifier [0x0xccf12d+182717]
+	GetHandleVerifier [0x0xcb9a38+94920]
+	GetHandleVerifier [0x0xcb9bc2+95314]
+	GetHandleVerifier [0x0xca4d0a+9626]
+	BaseThreadInitThunk [0x0x760d7ba9+25]
+	RtlInitializeExceptionChain [0x0x7759c3ab+107]
+	RtlClearBits [0x0x7759c32f+191]
+
+[2025-07-24 15:13:14] 🧹 Navegador fechado.
+[2025-07-24 15:13:35] 🚀 Iniciando a automação no Onvio...
+[2025-07-24 15:13:45] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-24 15:13:45] INFO - Botão de continuar login clicado.
+[2025-07-24 15:13:45] INFO - Aguardando campo de e-mail...
+[2025-07-24 15:13:47] INFO - Campo de e-mail preenchido.
+[2025-07-24 15:13:48] INFO - Botão de envio do e-mail clicado.
+[2025-07-24 15:13:48] INFO - Aguardando campo de senha...
+[2025-07-24 15:13:48] INFO - Campo de senha preenchido.
+[2025-07-24 15:13:50] INFO - Botão de envio da senha clicado.
+[2025-07-24 15:14:01] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-24 15:18:04] ❌ Erro geral na automação: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xcb1af3+62339]
+	GetHandleVerifier [0x0xcb1b34+62404]
+	(No symbol) [0x0xaf1f80]
+	(No symbol) [0x0xb2da98]
+	(No symbol) [0x0xb5f276]
+	(No symbol) [0x0xb5ae75]
+	(No symbol) [0x0xb5a3f6]
+	(No symbol) [0x0xac3a45]
+	(No symbol) [0x0xac3f9e]
+	(No symbol) [0x0xac442d]
+	GetHandleVerifier [0x0xf26683+2637587]
+	GetHandleVerifier [0x0xf21a8a+2618138]
+	GetHandleVerifier [0x0xcd856a+220666]
+	GetHandleVerifier [0x0xcc8998+156200]
+	GetHandleVerifier [0x0xccf12d+182717]
+	(No symbol) [0x0xac3710]
+	(No symbol) [0x0xac2f1d]
+	GetHandleVerifier [0x0x105a71c+3899308]
+	BaseThreadInitThunk [0x0x760d7ba9+25]
+	RtlInitializeExceptionChain [0x0x7759c3ab+107]
+	RtlClearBits [0x0x7759c32f+191]
+
+[2025-07-24 15:18:06] 🧹 Navegador fechado.
+[2025-07-24 15:20:44] 🚀 Iniciando a automação no Onvio...
+[2025-07-24 15:20:53] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-24 15:20:54] INFO - Botão de continuar login clicado.
+[2025-07-24 15:20:54] INFO - Aguardando campo de e-mail...
+[2025-07-24 15:20:55] INFO - Campo de e-mail preenchido.
+[2025-07-24 15:20:56] INFO - Botão de envio do e-mail clicado.
+[2025-07-24 15:20:56] INFO - Aguardando campo de senha...
+[2025-07-24 15:20:56] INFO - Campo de senha preenchido.
+[2025-07-24 15:20:56] INFO - Botão de envio da senha clicado.
+[2025-07-24 15:21:06] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-24 15:25:25] 🧹 Navegador fechado.
+[2025-07-24 15:34:59] 🚀 Iniciando a automação no Onvio...
+[2025-07-24 15:35:09] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-24 15:35:14] ⚠️ Tentativa 1: Falha ao encontrar botão de continuar login: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xcb1af3+62339]
+	GetHandleVerifier [0x0xcb1b34+62404]
+	(No symbol) [0x0xaf2123]
+	(No symbol) [0x0xb3a86e]
+	(No symbol) [0x0xb3ac0b]
+	(No symbol) [0x0xb82f72]
+	(No symbol) [0x0xb5f404]
+	(No symbol) [0x0xb807a3]
+	(No symbol) [0x0xb5f1b6]
+	(No symbol) [0x0xb2e7a2]
+	(No symbol) [0x0xb2f644]
+	GetHandleVerifier [0x0xf26683+2637587]
+	GetHandleVerifier [0x0xf21a8a+2618138]
+	GetHandleVerifier [0x0xcd856a+220666]
+	GetHandleVerifier [0x0xcc8998+156200]
+	GetHandleVerifier [0x0xccf12d+182717]
+	GetHandleVerifier [0x0xcb9a38+94920]
+	GetHandleVerifier [0x0xcb9bc2+95314]
+	GetHandleVerifier [0x0xca4d0a+9626]
+	BaseThreadInitThunk [0x0x760d7ba9+25]
+	RtlInitializeExceptionChain [0x0x7759c3ab+107]
+	RtlClearBits [0x0x7759c32f+191]
+
+[2025-07-24 15:35:14] 🔄 Recarregando a página...
+[2025-07-24 15:35:18] INFO - Tentativa 2: Aguardando botão de continuar login...
+[2025-07-24 15:35:18] INFO - Botão de continuar login clicado.
+[2025-07-24 15:35:18] INFO - Aguardando campo de e-mail...
+[2025-07-24 15:35:19] INFO - Campo de e-mail preenchido.
+[2025-07-24 15:35:20] INFO - Botão de envio do e-mail clicado.
+[2025-07-24 15:35:20] INFO - Aguardando campo de senha...
+[2025-07-24 15:35:20] INFO - Campo de senha preenchido.
+[2025-07-24 15:35:22] INFO - Botão de envio da senha clicado.
+[2025-07-24 15:35:33] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-24 15:36:20] ⚠️ Processo finalizado com falhas.
+[2025-07-24 15:36:23] 🧹 Navegador fechado.
+[2025-07-24 15:41:07] 🚀 Iniciando a automação no Onvio...
+[2025-07-24 15:41:17] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-24 15:41:22] ⚠️ Tentativa 1: Falha ao encontrar botão de continuar login: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xcb1af3+62339]
+	GetHandleVerifier [0x0xcb1b34+62404]
+	(No symbol) [0x0xaf2123]
+	(No symbol) [0x0xb3a86e]
+	(No symbol) [0x0xb3ac0b]
+	(No symbol) [0x0xb82f72]
+	(No symbol) [0x0xb5f404]
+	(No symbol) [0x0xb807a3]
+	(No symbol) [0x0xb5f1b6]
+	(No symbol) [0x0xb2e7a2]
+	(No symbol) [0x0xb2f644]
+	GetHandleVerifier [0x0xf26683+2637587]
+	GetHandleVerifier [0x0xf21a8a+2618138]
+	GetHandleVerifier [0x0xcd856a+220666]
+	GetHandleVerifier [0x0xcc8998+156200]
+	GetHandleVerifier [0x0xccf12d+182717]
+	GetHandleVerifier [0x0xcb9a38+94920]
+	GetHandleVerifier [0x0xcb9bc2+95314]
+	GetHandleVerifier [0x0xca4d0a+9626]
+	BaseThreadInitThunk [0x0x760d7ba9+25]
+	RtlInitializeExceptionChain [0x0x7759c3ab+107]
+	RtlClearBits [0x0x7759c32f+191]
+
+[2025-07-24 15:41:22] 🔄 Recarregando a página...
+[2025-07-24 15:41:26] INFO - Tentativa 2: Aguardando botão de continuar login...
+[2025-07-24 15:41:26] INFO - Botão de continuar login clicado.
+[2025-07-24 15:41:26] INFO - Aguardando campo de e-mail...
+[2025-07-24 15:41:28] INFO - Campo de e-mail preenchido.
+[2025-07-24 15:41:29] INFO - Botão de envio do e-mail clicado.
+[2025-07-24 15:41:29] INFO - Aguardando campo de senha...
+[2025-07-24 15:41:29] INFO - Campo de senha preenchido.
+[2025-07-24 15:41:29] INFO - Botão de envio da senha clicado.
+[2025-07-24 15:41:40] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-24 15:46:28] ⚠️ Processo finalizado com falhas.
+[2025-07-24 15:46:32] 🧹 Navegador fechado.
+[2025-07-24 16:42:26] 🚀 Iniciando a automação no Onvio...
+[2025-07-24 16:42:39] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-24 16:42:44] ⚠️ Tentativa 1: Falha ao encontrar botão de continuar login: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xb41af3+62339]
+	GetHandleVerifier [0x0xb41b34+62404]
+	(No symbol) [0x0x982123]
+	(No symbol) [0x0x9ca86e]
+	(No symbol) [0x0x9cac0b]
+	(No symbol) [0x0xa12f72]
+	(No symbol) [0x0x9ef404]
+	(No symbol) [0x0xa107a3]
+	(No symbol) [0x0x9ef1b6]
+	(No symbol) [0x0x9be7a2]
+	(No symbol) [0x0x9bf644]
+	GetHandleVerifier [0x0xdb6683+2637587]
+	GetHandleVerifier [0x0xdb1a8a+2618138]
+	GetHandleVerifier [0x0xb6856a+220666]
+	GetHandleVerifier [0x0xb58998+156200]
+	GetHandleVerifier [0x0xb5f12d+182717]
+	GetHandleVerifier [0x0xb49a38+94920]
+	GetHandleVerifier [0x0xb49bc2+95314]
+	GetHandleVerifier [0x0xb34d0a+9626]
+	BaseThreadInitThunk [0x0x760d7ba9+25]
+	RtlInitializeExceptionChain [0x0x7759c3ab+107]
+	RtlClearBits [0x0x7759c32f+191]
+
+[2025-07-24 16:42:44] 🔄 Recarregando a página...
+[2025-07-24 16:42:49] INFO - Tentativa 2: Aguardando botão de continuar login...
+[2025-07-24 16:42:49] INFO - Botão de continuar login clicado.
+[2025-07-24 16:42:49] INFO - Aguardando campo de e-mail...
+[2025-07-24 16:42:51] INFO - Campo de e-mail preenchido.
+[2025-07-24 16:42:52] INFO - Botão de envio do e-mail clicado.
+[2025-07-24 16:42:52] INFO - Aguardando campo de senha...
+[2025-07-24 16:42:52] INFO - Campo de senha preenchido.
+[2025-07-24 16:42:52] INFO - Botão de envio da senha clicado.
+[2025-07-24 16:43:02] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-24 16:50:52] ✅ Processo finalizado com sucesso.
+[2025-07-24 16:50:54] 🧹 Navegador fechado.
+[2025-07-24 16:51:03] 🚀 Iniciando a automação no Onvio...
+[2025-07-24 16:51:13] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-24 16:51:13] INFO - Botão de continuar login clicado.
+[2025-07-24 16:51:13] INFO - Aguardando campo de e-mail...
+[2025-07-24 16:51:15] INFO - Campo de e-mail preenchido.
+[2025-07-24 16:51:15] INFO - Botão de envio do e-mail clicado.
+[2025-07-24 16:51:15] INFO - Aguardando campo de senha...
+[2025-07-24 16:51:15] INFO - Campo de senha preenchido.
+[2025-07-24 16:51:15] INFO - Botão de envio da senha clicado.
+[2025-07-24 16:51:26] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-24 16:56:39] ✅ Processo finalizado com sucesso.
+[2025-07-24 16:56:41] 🧹 Navegador fechado.
+[2025-07-24 16:56:42] 🚀 Iniciando a automação no Onvio...
+[2025-07-24 16:56:52] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-24 16:56:52] INFO - Botão de continuar login clicado.
+[2025-07-24 16:56:52] INFO - Aguardando campo de e-mail...
+[2025-07-24 16:56:54] INFO - Campo de e-mail preenchido.
+[2025-07-24 16:56:55] INFO - Botão de envio do e-mail clicado.
+[2025-07-24 16:56:55] INFO - Aguardando campo de senha...
+[2025-07-24 16:56:55] INFO - Campo de senha preenchido.
+[2025-07-24 16:56:55] INFO - Botão de envio da senha clicado.
+[2025-07-24 16:57:06] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-24 16:58:34] ✅ Processo finalizado com sucesso.
+[2025-07-24 16:58:36] 🧹 Navegador fechado.
+[2025-07-24 16:59:33] 🚀 Iniciando a automação no Onvio...
+[2025-07-24 16:59:43] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-24 16:59:48] ⚠️ Tentativa 1: Falha ao encontrar botão de continuar login: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xb41af3+62339]
+	GetHandleVerifier [0x0xb41b34+62404]
+	(No symbol) [0x0x982123]
+	(No symbol) [0x0x9ca86e]
+	(No symbol) [0x0x9cac0b]
+	(No symbol) [0x0xa12f72]
+	(No symbol) [0x0x9ef404]
+	(No symbol) [0x0xa107a3]
+	(No symbol) [0x0x9ef1b6]
+	(No symbol) [0x0x9be7a2]
+	(No symbol) [0x0x9bf644]
+	GetHandleVerifier [0x0xdb6683+2637587]
+	GetHandleVerifier [0x0xdb1a8a+2618138]
+	GetHandleVerifier [0x0xb6856a+220666]
+	GetHandleVerifier [0x0xb58998+156200]
+	GetHandleVerifier [0x0xb5f12d+182717]
+	GetHandleVerifier [0x0xb49a38+94920]
+	GetHandleVerifier [0x0xb49bc2+95314]
+	GetHandleVerifier [0x0xb34d0a+9626]
+	BaseThreadInitThunk [0x0x760d7ba9+25]
+	RtlInitializeExceptionChain [0x0x7759c3ab+107]
+	RtlClearBits [0x0x7759c32f+191]
+
+[2025-07-24 16:59:48] 🔄 Recarregando a página...
+[2025-07-24 16:59:52] INFO - Tentativa 2: Aguardando botão de continuar login...
+[2025-07-24 16:59:52] INFO - Botão de continuar login clicado.
+[2025-07-24 16:59:52] INFO - Aguardando campo de e-mail...
+[2025-07-24 16:59:54] INFO - Campo de e-mail preenchido.
+[2025-07-24 16:59:54] INFO - Botão de envio do e-mail clicado.
+[2025-07-24 16:59:54] INFO - Aguardando campo de senha...
+[2025-07-24 16:59:55] INFO - Campo de senha preenchido.
+[2025-07-24 16:59:55] INFO - Botão de envio da senha clicado.
+[2025-07-24 17:00:05] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-24 17:01:00] ✅ Processo finalizado com sucesso.
+[2025-07-24 17:01:03] 🧹 Navegador fechado.
+[2025-07-24 17:02:20] 🚀 Iniciando a automação no Onvio...
+[2025-07-24 17:02:30] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-24 17:02:30] INFO - Botão de continuar login clicado.
+[2025-07-24 17:02:30] INFO - Aguardando campo de e-mail...
+[2025-07-24 17:02:32] INFO - Campo de e-mail preenchido.
+[2025-07-24 17:02:32] INFO - Botão de envio do e-mail clicado.
+[2025-07-24 17:02:32] INFO - Aguardando campo de senha...
+[2025-07-24 17:02:33] INFO - Campo de senha preenchido.
+[2025-07-24 17:02:35] INFO - Botão de envio da senha clicado.
+[2025-07-24 17:02:45] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-24 17:03:58] ✅ Processo finalizado com sucesso.
+[2025-07-24 17:04:01] 🧹 Navegador fechado.
+[2025-07-24 17:06:29] 🚀 Iniciando a automação no Onvio...
+[2025-07-24 17:06:39] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-24 17:06:44] ⚠️ Tentativa 1: Falha ao encontrar botão de continuar login: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xb41af3+62339]
+	GetHandleVerifier [0x0xb41b34+62404]
+	(No symbol) [0x0x982123]
+	(No symbol) [0x0x9ca86e]
+	(No symbol) [0x0x9cac0b]
+	(No symbol) [0x0xa12f72]
+	(No symbol) [0x0x9ef404]
+	(No symbol) [0x0xa107a3]
+	(No symbol) [0x0x9ef1b6]
+	(No symbol) [0x0x9be7a2]
+	(No symbol) [0x0x9bf644]
+	GetHandleVerifier [0x0xdb6683+2637587]
+	GetHandleVerifier [0x0xdb1a8a+2618138]
+	GetHandleVerifier [0x0xb6856a+220666]
+	GetHandleVerifier [0x0xb58998+156200]
+	GetHandleVerifier [0x0xb5f12d+182717]
+	GetHandleVerifier [0x0xb49a38+94920]
+	GetHandleVerifier [0x0xb49bc2+95314]
+	GetHandleVerifier [0x0xb34d0a+9626]
+	BaseThreadInitThunk [0x0x760d7ba9+25]
+	RtlInitializeExceptionChain [0x0x7759c3ab+107]
+	RtlClearBits [0x0x7759c32f+191]
+
+[2025-07-24 17:06:44] 🔄 Recarregando a página...
+[2025-07-24 17:06:48] INFO - Tentativa 2: Aguardando botão de continuar login...
+[2025-07-24 17:06:48] INFO - Botão de continuar login clicado.
+[2025-07-24 17:06:48] INFO - Aguardando campo de e-mail...
+[2025-07-24 17:06:50] INFO - Campo de e-mail preenchido.
+[2025-07-24 17:06:50] INFO - Botão de envio do e-mail clicado.
+[2025-07-24 17:06:50] INFO - Aguardando campo de senha...
+[2025-07-24 17:06:51] INFO - Campo de senha preenchido.
+[2025-07-24 17:06:51] INFO - Botão de envio da senha clicado.
+[2025-07-24 17:07:01] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-24 17:08:31] ✅ Processo finalizado com sucesso.
+[2025-07-24 17:08:33] 🧹 Navegador fechado.
+[2025-07-24 17:17:29] 🚀 Iniciando a automação no Onvio...
+[2025-07-24 17:17:39] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-24 17:17:39] INFO - Botão de continuar login clicado.
+[2025-07-24 17:17:39] INFO - Aguardando campo de e-mail...
+[2025-07-24 17:17:41] INFO - Campo de e-mail preenchido.
+[2025-07-24 17:17:42] INFO - Botão de envio do e-mail clicado.
+[2025-07-24 17:17:42] INFO - Aguardando campo de senha...
+[2025-07-24 17:17:42] INFO - Campo de senha preenchido.
+[2025-07-24 17:17:44] INFO - Botão de envio da senha clicado.
+[2025-07-24 17:17:54] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-24 17:20:25] ✅ Processo finalizado com sucesso.
+[2025-07-24 17:20:28] 🧹 Navegador fechado.
+[2025-07-24 17:20:32] 🚀 Iniciando a automação no Onvio...
+[2025-07-24 17:20:42] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-24 17:20:47] ⚠️ Tentativa 1: Falha ao encontrar botão de continuar login: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xb41af3+62339]
+	GetHandleVerifier [0x0xb41b34+62404]
+	(No symbol) [0x0x982123]
+	(No symbol) [0x0x9ca86e]
+	(No symbol) [0x0x9cac0b]
+	(No symbol) [0x0xa12f72]
+	(No symbol) [0x0x9ef404]
+	(No symbol) [0x0xa107a3]
+	(No symbol) [0x0x9ef1b6]
+	(No symbol) [0x0x9be7a2]
+	(No symbol) [0x0x9bf644]
+	GetHandleVerifier [0x0xdb6683+2637587]
+	GetHandleVerifier [0x0xdb1a8a+2618138]
+	GetHandleVerifier [0x0xb6856a+220666]
+	GetHandleVerifier [0x0xb58998+156200]
+	GetHandleVerifier [0x0xb5f12d+182717]
+	GetHandleVerifier [0x0xb49a38+94920]
+	GetHandleVerifier [0x0xb49bc2+95314]
+	GetHandleVerifier [0x0xb34d0a+9626]
+	BaseThreadInitThunk [0x0x760d7ba9+25]
+	RtlInitializeExceptionChain [0x0x7759c3ab+107]
+	RtlClearBits [0x0x7759c32f+191]
+
+[2025-07-24 17:20:47] 🔄 Recarregando a página...
+[2025-07-24 17:20:51] INFO - Tentativa 2: Aguardando botão de continuar login...
+[2025-07-24 17:20:51] INFO - Botão de continuar login clicado.
+[2025-07-24 17:20:51] INFO - Aguardando campo de e-mail...
+[2025-07-24 17:20:52] INFO - Campo de e-mail preenchido.
+[2025-07-24 17:20:53] INFO - Botão de envio do e-mail clicado.
+[2025-07-24 17:20:53] INFO - Aguardando campo de senha...
+[2025-07-24 17:20:53] INFO - Campo de senha preenchido.
+[2025-07-24 17:20:53] INFO - Botão de envio da senha clicado.
+[2025-07-24 17:21:03] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-24 17:22:17] ❌ Erro geral na automação: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb41af3+62339]
+	GetHandleVerifier [0x0xb41b34+62404]
+	(No symbol) [0x0x981f80]
+	(No symbol) [0x0x9bda98]
+	(No symbol) [0x0x9ef276]
+	(No symbol) [0x0x9eae75]
+	(No symbol) [0x0x9ea3f6]
+	(No symbol) [0x0x953a45]
+	(No symbol) [0x0x953f9e]
+	(No symbol) [0x0x95442d]
+	GetHandleVerifier [0x0xdb6683+2637587]
+	GetHandleVerifier [0x0xdb1a8a+2618138]
+	GetHandleVerifier [0x0xb6856a+220666]
+	GetHandleVerifier [0x0xb58998+156200]
+	GetHandleVerifier [0x0xb5f12d+182717]
+	(No symbol) [0x0x953710]
+	(No symbol) [0x0x952f1d]
+	GetHandleVerifier [0x0xeea71c+3899308]
+	BaseThreadInitThunk [0x0x760d7ba9+25]
+	RtlInitializeExceptionChain [0x0x7759c3ab+107]
+	RtlClearBits [0x0x7759c32f+191]
+
+[2025-07-24 17:22:19] 🧹 Navegador fechado.
+[2025-07-24 17:24:55] 🚀 Iniciando a automação no Onvio...
+[2025-07-24 17:25:05] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-24 17:25:05] INFO - Botão de continuar login clicado.
+[2025-07-24 17:25:05] INFO - Aguardando campo de e-mail...
+[2025-07-24 17:25:07] INFO - Campo de e-mail preenchido.
+[2025-07-24 17:25:08] INFO - Botão de envio do e-mail clicado.
+[2025-07-24 17:25:08] INFO - Aguardando campo de senha...
+[2025-07-24 17:25:08] INFO - Campo de senha preenchido.
+[2025-07-24 17:25:10] INFO - Botão de envio da senha clicado.
+[2025-07-24 17:25:21] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-24 17:26:15] ✅ Processo finalizado com sucesso.
+[2025-07-24 17:26:17] 🧹 Navegador fechado.
+[2025-07-24 17:30:49] 🚀 Iniciando a automação no Onvio...
+[2025-07-24 17:31:00] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-24 17:31:05] ⚠️ Tentativa 1: Falha ao encontrar botão de continuar login: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xb41af3+62339]
+	GetHandleVerifier [0x0xb41b34+62404]
+	(No symbol) [0x0x982123]
+	(No symbol) [0x0x9ca86e]
+	(No symbol) [0x0x9cac0b]
+	(No symbol) [0x0xa12f72]
+	(No symbol) [0x0x9ef404]
+	(No symbol) [0x0xa107a3]
+	(No symbol) [0x0x9ef1b6]
+	(No symbol) [0x0x9be7a2]
+	(No symbol) [0x0x9bf644]
+	GetHandleVerifier [0x0xdb6683+2637587]
+	GetHandleVerifier [0x0xdb1a8a+2618138]
+	GetHandleVerifier [0x0xb6856a+220666]
+	GetHandleVerifier [0x0xb58998+156200]
+	GetHandleVerifier [0x0xb5f12d+182717]
+	GetHandleVerifier [0x0xb49a38+94920]
+	GetHandleVerifier [0x0xb49bc2+95314]
+	GetHandleVerifier [0x0xb34d0a+9626]
+	BaseThreadInitThunk [0x0x760d7ba9+25]
+	RtlInitializeExceptionChain [0x0x7759c3ab+107]
+	RtlClearBits [0x0x7759c32f+191]
+
+[2025-07-24 17:31:05] 🔄 Recarregando a página...
+[2025-07-24 17:31:09] INFO - Tentativa 2: Aguardando botão de continuar login...
+[2025-07-24 17:31:09] INFO - Botão de continuar login clicado.
+[2025-07-24 17:31:09] INFO - Aguardando campo de e-mail...
+[2025-07-24 17:31:11] INFO - Campo de e-mail preenchido.
+[2025-07-24 17:31:12] INFO - Botão de envio do e-mail clicado.
+[2025-07-24 17:31:12] INFO - Aguardando campo de senha...
+[2025-07-24 17:31:12] INFO - Campo de senha preenchido.
+[2025-07-24 17:31:14] INFO - Botão de envio da senha clicado.
+[2025-07-24 17:31:24] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-24 17:32:03] ✅ Processo finalizado com sucesso.
+[2025-07-24 17:32:06] 🧹 Navegador fechado.
+[2025-07-24 17:37:42] 🚀 Iniciando a automação no Onvio...
+[2025-07-24 17:37:52] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-24 17:37:57] ⚠️ Tentativa 1: Falha ao encontrar botão de continuar login: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xb41af3+62339]
+	GetHandleVerifier [0x0xb41b34+62404]
+	(No symbol) [0x0x982123]
+	(No symbol) [0x0x9ca86e]
+	(No symbol) [0x0x9cac0b]
+	(No symbol) [0x0xa12f72]
+	(No symbol) [0x0x9ef404]
+	(No symbol) [0x0xa107a3]
+	(No symbol) [0x0x9ef1b6]
+	(No symbol) [0x0x9be7a2]
+	(No symbol) [0x0x9bf644]
+	GetHandleVerifier [0x0xdb6683+2637587]
+	GetHandleVerifier [0x0xdb1a8a+2618138]
+	GetHandleVerifier [0x0xb6856a+220666]
+	GetHandleVerifier [0x0xb58998+156200]
+	GetHandleVerifier [0x0xb5f12d+182717]
+	GetHandleVerifier [0x0xb49a38+94920]
+	GetHandleVerifier [0x0xb49bc2+95314]
+	GetHandleVerifier [0x0xb34d0a+9626]
+	BaseThreadInitThunk [0x0x760d7ba9+25]
+	RtlInitializeExceptionChain [0x0x7759c3ab+107]
+	RtlClearBits [0x0x7759c32f+191]
+
+[2025-07-24 17:37:57] 🔄 Recarregando a página...
+[2025-07-24 17:38:01] INFO - Tentativa 2: Aguardando botão de continuar login...
+[2025-07-24 17:38:01] INFO - Botão de continuar login clicado.
+[2025-07-24 17:38:01] INFO - Aguardando campo de e-mail...
+[2025-07-24 17:38:03] INFO - Campo de e-mail preenchido.
+[2025-07-24 17:38:04] INFO - Botão de envio do e-mail clicado.
+[2025-07-24 17:38:04] INFO - Aguardando campo de senha...
+[2025-07-24 17:38:04] INFO - Campo de senha preenchido.
+[2025-07-24 17:38:06] INFO - Botão de envio da senha clicado.
+[2025-07-24 17:38:16] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-24 17:42:42] ✅ Processo finalizado com sucesso.
+[2025-07-24 17:42:44] 🧹 Navegador fechado.
+[2025-07-24 17:43:51] 🚀 Iniciando a automação no Onvio...
+[2025-07-24 17:44:01] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-24 17:44:06] ⚠️ Tentativa 1: Falha ao encontrar botão de continuar login: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xb41af3+62339]
+	GetHandleVerifier [0x0xb41b34+62404]
+	(No symbol) [0x0x982123]
+	(No symbol) [0x0x9ca86e]
+	(No symbol) [0x0x9cac0b]
+	(No symbol) [0x0xa12f72]
+	(No symbol) [0x0x9ef404]
+	(No symbol) [0x0xa107a3]
+	(No symbol) [0x0x9ef1b6]
+	(No symbol) [0x0x9be7a2]
+	(No symbol) [0x0x9bf644]
+	GetHandleVerifier [0x0xdb6683+2637587]
+	GetHandleVerifier [0x0xdb1a8a+2618138]
+	GetHandleVerifier [0x0xb6856a+220666]
+	GetHandleVerifier [0x0xb58998+156200]
+	GetHandleVerifier [0x0xb5f12d+182717]
+	GetHandleVerifier [0x0xb49a38+94920]
+	GetHandleVerifier [0x0xb49bc2+95314]
+	GetHandleVerifier [0x0xb34d0a+9626]
+	BaseThreadInitThunk [0x0x760d7ba9+25]
+	RtlInitializeExceptionChain [0x0x7759c3ab+107]
+	RtlClearBits [0x0x7759c32f+191]
+
+[2025-07-24 17:44:06] 🔄 Recarregando a página...
+[2025-07-24 17:44:10] INFO - Tentativa 2: Aguardando botão de continuar login...
+[2025-07-24 17:44:10] INFO - Botão de continuar login clicado.
+[2025-07-24 17:44:10] INFO - Aguardando campo de e-mail...
+[2025-07-24 17:44:12] INFO - Campo de e-mail preenchido.
+[2025-07-24 17:44:12] INFO - Botão de envio do e-mail clicado.
+[2025-07-24 17:44:12] INFO - Aguardando campo de senha...
+[2025-07-24 17:44:12] INFO - Campo de senha preenchido.
+[2025-07-24 17:44:13] INFO - Botão de envio da senha clicado.
+[2025-07-24 17:44:23] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-24 17:44:47] ✅ Processo finalizado com sucesso.
+[2025-07-24 17:44:49] 🧹 Navegador fechado.
+[2025-07-24 17:47:02] 🚀 Iniciando a automação no Onvio...
+[2025-07-24 17:47:11] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-24 17:47:16] ⚠️ Tentativa 1: Falha ao encontrar botão de continuar login: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xb41af3+62339]
+	GetHandleVerifier [0x0xb41b34+62404]
+	(No symbol) [0x0x982123]
+	(No symbol) [0x0x9ca86e]
+	(No symbol) [0x0x9cac0b]
+	(No symbol) [0x0xa12f72]
+	(No symbol) [0x0x9ef404]
+	(No symbol) [0x0xa107a3]
+	(No symbol) [0x0x9ef1b6]
+	(No symbol) [0x0x9be7a2]
+	(No symbol) [0x0x9bf644]
+	GetHandleVerifier [0x0xdb6683+2637587]
+	GetHandleVerifier [0x0xdb1a8a+2618138]
+	GetHandleVerifier [0x0xb6856a+220666]
+	GetHandleVerifier [0x0xb58998+156200]
+	GetHandleVerifier [0x0xb5f12d+182717]
+	GetHandleVerifier [0x0xb49a38+94920]
+	GetHandleVerifier [0x0xb49bc2+95314]
+	GetHandleVerifier [0x0xb34d0a+9626]
+	BaseThreadInitThunk [0x0x760d7ba9+25]
+	RtlInitializeExceptionChain [0x0x7759c3ab+107]
+	RtlClearBits [0x0x7759c32f+191]
+
+[2025-07-24 17:47:16] 🔄 Recarregando a página...
+[2025-07-24 17:47:20] INFO - Tentativa 2: Aguardando botão de continuar login...
+[2025-07-24 17:47:20] INFO - Botão de continuar login clicado.
+[2025-07-24 17:47:20] INFO - Aguardando campo de e-mail...
+[2025-07-24 17:47:22] INFO - Campo de e-mail preenchido.
+[2025-07-24 17:47:23] INFO - Botão de envio do e-mail clicado.
+[2025-07-24 17:47:23] INFO - Aguardando campo de senha...
+[2025-07-24 17:47:23] INFO - Campo de senha preenchido.
+[2025-07-24 17:47:23] INFO - Botão de envio da senha clicado.
+[2025-07-24 17:47:33] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-24 17:49:13] ✅ Processo finalizado com sucesso.
+[2025-07-24 17:49:16] 🧹 Navegador fechado.
+[2025-07-24 17:49:22] 🚀 Iniciando a automação no Onvio...
+[2025-07-24 17:49:32] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-24 17:49:37] ⚠️ Tentativa 1: Falha ao encontrar botão de continuar login: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xb41af3+62339]
+	GetHandleVerifier [0x0xb41b34+62404]
+	(No symbol) [0x0x982123]
+	(No symbol) [0x0x9ca86e]
+	(No symbol) [0x0x9cac0b]
+	(No symbol) [0x0xa12f72]
+	(No symbol) [0x0x9ef404]
+	(No symbol) [0x0xa107a3]
+	(No symbol) [0x0x9ef1b6]
+	(No symbol) [0x0x9be7a2]
+	(No symbol) [0x0x9bf644]
+	GetHandleVerifier [0x0xdb6683+2637587]
+	GetHandleVerifier [0x0xdb1a8a+2618138]
+	GetHandleVerifier [0x0xb6856a+220666]
+	GetHandleVerifier [0x0xb58998+156200]
+	GetHandleVerifier [0x0xb5f12d+182717]
+	GetHandleVerifier [0x0xb49a38+94920]
+	GetHandleVerifier [0x0xb49bc2+95314]
+	GetHandleVerifier [0x0xb34d0a+9626]
+	BaseThreadInitThunk [0x0x760d7ba9+25]
+	RtlInitializeExceptionChain [0x0x7759c3ab+107]
+	RtlClearBits [0x0x7759c32f+191]
+
+[2025-07-24 17:49:37] 🔄 Recarregando a página...
+[2025-07-24 17:49:41] INFO - Tentativa 2: Aguardando botão de continuar login...
+[2025-07-24 17:49:41] INFO - Botão de continuar login clicado.
+[2025-07-24 17:49:41] INFO - Aguardando campo de e-mail...
+[2025-07-24 17:49:45] INFO - Campo de e-mail preenchido.
+[2025-07-24 17:49:45] INFO - Botão de envio do e-mail clicado.
+[2025-07-24 17:49:45] INFO - Aguardando campo de senha...
+[2025-07-24 17:49:45] INFO - Campo de senha preenchido.
+[2025-07-24 17:49:45] INFO - Botão de envio da senha clicado.
+[2025-07-24 17:49:56] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-24 17:50:38] ✅ Processo finalizado com sucesso.
+[2025-07-24 17:50:41] 🧹 Navegador fechado.
+[2025-07-24 17:59:48] 🚀 Iniciando a automação no Onvio...
+[2025-07-24 17:59:58] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-24 17:59:58] INFO - Botão de continuar login clicado.
+[2025-07-24 17:59:58] INFO - Aguardando campo de e-mail...
+[2025-07-24 18:00:00] INFO - Campo de e-mail preenchido.
+[2025-07-24 18:00:01] INFO - Botão de envio do e-mail clicado.
+[2025-07-24 18:00:01] INFO - Aguardando campo de senha...
+[2025-07-24 18:00:01] INFO - Campo de senha preenchido.
+[2025-07-24 18:00:01] INFO - Botão de envio da senha clicado.
+[2025-07-24 18:00:11] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-24 18:00:55] ✅ Processo finalizado com sucesso.
+[2025-07-24 18:00:57] 🧹 Navegador fechado.
+[2025-07-24 18:01:01] 🚀 Iniciando a automação no Onvio...
+[2025-07-24 18:01:11] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-24 18:01:11] INFO - Botão de continuar login clicado.
+[2025-07-24 18:01:11] INFO - Aguardando campo de e-mail...
+[2025-07-24 18:01:13] INFO - Campo de e-mail preenchido.
+[2025-07-24 18:01:14] INFO - Botão de envio do e-mail clicado.
+[2025-07-24 18:01:14] INFO - Aguardando campo de senha...
+[2025-07-24 18:01:14] INFO - Campo de senha preenchido.
+[2025-07-24 18:01:14] INFO - Botão de envio da senha clicado.
+[2025-07-24 18:01:24] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-24 18:02:26] ✅ Processo finalizado com sucesso.
+[2025-07-24 18:02:28] 🧹 Navegador fechado.
+[2025-07-29 11:58:34] 🚀 Iniciando a automação no Onvio...
+[2025-07-29 11:58:48] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-29 11:58:49] INFO - Botão de continuar login clicado.
+[2025-07-29 11:58:49] INFO - Aguardando campo de e-mail...
+[2025-07-29 11:58:51] INFO - Campo de e-mail preenchido.
+[2025-07-29 11:58:52] INFO - Botão de envio do e-mail clicado.
+[2025-07-29 11:58:52] INFO - Aguardando campo de senha...
+[2025-07-29 11:58:52] INFO - Campo de senha preenchido.
+[2025-07-29 11:58:54] INFO - Botão de envio da senha clicado.
+[2025-07-29 11:59:04] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-29 12:05:57] 🚀 Iniciando a automação no Onvio...
+[2025-07-29 12:06:09] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-29 12:06:09] INFO - Botão de continuar login clicado.
+[2025-07-29 12:06:09] INFO - Aguardando campo de e-mail...
+[2025-07-29 12:06:11] INFO - Campo de e-mail preenchido.
+[2025-07-29 12:06:12] INFO - Botão de envio do e-mail clicado.
+[2025-07-29 12:06:12] INFO - Aguardando campo de senha...
+[2025-07-29 12:06:12] INFO - Campo de senha preenchido.
+[2025-07-29 12:06:12] INFO - Botão de envio da senha clicado.
+[2025-07-29 12:06:22] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-29 12:12:20] 🚀 Iniciando a automação no Onvio...
+[2025-07-29 12:12:32] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-29 12:12:33] INFO - Botão de continuar login clicado.
+[2025-07-29 12:12:33] INFO - Aguardando campo de e-mail...
+[2025-07-29 12:12:34] INFO - Campo de e-mail preenchido.
+[2025-07-29 12:12:35] INFO - Botão de envio do e-mail clicado.
+[2025-07-29 12:12:35] INFO - Aguardando campo de senha...
+[2025-07-29 12:12:35] INFO - Campo de senha preenchido.
+[2025-07-29 12:12:37] INFO - Botão de envio da senha clicado.
+[2025-07-29 12:12:47] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-29 12:13:26] ✅ Processo finalizado com sucesso.
+[2025-07-29 12:13:28] 🧹 Navegador fechado.
+[2025-07-29 12:13:32] 🚀 Iniciando a automação no Onvio...
+[2025-07-29 12:13:44] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-29 12:13:44] INFO - Botão de continuar login clicado.
+[2025-07-29 12:13:44] INFO - Aguardando campo de e-mail...
+[2025-07-29 12:13:45] INFO - Campo de e-mail preenchido.
+[2025-07-29 12:13:46] INFO - Botão de envio do e-mail clicado.
+[2025-07-29 12:13:46] INFO - Aguardando campo de senha...
+[2025-07-29 12:13:46] INFO - Campo de senha preenchido.
+[2025-07-29 12:13:46] INFO - Botão de envio da senha clicado.
+[2025-07-29 12:13:57] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-29 12:22:13] ✅ Processo finalizado com sucesso.
+[2025-07-29 12:22:15] 🧹 Navegador fechado.
+[2025-07-29 12:22:24] 🚀 Iniciando a automação no Onvio...
+[2025-07-29 12:22:36] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-29 12:22:36] INFO - Botão de continuar login clicado.
+[2025-07-29 12:22:36] INFO - Aguardando campo de e-mail...
+[2025-07-29 12:22:38] INFO - Campo de e-mail preenchido.
+[2025-07-29 12:22:38] INFO - Botão de envio do e-mail clicado.
+[2025-07-29 12:22:38] INFO - Aguardando campo de senha...
+[2025-07-29 12:22:38] INFO - Campo de senha preenchido.
+[2025-07-29 12:22:40] INFO - Botão de envio da senha clicado.
+[2025-07-29 12:22:51] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-29 12:24:39] ✅ Processo finalizado com sucesso.
+[2025-07-29 12:24:41] 🧹 Navegador fechado.
+[2025-07-29 12:24:44] 🚀 Iniciando a automação no Onvio...
+[2025-07-29 12:24:56] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-29 12:24:56] INFO - Botão de continuar login clicado.
+[2025-07-29 12:24:56] INFO - Aguardando campo de e-mail...
+[2025-07-29 12:24:58] INFO - Campo de e-mail preenchido.
+[2025-07-29 12:24:58] INFO - Botão de envio do e-mail clicado.
+[2025-07-29 12:24:58] INFO - Aguardando campo de senha...
+[2025-07-29 12:24:59] INFO - Campo de senha preenchido.
+[2025-07-29 12:25:01] INFO - Botão de envio da senha clicado.
+[2025-07-29 12:25:11] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-29 12:25:55] ❌ Erro geral na automação: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.169)
+Stacktrace:
+	GetHandleVerifier [0x0x641af3+62339]
+	GetHandleVerifier [0x0x641b34+62404]
+	(No symbol) [0x0x482123]
+	(No symbol) [0x0x460fc9]
+	(No symbol) [0x0x4f5aee]
+	(No symbol) [0x0x510089]
+	(No symbol) [0x0x4ef1b6]
+	(No symbol) [0x0x4be7a2]
+	(No symbol) [0x0x4bf644]
+	GetHandleVerifier [0x0x8b6683+2637587]
+	GetHandleVerifier [0x0x8b1a8a+2618138]
+	GetHandleVerifier [0x0x66856a+220666]
+	GetHandleVerifier [0x0x658998+156200]
+	GetHandleVerifier [0x0x65f12d+182717]
+	GetHandleVerifier [0x0x649a38+94920]
+	GetHandleVerifier [0x0x649bc2+95314]
+	GetHandleVerifier [0x0x634d0a+9626]
+	BaseThreadInitThunk [0x0x76207ba9+25]
+	RtlInitializeExceptionChain [0x0x777cc3ab+107]
+	RtlClearBits [0x0x777cc32f+191]
+
+[2025-07-29 12:25:57] 🧹 Navegador fechado.
+[2025-07-29 12:26:41] 🚀 Iniciando a automação no Onvio...
+[2025-07-29 12:26:53] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-29 12:26:53] INFO - Botão de continuar login clicado.
+[2025-07-29 12:26:53] INFO - Aguardando campo de e-mail...
+[2025-07-29 12:26:55] INFO - Campo de e-mail preenchido.
+[2025-07-29 12:26:55] INFO - Botão de envio do e-mail clicado.
+[2025-07-29 12:26:55] INFO - Aguardando campo de senha...
+[2025-07-29 12:26:55] INFO - Campo de senha preenchido.
+[2025-07-29 12:26:55] INFO - Botão de envio da senha clicado.
+[2025-07-29 12:27:06] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-29 12:28:25] ✅ Processo finalizado com sucesso.
+[2025-07-29 12:28:27] 🧹 Navegador fechado.
+[2025-07-29 12:31:17] 🚀 Iniciando a automação no Onvio...
+[2025-07-29 12:31:29] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-29 12:31:29] INFO - Botão de continuar login clicado.
+[2025-07-29 12:31:29] INFO - Aguardando campo de e-mail...
+[2025-07-29 12:31:31] INFO - Campo de e-mail preenchido.
+[2025-07-29 12:31:32] INFO - Botão de envio do e-mail clicado.
+[2025-07-29 12:31:32] INFO - Aguardando campo de senha...
+[2025-07-29 12:31:32] INFO - Campo de senha preenchido.
+[2025-07-29 12:31:32] INFO - Botão de envio da senha clicado.
+[2025-07-29 12:31:42] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-29 12:32:50] 🚀 Iniciando a automação no Onvio...
+[2025-07-29 12:33:02] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-29 12:33:02] INFO - Botão de continuar login clicado.
+[2025-07-29 12:33:02] INFO - Aguardando campo de e-mail...
+[2025-07-29 12:33:04] INFO - Campo de e-mail preenchido.
+[2025-07-29 12:33:05] INFO - Botão de envio do e-mail clicado.
+[2025-07-29 12:33:05] INFO - Aguardando campo de senha...
+[2025-07-29 12:33:05] INFO - Campo de senha preenchido.
+[2025-07-29 12:33:05] INFO - Botão de envio da senha clicado.
+[2025-07-29 12:33:15] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-29 12:35:30] 🧹 Navegador fechado.
+[2025-07-29 12:49:33] 🚀 Iniciando a automação no Onvio...
+[2025-07-29 12:49:45] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-29 12:49:45] INFO - Botão de continuar login clicado.
+[2025-07-29 12:49:45] INFO - Aguardando campo de e-mail...
+[2025-07-29 12:49:47] INFO - Campo de e-mail preenchido.
+[2025-07-29 12:49:48] INFO - Botão de envio do e-mail clicado.
+[2025-07-29 12:49:48] INFO - Aguardando campo de senha...
+[2025-07-29 12:49:48] INFO - Campo de senha preenchido.
+[2025-07-29 12:49:48] INFO - Botão de envio da senha clicado.
+[2025-07-29 12:49:58] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-29 12:54:55] ✅ Processo finalizado com sucesso.
+[2025-07-29 12:54:57] 🧹 Navegador fechado.
+[2025-07-29 13:02:54] 🚀 Iniciando a automação no Onvio...
+[2025-07-29 13:03:07] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-29 13:03:07] INFO - Botão de continuar login clicado.
+[2025-07-29 13:03:07] INFO - Aguardando campo de e-mail...
+[2025-07-29 13:03:08] INFO - Campo de e-mail preenchido.
+[2025-07-29 13:03:09] INFO - Botão de envio do e-mail clicado.
+[2025-07-29 13:03:09] INFO - Aguardando campo de senha...
+[2025-07-29 13:03:09] INFO - Campo de senha preenchido.
+[2025-07-29 13:03:11] INFO - Botão de envio da senha clicado.
+[2025-07-29 13:03:22] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-29 13:06:53] ⚠️ Processo finalizado com falhas.
+[2025-07-29 13:06:56] 🧹 Navegador fechado.
+[2025-07-29 13:15:47] 🚀 Iniciando a automação no Onvio...
+[2025-07-29 13:15:59] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-29 13:15:59] INFO - Botão de continuar login clicado.
+[2025-07-29 13:15:59] INFO - Aguardando campo de e-mail...
+[2025-07-29 13:16:00] INFO - Campo de e-mail preenchido.
+[2025-07-29 13:16:01] INFO - Botão de envio do e-mail clicado.
+[2025-07-29 13:16:01] INFO - Aguardando campo de senha...
+[2025-07-29 13:16:01] INFO - Campo de senha preenchido.
+[2025-07-29 13:16:03] INFO - Botão de envio da senha clicado.
+[2025-07-29 13:16:13] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-29 13:18:07] ✅ Processo finalizado com sucesso.
+[2025-07-29 13:18:10] 🧹 Navegador fechado.
+[2025-07-29 13:20:13] 🚀 Iniciando a automação no Onvio...
+[2025-07-29 13:20:25] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-29 13:20:25] INFO - Botão de continuar login clicado.
+[2025-07-29 13:20:25] INFO - Aguardando campo de e-mail...
+[2025-07-29 13:20:27] INFO - Campo de e-mail preenchido.
+[2025-07-29 13:20:28] INFO - Botão de envio do e-mail clicado.
+[2025-07-29 13:20:28] INFO - Aguardando campo de senha...
+[2025-07-29 13:20:28] INFO - Campo de senha preenchido.
+[2025-07-29 13:20:30] INFO - Botão de envio da senha clicado.
+[2025-07-29 13:20:40] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-29 13:21:35] ✅ Processo finalizado com sucesso.
+[2025-07-29 13:21:38] 🧹 Navegador fechado.
+[2025-07-29 13:24:28] 🚀 Iniciando a automação no Onvio...
+[2025-07-29 13:24:39] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-29 13:24:39] INFO - Botão de continuar login clicado.
+[2025-07-29 13:24:39] INFO - Aguardando campo de e-mail...
+[2025-07-29 13:24:41] INFO - Campo de e-mail preenchido.
+[2025-07-29 13:24:42] INFO - Botão de envio do e-mail clicado.
+[2025-07-29 13:24:42] INFO - Aguardando campo de senha...
+[2025-07-29 13:24:42] INFO - Campo de senha preenchido.
+[2025-07-29 13:24:42] INFO - Botão de envio da senha clicado.
+[2025-07-29 13:24:53] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-29 13:26:13] ✅ Processo finalizado com sucesso.
+[2025-07-29 13:26:15] 🧹 Navegador fechado.
+[2025-07-29 13:27:53] 🚀 Iniciando a automação no Onvio...
+[2025-07-29 13:28:05] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-29 13:28:05] INFO - Botão de continuar login clicado.
+[2025-07-29 13:28:05] INFO - Aguardando campo de e-mail...
+[2025-07-29 13:28:07] INFO - Campo de e-mail preenchido.
+[2025-07-29 13:28:07] INFO - Botão de envio do e-mail clicado.
+[2025-07-29 13:28:07] INFO - Aguardando campo de senha...
+[2025-07-29 13:28:08] INFO - Campo de senha preenchido.
+[2025-07-29 13:28:10] INFO - Botão de envio da senha clicado.
+[2025-07-29 13:28:20] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-30 09:21:33] 🚀 Iniciando a automação no Onvio...
+[2025-07-30 09:21:47] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-30 09:21:48] INFO - Botão de continuar login clicado.
+[2025-07-30 09:21:48] INFO - Aguardando campo de e-mail...
+[2025-07-30 09:21:49] INFO - Campo de e-mail preenchido.
+[2025-07-30 09:21:49] INFO - Botão de envio do e-mail clicado.
+[2025-07-30 09:21:49] INFO - Aguardando campo de senha...
+[2025-07-30 09:21:50] INFO - Campo de senha preenchido.
+[2025-07-30 09:21:50] INFO - Botão de envio da senha clicado.
+[2025-07-30 09:22:00] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-30 09:22:46] ✅ Processo finalizado com sucesso.
+[2025-07-30 09:22:48] 🧹 Navegador fechado.
+[2025-07-30 09:25:28] 🚀 Iniciando a automação no Onvio...
+[2025-07-30 09:25:44] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-30 09:25:44] INFO - Botão de continuar login clicado.
+[2025-07-30 09:25:44] INFO - Aguardando campo de e-mail...
+[2025-07-30 09:25:45] INFO - Campo de e-mail preenchido.
+[2025-07-30 09:25:46] INFO - Botão de envio do e-mail clicado.
+[2025-07-30 09:25:46] INFO - Aguardando campo de senha...
+[2025-07-30 09:25:46] INFO - Campo de senha preenchido.
+[2025-07-30 09:25:49] INFO - Botão de envio da senha clicado.
+[2025-07-30 09:25:59] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-30 09:27:16] ✅ Processo finalizado com sucesso.
+[2025-07-30 09:27:18] 🧹 Navegador fechado.
+[2025-07-30 09:39:15] 🚀 Iniciando a automação no Onvio...
+[2025-07-30 09:39:27] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-30 09:39:27] INFO - Botão de continuar login clicado.
+[2025-07-30 09:39:27] INFO - Aguardando campo de e-mail...
+[2025-07-30 09:39:28] INFO - Campo de e-mail preenchido.
+[2025-07-30 09:39:29] INFO - Botão de envio do e-mail clicado.
+[2025-07-30 09:39:29] INFO - Aguardando campo de senha...
+[2025-07-30 09:39:29] INFO - Campo de senha preenchido.
+[2025-07-30 09:39:31] INFO - Botão de envio da senha clicado.
+[2025-07-30 09:39:42] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-30 09:41:17] ✅ Processo finalizado com sucesso.
+[2025-07-30 09:41:20] 🧹 Navegador fechado.
+[2025-07-30 09:44:36] 🚀 Iniciando a automação no Onvio...
+[2025-07-30 09:44:48] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-30 09:44:48] INFO - Botão de continuar login clicado.
+[2025-07-30 09:44:48] INFO - Aguardando campo de e-mail...
+[2025-07-30 09:44:50] INFO - Campo de e-mail preenchido.
+[2025-07-30 09:44:51] INFO - Botão de envio do e-mail clicado.
+[2025-07-30 09:44:51] INFO - Aguardando campo de senha...
+[2025-07-30 09:44:51] INFO - Campo de senha preenchido.
+[2025-07-30 09:44:53] INFO - Botão de envio da senha clicado.
+[2025-07-30 09:45:03] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-30 09:45:51] ✅ Processo finalizado com sucesso.
+[2025-07-30 09:45:53] 🧹 Navegador fechado.
+[2025-07-30 09:47:45] 🚀 Iniciando a automação no Onvio...
+[2025-07-30 09:47:57] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-30 09:47:57] INFO - Botão de continuar login clicado.
+[2025-07-30 09:47:57] INFO - Aguardando campo de e-mail...
+[2025-07-30 09:47:59] INFO - Campo de e-mail preenchido.
+[2025-07-30 09:48:00] INFO - Botão de envio do e-mail clicado.
+[2025-07-30 09:48:00] INFO - Aguardando campo de senha...
+[2025-07-30 09:48:00] INFO - Campo de senha preenchido.
+[2025-07-30 09:48:00] INFO - Botão de envio da senha clicado.
+[2025-07-30 09:48:10] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-30 09:49:11] ✅ Processo finalizado com sucesso.
+[2025-07-30 09:49:14] 🧹 Navegador fechado.
+[2025-07-30 09:51:29] 🚀 Iniciando a automação no Onvio...
+[2025-07-30 09:51:41] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-30 09:51:41] INFO - Botão de continuar login clicado.
+[2025-07-30 09:51:41] INFO - Aguardando campo de e-mail...
+[2025-07-30 09:51:42] INFO - Campo de e-mail preenchido.
+[2025-07-30 09:51:43] INFO - Botão de envio do e-mail clicado.
+[2025-07-30 09:51:43] INFO - Aguardando campo de senha...
+[2025-07-30 09:51:43] INFO - Campo de senha preenchido.
+[2025-07-30 09:51:43] INFO - Botão de envio da senha clicado.
+[2025-07-30 09:51:54] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-30 09:53:24] 🚀 Iniciando a automação no Onvio...
+[2025-07-30 09:53:37] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-30 09:53:37] INFO - Botão de continuar login clicado.
+[2025-07-30 09:53:37] INFO - Aguardando campo de e-mail...
+[2025-07-30 09:53:38] INFO - Campo de e-mail preenchido.
+[2025-07-30 09:53:39] INFO - Botão de envio do e-mail clicado.
+[2025-07-30 09:53:39] INFO - Aguardando campo de senha...
+[2025-07-30 09:53:39] INFO - Campo de senha preenchido.
+[2025-07-30 09:53:39] INFO - Botão de envio da senha clicado.
+[2025-07-30 09:53:50] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-30 10:01:55] 🚀 Iniciando a automação no Onvio...
+[2025-07-30 10:02:07] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-30 10:02:08] INFO - Botão de continuar login clicado.
+[2025-07-30 10:02:08] INFO - Aguardando campo de e-mail...
+[2025-07-30 10:02:09] INFO - Campo de e-mail preenchido.
+[2025-07-30 10:02:10] INFO - Botão de envio do e-mail clicado.
+[2025-07-30 10:02:10] INFO - Aguardando campo de senha...
+[2025-07-30 10:02:10] INFO - Campo de senha preenchido.
+[2025-07-30 10:02:12] INFO - Botão de envio da senha clicado.
+[2025-07-30 10:02:22] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-30 10:05:52] 🚀 Iniciando a automação no Onvio...
+[2025-07-30 10:06:05] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-30 10:06:05] INFO - Botão de continuar login clicado.
+[2025-07-30 10:06:05] INFO - Aguardando campo de e-mail...
+[2025-07-30 10:06:06] INFO - Campo de e-mail preenchido.
+[2025-07-30 10:06:07] INFO - Botão de envio do e-mail clicado.
+[2025-07-30 10:06:07] INFO - Aguardando campo de senha...
+[2025-07-30 10:06:07] INFO - Campo de senha preenchido.
+[2025-07-30 10:06:09] INFO - Botão de envio da senha clicado.
+[2025-07-30 10:06:20] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-30 10:16:57] ✅ Processo finalizado com sucesso.
+[2025-07-30 10:17:13] 🧹 Navegador fechado.
+[2025-07-30 10:37:39] 🚀 Iniciando a automação no Onvio...
+[2025-07-30 10:37:52] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-30 10:37:52] INFO - Botão de continuar login clicado.
+[2025-07-30 10:37:52] INFO - Aguardando campo de e-mail...
+[2025-07-30 10:37:53] INFO - Campo de e-mail preenchido.
+[2025-07-30 10:37:53] INFO - Botão de envio do e-mail clicado.
+[2025-07-30 10:37:53] INFO - Aguardando campo de senha...
+[2025-07-30 10:37:54] INFO - Campo de senha preenchido.
+[2025-07-30 10:37:54] INFO - Botão de envio da senha clicado.
+[2025-07-30 10:38:04] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-30 10:38:44] ✅ Processo finalizado com sucesso.
+[2025-07-30 10:38:46] 🧹 Navegador fechado.
+[2025-07-30 10:42:08] 🚀 Iniciando a automação no Onvio...
+[2025-07-30 10:42:24] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-30 10:42:25] INFO - Botão de continuar login clicado.
+[2025-07-30 10:42:25] INFO - Aguardando campo de e-mail...
+[2025-07-30 10:42:27] INFO - Campo de e-mail preenchido.
+[2025-07-30 10:42:27] INFO - Botão de envio do e-mail clicado.
+[2025-07-30 10:42:27] INFO - Aguardando campo de senha...
+[2025-07-30 10:42:28] INFO - Campo de senha preenchido.
+[2025-07-30 10:42:30] INFO - Botão de envio da senha clicado.
+[2025-07-30 10:42:41] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-30 10:44:35] ✅ Processo finalizado com sucesso.
+[2025-07-30 10:44:38] 🧹 Navegador fechado.
+[2025-07-30 10:48:46] 🚀 Iniciando a automação no Onvio...
+[2025-07-30 10:48:58] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-30 10:48:58] INFO - Botão de continuar login clicado.
+[2025-07-30 10:48:58] INFO - Aguardando campo de e-mail...
+[2025-07-30 10:48:59] INFO - Campo de e-mail preenchido.
+[2025-07-30 10:49:00] INFO - Botão de envio do e-mail clicado.
+[2025-07-30 10:49:00] INFO - Aguardando campo de senha...
+[2025-07-30 10:49:00] INFO - Campo de senha preenchido.
+[2025-07-30 10:49:02] INFO - Botão de envio da senha clicado.
+[2025-07-30 10:49:13] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-30 10:56:40] ✅ Processo finalizado com sucesso.
+[2025-07-30 10:56:44] 🧹 Navegador fechado.
+[2025-07-30 11:17:26] 🚀 Iniciando a automação no Onvio...
+[2025-07-30 11:17:38] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-30 11:17:39] INFO - Botão de continuar login clicado.
+[2025-07-30 11:17:39] INFO - Aguardando campo de e-mail...
+[2025-07-30 11:17:40] INFO - Campo de e-mail preenchido.
+[2025-07-30 11:17:41] INFO - Botão de envio do e-mail clicado.
+[2025-07-30 11:17:41] INFO - Aguardando campo de senha...
+[2025-07-30 11:17:41] INFO - Campo de senha preenchido.
+[2025-07-30 11:17:44] INFO - Botão de envio da senha clicado.
+[2025-07-30 11:17:54] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-30 11:18:23] ✅ Processo finalizado com sucesso.
+[2025-07-30 11:18:25] 🧹 Navegador fechado.
+[2025-07-30 11:22:29] 🚀 Iniciando a automação no Onvio...
+[2025-07-30 11:22:41] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-30 11:22:41] INFO - Botão de continuar login clicado.
+[2025-07-30 11:22:41] INFO - Aguardando campo de e-mail...
+[2025-07-30 11:22:42] INFO - Campo de e-mail preenchido.
+[2025-07-30 11:22:43] INFO - Botão de envio do e-mail clicado.
+[2025-07-30 11:22:43] INFO - Aguardando campo de senha...
+[2025-07-30 11:22:43] INFO - Campo de senha preenchido.
+[2025-07-30 11:22:45] INFO - Botão de envio da senha clicado.
+[2025-07-30 11:22:56] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-30 11:26:07] ✅ Processo finalizado com sucesso.
+[2025-07-30 11:26:10] 🧹 Navegador fechado.
+[2025-07-30 11:59:03] 🚀 Iniciando a automação no Onvio...
+[2025-07-30 11:59:15] INFO - Tentativa 1: Aguardando botão de continuar login...
+[2025-07-30 11:59:16] INFO - Botão de continuar login clicado.
+[2025-07-30 11:59:16] INFO - Aguardando campo de e-mail...
+[2025-07-30 11:59:17] INFO - Campo de e-mail preenchido.
+[2025-07-30 11:59:18] INFO - Botão de envio do e-mail clicado.
+[2025-07-30 11:59:18] INFO - Aguardando campo de senha...
+[2025-07-30 11:59:18] INFO - Campo de senha preenchido.
+[2025-07-30 11:59:21] INFO - Botão de envio da senha clicado.
+[2025-07-30 11:59:31] INFO - Nenhuma verificação em duas etapas solicitada.
+[2025-07-30 12:00:17] ✅ Processo finalizado com sucesso.
+[2025-07-30 12:00:19] 🧹 Navegador fechado.
