@@ -1,0 +1,183 @@
+{
+  "erros": [
+    {
+      "id_boleto": 5116214233,
+      "cnpj": "01997698501",
+      "nome_empresa": "WESLEY SANTOS AQUINO",
+      "codigo_cliente_fornecedor": 4922205118,
+      "motivo": "CNPJ não encontrado na planilha",
+      "nome_pdf": "BOLETO - COMPETENCIA 07-2025 - VENC 05-08-2025 - WESLEY SANTOS AQUINO - 5116214233.pdf"
+    },
+    {
+      "id_boleto": 5116214354,
+      "cnpj": "61786318000134",
+      "nome_empresa": "EVOLUTION REVISAO FINANCEIRA LTDA",
+      "codigo_cliente_fornecedor": 5070908591,
+      "motivo": "CNPJ não encontrado na planilha",
+      "nome_pdf": "BOLETO - COMPETENCIA 07-2025 - VENC 11-08-2025 - EVOLUTION REVISAO FINANCEIRA LTDA - 5116214354.pdf"
+    },
+    {
+      "id_boleto": 5116214396,
+      "cnpj": "53233891504",
+      "nome_empresa": "SILVANO COLARES JARDELINO DOS SANTOS",
+      "codigo_cliente_fornecedor": 5085804783,
+      "motivo": "CNPJ não encontrado na planilha",
+      "nome_pdf": "BOLETO - COMPETENCIA 07-2025 - VENC 11-08-2025 - SILVANO COLARES JARDELINO DOS SANTOS - 5116214396.pdf"
+    },
+    {
+      "id_boleto": 5116213609,
+      "cnpj": "05294496500",
+      "nome_empresa": "IRMAS MARIA LTDA",
+      "codigo_cliente_fornecedor": 4977623588,
+      "motivo": "CNPJ não encontrado na planilha",
+      "nome_pdf": "BOLETO - COMPETENCIA 07-2025 - VENC 10-08-2025 - IRMAS MARIA LTDA - 5116213609.pdf"
+    },
+    {
+      "id_boleto": 5116211975,
+      "codigo_cliente_fornecedor": 4808647111,
+      "motivo": "CNPJ ou nome da empresa não encontrado",
+      "nome_pdf": "BOLETO - COMPETENCIA 07-2025 - VENC 11-08-2025 -  - 5116211975.pdf"
+    },
+    {
+      "id_boleto": 5116212382,
+      "cnpj": "13800072000165",
+      "nome_empresa": "ALVES FRANCA COMERCIO DE MOVEIS LTDA",
+      "codigo_cliente_fornecedor": 5110856774,
+      "motivo": "CNPJ não encontrado na planilha",
+      "nome_pdf": "BOLETO - COMPETENCIA 07-2025 - VENC 11-08-2025 - ALVES FRANCA COMERCIO DE MOVEIS LTDA - 5116212382.pdf"
+    },
+    {
+      "id_boleto": 5116211652,
+      "cnpj": "05230649000112",
+      "nome_empresa": "MMM UTILIDADES DO LAR LTDA",
+      "codigo_cliente_fornecedor": 5110849532,
+      "motivo": "CNPJ não encontrado na planilha",
+      "nome_pdf": "BOLETO - COMPETENCIA 07-2025 - VENC 11-08-2025 - MMM UTILIDADES DO LAR LTDA - 5116211652.pdf"
+    },
+    {
+      "id_boleto": 5116210502,
+      "cnpj": "19004001549",
+      "nome_empresa": "FLODOALDO SIMOES JUNIOR",
+      "codigo_cliente_fornecedor": 4809001926,
+      "motivo": "CNPJ não encontrado na planilha",
+      "nome_pdf": "BOLETO - COMPETENCIA 07-2025 - VENC 11-08-2025 - FLODOALDO SIMOES JUNIOR - 5116210502.pdf"
+    },
+    {
+      "id_boleto": 5116210946,
+      "cnpj": "07705525526",
+      "nome_empresa": "LORENNA SANTOS COSTA",
+      "codigo_cliente_fornecedor": 5042603742,
+      "motivo": "CNPJ não encontrado na planilha",
+      "nome_pdf": "BOLETO - COMPETENCIA 07-2025 - VENC 11-08-2025 - LORENNA SANTOS COSTA - 5116210946.pdf"
+    },
+    {
+      "id_boleto": 5116211031,
+      "cnpj": "60113209000193",
+      "nome_empresa": "F F A DE OLIVEIRA",
+      "codigo_cliente_fornecedor": 5115687385,
+      "motivo": "CNPJ não encontrado na planilha",
+      "nome_pdf": "BOLETO - COMPETENCIA 07-2025 - VENC 11-08-2025 - F F A DE OLIVEIRA - 5116211031.pdf"
+    }
+  ],
+  "boletos": [
+    {
+      "id_boleto": 5116214165,
+      "cnpj": "42187460000110",
+      "nome_empresa": "TAJS LTDA",
+      "codigo_cliente_fornecedor": 4936296803,
+      "codigo_empresa_dominio": "45",
+      "data_vencimento": "10/08/2025",
+      "nome_pdf": "BOLETO - COMPETENCIA 07-2025 - VENC 10-08-2025 - TAJS LTDA - 5116214165.pdf"
+    },
+    {
+      "id_boleto": 5116214178,
+      "cnpj": "47888388000172",
+      "nome_empresa": "VORTEX ED",
+      "codigo_cliente_fornecedor": 4808646662,
+      "codigo_empresa_dominio": "45",
+      "data_vencimento": "10/08/2025",
+      "nome_pdf": "BOLETO - COMPETENCIA 07-2025 - VENC 10-08-2025 - VORTEX ED - 5116214178.pdf"
+    },
+    {
+      "id_boleto": 5116214194,
+      "cnpj": "54515802000163",
+      "nome_empresa": "TASAMA ADMINISTRACAO LTDA",
+      "codigo_cliente_fornecedor": 4953744608,
+      "codigo_empresa_dominio": "45",
+      "data_vencimento": "10/08/2025",
+      "nome_pdf": "BOLETO - COMPETENCIA 07-2025 - VENC 10-08-2025 - TASAMA ADMINISTRACAO LTDA - 5116214194.pdf"
+    },
+    {
+      "id_boleto": 5116214207,
+      "cnpj": "28207673000217",
+      "nome_empresa": "493 JOSE JANDIR DE OLIVEIRA",
+      "codigo_cliente_fornecedor": 4963706631,
+      "codigo_empresa_dominio": "45",
+      "data_vencimento": "10/08/2025",
+      "nome_pdf": "BOLETO - COMPETENCIA 07-2025 - VENC 10-08-2025 - 493 JOSE JANDIR DE OLIVEIRA - 5116214207.pdf"
+    },
+    {
+      "id_boleto": 5116214220,
+      "cnpj": "17204638000147",
+      "nome_empresa": "P & S PRODUTOS AGROPECUARIOS LTDA",
+      "codigo_cliente_fornecedor": 4968273437,
+      "codigo_empresa_dominio": "45",
+      "data_vencimento": "10/08/2025",
+      "nome_pdf": "BOLETO - COMPETENCIA 07-2025 - VENC 10-08-2025 - P  S PRODUTOS AGROPECUARIOS LTDA - 5116214220.pdf"
+    },
+    {
+      "id_boleto": 5116214243,
+      "cnpj": "46535912000169",
+      "nome_empresa": "VIA ROMA",
+      "codigo_cliente_fornecedor": 4993075767,
+      "codigo_empresa_dominio": "45",
+      "data_vencimento": "25/08/2025",
+      "nome_pdf": "BOLETO - COMPETENCIA 07-2025 - VENC 25-08-2025 - VIA ROMA - 5116214243.pdf"
+    },
+    {
+      "id_boleto": 5116214256,
+      "cnpj": "03983099000187",
+      "nome_empresa": "AGROPECUARIA FERTIL LTDA",
+      "codigo_cliente_fornecedor": 5001680468,
+      "codigo_empresa_dominio": "45",
+      "data_vencimento": "11/08/2025",
+      "nome_pdf": "BOLETO - COMPETENCIA 07-2025 - VENC 11-08-2025 - AGROPECUARIA FERTIL LTDA - 5116214256.pdf"
+    },
+    {
+      "id_boleto": 5116214269,
+      "cnpj": "57512423000108",
+      "nome_empresa": "ASSOCIACAO FORA DE FORMA FUTEBOL CLUBE DE TOBIAS BARRETO-SE",
+      "codigo_cliente_fornecedor": 5007413058,
+      "codigo_empresa_dominio": "45",
+      "data_vencimento": "11/08/2025",
+      "nome_pdf": "BOLETO - COMPETENCIA 07-2025 - VENC 11-08-2025 - ASSOCIACAO FORA DE FORMA FUTEBOL CLUBE DE TOBIAS BARRETO-SE - 5116214269.pdf"
+    },
+    {
+      "id_boleto": 5116214284,
+      "cnpj": "58114504000112",
+      "nome_empresa": "FERTIL GRAO LTDA",
+      "codigo_cliente_fornecedor": 5016601456,
+      "codigo_empresa_dominio": "45",
+      "data_vencimento": "11/08/2025",
+      "nome_pdf": "BOLETO - COMPETENCIA 07-2025 - VENC 11-08-2025 - FERTIL GRAO LTDA - 5116214284.pdf"
+    },
+    {
+      "id_boleto": 5116214297,
+      "cnpj": "58214587000111",
+      "nome_empresa": "BDA JARDINS LTDA",
+      "codigo_cliente_fornecedor": 5025858224,
+      "codigo_empresa_dominio": "45",
+      "data_vencimento": "11/08/2025",
+      "nome_pdf": "BOLETO - COMPETENCIA 07-2025 - VENC 11-08-2025 - BDA JARDINS LTDA - 5116214297.pdf"
+    },
+    {
+      "id_boleto": 5116214310,
+      "cnpj": "16806229000158",
+      "nome_empresa": "SPEED TELECOM LTDA",
+      "codigo_cliente_fornecedor": 5029895805,
+      "codigo_empresa_dominio": "45",
+      "data_vencimento": "11/08/2025",
+      "nome_pdf": "BOLETO - COMPETENCIA 07-2025 - VENC 11-08-2025 - SPEED TELECOM LTDA - 5116214310.pdf"
+    }
+  ]
+}
