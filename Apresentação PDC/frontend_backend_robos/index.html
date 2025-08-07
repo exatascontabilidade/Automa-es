@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Disparar Robô com Backend Seguro</title>
+</head>
+<body>
+  <h1>🚀 Disparar Robô via Servidor Seguro</h1>
+  <button onclick="executar()">Executar Robô</button>
+  <p id="status"></p>
+
+  <script>
+    async function executar() {
+      const status = document.getElementById("status");
+      status.innerText = "⏳ Enviando comando...";
+      try {
+        const res = await fetch("http://localhost:5000/executar", {
+          method: "POST"
+        });
+        const data = await res.json();
+        if (data.success) {
+          status.innerText = "✅ Comando enviado com sucesso!";
+        } else {
+          status.innerText = "❌ Falha ao enviar comando.";
+          console.error(data.message);
+        }
+      } catch (err) {
+        status.innerText = "❌ Erro ao conectar com o servidor.";
+        console.error(err);
+      }
+    }
+  </script>
+</body>
+</html>
