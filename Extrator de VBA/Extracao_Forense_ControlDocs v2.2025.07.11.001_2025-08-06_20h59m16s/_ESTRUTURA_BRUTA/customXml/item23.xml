@@ -1,0 +1,4 @@
+<RegexCST xmlns="RegexCST_ICMS"><json><![CDATA[{
+    "STGeral": "[0-8](10|60|61|70)",
+    "CompraST": "[0-8](60|61)"
+}]]></json></RegexCST>

@@ -1,0 +1,1284 @@
+<customUI onLoad="InicializarFaixaPersonalizada" xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+	
+	<ribbon startFromScratch="true">
+	    
+		<tabs>
+		    
+            <tab id="tbControlDocs" label="ControlDocs">
+                
+                <group id="grNavControlDocs" label="Navegação Rápida">
+                    <button id="btnAssinaturaControlDocs" label="Assinatura ControlDocs" tag="Gestão da Assinatura" image="Autenticacao" size="large" onAction="AcionarBotao" />
+				    <button id="btnCadContrib" label="Cadastro do Contribuinte" tag="CadContrib" image="Contribuintes" size="large" onAction="AcionarBotao" />				    
+                    <button id="btnRecursosControlDocs" label="Recursos ControlDocs" tag="ControlDocs" image="LogoControlDocs" size="large" onAction="AcionarBotao" />
+                    <button id="btnConfiguracoesControlDocs" label="Configurações e Personalizações" tag="Configurações" image="ConfiguracoesControlDocs" size="large" onAction="AcionarBotao" />                    
+                </group>
+                
+                <group id="grRecAjudaControlDocs" label="Recursos de Ajuda" tag="ControlDocs" getVisible="GetVisible">
+                    <button id="btnControlDocs" label="Tutoriais ControlDocs" image="TutoriaisControlDocs" size="large" onAction="AcionarBotao"/>
+                    <button id="btnDocControlDocs" label="Documentação ControlDocs" image="Documentacao" size="large" onAction="AcionarBotao"/>
+                    <button id="btnDonwloadControlDocs" label="Download da Versão Atual" image="DownloadControlDocs" size="large" onAction="AcionarBotao"/>
+                    <button id="btnSuporte" label="Suporte via Whatsapp" image="SuporteControlDocs" size="large" onAction="AcionarBotao"/>
+                    <button id="btnSugestoes" label="Sugerir Melhorias" image="Sugestoes" size="large" onAction="AcionarBotao"/>
+                </group>                    
+
+                <group id="grConfigControlDocs" label="Personalização" tag="Configurações" getVisible="GetVisible">
+                    <checkBox id="chLinhasGrade" label="Remover Linhas de Grade" onAction="getClique" getPressed="getPressed"/>
+                    <checkBox id="chOtimizacoesFiscais" label="Ativar Otimizações Fiscais" onAction="AlternarOtimizacoesFiscais" getPressed="ObterStatusOtimizacoesFiscais"/>
+                </group>
+                                    
+                <group id="grGerenciamentoControlDocs" label="Configurações" tag="Configurações" getVisible="GetVisible">
+                    <button id="btnImportarExcel" label="Importar Dados Versão Anterior" image="ImportarExcel" size="large" onAction="AcionarBotao" />
+                    <separator id="SepCOnfigControl" />
+                    <button id="btnResetarControlDocs" label="Resetar ControlDocs" image="DeletarTudo" size="large" onAction="AcionarBotao" />
+                </group>
+                
+                <group id="grAssineControlDocs" label="Assinar ControlDocs" tag="Gestão da Assinatura" getVisible="GetVisible">
+                    <splitButton id="AssinaturaControlDocs" size="large">
+                        <button id="btnAssinarControlDocs" image="AssinarControlDocs" label="Assinar ControlDocs" onAction="AbrirPaginaPlanos"/> 
+                        <menu id="mnPlanosControlDocs">
+                            <menu id="mnPlanoIndividual" label="Plano Individual" image="AssinarControlDocs">                                 
+                                <button id="btnIndividualMensal" label="Mensal" image="AssinarControlDocs" onAction="AcionarBotao" /> 
+                                <button id="btnIndividualAnual" label="Anual (Economize!)" image="AssinarControlDocs" onAction="AcionarBotao" /> 
+                            </menu>                            
+                            <menu id="mnPlanoEmpresarial" label="Plano Empresarial" image="AssinarControlDocs">                                 
+                                <button id="btnEmpresarialMensal" label="Mensal" image="AssinarControlDocs" onAction="AcionarBotao" />
+                                <button id="btnEmpresarialAnual" label="Anual (Melhor Custo-Benefício)" image="AssinarControlDocs" onAction="AcionarBotao" />
+                            </menu>                             
+                        </menu>
+                    </splitButton>
+                    <button id="btnExperimentarControlDocs" label="Experimentar Grátis" image="AssinaturaExperimental" size="large" onAction="AcionarBotao" />                     
+                </group>
+                              
+                <group id="grAssinaturaControlDocs" label="Recursos de Assinatura" tag="Gestão da Assinatura" getVisible="GetVisible">                
+                    <button id="btnAutenticarUsuario" label="Autenticar Usuário" image="AutenticarUsuario" size="large" onAction="AcionarBotao" />
+                    <button id="btnConsultarAssinatura" label="Consultar Dados da Assinatura" image="ConsultarAssinatura" size="large" onAction="AcionarBotao" />                    
+                    <separator id="sep000" />
+                    <button id="btnLimparDadosAssinatura" label="Limpar Dados" image="Lixeira" size="large" onAction="AcionarBotao" />
+                </group>   
+                
+				<group id="grContribuinte" tag="CadContrib" getVisible="GetVisible">
+					<button id="btnExtCadWeb" label="Extrair Cadastro da Web" image="ConsultarCNPJ" size="large" onAction="AcionarBotao" />
+					<button id="btnExtCadSPED" label="Extrair Cadastro do SPED Fiscal" image="ExtrairCadSPED" size="large" onAction="AcionarBotao" />
+				</group>
+                
+            </tab>
+            
+			<tab id="tbConferencia" label="Conferência Fiscal">
+                
+<!-- GRUPO DE CONTROLES DOS DOCUMENTOS FISCAIS -->
+				<group id="grAbas" label="Relatórios XML">				    				    	    
+				    
+                    <splitButton id="RelatoriosXML" size="large" >
+                        <button id="btnRelDocumentos" image="RelatoriosXML" label="Relatórios XML" />
+                        <menu id="mnRelsXMLS">
+                            <menu id="mnRelsEntrada" label="Relatórios de Entrada" image="RelatoriosEntrada">
+                                <button id="btnEntNFe" label="Entradas NFe" tag="EntNFe" image="EntradaNFe" onAction="AcionarBotao" />
+                                <button id="btnEntCTe" label="Entradas CTe" tag="EntCTe" image="EntradaCTe" onAction="AcionarBotao" />                            
+                            </menu>
+                            <menu id="mnRelsSaida" label="Relatórios de Saída" image="RelatoriosSaida">
+                                <button id="btnSaiNFe" label="Saídas NFe" tag="SaiNFe" image="SaidaNFe" onAction="AcionarBotao" />
+                                <button id="btnSaiNFCe" label="Saídas NFCe" tag="SaiNFCe" image="SaidaNFCe" onAction="AcionarBotao" />
+                                <button id="btnSaiCTe" label="Saídas CTe" tag="SaiCTe" image="SaidaCTe" onAction="AcionarBotao" />
+                                <button id="btnSaiCFe" label="Saídas CFe" tag="SaiCFe" image="CF-e-SAT" onAction="AcionarBotao" />                            
+                            </menu>
+                        <button id="btnDocsAusentes" label="Documentos Ausentes" tag="Documentos Faltantes" image="DocumentosFaltantes" onAction="AcionarBotao" />
+                        <button id="btnQuebraSequencia" label="Quebra de Sequência Numérica" tag="Quebras de Sequência" image="QuebraSequencia" onAction="AcionarBotao" />                        
+                        </menu>
+                    </splitButton>
+				</group>               
+                
+<!-- GRUPO DE CONTROLES DOS DOCUMENTOS FISCAIS -->
+				<group id="grDocs">				    
+				    <button id="btnImportSefazBA" label="Importar Relatórios SEFAZ/BA" image="RelatorioSEFAZBA" size="large" onAction="AcionarBotao" />					    
+                    <button id="btnImportDoce" label="Importar Doc-e" image="ImportarDocs" size="large" onAction="AcionarBotao" />
+                    <button id="btnImportProtCancel" label="Importar Protocolos de Cancelamento" image="ProtocolosCancelamento" size="large" onAction="AcionarBotao" />
+					<button id="btnImportSPED" label="Cruzar Dados com o SPED" image="CruzarDadosSPED" size="large" onAction="AcionarBotao" />                     							        				    				                      							        				    				
+				</group>
+				
+				<group id="grEnt" label="Funcionalidades do Relatório" tag="EntNFe" getVisible="getVisible">
+				    <button id="btnIdentReferenciadas" label="Identificar Notas Referenciadas" image="IdentificarDevolucoes" size="large" onAction="AcionarBotao" />                     							        				    				                      							        				    				
+				</group>
+                
+                <group id="grSeq" label="Funcionalidades do Relatório" tag="Quebras de Sequência" getVisible="getVisible">
+                    <button id="btnGerarQuebraSequenciaXML" label="Identificar Quebra de Sequência (XMLS)" image="QuebraSequencia" size="large" onAction="AcionarBotao" />
+                    <button id="btnGerarQuebraSequenciaSPED" label="Identificar Quebra de Sequência (SPED)" image="QuebraSequenciaSPED" size="large" onAction="AcionarBotao" />
+                </group>
+                    
+                <group id = "grFuncoes">
+                    <button id="btnDocsSemLancar" label="Listar Documentos Não Lançados" image="DocumentosSemLancar" size="large" tag="DocsSemLancar" getVisible="GetVisible" onAction="AcionarBotao" />                     
+                </group>
+                
+<!-- GRUPO DE CONTROLES DA ABA -->				
+                <group id="grLimpeza">
+                    <button id="btnLimpFiltro" label="Limpar Filtros" image="LimparFiltros" size="large" onAction="LimparFiltros" />
+					<button id="btnLimpDados" label="Limpar Dados" image="Lixeira" size="large" onAction="LimparDados" />
+                </group>
+                
+			</tab>
+            
+            <tab id="tbProcessamento" label="Processamento SPEDS/XMLS">
+                <group id="grImpXMLLote" label="Importação de XMLS">
+
+                   <splitButton id="ImportarXMLSArq" size="large" >
+                        <button id="btnImportarXMLSArq" image="ListarDocs" label="Importar XMLs" />
+                        <menu id="mnXMLs">
+                            <menu id="mnLoteFiscal" label="Por Pasta" image="ImportarLote" >
+                                <button id="btnImportarLoteC100" label="NF-e/NFC-e (C100 e Filhos)" image="ImportarLote" onAction="AcionarBotao" />
+                            </menu>
+                            <menu id="mnArquivo" label="Por Arquivos" image="ListarDocs" >
+                                <button id="btnImportarArquivoC100" label="NF-e/NFC-e (C100 e Filhos)" image="ListarDocs" onAction="AcionarBotao" />
+                            </menu>
+                            <menu id="mnSPEDFiscal" label="SPED Fiscal" image="ImportarRegistroAtual" >
+                                <menu id="mnLoteXML" label="Por Pasta" image="ImportarLote" >
+                                    <button id="btnImportarLoteC100Fiscal" label="NF-e/NFC-e (C100)" image="ImportarLote" onAction="AcionarBotao" />
+                                    <button id="btnImportarLoteC800Fiscal" label="CF-e-SAT (C800)" image="ImportarLote" onAction="AcionarBotao" />
+                                    <button id="btnImportarLoteD100Fiscal" label="CT-e (D100)" image="ImportarLote" onAction="AcionarBotao" />
+                                </menu>                                
+                                <menu id="mnArqFiscal" label="Por Arquivos" image="ListarDocs" >
+                                    <button id="btnImportarArqC100Fiscal" label="NF-e/NFC-e (C100)" image="ListarDocs" onAction="AcionarBotao" />
+                                    <button id="btnImportarArqC800Fiscal" label="CF-e-SAT (C800)" image="ListarDocs" onAction="AcionarBotao" />
+                                    <button id="btnImportarArqD100Fiscal" label="CT-e (D100)" image="ListarDocs" onAction="AcionarBotao" />
+                                </menu>
+                            </menu>
+                            <menu id="mnSPEDContribuicoes" label="SPED Contribuicoes" image="ImportarRegistroAtual" >
+                                <menu id="mnLoteContribuicoes" label="Por Pasta" image="ImportarLote" >
+                                    <button id="btnImportarLoteA100Contribuicoes" label="NFSe (A100)" image="ImportarLote" onAction="AcionarBotao" />
+                                    <button id="btnImportarLoteC100Contribuicoes" label="NF-e/NFC-e (C100)" image="ImportarLote" onAction="AcionarBotao" />
+                                    <button id="btnImportarLoteC800Contribuicoes" label="CF-e-SAT (C800)" image="ImportarLote" onAction="AcionarBotao" />
+                                    <button id="btnImportarLoteD100Contribuicoes" label="CT-e (D100 / D200)" image="ImportarLote" onAction="AcionarBotao" />
+                                </menu> 
+                                <menu id="mnArqContribuicoes" label="Por Arquivos" image="ListarDocs" >
+                                    <button id="btnImportarArqA100Contribuicoes" label="NFSe (A100)" image="ListarDocs" onAction="AcionarBotao" />
+                                    <button id="btnImportarArqC100Contribuicoes" label="NF-e/NFC-e (C100)" image="ListarDocs" onAction="AcionarBotao" />
+                                    <button id="btnImportarArqC800Contribuicoes" label="CF-e-SAT (C800)" image="ListarDocs" onAction="AcionarBotao" />
+                                    <button id="btnImportarArqD100Contribuicoes" label="CT-e (D100 / D200)" image="ListarDocs" onAction="AcionarBotao" />
+                                </menu>
+                            </menu>
+                        </menu>
+                    </splitButton>
+                    
+                    <separator id="separador" />                    
+                    <splitButton id="ConfigImportXML" size="normal" >
+                        <button id="btnConfigImport" label="Configurar Importação" image="Configuracoes"/>
+                        <menu id="mnConfigImportXML">
+                            <checkBox id="chNFeSemValidade" label="Importar XMLS sem validade jurídica" onAction="getClique" getPressed="getPressed"/>
+                            <checkBox id="chCadItensTercProprios" label="Cadastrar itens de terceiros como próprios" onAction="getClique" getPressed="getPressed"/>
+                            <checkBox id="chImportarCTeD100" label="Importar CTe de saída no registro D100" onAction="getClique" getPressed="getPressed"/>
+                        </menu>
+                    </splitButton>
+                                        
+                    <checkBox id="chImportPeriodo" label="Selecionar período de importação" onAction="getClique" getPressed="getPressed"/>
+                    <box id="bxHor" boxStyle="horizontal">
+                        <labelControl id="lbXML" label="Período:" getVisible="getVisible" />
+                        <editBox id="ebPeriodo" screentip="Digite o período desejado no formato MMAAAA" maxLength="6" sizeString="WWWW" onChange="DefinirPeriodo" getText="getText" getVisible="getVisible"/>
+                        <toggleButton id="btnDefinirPeriodo" label="Selecionar Período" image="Check" getPressed="getPressed" onAction="AcionarBotao" getVisible="getVisible" />
+                    </box>  
+                        
+                </group>
+                    
+                <group id="grImportSPED" label="Importação do SPED">                    
+                    <splitButton id="ImportarSPEDS" size="large" >
+                        <button id="btnImportarSPED" image="ImportarEFD" label="Importar SPED"/>
+                        <menu id="mnEFD">
+                            <menu id="mnEFDICMSIPI" label="Opções do SPED Fiscal" image="OpcoesSPED" >
+                                <button id="btnImportarSPEDFiscal" label="Fiscal" image="ImportarEFD" onAction="AcionarBotao" />
+                                <button id="btnCentralizarSPEDFiscal" label="Centralizar SPED Fiscal" image="UnificarSPED" onAction="AcionarBotao" />
+                            </menu>                            
+                            <menu id="mnEFDContribuicoes" label="Opções do SPED Contribuições" image="OpcoesSPED" >
+                                <button id="btnImportarSPEDContribuicoes" label="Importar Contribuições" image="ImportarEFD" onAction="AcionarBotao" />
+                                <button id="btnUnificarSPEDContribuicoes" label="Unificar SPED Contribuições" image="UnificarSPED" onAction="AcionarBotao" />
+                            </menu>
+                        </menu>
+                    </splitButton>
+                    <button id="btnEstruturarSPED" label="Estruturar SPED" image="EstruturarSPED" size="normal" onAction="AcionarBotao" />
+                    <checkBox id="chIgnorarEmissoesProprias" label="Ignorar Emissões Próprias" onAction="getClique" getPressed="getPressed"/>
+                    
+                    <separator id="Sep002" />                                                                                
+                    <button id="btnLimparRegistrosSPED" label="Apagar Registros" image="Lixeira" size="large" onAction="AcionarBotao" />
+                    
+                </group>
+                                
+                <group id="grExportSPED" label="Exportação dos SPEDs">
+                    <splitButton id="ExportarSPEDS" size="large" >
+                        <button id="btnExportarSPED" image="ExportarEFD" label="Exportar SPED"/>
+                        <menu id="mnSPED">
+                            <button id="btnExportarSPEDFiscal" label="Fiscal" image="ExportarEFD" onAction="AcionarBotao" />
+                            <button id="btnExportarSPEDContribuicoes" label="Contribuições" image="ExportarEFD" onAction="AcionarBotao" />
+                        </menu>
+                    </splitButton>
+                    
+                    <splitButton id="ConfugracoesExportacao" size="normal">
+                        <button id="btnConfigExport" label="Configurar Exportação" image="Configuracoes"/>
+                        <menu id="mnConfugracoesExportacao">
+                            <menu id="mnConfigSPEDFiscal" label="SPED Fiscal" image="ImportarRegistroAtual" >
+                                <checkBox id="chItensNotasProprias" label="Exportar itens (C170) das notas de emissão própria" onAction="getClique" getPressed="getPressed"/>
+                                <checkBox id="chPISCOFINS" label="Exportar valores de PIS e COFINS" onAction="getClique" getPressed="getPressed"/>
+                                <checkBox id="chC140" label="Exportar C140 e filhos" onAction="getClique" getPressed="getPressed"/>                            
+                            </menu>    
+                        </menu>
+                    </splitButton>
+                        
+                </group>
+                  
+            </tab>
+                            
+            <tab id="tbRegEFD" label="Registros SPED" >
+                
+                <group id="grBlocosEFD" label="Blocos do SPED" tag="Todos" >
+                    
+                    <menu id="MenuGeral" label="Registros da EFD-ICMS/IPI" size="large" image="Registros">
+                        <menu id="MenuBl0" label="Bloco 0" image="Registros">
+                            <button id="btnReg0000" label="0000" image="Registro" tag="0000" onAction="AcionarBotao" />
+                            <button id="btnReg0001" label="0001" image="Registro" tag="0001" onAction="AcionarBotao" />
+                            <button id="btnReg0002" label="0002" image="Registro" tag="0002" onAction="AcionarBotao" />
+                            <button id="btnReg0005" label="0005" image="Registro" tag="0005" onAction="AcionarBotao" />
+                            <button id="btnReg0015" label="0015" image="Registro" tag="0015" onAction="AcionarBotao" />
+                            <button id="btnReg0100" label="0100" image="Registro" tag="0100" onAction="AcionarBotao" />                            
+                            <menu id="Menu0150" label="0150 e filhos" image="Registro">
+                                <button id="btnReg0150" label="0150" image="Registro" tag="0150" onAction="AcionarBotao" />
+                                <button id="btnReg0175" label="0175" image="Registro" tag="0175" onAction="AcionarBotao" />
+                            </menu>
+                            <button id="btnReg0190" label="0190" image="Registro" tag="0190" onAction="AcionarBotao" />
+                            <menu id="Menu0200" label="0200 e filhos" image="Registro">
+                                <button id="btnReg0200" label="0200" image="0200" tag="0200" onAction="AcionarBotao" />
+                                <button id="btnReg0205" label="0205" image="0205" tag="0205" onAction="AcionarBotao" />
+                                <button id="btnReg0206" label="0206" image="0206" tag="0206" onAction="AcionarBotao" />
+                                <button id="btnReg0210" label="0210" image="0210" tag="0210" onAction="AcionarBotao" />
+                                <button id="btnReg0220" label="0220" image="0220" tag="0220" onAction="AcionarBotao" />
+                                <button id="btnReg0221" label="0221" image="0221" tag="0221" onAction="AcionarBotao" />
+                            </menu>                            
+                            <menu id="Menu0300" label="0300 e filhos" image="Registro">
+                                <button id="btnReg0300" label="0300" image="Registro" tag="0300" onAction="AcionarBotao" />
+                                <button id="btnReg0305" label="0305" image="Registro" tag="0305" onAction="AcionarBotao" />
+                            </menu>                               
+                            <button id="btnReg0400" label="0400" image="Registro" tag="0400" onAction="AcionarBotao" />
+                            <button id="btnReg0450" label="0450" image="Registro" tag="0450" onAction="AcionarBotao" />
+                            <button id="btnReg0460" label="0460" image="Registro" tag="0460" onAction="AcionarBotao" />
+                            <button id="btnReg0500" label="0500" image="Registro" tag="0500" onAction="AcionarBotao" />
+                            <button id="btnReg0900" label="0600" image="Registro" tag="0600" onAction="AcionarBotao" />
+                            <button id="btnReg0990" label="0990" image="Registro" tag="0990" onAction="AcionarBotao" />                            
+                        </menu>
+                        
+                        <menu id="MenuBlB" label="Bloco B" image="Registros">
+                            <button id="btnRegB001" label="B001" image="Registro" tag="B001" onAction="AcionarBotao" />
+                            <button id="btnRegB020" label="B020" image="Registro" tag="B020" onAction="AcionarBotao" />
+                            <button id="btnRegB030" label="B030" image="Registro" tag="B030" onAction="AcionarBotao" />
+                            <button id="btnRegB350" label="B350" image="Registro" tag="B350" onAction="AcionarBotao" />
+                            <button id="btnRegB420" label="B420" image="Registro" tag="B420" onAction="AcionarBotao" />
+                            <button id="btnRegB440" label="B440" image="Registro" tag="B440" onAction="AcionarBotao" />
+                            <button id="btnRegB460" label="B460" image="Registro" tag="B460" onAction="AcionarBotao" />
+                            <button id="btnRegB470" label="B470" image="Registro" tag="B470" onAction="AcionarBotao" />
+                            <button id="btnRegB500" label="B500" image="Registro" tag="B500" onAction="AcionarBotao" />
+                            <button id="btnRegB990" label="B990" image="Registro" tag="B990" onAction="AcionarBotao" />
+                        </menu>
+                        
+                        <menu id="MenuBlC" label="Bloco C" image="Registros">
+                            <button id="btnRegC001" label="C001" image="Registro" tag="C001" onAction="AcionarBotao" />
+                            <menu id="MenuC100" label="C100 e filhos" image="Registro">
+                                <button id="btnRegC100" label="C100" image="Registro" tag="C100" onAction="AcionarBotao" />
+                                <button id="btnRegC101" label="C101" image="Registro" tag="C101" onAction="AcionarBotao" />
+                                <button id="btnRegC105" label="C105" image="Registro" tag="C105" onAction="AcionarBotao" />                                
+                                <menu id="MenuC110" label="C110 e filhos" image="Registro">
+                                    <button id="btnRegC110" label="C110" image="Registro" tag="C110" onAction="AcionarBotao" />
+                                    <button id="btnRegC111" label="C111" image="Registro" tag="C111" onAction="AcionarBotao" />
+                                    <button id="btnRegC112" label="C112" image="Registro" tag="C112" onAction="AcionarBotao" />
+                                    <button id="btnRegC113" label="C113" image="Registro" tag="C113" onAction="AcionarBotao" />
+                                    <button id="btnRegC114" label="C114" image="Registro" tag="C114" onAction="AcionarBotao" />
+                                    <button id="btnRegC115" label="C115" image="Registro" tag="C115" onAction="AcionarBotao" />
+                                    <button id="btnRegC116" label="C116" image="Registro" tag="C116" onAction="AcionarBotao" />
+                                </menu>
+                                <button id="btnRegC120" label="C120" image="Registro" tag="C120" onAction="AcionarBotao" />
+                                <button id="btnRegC130" label="C130" image="Registro" tag="C130" onAction="AcionarBotao" />
+                                <menu id="MenuC140" label="C140 e filhos" image="Registro">
+                                    <button id="btnRegC140" label="C140" image="Registro" tag="C140" onAction="AcionarBotao" />
+                                    <button id="btnRegC141" label="C141" image="Registro" tag="C141" onAction="AcionarBotao" />
+                                </menu>                                
+                                <button id="btnRegC160" label="C160" image="Registro" tag="C160" onAction="AcionarBotao" />
+                                <button id="btnRegC165" label="C165" image="Registro" tag="C165" onAction="AcionarBotao" />
+                                <menu id="MenuC170" label="C170 e filhos" image="Registro">
+                                    <button id="btnRegC170" label="C170" image="Registro" tag="C170" onAction="AcionarBotao" />
+                                    <button id="btnRegC171" label="C171" image="Registro" tag="C171" onAction="AcionarBotao" />
+                                    <button id="btnRegC172" label="C172" image="Registro" tag="C172" onAction="AcionarBotao" />
+                                    <button id="btnRegC173" label="C173" image="Registro" tag="C173" onAction="AcionarBotao" />
+                                    <button id="btnRegC174" label="C174" image="Registro" tag="C174" onAction="AcionarBotao" />
+                                    <button id="btnRegC175" label="C175" image="Registro" tag="C175" onAction="AcionarBotao" />
+                                    <button id="btnRegC176" label="C176" image="Registro" tag="C176" onAction="AcionarBotao" />
+                                    <button id="btnRegC177" label="C177" image="Registro" tag="C177" onAction="AcionarBotao" />
+                                    <button id="btnRegC178" label="C178" image="Registro" tag="C178" onAction="AcionarBotao" />
+                                    <button id="btnRegC179" label="C179" image="Registro" tag="C179" onAction="AcionarBotao" />
+                                    <button id="btnRegC180" label="C180" image="Registro" tag="C180" onAction="AcionarBotao" />
+                                    <button id="btnRegC181" label="C181" image="Registro" tag="C181" onAction="AcionarBotao" />
+                                </menu>
+                                
+                                <button id="btnRegC185" label="C185" image="Registro" tag="C185" onAction="AcionarBotao" />
+                                <button id="btnRegC186" label="C186" image="Registro" tag="C186" onAction="AcionarBotao" />
+                                <menu id="MenuC190" label="C190 e filhos" image="Registro">
+                                    <button id="btnRegC190" label="C190" image="Registro" tag="C190" onAction="AcionarBotao" />
+                                    <button id="btnRegC191" label="C191" image="Registro" tag="C191" onAction="AcionarBotao" />
+                                </menu>   
+                                <menu id="MenuC195" label="C195 e filhos" image="Registro">
+                                    <button id="btnRegC195" label="C195" image="Registro" tag="C195" onAction="AcionarBotao" />
+                                    <button id="btnRegC197" label="C197" image="Registro" tag="C197" onAction="AcionarBotao" />
+                                </menu>
+                                
+                            </menu>                            
+                            <menu id="MenuC300" label="C300 e filhos" image="Registro">
+                                <button id="btnRegC300" label="C300" image="Registro" tag="C300" onAction="AcionarBotao" />
+                            </menu>
+                            <menu id="MenuC400" label="C400 e filhos" image="Registro">
+                                <button id="btnRegC400" label="C400" image="Registro" tag="C400" onAction="AcionarBotao" />
+                            </menu>
+                            <menu id="MenuC500" label="C500 e filhos" image="Registro">
+                                <button id="btnRegC500" label="C500" image="Registro" tag="C500" onAction="AcionarBotao" />
+                            </menu>                      
+                            <menu id="MenuC600" label="C600 e filhos" image="Registro">
+                                <button id="btnRegC600" label="C600" image="Registro" tag="C600" onAction="AcionarBotao" />
+                            </menu>                      
+                            <menu id="MenuC700" label="C700 e filhos" image="Registro">
+                                <button id="btnRegC700" label="C700" image="Registro" tag="C700" onAction="AcionarBotao" />
+                            </menu>                      
+                            <menu id="MenuC800" label="C800 e filhos" image="Registro">
+                                <button id="btnRegC800" label="C800" image="Registro" tag="C800" onAction="AcionarBotao" />
+                            </menu>                      
+                            <menu id="MenuC860" label="C860 e filhos" image="Registro">
+                                <button id="btnRegC860" label="C860" image="Registro" tag="C860" onAction="AcionarBotao" />
+                            </menu>                                                                                                                  
+                            <button id="btnRegC990" label="C990" image="Registro" tag="C990" onAction="AcionarBotao" />
+                        </menu>
+                        
+                        <menu id="MenuBlD" label="Bloco D" image="Registros">
+                            <button id="btnRegD001" label="D001" image="Registro" tag="D001" onAction="AcionarBotao" />
+                            <button id="btnRegD100" label="D100" image="Registro" tag="D100" onAction="AcionarBotao" />
+                            <button id="btnRegD300" label="D300" image="Registro" tag="D300" onAction="AcionarBotao" />
+                            <button id="btnRegD400" label="D400" image="Registro" tag="D400" onAction="AcionarBotao" />
+                            <button id="btnRegD500" label="D500" image="Registro" tag="D500" onAction="AcionarBotao" />
+                            <button id="btnRegD600" label="D600" image="Registro" tag="D600" onAction="AcionarBotao" />
+                            <button id="btnRegD700" label="D695" image="Registro" tag="D695" onAction="AcionarBotao" />
+                            <button id="btnRegD800" label="D700" image="Registro" tag="D700" onAction="AcionarBotao" />
+                            <button id="btnRegD860" label="D750" image="Registro" tag="D750" onAction="AcionarBotao" />
+                            <button id="btnRegD990" label="D990" image="Registro" tag="D990" onAction="AcionarBotao" />
+                        </menu>
+                        
+                        <menu id="MenuBlE" label="Bloco E" image="Registros">
+                            <button id="btnRegE001" label="E001" image="Registro" tag="E001" onAction="AcionarBotao" />
+                            <button id="btnRegE100" label="E100" image="Registro" tag="E100" onAction="AcionarBotao" />
+                            <button id="btnRegE300" label="E200" image="Registro" tag="E200" onAction="AcionarBotao" />
+                            <button id="btnRegE400" label="E300" image="Registro" tag="E300" onAction="AcionarBotao" />
+                            <button id="btnRegE500" label="E500" image="Registro" tag="E500" onAction="AcionarBotao" />
+                            <button id="btnRegE990" label="E990" image="Registro" tag="E990" onAction="AcionarBotao" />
+                        </menu>
+                        
+                        <menu id="MenuBlG" label="Bloco G" image="Registros">
+                            <button id="btnRegG001" label="G001" image="Registro" tag="G001" onAction="AcionarBotao" />
+                            <button id="btnRegG110" label="G100" image="Registro" tag="G110" onAction="AcionarBotao" />
+                            <button id="btnRegG990" label="G990" image="Registro" tag="G990" onAction="AcionarBotao" />
+                        </menu>
+                        
+                        <menu id="MenuBlH" label="Bloco H" image="Registros">
+                            <button id="btnRegH001" label="H001" image="Registro" tag="H001" onAction="AcionarBotao" />
+                            <button id="btnRegH005" label="H005" image="Registro" tag="H005" onAction="AcionarBotao" />
+                            <button id="btnRegH990" label="H990" image="Registro" tag="H990" onAction="AcionarBotao" />
+                        </menu>
+                        
+                        <menu id="MenuBlK" label="Bloco K" image="Registros">
+                            <button id="btnRegK001" label="K001" image="Registro" tag="K001" onAction="AcionarBotao" />
+                            <button id="btnRegK010" label="K010" image="Registro" tag="K010" onAction="AcionarBotao" />
+                            <button id="btnRegK100" label="K100" image="Registro" tag="K100" onAction="AcionarBotao" />
+                            <button id="btnRegK990" label="K990" image="Registro" tag="K990" onAction="AcionarBotao" />
+                        </menu>
+                        
+                        <menu id="MenuBl1" label="Bloco 1" image="Registros">
+                            <button id="btnReg1001" label="1001" image="Registro" tag="1001" onAction="AcionarBotao" />
+                            <button id="btnReg1010" label="1010" image="Registro" tag="1010" onAction="AcionarBotao" />
+                            <button id="btnReg1100" label="1100" image="Registro" tag="1100" onAction="AcionarBotao" />
+                            <button id="btnReg1200" label="1200" image="Registro" tag="1200" onAction="AcionarBotao" />
+                            <button id="btnReg1250" label="1250" image="Registro" tag="1250" onAction="AcionarBotao" />
+                            <button id="btnReg1300" label="1300" image="Registro" tag="1300" onAction="AcionarBotao" />
+                            <button id="btnReg1350" label="1350" image="Registro" tag="1350" onAction="AcionarBotao" />
+                            <button id="btnReg1390" label="1390" image="Registro" tag="1390" onAction="AcionarBotao" />
+                            <button id="btnReg1400" label="1400" image="Registro" tag="1400" onAction="AcionarBotao" />
+                            <button id="btnReg1500" label="1500" image="Registro" tag="1500" onAction="AcionarBotao" />
+                            <button id="btnReg1600" label="1600" image="Registro" tag="1600" onAction="AcionarBotao" />
+                            <button id="btnReg1601" label="1601" image="Registro" tag="1601" onAction="AcionarBotao" />
+                            <button id="btnReg1700" label="1700" image="Registro" tag="1700" onAction="AcionarBotao" />
+                            <button id="btnReg1800" label="1800" image="Registro" tag="1800" onAction="AcionarBotao" />
+                            <button id="btnReg1900" label="1900" image="Registro" tag="1900" onAction="AcionarBotao" />
+                            <button id="btnReg1960" label="1960" image="Registro" tag="1960" onAction="AcionarBotao" />
+                            <button id="btnReg1970" label="1970" image="Registro" tag="1970" onAction="AcionarBotao" />
+                            <button id="btnReg1980" label="1980" image="Registro" tag="1980" onAction="AcionarBotao" />
+                            <button id="btnReg1990" label="1990" image="Registro" tag="1990" onAction="AcionarBotao" />
+                        </menu>                                                    
+                    </menu>
+                    
+                    <labelControl id="lbRegistro" label="Ir para o Registro" />
+                    <editBox id="IrRegistro" maxLength="5" sizeString="WWWWWWWW" getText="LimparTexto" onChange="AcessarRegistro" />  
+                    
+                </group>
+			    
+			    <!-- FUNÇÕES DO REGISTRO 0200 -->
+			    <group id="fn0200" label="Funcionalidades do registro 0200" tag="f0200" getVisible="getVisible">                                        
+                    <button id="btnAtualizarCodGenero" label="Atualizar Códigos de Gênero" image="Atualizar" size="large" onAction="AcionarBotao" />
+                    <button id="btnListarFat0220" label="Listar Fatores de Conversão (0220)" image="Calculadora" size="large" onAction="AcionarBotao" />
+                    <separator id="sep02001" />
+                    <button id="btnImportar0200Lote" label="Importar Cadastro 0200 (Lote)" image="ImportarLote" size="large" onAction="AcionarBotao" />
+                    <button id="btnImportar0200Arquivo" label="Importar Cadastro 0200 (Arquivo)" image="ListarDocs" size="large" onAction="AcionarBotao" />                    
+                    <button id="btnImportarProd0200" label="Importar Cadastro de Produtos" image="ImportarExcel" size="large" onAction="AcionarBotao" />
+                    <button id="btnExportarProd0200" label="Exportar Cadastro de Produtos" image="ExportarRelatorio" size="large" onAction="AcionarBotao" />
+                    <separator id="sep02002" />
+                    <button id="btnGerarModelo" label="Gerar Relatório Modelo" image="ExportarExcel" size="large" onAction="AcionarBotao" />
+                    <box id="bxVert01" boxStyle="vertical">
+                        <labelControl id="lbPeriodo" label="Período de Importação:" />
+                        <box id="bxHor02" boxStyle="horizontal">
+                        <editBox id="edPeriodo" screentip="Digite o período desejado no formato MMAAAA" maxLength="6" sizeString="WWWW" onChange="DefinirPeriodo" getText="getText" />
+                        <labelControl id="lbVazio" label=" " />
+                        </box>
+                    </box>
+                </group>
+
+			    <!-- FUNÇÕES DO REGISTRO 0220 -->
+			    <group id="fn0220" label="Funcionalidades do 0220" tag="f0220" getVisible="getVisible">
+                    <button id="btnListarItem0200" label="Listar Items (0200)" image="ListarItensC170" size="large" onAction="AcionarBotao" />
+                </group>
+
+                <!-- FUNÇÕES DO REGISTRO C170 -->
+                <group id="fnC170" label="Funcionalidades do registro C170" tag="fC170" getVisible="getVisible" > 
+                    
+                    <button id="btnImportarICMSC170SPEDFiscal" label="Importar ICMS SPED Fiscal" image="ImportarDadosICMSSPED" size="large"  screentip="Importar dados de ICMS do SPED Fiscal" supertip="Importa automaticamente os valores de ICMS dos registros C170 do SPED Fiscal (Campos: CFOP, CST_ICMS, VL_BC_ICMS, ALIQ_ICMS e VL_ICMS)" onAction="AcionarBotao" />
+                    <button id="btnAgruparRegistrosC170" label="Agrupar Registros" image="AgruparDados" size="large" onAction="AcionarBotao" />
+                    <splitButton id="SomarValorAoItem" size="large">
+                        <button id="btnSomarIPIeST" label="Somar IPI e ST ao Valor do Item" image="SomarIPI_ST" onAction="AcionarBotao" />
+                        <menu id="mnSomarValorAoItem">
+                            <button id="btnSomarST" label="Somar ST ao Valor do Item" image="SomarST" onAction="AcionarBotao" />
+                        </menu>
+                    </splitButton>                             
+                                                
+                    <splitButton id="GerarAtualizarRegistros" size="large">
+                        <button id="btnGerarC190peloC170" label="Gerar/Atualizar C190" image="GerarC190" onAction="AcionarBotao" />
+                        <menu id="mnGerarAtualizarRegistros">
+                            <button id="btnAtualizarC100" label="Atualizar Impostos C100" image="AtualizarImpostosC100" onAction="AcionarBotao" />
+                            <button id="btnGerarC175peloC170" label="Gerar/Atualizar C175" image="Calculadora" onAction="AcionarBotao" />
+                        </menu>
+                    </splitButton>                                                                                             
+
+                    <splitButton id="ListarRegistros" size="large">
+                        <button id="btnListarNotasC170" label="Listar Notas (C100)" image="ListarDocs" onAction="AcionarBotao" />
+                        <menu id="mnListarRegistros">
+                            <button id="btnListarResumosC175ContrC170" label="Listar Resumos (C175 Contribuições)" image="ListarResumosC175" onAction="AcionarBotao" />
+                            <button id="btnListarResumosC190C170" label="Listar Resumos (C190)" image="ListarResumos" onAction="AcionarBotao" />
+                        </menu>
+                    </splitButton>
+                    
+                    <separator id="sep004"/>
+                    
+                    <splitButton id="ExclusoesPISCOFINS" size="large">
+                        <button id="btnCalcBasePISCOFINS" label="Calcular PIS/COFINS" image="CalcularBase" onAction="AcionarBotao" />
+                        <menu id="mnExclusoesPISCOFINS">
+                            <button id="btnExcluirICMS" label="Excluir ICMS da Base" image="ExcluirICMSPISCOFINS" onAction="AcionarBotao" />
+                            <button id="btnExcluirICMSST" label="Excluir ICMS ST da Base" image="ExcluirICMSSTPISCOFINS" onAction="AcionarBotao" />
+                        </menu>
+                    </splitButton>
+                                                                                            
+                </group>
+                
+<!-- FUNÇÕES DO REGISTRO A100 -->
+                <group id="fA100" label="Funcionalidades do A100" tag="fA100" getVisible="getVisible" >
+
+                    <splitButton id="splPlanilhaA100A170" size="large" >
+                        <button id="btnImportarPlanilhaA100Filhos" label="Importar Planilha A100/A170" image="ImportarExcel" onAction="AcionarBotao" />
+                        <menu id="mnPlanilhaA100A170">                            
+                            <button id="btnGerarModeloA100A170" label="Gerar Planilha Modelo" image="ExportarExcel" onAction="AcionarBotao" />
+                        </menu>
+                    </splitButton>
+                    
+                    <button id="btnListarItensA170" label="Listar Serviços (A170)" image="ListarServicos" size="large" onAction="AcionarBotao" />                                                                                                     
+
+                </group>
+
+<!-- FUNÇÕES DO REGISTRO A170 -->
+                <group id="fA170" label="Funcionalidades do A170" tag="fA170" getVisible="getVisible" >
+                    
+                    <button id="btnListarNotasA100" label="Listar Notas (A100)" image="ListarNotas" size="large" onAction="AcionarBotao" />                                                                                                     
+                    
+                </group>
+                                        
+                <!-- FUNÇÕES DO REGISTRO C175 Contribuições -->                         
+                <group id="fC175_Contr" label="Funcionalidades do C175 Contribuições" tag="fC175_Contr" getVisible="getVisible">                                                    
+                    <button id="btnAgruparC175Contrib" label="Agrupar Valores" image="AgruparDados" size="large" onAction="AcionarBotao" />
+                    <button id="btnExcluirBasePISCOFINS" label="Excluir ICMS da base do PIS e COFINS" image="CalcularBase" size="large" onAction="AcionarBotao" />
+                    <button id="btnAtualizarC100C175Contr" label="Atualizar Impostos C100" image="AtualizarImpostosC100" size="large" onAction="AcionarBotao" />
+                    <button id="btnListarNotasC175Contr" label="Listar Notas (C100)" image="ListarDocs" size="large" onAction="AcionarBotao" />                    
+                    <button id="btnListarItensC170C175Contr" label="Listar Itens (C170)" image="ListarItensC170" size="large" onAction="AcionarBotao" />                                                                                
+                </group>
+
+                <!-- FUNÇÕES DO REGISTRO C180 Contribuições -->                         
+                <group id="fC180_Contr" label="Funcionalidades C180" tag="fC180_Contr" getVisible="getVisible">                    
+                    <button id="btnAgruparRegistrosC180Contr" label="Agrupar Registros" image="AgruparDados" size="large" onAction="AcionarBotao" />
+                    <button id="btnAtualizarNCMC180Contrib" label="Atualizar NCMs" image="AtualizarNCM" size="large" onAction="AcionarBotao" />                                                                             
+                </group>
+                                        
+                <!-- FUNÇÕES DO REGISTRO C181 Contribuições -->                         
+                <group id="fC181_Contr" label="Funcionalidades do C181 Contribuições" tag="fC181_Contr" getVisible="getVisible">                                                    
+                    <button id="btnAgruparC181Contrib" label="Agrupar Valores" image="AgruparDados" size="large" onAction="AcionarBotao" />
+                    <button id="btnListarNotasC181Contr" label="Listar Notas (C180)" image="ListarDocs" size="large" onAction="AcionarBotao" />
+                    <button id="btnListarItensC181C185Contr" label="Listar COFINS (C185)" image="ListarItensC170" size="large" onAction="AcionarBotao" />                                                                                
+                </group>
+
+                <!-- FUNÇÕES DO REGISTRO C185 Contribuições -->                         
+                <group id="fC185_Contr" label="Funcionalidades do C185 Contribuições" tag="fC185_Contr" getVisible="getVisible">                                                    
+                    <button id="btnAgruparC185Contrib" label="Agrupar Valores" image="AgruparDados" size="large" onAction="AcionarBotao" />
+                    <button id="btnListarNotasC185Contr" label="Listar Notas (C180)" image="ListarDocs" size="large" onAction="AcionarBotao" />
+                    <button id="btnListarItensC185C181Contr" label="Listar PIS (C181)" image="ListarItensC170" size="large" onAction="AcionarBotao" />                                                                                
+                </group>
+
+                <!-- FUNÇÕES DO REGISTRO C190 -->                    
+                <group id="fnC190" label="Funcionalidades C190" tag="fC190" getVisible="getVisible">
+                    <button id="btnAgruparC190" label="Agrupar Valores" image="AgruparDados" size="large" onAction="AcionarBotao" />
+                    <button id="btnAtualizarC100C190" label="Atualizar Impostos C100" image="AtualizarImpostosC100" size="large" onAction="AcionarBotao" />
+                    <button id="btnListarNotasC190" label="Listar Notas (C100)" image="ListarDocs" size="large" onAction="AcionarBotao" />                    
+                    <button id="btnListarItensC170C190" label="Listar Itens (C170)" image="ListarItensC170" size="large" onAction="AcionarBotao" />                                                            
+                    <button id="btnCalcRedBCICMSC190" label="Calcular Redução de Base do ICMS" image="Calculadora" size="large" onAction="AcionarBotao" />                                                            
+                    <button id="btnListarNotasDivergencias" label="Listar Notas (Relatório de Divergências)" image="AssistenteDivergencias" size="large" onAction="AcionarBotao" />                    
+                </group>
+
+                <!-- FUNÇÕES DO REGISTRO C191 -->                    
+                <group id="fnC191" label="Funcionalidades C191" tag="fC191" getVisible="getVisible">
+                    <button id="btnListarResumosC191C190" label="Listar Resumos (C190)" image="ListarResumos" size="large" onAction="AcionarBotao" />                    
+                </group>
+                    
+                <!-- FUNÇÕES DO REGISTRO C190 Contribuições -->                         
+                <group id="fC190_Contr" label="Funcionalidades C190" tag="fC190_Contr" getVisible="getVisible">
+                    <button id="btnAgruparRegistrosC190Contr" label="Agrupar Registros" image="AgruparDados" size="large" onAction="AcionarBotao" />
+                    <button id="btnAtualizarNCMC190Contrib" label="Atualizar NCMs" image="AtualizarNCM" size="large" onAction="AcionarBotao" />                                                                             
+                </group>
+                                                            
+                <!-- FUNÇÕES DO REGISTRO C500 -->
+                <group id="fnC500" label="Funcionalidades do registro C500" tag="fC500" getVisible="getVisible" >                                                                                                                                                                                      
+                    
+                    <splitButton id="ListarRegistrosC500" size="large">
+                        <button id="btnListarResumosC500C510" label="Listar Resumos (C510)" image="ListarResumosC175" onAction="AcionarBotao" />
+                        <menu id="mnListarRegistrosC500">
+                            <button id="btnListarResumosC500C590" label="Listar Resumos (C590)" image="ListarResumos" onAction="AcionarBotao" />
+                        </menu>
+                    </splitButton>                                        
+                    
+                </group>
+
+                <!-- FUNÇÕES DO REGISTRO C510 -->
+                <group id="fnC510" label="Funcionalidades do registro C510" tag="fC510" getVisible="getVisible" >                                                                                                                                                                                      
+                    
+                    <splitButton id="ListarRegistrosC510" size="large">
+                        <button id="btnListarNotasC510C500" label="Listar Notas (C500)" image="ListarDocs" onAction="AcionarBotao" />
+                        <menu id="mnListarRegistrosC510">
+                            <button id="btnListarResumosC510C590" label="Listar Resumos (C590)" image="ListarResumos" onAction="AcionarBotao" />
+                        </menu>
+                    </splitButton>
+                    
+                </group>
+                                    
+                <!-- FUNÇÕES DO REGISTRO C590 -->
+                <group id="fnC590" label="Funcionalidades do registro C590" tag="fC590" getVisible="getVisible" >                                                                                                                                                                                      
+                    
+                    <splitButton id="ListarRegistrosC590" size="large">
+                        <button id="btnListarNotasC590C500" label="Listar Notas (C500)" image="ListarDocs" onAction="AcionarBotao" />
+                        <menu id="mnListarRegistrosC590">
+                            <button id="btnListarResumosC590C510" label="Listar Resumos (C510)" image="ListarResumos" onAction="AcionarBotao" />
+                        </menu>
+                    </splitButton>
+                    
+                </group>
+                
+<!-- FUNÇÕES DO REGISTRO D100 -->
+                <group id="fD100" label="Funcionalidades do D100" tag="fD100" getVisible="getVisible" >
+                    <button id="btnGerarD200" label="Gerar Registro D200" image="GerarC190" size="large" onAction="AcionarBotao" />
+                    <button id="btnGerarD101D105" label="Gerar Registros D101/D105" image="GerarD101D105" size="large" onAction="AcionarBotao" />
+                    <splitButton id="splitD100" size="large" >
+                        <button id="btnListarRegD100D190" label="Listar Registros D190" image="ListarResumos" onAction="AcionarBotao" />
+                        <menu id="mnlistagemD100">                            
+                            <button id="btnListarRegD100D101Contrib" label="Listar Registros D101 (Contribuições)" image="ListarResumosC175" onAction="AcionarBotao" />
+                            <button id="btnListarRegD100D105" label="Listar Resumos D105" image="ListarResumosC175" onAction="AcionarBotao" />
+                        </menu>
+                    </splitButton>                                                            
+                </group>
+
+                <!-- FUNÇÕES DO REGISTRO D101 -->
+                <group id="fD101_Contr" label="Funcionalidades do D101" tag="fD101_Contr" getVisible="getVisible" >
+                    <splitButton id="splitD101" size="large" >
+                            <button id="btnListarRegD101ContrD100" label="Listar Registros D100" image="ListarDocs" onAction="AcionarBotao" />
+                        <menu id="mnlistagemD101">                            
+                            <button id="btnListarRegD101ContrD105" label="Listar Resumos D105" image="ListarResumosC175" onAction="AcionarBotao" />
+                            <button id="btnListarRegD101ContrD190" label="Listar Registros D190" image="ListarResumos" onAction="AcionarBotao" />
+                        </menu>
+                    </splitButton>                                                            
+                </group>
+                
+                <!-- FUNÇÕES DO REGISTRO D105 -->
+                <group id="fD105" label="Funcionalidades do D105" tag="fD105" getVisible="getVisible" >
+                    <splitButton id="splitD105" size="large" >
+                        <button id="btnListarRegD105D100" label="Listar Registros D100" image="ListarDocs" onAction="AcionarBotao" />                        
+                        <menu id="mnlistagemD105">                            
+                            <button id="btnListarRegD105D101" label="Listar Resumos D101 (Contribuições)" image="ListarResumosC175" onAction="AcionarBotao" />
+                            <button id="btnListarRegD105D190" label="Listar Registros D190" image="ListarResumos" onAction="AcionarBotao" />
+                        </menu>
+                    </splitButton>                                                            
+                </group>
+                                        
+                <!-- FUNÇÕES DO REGISTRO D190 -->
+                <group id="fD190" label="Funcionalidades do D190" tag="fD190" getVisible="getVisible" >
+                    <button id="btnAgruparD190" label="Agrupar Valores" image="AgruparDados" size="large" tag="fD190" getVisible="GetVisible" onAction="AcionarBotao" />                 
+                    <button id="btnListarNotasD100" label="Listar Fretes (D100)" image="ListarDocs" size="large" tag="fD190" getVisible="GetVisible" onAction="AcionarBotao" />                    
+                    <button id="btnAtualizarD100D190" label="Atualizar Impostos D100" image="AtualizarImpostosC100" size="large" tag="fD190" getVisible="GetVisible" onAction="AcionarBotao" />                                                    
+                    <button id="btnCalcRedBCICMSD190" label="Calcular Redução de Base do ICMS" image="Calculadora" size="large" tag="fD190" getVisible="GetVisible" onAction="AcionarBotao" />                                                            
+                    <splitButton id="splitD190" size="large" >
+                        <button id="btnListarRegD190D100" label="Listar Registros D100" image="ListarDocs" onAction="AcionarBotao" />                                                
+                        <menu id="mnlistagemD190">                                                        
+                            <button id="btnListarRegD190D101Contrib" label="Listar Registros D101 (Contribuições)" image="ListarResumosC175" onAction="AcionarBotao" />
+                            <button id="btnListarRegD190D105" label="Listar Resumos D105" image="ListarResumosC175" onAction="AcionarBotao" />                            
+                        </menu>
+                    </splitButton>                    
+                </group>
+                                
+			    <!-- FUNÇÕES DO REGISTRO K200 -->
+			    <group id="fnK200" label="Funcionalidades do registro K200" tag="fK200" getVisible="getVisible">
+			        
+			        <button id="btnIdentificarProdutosAusentesK200" size="large" label="Identificar Cadastros Ausentes" image="IdentificarProdutosAusentes" onAction="AcionarBotao" />
+			        <separator id="sepk200" />
+                    <splitButton id="splitK200" size="large" >
+                        <button id="btnImportarK200" label="Importar Estoque" image="ImportarExcel" onAction="AcionarBotao" />
+                        <menu id="mnTributacao">                            
+                            <button id="btnExportarProdK200" label="Exportar Estoque" image="ExportarRelatorio" onAction="AcionarBotao" />
+                            <button id="btnGerarModeloK200" label="Gerar Relatório Modelo" image="ExportarExcel" onAction="AcionarBotao" />
+                        </menu>
+                    </splitButton>                        
+                    <box id="bxVertk200" boxStyle="vertical">
+                        <labelControl id="lbPeriodoK200" label="Período de Importação:" />
+                        <box id="bxHork200" boxStyle="horizontal">
+                        <editBox id="edPeriodoK200" screentip="Digite o período desejado no formato MMAAAA" maxLength="6" sizeString="WWWW" onChange="DefinirPeriodo" getText="getText" />
+                        <labelControl id="lbVazioK200" label=" " />
+                        </box>
+                    </box>
+                </group>
+                    
+                <!-- FUNÇÕES DO REGISTRO 1400 -->                         
+                <group id="f1400" label="Funcionalidades do 1400" tag="f1400" getVisible="getVisible">                                                    
+                    <button id="btnGerarReceitaMunicipioD100" label="Gerar Receita Municipio Origem (D100)" image="GerarReceitaMunicipioD100" size="large" onAction="AcionarBotao" />
+                </group>                
+
+			    <group id="grEFDICMS" label="Funcoes do registro selecionado">
+                    
+                    <!-- FUNÇÕES DO REGISTRO 0005 -->
+                    <button id="btnConsultarCEP0005" label="Consultar CEP Selecionado" image="ConsultarCEP" size="large" tag="f0005" getVisible="GetVisible" onAction="AcionarBotao" />                                        
+                    
+                      <!-- FUNÇÕES DO REGISTRO 0100 -->
+                    <button id="btnConsultarCEP0100" label="Consultar CEP Selecionado" image="ConsultarCEP" size="large" tag="f0100" getVisible="GetVisible" onAction="AcionarBotao" /> 
+                    <button id="btnImportarCadastroContador" label="Importar Dados do Contador" image="ImportarDoSPED" size="large" tag="f0100" getVisible="GetVisible" onAction="AcionarBotao" /> 
+                    
+                    <!-- FUNÇÕES DO REGISTRO 0150 -->
+                    <button id="btnListarNotasC100" label="Listar Notas (C100)" image="ListarDocs" size="large" tag="f0150" getVisible="GetVisible" onAction="AcionarBotao" />                                        
+                    <button id="btnConsultarCEP0150" label="Consultar CEP Selecionado" image="ConsultarCEP" size="large" tag="f0150" getVisible="GetVisible" onAction="AcionarBotao" />                                                                              
+                        
+                    <!-- FUNÇÕES DO REGISTRO C100 -->
+                    <button id="btnListarItensC170" label="Listar Itens (C170)" image="ListarItensC170" size="large" tag="fC100" getVisible="GetVisible" onAction="AcionarBotao" />                    
+                    <button id="btnListarResumosC175Contr" label="Listar Resumos (C175 Contrbuições)" image="ListarResumosC175" size="large" tag="fC100" getVisible="GetVisible" onAction="AcionarBotao" />                    
+                    <button id="btnListarResumosC190" label="Listar Resumos (C190)" image="ListarResumos" size="large" tag="fC100" getVisible="GetVisible" onAction="AcionarBotao" />                                        
+                    <button id="btnAjustarC190peloC100" label="Ajustar Divergências C100/C190" image="AjustarC190" size="large" tag="fC100" getVisible="GetVisible" onAction="AcionarBotao" />                                        					                    
+                        
+                    <!-- FUNÇÕES DO REGISTRO C800 -->
+                    <button id="btnListarItensC810" label="Listar Itens (C810)" image="ListarItensC170" size="large" tag="fC800" getVisible="GetVisible" onAction="AcionarBotao" />                    
+                    <button id="btnListarResumosC850" label="Listar Resumos (C850)" image="ListarResumos" size="large" tag="fC800" getVisible="GetVisible" onAction="AcionarBotao" />                    
+
+                    <!-- FUNÇÕES DO REGISTRO C810 --> 
+                    <button id="btnListarNotasC810" label="Listar Notas (C800)" image="ListarDocs" size="large" tag="fC810" getVisible="GetVisible" onAction="AcionarBotao" />
+                    <button id="btnListarResumosC850C810" label="Listar Resumos (C850)" image="ListarResumos" size="large" tag="fC810" getVisible="GetVisible" onAction="AcionarBotao" />                    
+
+                    <!-- FUNÇÕES DO REGISTRO C850 -->                    
+                    <button id="btnAgruparC850" label="Agrupar Valores" image="AgruparDados" size="large" tag="fC850" getVisible="GetVisible" onAction="AcionarBotao" />
+                    <button id="btnAtualizarC800C850" label="Atualizar Impostos C800" image="AtualizarImpostosC100" size="large" tag="fC850" getVisible="GetVisible" onAction="AcionarBotao" />
+                    <button id="btnListarNotasC850" label="Listar Notas (C800)" image="ListarDocs" size="large" tag="fC850" getVisible="GetVisible" onAction="AcionarBotao" />                    
+                    <button id="btnListarItensC810C850" label="Listar Itens (C810)" image="ListarItensC170" size="large" tag="fC850" getVisible="GetVisible" onAction="AcionarBotao" />                                                            
+                                                                                                           
+                    <!-- FUNÇÕES DO REGISTRO E111 -->
+                    <button id="btnGerarCreditoSIMPLESNACIONAL" label="Gerar Créditos Aquisição SIMPLES NACIONAL" image="CreditosPresumidos" size="large" tag="fE111" getVisible="GetVisible" onAction="AcionarBotao" />                                                            
+                
+                </group>
+                
+                <group id="grLimpeza1" label="Funcionalidades gerais dos registros">
+                    <button id="btnImportRegAtual" label="Importar Registro Atual" image="ImportarRegistroAtual" size="large" onAction="AcionarBotao" />
+                    <button id="btnRemoverDuplicatas" label="Eliminar Duplicidades" image="RemoverDuplicidades" size="large" onAction="AcionarBotao" />
+                    <button id="btnFiltro" label="Limpar Filtros" image="LimparFiltros" size="large" onAction="LimparFiltros" />
+					<button id="btnDados" label="Limpar Dados" image="Lixeira" size="large" onAction="LimparDados" />                    
+			    </group>                   
+
+            </tab>
+            
+            <tab id="tbAnalises" label="Perícia Fiscal">
+                
+                <group id="grAbasAnalise" label="Relatórios">
+                    
+                    <button id="btnICMS" label="Livro ICMS" tag="Livro ICMS" image="LivroICMS" size="large" onAction="AcionarBotao" /> 
+                    <!--button id="btnIPI" label="Livro IPI" tag="Livro IPI" image="LivroIPI" size="large" onAction="AcionarBotao" />   
+                    <button id="btnPISCOFINS" label="Livro PIS/COFINS" tag="Livro PIS-COFINS" image="LivroPISCOFINS" size="large" onAction="AcionarBotao" /-->                                        
+                    <button id="btnDivergencias" label="Auditoria de Divergencias" tag="Divergências Fiscais" image="Auditoria" size="large" onAction="AcionarBotao" />   
+                    <button id="btnCorrelacoes" label="Correlacão de Produtos" tag="Correlação Produtos" image="CorrelacionarDocs" size="large" onAction="AcionarBotao" />		        				    				                                                                
+                    <button id="btnTributacao" label="Tributação de Itens" tag="Tributação" image="Tributacao" size="large" onAction="AcionarBotao" />		        				    				                                                                
+                    
+                </group>
+                
+                <group id="grRelatorios" label="Relatórios">
+                    
+                    <button id="btnGerarLivroICMS" label="Gerar Livro ICMS" image="GerarLivro" size="large" tag="Livro ICMS" getVisible="GetVisible" onAction="AcionarBotao" />
+                    <button id="btnAcessarEnfoqueDeclarante" label="Acessar Registro" image="GerarC176" size="large" tag="Livro ICMS" getVisible="GetVisible" onAction="AcionarBotao" />
+                    <button id="btnListarIncosnsistencias" label="Listar Divergências" image="ListarResumos" size="large" tag="Livro ICMS" getVisible="GetVisible" onAction="AcionarBotao" />
+                    <button id="btnGerarLivroIPI" label="Gerar Livro IPI" image="GerarLivro" size="large" tag="Livro IPI" getVisible="GetVisible" onAction="AcionarBotao" />                    
+                    <button id="btnGerarLivroPISCOFINS" label="Gerar Livro PIS/COFINS" image="GerarLivro" size="large" tag="Livro PIS-COFINS" getVisible="GetVisible" onAction="AcionarBotao" />                      
+                    <button id="btnFiltrarEntradas" label="Filtrar Entradas" image="FiltrarEntradas" size="large" tag="Livro ICMS" getVisible="GetVisible"  onAction="AcionarBotao" />                    
+                    <button id="btnFiltrarSaidas" label="Filtrar Saidas" image="FiltrarSaidas" size="large" tag="Livro ICMS" getVisible="GetVisible"  onAction="AcionarBotao" />                                        
+                    <button id="btnImportarEFDAnalise" label="Importar SPED Fiscal" image="ImportarRegistroAtual" size="large" tag="Divergências Fiscais" getVisible="GetVisible" onAction="AcionarBotao" />                    
+                    <button id="btnImportarXMLAnaliseLote" label="Importar XMLS (Lote)" image="ImportarLote" size="large" tag="Divergências Fiscais" getVisible="GetVisible" onAction="AcionarBotao" />                    
+                    <button id="btnImportarXMLAnaliseArquivo" label="Importar XMLS (Arquivo)" image="ListarDocs" size="large" tag="Divergências Fiscais" getVisible="GetVisible" onAction="AcionarBotao" />                    
+                    <button id="btnListarXMLSAusentes" label="Listar XMLS Ausentes" image="ListarDocumentosAusentes" size="large" tag="Divergências Fiscais" getVisible="GetVisible" onAction="AcionarBotao" />                    
+                    <button id="btnListarDivergencias" label="Listar Divergências" image="ListarInconsistencias" size="large" tag="Divergências Fiscais" getVisible="GetVisible" onAction="AcionarBotao" />                                        
+                    <button id="btnAcessarNotaSelecionada" label="Acessar Notas Selecionadas" image="NotaSelecionada" size="large" tag="Divergências Fiscais" getVisible="GetVisible" onAction="AcionarBotao" />                                                            
+                    <button id="btnImportarItensSPED" label="Importar Itens do SPED" image="ImportarDoSPED" size="large" tag="Tributação" getVisible="GetVisible" onAction="AcionarBotao" />
+                    <button id="btnImportarCadastroItens" label="Importar Cadastro de Itens" image="ImportarCadTributacao" size="large" tag="Tributação" getVisible="GetVisible" onAction="AcionarBotao" />
+                    <button id="btnExportarCadastroItens" label="Exportar Cadastro de Itens" image="ExportarTXT" size="large" tag="Tributação" getVisible="GetVisible" onAction="AcionarBotao" />
+                    <button id="btnAnalisarTributacao" label="Analisar Tributação" image="AnalisarTributacao" size="large" tag="Tributação" getVisible="GetVisible" onAction="AcionarBotao" />
+                    
+                </group>
+                
+                <group id="grCorrelacoes" label="Configurações" tag="Correlação Produtos" getVisible="GetVisible" >
+                    <button id="btnProdutosFornecedorLote" label="Importar Produtos Fornecedor (Lote)" tag="Correlação Produtos" getVisible="GetVisible" image="ImportarLote" size="large" onAction="AcionarBotao" />
+                    <button id="btnProdutosFornecedorArquivo" label="Importar Produtos Fornecedor (Arquivo)" tag="Correlação Produtos" getVisible="GetVisible" image="ListarDocs" size="large" onAction="AcionarBotao" />
+                    <button id="btnCorrelacionarSPEDXML" label="Correlacionar XML vs SPED" tag="Correlação Produtos" getVisible="GetVisible" image="CorrelacionarSPEDXML" size="large" onAction="AcionarBotao" />
+					<!--button id="btnGerarFatorConversao" label="Gerar Fator de Conversão (0220)" tag="Correlação Produtos" getVisible="GetVisible" image="GerarFatorConversao" size="large" onAction="AcionarBotao" /-->
+                    <button id="btnGerarModeloCorrelacoes" label="Gerar Relatório Modelo" image="ExportarExcel" size="large" onAction="AcionarBotao" />
+                    <button id="btnImportarCadastroCorrelacoes" label="Importar Cadastro de Correlações" image="ImportarExcel" size="large" tag="Correlação Produtos" getVisible="GetVisible" onAction="AcionarBotao" />
+					<button id="btnExportarRelatorioCorrelacao" label="Exportar Relatório de Correlação" tag="Correlação Produtos" getVisible="GetVisible" image="ExportarRelatorio" size="large" onAction="AcionarBotao" />
+                </group>
+                
+                <group id="grConfigAnalise" tag="Divergências Fiscais" label="Configurações de Auditoria" getVisible="GetVisible" >                    
+                    <checkBox id="chDescPISCOFINS" label="Desconsiderar valores de PIS e COFINS" onAction="getClique" getPressed="getPressed"/>
+                    <checkBox id="chAbatimento" label="Desconsiderar valores de Abatimento" onAction="getClique" getPressed="getPressed"/>
+                    <checkBox id="chIPI" label="Somar IPI ao valor dos produtos" onAction="getClique" getPressed="getPressed"/>
+                    <checkBox id="chICMSST" label="Somar ICMS-ST ao valor dos produtos" onAction="getClique" getPressed="getPressed"/>
+                </group>
+                
+                <group id="grLimpeza2">                    
+                    <button id="btnLimpFiltro2" label="Limpar Filtros" image="LimparFiltros" size="large" onAction="LimparFiltros" />
+					<button id="btnLimpDados2" label="Limpar Dados" image="Lixeira" size="large" onAction="LimparDados" />
+                </group>
+                
+            </tab>
+            
+            <tab id="tbAssistentesFiscais" label="Assistentes Premium">
+                
+<!-- # Assistentes Fiscais -->
+                <group id="grAssistentesFiscais" label="Assistentes Premium">
+                    
+<!-- Assistentes de Divergências -->
+                    <splitButton id="btnAssistenteDivergencias" size="large" >
+                        <button id="btnAssistenteDivergenciasFiscais" label="Assistentes de Divergências" image="AssistenteDivergencias"/>                    
+                        <menu id="mnAssistentesDivergencias">
+                            <button id="btnDivergenciasNotas" label="Divergências de Notas" tag="Divergências de Notas" image="DivergenciasNotas" onAction="AcionarBotao"/>
+                            <button id="btnDivergenciasProdutos" label="Divergências de Produtos" tag="Divergências de Produtos" image="DivergenciasProdutos" onAction="AcionarBotao"/>
+                        </menu>
+                    </splitButton> 
+
+<!-- Assistentes de Tributação -->
+                    <splitButton id="AssistenteTributacao" size="large" >
+                        <button id="btnAssistenteTributacao" label="Assistentes de Tributação" tag="Assistente de Apuração" image="AssistenteTributacao"/>                    
+                        <menu id="mnAssistentesTributacao">
+                            <button id="btnTributacaoICMS" label="Tributação do ICMS" tag="Assistente de Tributação ICMS" image="AssistenteTributacaoICMS" onAction="AcionarBotao"/>
+                            <button id="btnTributacaoIPI" label="Tributação do IPI" tag="Assistente de Tributação IPI" image="AssistenteTributacaoIPI" onAction="AcionarBotao"/>
+                            <button id="btnTributacaoPISCOFINS" label="Tributação do PIS/COFINS" tag="Assist. Tributação PIS e COFINS" image="AssistenteTributacaoPISCOFINS" onAction="AcionarBotao"/>
+                        </menu>
+                    </splitButton>  
+                    
+<!-- Assistentes de Apuração -->
+                    <splitButton id="sbtnAssistenteApuracao" size="large" >
+                        <button id="btnAssistenteApuracao" label="Assistentes de Apuração" tag="Assistente de Apuração" image="AssistenteApuracao"/>                    
+                        <menu id="mnAssistentesApuracao">
+                            <button id="btnAssistenteApuracaoICMS" label="Apuração do ICMS" tag="Assistente de Apuração ICMS" image="AssistenteApuracaoICMS" onAction="AcionarBotao"/>
+                            <button id="btnAssistenteApuracaoIPI" label="Apuração do IPI" tag="Assistente de Apuração IPI" image="AssistenteApuracaoIPI" onAction="AcionarBotao"/>
+                            <button id="btnAssistenteApuracaoPISCOFINS" label="Apuração do PIS/COFINS" tag="Assistente Apuração PIS-COFINS" image="AssistenteApuracaoPISCOFINS" onAction="AcionarBotao"/>
+                        </menu>
+                    </splitButton>
+                    
+                    <!--button id="btnAssistenteFiscalCustosPrecos" label="Assistente de Custos e Preços" tag="Assistente de Custos e Preços" image="Tributacao" size="large" onAction="AcionarBotao"/-->
+                    <button id="btnAssistenteFiscalMovimentacao" label="Assistente de Estoque" tag="Assistente de Estoque" image="Auditoria" size="large" onAction="AcionarBotao"/>
+                    <button id="btnAssistenteFiscalContas" label="Assistente de Contas" tag="Assistente de Contas" image="ContasPagarReceber" size="large" onAction="AcionarBotao"/>
+                    <button id="btnAssistenteFiscalInventario" label="Assistente de Inventário" tag="Assistente de Inventário" image="AnaliseInventario" size="large" onAction="AcionarBotao"/>                    
+                
+                </group>                
+                
+<!-- # Assistente de Inventário -->
+                <group id="grControlesInventario" label="Funcionalidades de Inventário" tag="Assistente de Inventário" getVisible="GetVisible" >
+                    <box id="bxVert03" boxStyle="vertical">
+                        <labelControl id="lbInventario" label="Período de Importação:" />
+                        <box id="bxHor03" boxStyle="horizontal">
+                        <editBox id="edInventario" screentip="Digite o período desejado no formato MMAAAA" maxLength="6" sizeString="WWWW" onChange="DefinirPeriodo" getText="getText" />
+                        <labelControl id="lbVazio1" label=" " />
+                        </box>
+                    </box>
+                    <separator id="sep002" />
+                    <button id="btnImportarInventario" label="Importar Inventário" image="ImportarExcel" size="large" onAction="AcionarBotao" />
+                    <button id="btnGerarModeloInv" label="Gerar Modelo de Inventário" image="ExportarExcel" size="large" onAction="AcionarBotao" />
+                    <separator id="sep003" />
+                    <button id="btnGerarRelatorioInventario" label="Gerar Relatório de Inventário" image="GerarRelInteligente" size="large" onAction="AcionarBotao"/>
+                    <button id="btnProcessarInconsistenciasInventario" label="Reprocessar Inconsistências" image="Atualizar" size="large" onAction="AcionarBotao"/>
+                    <button id="btnListarInconsistenciasInventario" label="Listar Inconsistências" image="ListarInconsistencias" size="large" onAction="AcionarBotao"/>
+                    <button id="btnAceitarSugestoesInventario" label="Aceitar Sugestões" image="AceitarSugestoes" size="large" onAction="AcionarBotao"/>
+                    <button id="btnAtualizarRegistrosInventario" label="Atualizar Registros" image="AtualizarRegistros" size="large" onAction="AcionarBotao"/>                  
+                </group>
+                
+<!-- # Assistente de Apuração do ICMS -->
+                <group id="grControlesICMS" label="Funcionalidades do ICMS" tag="Assistente de Apuração ICMS" getVisible="GetVisible" >
+                    <button id="btnGerarRelatorioICMS" label="Gerar Relatório de ICMS" image="GerarRelInteligente" size="large" onAction="AcionarBotao"/>
+                    <button id="btnProcessarInconsistenciasICMS" label="Reprocessar Inconsistências" image="Atualizar" size="large" onAction="AcionarBotao"/>
+                    <button id="btnListarInconsistenciasICMS" label="Listar Inconsistências" image="ListarInconsistencias" size="large" onAction="AcionarBotao"/>
+                    <splitButton id="SugestoesICMS" size="large" >
+                        <button id="btnAceitarSugestoesICMS" label="Aceitar Sugestões" image="AceitarSugestoes" onAction="AcionarBotao"/>
+                        <menu id="mnSugestoesICMS">
+                            <button id="btnIgnorarInconsistenciasICMS" label="Ignorar Inconsistências" image="IgnorarInconsistencias" onAction="AcionarBotao"/>
+                            <button id="btnResetarInconsistenciasICMS" label="Resetar Inconsistências" image="ResetarInconsistencias" onAction="AcionarBotao"/>           
+                        </menu>
+                    </splitButton>                        
+                    
+                    <separator id="sepICMS001" />
+                    
+                    <button id="btnAnalisarApuracaoICMS" label="Gerar Resumo Apuração" image="ResumoApuracao" size="large" onAction="AcionarBotao"/>
+                    
+                    <splitButton id="AtualizarRegistrosICMS" size="large">
+                        <button id="btnAtualizarRegistrosICMS" label="Atualizar Registros" image="AtualizarRegistros" onAction="AcionarBotao"/>
+                        <menu id="mnAtualizarRegistrosICMS">
+                            <button id="btnCalcularDIFALNaoContribuinte" 
+                                    label="Atualizar DIFAL a Não Contribuinte" 
+                                    image="CalcularDIFALNaoContribiunte" 
+                                    onAction="AcionarBotao"
+                                    screentip="Atualizar registros do DIFAL a não contribuinte" 
+                                    supertip="Calcula o Diferencial de Alíquotas (DIFAL) para operações com não contribuintes do ICMS, considerando as alíquotas interestaduais e internas de destino."/>
+                        </menu>
+                    </splitButton>
+                    
+                    <separator id="sepICMS002" />                                                                                    
+                    
+                    <splitButton id="AssistenteTribICMS" size="large" >
+                        <button id="RecursosTributariosICMS" label="Recursos Tributarios" image="RecursosTributarios"/>
+                        <menu id="mnTributacaoICMS">                            
+                            <button id="btnVerificarTributacaoICMS" label="Verificar Tributação ICMS" image="VerificarTributacao" onAction="AcionarBotao"/>
+                            <button id="btnAplicarTributacaoICMS" label="Aplicar Tributação ICMS" image="AplicarTributacao" onAction="AcionarBotao"/>
+                            <button id="btnSalvarTributacaoICMS" label="Salvar Tributação ICMS" image="AtualizarTributacao" onAction="AcionarBotao"/>
+                            <menuSeparator id="tribICMS" />
+                            <button id="btnListarTributacoesICMS" label="Listar Tributacoes Filtradas" image="ListarTributacoesFiltradas" onAction="AcionarBotao"/>
+                        </menu>
+                    </splitButton>
+                                            
+                </group>
+                
+                <group id="grFiltrosICMS" label="Filtros de Dados" tag="Assistente de Apuração ICMS" getVisible="GetVisible" >
+                    
+                    <menu id="mnFiltroDados" image="FiltrarRegistrosSPED" size="large" label="Filtrar Dados" >
+                        <menu id="mnFiltrosSPED" image="FiltrarRegistrosSPED" label="Registros SPED" >
+                        <button id="btnFiltrarRegistroC101" 
+                                label="Filtrar Registro C101" 
+                                image="Registro" 
+                                onAction="AcionarBotao"
+                                screentip="Filtrar Registro C101 - Operações Interestaduais" 
+                                supertip="Filtra o Registro C101 do SPED (Informação complementar de documentos fiscais em operações interestaduais para consumidor final não contribuinte)"/>
+                        </menu>
+                        <menu id="mnFiltrosNotas" image="FiltrarRegistrosSPED" label="Divergência de Notas" >
+                            <button id="btnListarNotasICMS" label="Filtrar Notas Selecionadas" image="ListarDocs" onAction="AcionarBotao" />
+                        </menu>
+                        <menu id="mnFiltrosProdutos" image="FiltrarRegistrosSPED" label="Divergência de Produtos" >
+                            <button id="btnListarItensICMS" label="Filtrar Itens Listados por CFOP" image="ListarItensC170" onAction="AcionarBotao" />                                                            
+                        </menu>
+                    </menu>
+                    
+                </group>
+                
+<!-- # Assistente de Apuração do PIS e COFINS -->
+                <group id="grControlesPISCOFINS" label="Funcionalidades PIS/COFINS" tag="Assistente Apuração PIS-COFINS" getVisible="GetVisible" >
+                    
+                    <button id="btnGerarRelatorioPISCOFINS" label="Gerar Relatório PIS/COFINS" image="GerarRelInteligente" size="large" onAction="AcionarBotao"/>
+                    <button id="btnProcessarInconsistenciasPISCOFINS" label="Reprocessar Inconsistências" image="Atualizar" size="large" onAction="AcionarBotao"/>
+                    <button id="btnListarInconsistenciasPISCOFINS" label="Listar Inconsistências" image="ListarInconsistencias" size="large" onAction="AcionarBotao"/>
+                    
+                    <splitButton id="SugestoesPISCOFINS" size="large" >
+                        <button id="btnAceitarSugestoesPISCOFINS" label="Aceitar Sugestões" image="AceitarSugestoes" onAction="AcionarBotao"/>
+                        <menu id="mnSugestoesPISCOFINS">
+                            <button id="btnIgnorarInconsistenciasPISCOFINS" label="Ignorar Inconsistências" image="IgnorarInconsistencias" onAction="AcionarBotao"/>
+                            <button id="btnResetarInconsistenciasPISCOFINS" label="Resetar Inconsistências" image="ResetarInconsistencias" onAction="AcionarBotao"/>           
+                        </menu>
+                    </splitButton>
+
+                    <separator id="sepPISCOFINS001" />
+                    
+                    <button id="btnAnalisarApuracaoPISCOFINS" label="Gerar Resumo Apuração" image="ResumoApuracao" size="large" onAction="AcionarBotao"/>                                            
+                    <button id="btnAtualizarRegistrosPISCOFINS" label="Atualizar Registros" image="AtualizarRegistros" size="large" onAction="AcionarBotao"/>
+                    
+                    <separator id="sepPISCOFINS002" />
+                    
+                    <splitButton id="AssistenteTribPISCOFINS" size="large" >
+                        <button id="RecursosTributariosPISCOFINS" label="Recursos Tributarios" image="RecursosTributarios"/>
+                        <menu id="mnTributacaoPISCOFINS">                            
+                            <button id="btnVerificarTributacaoPISCOFINS" label="Verificar Tributação PIS/COFINS" image="VerificarTributacao" onAction="AcionarBotao"/>
+                            <button id="btnAplicarTributacaoPISCOFINS" label="Aplicar Tributação PIS/COFINS" image="AplicarTributacao" onAction="AcionarBotao"/>
+                            <button id="btnSalvarTributacaoPISCOFINS" label="Salvar Tributação PIS/COFINS" image="AtualizarTributacao" onAction="AcionarBotao"/>
+                            <menuSeparator id="tribPISCOFINS" />
+                            <button id="btnListarTributacoesPISCOFINS" label="Listar Tributacoes Filtradas" image="ListarTributacoesFiltradas" onAction="AcionarBotao"/>                            
+                        </menu>
+                    </splitButton>
+                    
+                    <checkBox id="chManterM400M800" label="Gerar/Atualizar M400/M800" onAction="AlternarAtualizacaoM400M800" getPressed="ObterStatusAtualizacaoM400M800"/>
+                    
+                </group>
+                
+                <group id="grFiltrosPISCOFINS" label="Filtros de Divergências" tag="Assistente Apuração PIS-COFINS" getVisible="GetVisible" >
+                    <button id="btnListarNotasPISCOFINS" label="Filtrar Notas" image="ListarDocs" size="large" onAction="AcionarBotao" />
+                </group>
+                
+<!-- # Assistentes de Divergências de Produtos -->    
+                <group id="grDivergenciasProdutos" label="Funcionalidades de Divergências" tag="Divergências de Produtos" getVisible="GetVisible" >
+                    <button id="btnGerarRelatorioDivergenciasProdutos" label="Gerar Divergências Produtos" image="GerarRelInteligente" size="large" onAction="AcionarBotao"/>
+                    <button id="btnProcessarInconsistenciasProdutos" label="Reprocessar Inconsistências" image="Atualizar" size="large" onAction="AcionarBotao"/>
+                    <button id="btnListarInconsistenciasProdutos" label="Listar Inconsistências" image="ListarInconsistencias" size="large" onAction="AcionarBotao"/>                    
+                    <splitButton id="SugestoesProdutos" size="large" >
+                        <button id="btnAceitarSugestoesProdutos" label="Aceitar Sugestões" image="AceitarSugestoes" onAction="AcionarBotao"/>
+                        <menu id="mnDivergenciasProdutos">
+                            <button id="btnIgnorarInconsistenciasProdutos" label="Ignorar Inconsistências" image="IgnorarInconsistencias" onAction="AcionarBotao"/>
+                            <button id="btnResetarInconsistenciasProdutos" label="Resetar Inconsistências" image="ResetarInconsistencias" onAction="AcionarBotao"/>           
+                        </menu>
+                    </splitButton>
+                    <button id="btnAtualizarRegistrosProdutos" label="Atualizar Registros" image="AtualizarRegistros" size="large" onAction="AcionarBotao"/>
+                </group>
+
+                <group id="grFiltrosDivProdutos" label="Filtrar Dados" tag="Divergências de Produtos" getVisible="GetVisible" >
+                    
+                    <menu id="mnFiltroDadosDivProdutos" image="FiltrarRegistrosSPED" size="large" label="Filtrar Dados" >
+                        <menu id="mnDivProdutosSPED" image="FiltrarRegistrosSPED" label="Registros SPED" >
+                        <button id="btnListarResumosC190Produtos" 
+                                label="Filtrar Registro C190" 
+                                image="Registro" 
+                                onAction="AcionarBotao"
+                                screentip="Filtrar Registro C190 - Resumo por CFO, CST e Alíquota do ICMS" 
+                                supertip="Filtra o Registro C190 do SPED (Registro Analítico do Documento) do registro C100"/>
+                        </menu>
+                        <menu id="mnDivProdutosProdutos" image="FiltrarRegistrosSPED" label="Divergências Notas" >
+                            <button id="btnFiltrarDivergenciasNotas" label="Filtrar Notas dos Produtos Selecionados" image="ListarDocs" onAction="AcionarBotao" />                                                            
+                        </menu>    
+                    </menu>
+                    
+                </group>
+                                    
+                <group id="grConfigDivergencias" label="Configurações do Assistente" tag="Divergências de Produtos" getVisible="GetVisible" >
+                    <checkBox id="chIgnoreQtdUnidXML" label="Ignorar Verificação dos campos QTD e UNID do XML" onAction="getClique" getPressed="getPressed"/>
+                    <checkBox id="chApropriarCreditosICMS" label="Apropriar créditos de ICMS" onAction="getClique" getPressed="getPressed"/>
+                </group>
+                
+<!-- # Assistentes de Divergências de Notas -->    
+                <group id="grDivergenciasNotas" label="Funcionalidades de Divergências" tag="Divergências de Notas" getVisible="GetVisible" >
+                    <button id="btnGerarRelatorioDivergenciasNotas" label="Gerar Divergências Notas" image="GerarRelInteligente" size="large" onAction="AcionarBotao"/>
+                    <button id="btnProcessarInconsistenciasNotas" label="Reprocessar Inconsistências" image="Atualizar" size="large" onAction="AcionarBotao"/>
+                    <button id="btnListarInconsistenciasNotas" label="Listar Inconsistências" image="ListarInconsistencias" size="large" onAction="AcionarBotao"/>                    
+                    <splitButton id="SugestoesNotas" size="large" >
+                        <button id="btnAceitarSugestoesNotas" label="Aceitar Sugestões" image="AceitarSugestoes" onAction="AcionarBotao"/>
+                        <menu id="mnDivergenciasNotas">
+                            <button id="btnIgnorarInconsistenciasNotas" label="Ignorar Inconsistências" image="IgnorarInconsistencias" onAction="AcionarBotao"/>
+                            <button id="btnResetarInconsistenciasNotas" label="Resetar Inconsistências" image="ResetarInconsistencias" onAction="AcionarBotao"/>           
+                        </menu>
+                    </splitButton>
+                    <button id="btnAtualizarRegistrosNotas" label="Atualizar Registros" image="AtualizarRegistros" size="large" onAction="AcionarBotao"/>
+                    
+                </group>
+
+                <group id="grFiltrosDivNotas" label="Filtrar Dados" tag="Divergências de Notas" getVisible="GetVisible" >
+                    
+                    <menu id="mnFiltroDadosDivNotas" image="FiltrarRegistrosSPED" size="large" label="Filtrar Dados" >
+                        <menu id="mnDivNotasSPED" image="FiltrarRegistrosSPED" label="Registros SPED" >
+                        <button id="btnListarResumosC190Notas" 
+                                label="Filtrar Registro C190" 
+                                image="Registro" 
+                                onAction="AcionarBotao"
+                                screentip="Filtrar Registro C190 - Resumo por CFO, CST e Alíquota do ICMS" 
+                                supertip="Filtra o Registro C190 do SPED (Registro Analítico do Documento) do registro C100"/>
+                        </menu>
+                        <menu id="mnDivNotasProdutos" image="FiltrarRegistrosSPED" label="Divergências Produtos" >
+                            <button id="btnFiltrarDivergenciasProdutos" label="Filtrar Produtos das notas Selecionadas" image="ListarItensC170" onAction="AcionarBotao" />                                                            
+                        </menu>    
+                    </menu>
+                    
+                </group>
+                                    
+<!-- # Assistente de Tributação do PIS e COFINS -->
+                <group id="grControlesTributacaoPISCOFINS" label="Funcionalidades de Tributação" tag="Assist. Tributação PIS e COFINS" getVisible="GetVisible" >
+                    
+                    <splitButton id="ModelTributacaoPISCOFINS" size="large" >
+                        <button id="btnImportarTributacaoPISCOFINS" label="Importar Relatório de Tributação" image="ImportarExcel" onAction="AcionarBotao" />
+                        <menu id="mnRelPISCOFINS">                            
+                            <button id="btnExportarTributacaoPISCOFINS" label="Exportar Relatório de Tributação" image="ExportarRelatorio" onAction="AcionarBotao" />
+                            <button id="btnGerarModTributacaoPISCOFINS" label="Gerar Planilha Modelo de Tributação" image="ExportarExcel" onAction="AcionarBotao" />
+                        </menu>
+                    </splitButton>
+                    <splitButton id="TributacaoNCM_PISCOFINS" size="large" >
+                        <button id="btnImporTribNCM_PISCOFINS" label="Atualizar Tributação por NCM" image="AtualizarTributacaoPorNCM" onAction="AcionarBotao" />
+                        <menu id="mnNCM_PISCOFINS">                            
+                            <button id="btnExporTribNCM_PISCOFINS" label="Exportar Tributação por NCM" image="ExportarRelatorio" onAction="AcionarBotao" />
+                            <button id="btnGerarModeloNCM_PISCOFINS" label="Gerar Planilha Modelo por NCM" image="ExportarExcel" onAction="AcionarBotao" />
+                        </menu>
+                    </splitButton>                    
+                    <separator id="sepTributacaoPISCOFINS" />
+                    <button id="btnGerarRelatorioTributacaoPISCOFINS" label="Analisar Tributação" image="GerarRelInteligente" size="large" onAction="AcionarBotao"/>
+                    <button id="btnProcessarInconsistenciasTributacaoPISCOFINS" label="Reprocessar Inconsistências" image="Atualizar" size="large" onAction="AcionarBotao"/>
+                    <button id="btnListarInconsistenciasTributacaoPISCOFINS" label="Listar Inconsistências" image="ListarInconsistencias" size="large" onAction="AcionarBotao"/>
+                    <splitButton id="SugestoesTributacaoPISCOFINS" size="large" >
+                        <button id="btnAceitarSugestoesTributacaoPISCOFINS" label="Aceitar Sugestões" image="AceitarSugestoes" onAction="AcionarBotao"/>
+                        <menu id="mnSugestoesTributacaoPISCOFINS">
+                            <button id="btnIgnorarInconsistenciasTributacaoPISCOFINS" label="Ignorar Inconsistências" image="IgnorarInconsistencias" onAction="AcionarBotao"/>
+                            <button id="btnResetarInconsistenciasTributacaoPISCOFINS" label="Resetar Inconsistências" image="ResetarInconsistencias" onAction="AcionarBotao"/>           
+                        </menu>
+                    </splitButton>
+                    <button id="btnAtualizarRegistrosTributacaoPISCOFINS" label="Atualizar Registros" image="AtualizarRegistros" size="large" onAction="AcionarBotao"/>
+                </group>
+
+<!-- # Assistente de Tributação do ICMS -->
+                <group id="grControlesTributacaoICMS" label="Funcionalidades de Tributação" tag="Assistente de Tributação ICMS" getVisible="GetVisible" >
+                    
+                    <splitButton id="ModelTributacaoICMS" size="large" >
+                        <button id="btnImportarTributacaoICMS" label="Importar Relatório de Tributação" image="ImportarExcel" onAction="AcionarBotao" />
+                        <menu id="mnK200">                            
+                            <button id="btnExportarTributacaoICMS" label="Exportar Relatório de Tributação" image="ExportarRelatorio" onAction="AcionarBotao" />
+                            <button id="btnGerarModTributacaoICMS" label="Gerar Planilha Modelo de Tributação" image="ExportarExcel" onAction="AcionarBotao" />
+                        </menu>
+                    </splitButton>
+                    <separator id="sepTributacao001" />
+                    <button id="btnGerarRelatorioTributacaoICMS" label="Analisar Tributação do ICMS" image="GerarRelInteligente" size="large" onAction="AcionarBotao"/>
+                    <button id="btnProcessarInconsistenciasTributacaoICMS" label="Reprocessar Inconsistências" image="Atualizar" size="large" onAction="AcionarBotao"/>
+                    <button id="btnListarInconsistenciasTributacaoICMS" label="Listar Inconsistências" image="ListarInconsistencias" size="large" onAction="AcionarBotao"/>
+                    <splitButton id="SugestoesTributacaoICMS" size="large" >
+                        <button id="btnAceitarSugestoesTributacaoICMS" label="Aceitar Sugestões" image="AceitarSugestoes" onAction="AcionarBotao"/>
+                        <menu id="mnSugestoesTributacaoICMS">
+                            <button id="btnIgnorarInconsistenciasTributacaoICMS" label="Ignorar Inconsistências" image="IgnorarInconsistencias" onAction="AcionarBotao"/>
+                            <button id="btnResetarInconsistenciasTributacaoICMS" label="Resetar Inconsistências" image="ResetarInconsistencias" onAction="AcionarBotao"/>           
+                        </menu>
+                    </splitButton>
+                    <button id="btnAtualizarRegistrosTributacaoICMS" label="Atualizar Registros" image="AtualizarRegistros" size="large" onAction="AcionarBotao"/>
+                </group>
+                    
+<!-- # Assistente de Tributação do IPI -->
+                <group id="grControlesTributacaoIPI" label="Funcionalidades de Tributação" tag="Assistente de Tributação IPI" getVisible="GetVisible" >
+                    
+                    <splitButton id="ModelTributacaoIPI" size="large" >
+                        <button id="btnImportarTributacaoIPI" label="Importar Relatório de Tributação" image="ImportarExcel" onAction="AcionarBotao" />
+                        <menu id="mnRelIPI">                            
+                            <button id="btnExportarTributacaoIPI" label="Exportar Relatório de Tributação" image="ExportarRelatorio" onAction="AcionarBotao" />
+                            <button id="btnGerarModTributacaoIPI" label="Gerar Planilha Modelo de Tributação" image="ExportarExcel" onAction="AcionarBotao" />
+                        </menu>
+                    </splitButton>
+                    <separator id="sepTributacaoIPI" />
+                    <button id="btnGerarRelatorioTributacaoIPI" label="Analisar Tributação" image="GerarRelInteligente" size="large" onAction="AcionarBotao"/>
+                    <button id="btnProcessarInconsistenciasTributacaoIPI" label="Reprocessar Inconsistências" image="Atualizar" size="large" onAction="AcionarBotao"/>
+                    <button id="btnListarInconsistenciasTributacaoIPI" label="Listar Inconsistências" image="ListarInconsistencias" size="large" onAction="AcionarBotao"/>
+                    <splitButton id="SugestoesTributacaoIPI" size="large" >
+                        <button id="btnAceitarSugestoesTributacaoIPI" label="Aceitar Sugestões" image="AceitarSugestoes" onAction="AcionarBotao"/>
+                        <menu id="mnSugestoesTributacaoIPI">
+                            <button id="btnIgnorarInconsistenciasTributacaoIPI" label="Ignorar Inconsistências" image="IgnorarInconsistencias" onAction="AcionarBotao"/>
+                            <button id="btnResetarInconsistenciasTributacaoIPI" label="Resetar Inconsistências" image="ResetarInconsistencias" onAction="AcionarBotao"/>           
+                        </menu>
+                    </splitButton>
+                    <button id="btnAtualizarRegistrosTributacaoIPI" label="Atualizar Registros" image="AtualizarRegistros" size="large" onAction="AcionarBotao"/>
+                </group>
+
+<!-- # Assistente de Apuração do IPI -->
+                <group id="grControlesIPI" label="Funcionalidades do IPI" tag="Assistente de Apuração IPI" getVisible="GetVisible" >
+                    <button id="btnGerarRelatorioIPI" label="Gerar Relatório de IPI" image="GerarRelInteligente" size="large" onAction="AcionarBotao"/>
+                    <button id="btnProcessarInconsistenciasIPI" label="Reprocessar Inconsistências" image="Atualizar" size="large" onAction="AcionarBotao"/>
+                    <button id="btnListarInconsistenciasIPI" label="Listar Inconsistências" image="ListarInconsistencias" size="large" onAction="AcionarBotao"/>
+                    <splitButton id="SugestoesIPI" size="large" >
+                        <button id="btnAceitarSugestoesIPI" label="Aceitar Sugestões" image="AceitarSugestoes" onAction="AcionarBotao"/>
+                        <menu id="mnSugestoesIPI">
+                            <button id="btnIgnorarInconsistenciasIPI" label="Ignorar Inconsistências" image="IgnorarInconsistencias" onAction="AcionarBotao"/>
+                            <button id="btnResetarInconsistenciasIPI" label="Resetar Inconsistências" image="ResetarInconsistencias" onAction="AcionarBotao"/>           
+                        </menu>
+                    </splitButton>
+                        
+                    <button id="btnAtualizarRegistrosIPI" label="Atualizar Registros" image="AtualizarRegistros" size="large" onAction="AcionarBotao"/>
+                    <separator id="sepIPI001" />
+                    <splitButton id="AssistenteTribIPI" size="large" >
+                        <button id="RecursosTributariosIPI" label="Recursos Tributarios" image="RecursosTributarios"/>
+                        <menu id="mnTributacaoIPI">                            
+                            <button id="btnVerificarTributacaoIPI" label="Verificar Tributação IPI" image="VerificarTributacao" onAction="AcionarBotao"/>
+                            <button id="btnAplicarTributacaoIPI" label="Aplicar Tributação IPI" image="AplicarTributacao" onAction="AcionarBotao"/>
+                            <button id="btnSalvarTributacaoIPI" label="Salvar Tributação IPI" image="AtualizarTributacao" onAction="AcionarBotao"/>
+                            <menuSeparator id="tribIPI" />
+                            <button id="btnListarTributacoesIPI" label="Listar Tributacoes Filtradas" image="ListarTributacoesFiltradas" onAction="AcionarBotao"/>
+                        </menu>
+                    </splitButton>                                            
+                                 
+                </group>
+                
+                <group id="grControleCustosPrecos" label="Funcionalidades de Custos e Preços" tag="Assistente de Custos e Preços" getVisible="GetVisible" >
+                    <button id="btnGerarCustosPrecos" label="Gerar Relatório de Custos e Preços" image="GerarRelInteligente" size="large" onAction="AcionarBotao"/>
+                </group>
+                
+                <group id="grControleEstoque" label="Funcionalidades de Estoque" tag="Assistente de Estoque" getVisible="GetVisible" >
+                    <button id="btnGerarEstoque" label="Gerar Relatório de Estoque" image="GerarRelInteligente" size="large" onAction="AcionarBotao"/>
+                    <button id="btnProcessarInconsistenciasEstoque" label="Reprocessar Inconsistências" image="Atualizar" size="large" onAction="AcionarBotao"/>
+                    <button id="btnListarInconsistenciasEstoque" label="Listar Inconsistências" image="ListarInconsistencias" size="large" onAction="AcionarBotao"/>
+                    <splitButton id="SugestoesEstoque" size="large" >
+                        <button id="btnAceitarSugestoesEstoque" label="Aceitar Sugestões" image="AceitarSugestoes" onAction="AcionarBotao"/>
+                        <menu id="mnSugestoesEstoque">
+                            <button id="btnIgnorarInconsistenciasEstoque" label="Ignorar Inconsistências" image="IgnorarInconsistencias" onAction="AcionarBotao"/>
+                            <button id="btnResetarInconsistenciasEstoque" label="Resetar Inconsistências" image="ResetarInconsistencias" onAction="AcionarBotao"/>           
+                        </menu>
+                    </splitButton>
+                    <button id="btnAtualizarRegistrosEstoque" label="Atualizar Registros" image="AtualizarRegistros" size="large" onAction="AcionarBotao"/>
+                </group>
+                
+<!-- # Assistente de Contas -->
+                <group id="grControlesContas" label="Funcionalidades de Contas a Pagar e Receber" tag="Assistente de Contas" getVisible="GetVisible" >
+                    <button id="btnImportarC140Lote" label="Importar Faturas (Pasta)"  image="ImportarLote" size="large" onAction="AcionarBotao" />
+					<button id="btnImportarC140Arquivo" label="Importar Faturas (Arquivos)" image="ListarDocs" size="large" onAction="AcionarBotao" />
+					<box id="bxVert02" boxStyle="vertical">
+                    <labelControl id="lbVencimento" label="Vencimento para:"/>
+                    <dropDown id="dVencimento" onAction="getOption" getSelectedItemID="getSelectedItemID">
+                        <item id="D00" label="Selecione" />
+                        <item id="D07" label="07 dias" />
+                        <item id="D15" label="15 dias" />
+                        <item id="D21" label="21 dias" />
+                        <item id="D28" label="28 dias" />
+                        <item id="D30" label="30 dias" />
+                    </dropDown>
+                    </box>
+                    <separator id="sepf01" />
+                    <button id="btnGerarRelatorioContas" label="Gerar Relatório de Contas" image="GerarRelInteligente" size="large" onAction="AcionarBotao"/>
+                    <button id="btnProcessarInconsistenciasContas" label="Reprocessar Inconsistências" image="Atualizar" size="large" onAction="AcionarBotao"/>
+                    <button id="btnListarInconsistenciasContas" label="Listar Inconsistências" image="ListarInconsistencias" size="large" onAction="AcionarBotao"/>
+                    <button id="btnAceitarSugestoesContas" label="Aceitar Sugestões" image="AceitarSugestoes" size="large" onAction="AcionarBotao"/>
+                    <button id="btnAtualizarRegistrosContas" label="Atualizar Registros" image="AtualizarRegistros" size="large" onAction="AcionarBotao"/>
+                </group>                
+
+<!-- # Analista de Apuração do ICMS -->
+                <group id="grAnaliseICMS" label="Funcionalidades de Tributação" tag="Analista Apuração ICMS" getVisible="GetVisible" >                    
+                    <button id="btnGerarAnaliseICMS" label="Analisar Apuração do ICMS" image="GerarRelInteligente" size="large" onAction="AcionarBotao"/>
+                    <button id="btnListarInconsistenciasAnaliseICMS" label="Listar Inconsistências" image="ListarInconsistencias" size="large" onAction="AcionarBotao"/>
+                    <button id="btnFiltrarAnaliseICMS" label="Filtrar Registros" image="AtualizarRegistros" size="large" onAction="AcionarBotao"/>
+                </group>
+
+<!-- # Analista de Apuração do PIS e COFINS -->
+                <group id="grAnalisePISCOFINS" label="Funcionalidades de Tributação" tag="Analista Apuração PIS e COFINS" getVisible="GetVisible" >                    
+                    <button id="btnGerarAnalisePISCOFINS" label="Analisar Apuração PIS/COFINS" image="GerarRelInteligente" size="large" onAction="AcionarBotao"/>
+                    <button id="btnListarInconsistenciasAnalisePISCOFINS" label="Listar Inconsistências" image="ListarInconsistencias" size="large" onAction="AcionarBotao"/>
+                    <button id="btnFiltrarAnalisePISCOFINS" label="Filtrar Registros" image="AtualizarRegistros" size="large" onAction="AcionarBotao"/>
+                </group>
+                                                        
+                <group id="grLimpeza3">
+                    <button id="btnLimpFiltro3" label="Limpar Filtros" image="LimparFiltros" size="large" onAction="LimparFiltros" />
+					<button id="btnLimpDados3" label="Limpar Dados" image="Lixeira" size="large" onAction="LimparDados" />
+                </group>
+                
+            </tab>
+                                    
+            <tab id="tbEstrategia" label="Painel Estratégico">
+                
+<!-- # Assistente de Oportunidades -->
+                <group id="grAssistentesEnterprise" label="Assistentes">
+                
+                    <splitButton id="AssistenteOportunidade" size="large" >                        
+                        <button id="btnAssistenteOportunidade" label="Assistentes de Oportunidade" tag="Assistente de Oportunidade" image="OportunidadesFiscais"/>                    
+                        <menu id="mnAssistentesOportunidade">
+                            <button id="btnOportunidadesIPI" label="Oportunidades IPI" tag="Assist Oportunidades IPI" image="OportunidadesIPI" onAction="AcionarBotao"/>
+                            <button id="btnOportunidadesICMS" label="Oportunidades ICMS" tag="Assist Oportunidades ICMS" image="OportunidadesICMS" onAction="AcionarBotao"/>                            
+                            <button id="btnOportunidadesPISCOFINS" label="Oportunidades PIS e COFINS" tag="Assist Oportunidades PIS_COFINS" image="OportunidadesContribuicoes" onAction="AcionarBotao"/>
+                        </menu>                            
+                    </splitButton>
+                    
+                    <splitButton id="AssistenteInventario" size="large" >                        
+                        <button id="btnAssistenteInventario" label="Assistentes de Inventátio" tag="Assistente de Inventário" image="AssistenteInventario"/>                    
+                        <menu id="mnAssistentesInventario">
+                            <button id="btnInventarioMovimentacaoEstoque" label="Relatório Analítico de Movimentação de Estoque" tag="Movimentação de Estoque" image="RelatorioAnaliticoEstoque" onAction="AcionarBotao"/>
+                            <button id="btnInventarioConfigInventario" label="Configurações do Inventário" tag="Configurações de Inventário" image="ConfiguradorInventario" onAction="AcionarBotao"/>                            
+                            <button id="btnInventarioSaldoInventario" label="Gerar Saldo de Inventário" tag="Saldo de Inventário" image="SaldoInventario" onAction="AcionarBotao"/>
+                            <button id="btnInventarioGerardorInventario" label="Gerador de Inventário" tag="Gerador de Inventário" image="GeradorInventario" onAction="AcionarBotao"/>
+                        </menu>                            
+                    </splitButton>
+                        
+                </group>
+                    
+<!-- # Assistente de Oportunidades do IPI -->
+                <group id="grOportunidadesIPI" label="Oportunidades do IPI e IPI" tag="Assist Oportunidades IPI" getVisible="GetVisible" >
+                    
+                    <button id="btnImportarSPEDsOriginaisIPI" label="Importar SPEDs Originais" image="ImportarLote" size="large" onAction="AcionarBotao"/>
+                    <button id="btnImportarSPEDsCorrigidosIPI" label="Importar SPEDs Corrigidos" image="ImportarLote" size="large" onAction="AcionarBotao"/>
+                    
+                </group>
+                                    
+<!-- # Assistente de Oportunidades do ICMS -->
+                <group id="grOportunidadesICMS" label="Oportunidades do ICMS e IPI" tag="Assist Oportunidades ICMS" getVisible="GetVisible" >
+                    
+                    <button id="btnImportarSPEDsOriginaisICMS" label="Importar SPEDs Originais" image="ImportarLote" size="large" onAction="AcionarBotao"/>
+                    <button id="btnImportarSPEDsCorrigidosICMS" label="Importar SPEDs Corrigidos" image="ImportarLote" size="large" onAction="AcionarBotao"/>
+                    
+                </group>                    
+                
+<!-- # Assistente de Oportunidades do PIS e COFINS -->
+                <group id="grOportunidadesPISCOFINS" label="Oportunidades do PIS e COFINS" tag="Assist Oportunidades PIS_COFINS" getVisible="GetVisible" >
+                    
+                    <button id="btnImportarSPEDsOriginaisPISCOFINS" label="Importar SPEDs Originais" image="ImportarLote" size="large" onAction="AcionarBotao"/>
+                    <button id="btnImportarSPEDsCorrigidosPISCOFINS" label="Importar SPEDs Corrigidos" image="ImportarLote" size="large" onAction="AcionarBotao"/>
+                    
+                </group>
+                
+<!-- # Assistente de Análise de Movimentção do Estoque -->
+                <group id="grAnaliseEstoque" label="Funcionalidades de Estoque" tag="Movimentação de Estoque" getVisible="GetVisible" >                    
+                    <button id="btnGerarAnaliseEstoque" label="Gerar Movimentação de Estoque" image="GerarRelatorioAnaliticoEstoque" size="large" onAction="AcionarBotao"/>
+                    <button id="btnListarInconsistenciasAnaliseEstoque" label="Listar Inconsistências" image="ListarInconsistencias" size="large" onAction="AcionarBotao"/>
+                    <button id="btnFiltrarAnaliseEstoque" label="Filtrar Registros" image="AtualizarRegistros" size="large" onAction="AcionarBotao"/>
+                </group>
+
+<!-- # Assistente de Análise de Saldo de Inventário -->
+                <group id="grSaldoInventario" label="Funcionalidades de Inventário" tag="Saldo de Inventário" getVisible="GetVisible" >                    
+                    <button id="btnGerarSaldoInventario" label="Gerar Saldo de Inventário" image="GerarSaldoInventario" size="large" onAction="AcionarBotao"/>
+                    <button id="btnListarInconsistenciasSaldoInventario" label="Listar Inconsistências" image="ListarInconsistencias" size="large" onAction="AcionarBotao"/>
+                    <button id="btnFiltrarSaldoInventario" label="Filtrar Registros" image="AtualizarRegistros" size="large" onAction="AcionarBotao"/>
+                </group>
+                                    
+                <group id="grLimpezaEnterprise">
+                    <button id="btnLimpFiltroEnterprise" label="Limpar Filtros" image="LimparFiltros" size="large" onAction="LimparFiltros" />
+					<button id="btnLimpDadosEnterprise" label="Limpar Dados" image="Lixeira" size="large" onAction="LimparDados" />
+                </group>
+                
+            </tab>                        
+            
+            <tab id="tbDesenvolvedor" label="Desenvolvedor" getVisible="VerificarUUID">
+                
+                <group id="grGerirCodigo" label="Ferramentas do Desenvolvedor">
+                    
+                    <button id="btnExportarCodigo" label="Exportar Código" image="ExportarCodigo" size="large" onAction="ExportarCodigoControlDocs" />
+                    <button id="btnImportarCodigo" label="Importar Código" image="ImportarCodigo" size="large" onAction="ImportarCodigoControlDocs" />
+                    <separator id="sepDev01" />
+                    <button id="btnExportarJson" label="Exportar Json" image="ExportarJson" size="large" onAction="ExportarJson" />
+                    <button id="btnImportarJson" label="Importar Json" image="ImportarJson" size="large" onAction="ImportarJson" />
+                    <separator id="sepDev02" />
+                    <button id="btnExportarTabela" label="Exportar Tabela" image="ExportarTabela" size="large" onAction="ExportarTabela" />
+                    <button id="btnImportarTabela" label="Importar Tabela" image="ImportarTabela" size="large" onAction="ImportarTabela" />
+                                                            
+                </group>
+
+                <group id="grModificacoes" label="Ferramentas do Desenvolvedor">
+                    
+                    <button id="btnAlterarSPEDFiscal" label="Alterar CNPJ SPED Fiscal" image="ImportarEFD" size="large" onAction="AlterarDadosChaveAcessoSPEDFiscal" />
+                    <button id="btnAlterarSPEDContribuicoes" label="Alterar CNPJ SPED Contribuições" image="ImportarDoSPED" size="large" onAction="AlterarDadosChaveAcessoSPEDContribuicoes" />
+                    <separator id="sepMod01" />
+                    <button id="btnAlterarCNPJDocsEmitidos" label="Alterar CNPJ Notas Emitidas" image="ImportarNFe" size="large" onAction="AlterarNFeEmitidos" />
+                    <button id="btnAlterarCNPJDocsRecebidos" label="Alterar CNPJ Notas Recebidas" image="ImportarNFe" size="large" onAction="AlterarNFeRecebidos" />
+                    <button id="btnAlterarCNPJCTeRecebidos" label="Alterar CNPJ CT-e Recebidos" image="ImportarCTe" size="large" onAction="AlterarCTeRecebidos" />
+                    <button id="btnAlterarProtocolos" label="Alterar Protocolos" image="ListarDocs" size="large" onAction="ImportarJson" />
+                    
+                </group>
+                    
+            </tab>
+                            
+		</tabs>
+		
+	</ribbon>
+	
+</customUI>
