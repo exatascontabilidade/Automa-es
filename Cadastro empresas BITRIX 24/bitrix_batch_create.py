@@ -4,18 +4,15 @@ import os
 import sys
 import time
 import json
-import math
 import typing as t
 
 import requests
 import pandas as pd
 
 BITRIX_BASE = "https://grupoexatas.bitrix24.com.br/rest"
-# Webhooks (adjust if needed)
-WEBHOOK_ADD = "07d5hnaffmd7bsgh"       # used for company.add and requisite.add
-WEBHOOK_LIST = "pwdu6a6tdwaeynut"      # used for company.list (as provided in your example)
+WEBHOOK_ADD = "07d5hnaffmd7bsgh"
+WEBHOOK_LIST = "pwdu6a6tdwaeynut"
 
-# Endpoints
 URL_COMPANY_ADD = f"{BITRIX_BASE}/1/{WEBHOOK_ADD}/crm.company.add.json"
 URL_COMPANY_LIST = f"{BITRIX_BASE}/1/{WEBHOOK_LIST}/crm.company.list.json"
 URL_REQUISITE_ADD = f"{BITRIX_BASE}/1/{WEBHOOK_ADD}/crm.requisite.add.json"
@@ -25,10 +22,10 @@ HEADERS = {
     "Accept": "application/json",
 }
 
-PAGE_SIZE = 50  # Bitrix default
+PAGE_SIZE = 50
+
 
 def bitrix_company_add(title: str, codigo_dominio: str) -> t.Optional[int]:
-    """Create a company and return its ID (if Bitrix returns it)."""
     payload = {
         "fields": {
             "TITLE": title,
@@ -39,7 +36,6 @@ def bitrix_company_add(title: str, codigo_dominio: str) -> t.Optional[int]:
             "OPENED": "Y",
             "ASSIGNED_BY_ID": 1,
             "PHONE": [{"VALUE": "555888", "VALUE_TYPE": "WORK"}],
-            # Campo customizado -> Código - Domínio
             "UF_CRM_1755003469444": str(codigo_dominio),
         },
         "params": {"REGISTER_SONET_EVENT": "Y"},
@@ -49,22 +45,11 @@ def bitrix_company_add(title: str, codigo_dominio: str) -> t.Optional[int]:
     data = resp.json()
     if "error" in data:
         raise RuntimeError(f"Bitrix error on company.add: {data}")
-    # Usually Bitrix returns the new ID in 'result'
     return data.get("result")
 
+
 def bitrix_company_list_last_id() -> int:
-    """Use pagination to find the ID of the most recently created company.
-    Logic:
-      1) First request to get 'total'
-      2) Compute last page start: ((total-1)//PAGE_SIZE)*PAGE_SIZE
-      3) Request that page and select last ID (max) from it
-    """
-    # Step 1: initial call to get total
-    first_payload = {
-        "order": {"ID": "ASC"},
-        "select": ["ID"],
-        "start": 0
-    }
+    first_payload = {"order": {"ID": "ASC"}, "select": ["ID"], "start": 0}
     resp = requests.post(URL_COMPANY_LIST, headers=HEADERS, data=json.dumps(first_payload), timeout=60)
     resp.raise_for_status()
     data = resp.json()
@@ -72,21 +57,13 @@ def bitrix_company_list_last_id() -> int:
         raise RuntimeError(f"Bitrix error on company.list[initial]: {data}")
     total = data.get("total")
     if total is None:
-        # Try fallback if 'total' is missing
         items = data.get("result", [])
         if not items:
             raise RuntimeError("No companies found and 'total' missing in response.")
-        last_id = max(int(i["ID"]) for i in items if "ID" in i)
-        return last_id
+        return max(int(i["ID"]) for i in items if "ID" in i)
 
     last_start = ((int(total) - 1) // PAGE_SIZE) * PAGE_SIZE
-
-    # Step 2: request the last page
-    last_payload = {
-        "order": {"ID": "ASC"},
-        "select": ["ID", "TITLE", "DATE_CREATE"],
-        "start": last_start
-    }
+    last_payload = {"order": {"ID": "ASC"}, "select": ["ID", "TITLE", "DATE_CREATE"], "start": last_start}
     resp2 = requests.post(URL_COMPANY_LIST, headers=HEADERS, data=json.dumps(last_payload), timeout=60)
     resp2.raise_for_status()
     data2 = resp2.json()
@@ -96,18 +73,15 @@ def bitrix_company_list_last_id() -> int:
     items = data2.get("result", [])
     if not items:
         raise RuntimeError("Last page returned no items.")
+    return max(int(i["ID"]) for i in items if "ID" in i)
 
-    # Pick the highest ID from the last page
-    last_id = max(int(i["ID"]) for i in items if "ID" in i)
-    return last_id
 
 def bitrix_requisite_add(entity_id: int, cnpj: str) -> int:
-    """Create requisite with CNPJ for the given company ID. Returns new requisite ID."""
     payload = {
         "fields": {
-            "ENTITY_TYPE_ID": 4,          # 4 = Company
+            "ENTITY_TYPE_ID": 4,
             "ENTITY_ID": entity_id,
-            "PRESET_ID": 5,               # Provided by you
+            "PRESET_ID": 5,
             "NAME": "Pessoa jurídica",
             "RQ_CNPJ": cnpj
         }
@@ -119,26 +93,33 @@ def bitrix_requisite_add(entity_id: int, cnpj: str) -> int:
         raise RuntimeError(f"Bitrix error on requisite.add: {data}")
     return data.get("result")
 
+
 def normalize_cnpj(cnpj: str) -> str:
-    """Return CNPJ as provided; adjust here if you want to force a specific mask/digits-only."""
     return str(cnpj).strip()
 
+
 def process_excel(path_excel: str):
-    df = pd.read_excel(path_excel)
-    # Expect columns: NOME, CNPJ, CODIGO_DOMINIO
+    ext = os.path.splitext(path_excel)[1].lower()
+
+    if ext == ".xls":
+        try:
+            df = pd.read_excel(path_excel, engine="xlrd")
+        except ImportError:
+            raise ImportError("O formato .xls requer a instalação do pacote 'xlrd'. Use: pip install xlrd")
+    else:
+        df = pd.read_excel(path_excel)
+
     required_cols = {"NOME", "CNPJ", "CODIGO_DOMINIO"}
-    missing = required_cols - set(map(str.upper, df.columns))
-    # Attempt case-insensitive remap
     col_map = {}
     for col in df.columns:
-        up = col.upper()
+        up = col.upper().strip()
         if up in required_cols:
             col_map[col] = up
-    if missing:
-        # Remap succeeded?
-        if set(col_map.values()) != required_cols:
-            raise ValueError(f"Planilha deve conter colunas: {required_cols}. Encontradas: {df.columns.tolist()}")
-        df = df.rename(columns=col_map)
+
+    if set(col_map.values()) != required_cols:
+        raise ValueError(f"Planilha deve conter colunas: {required_cols}. Encontradas: {df.columns.tolist()}")
+
+    df = df.rename(columns=col_map)
 
     results = []
     for _, row in df.iterrows():
@@ -150,14 +131,11 @@ def process_excel(path_excel: str):
         created_id = bitrix_company_add(nome, codigo)
         if created_id:
             print(f"ID retornado por company.add: {created_id}")
+            last_id = created_id
         else:
             print("company.add não retornou ID; será usado o método de paginação para localizar o último ID.")
+            last_id = bitrix_company_list_last_id()
 
-        # Conforme solicitado, usar a listagem para encontrar a última criada
-        last_id = bitrix_company_list_last_id()
-        print(f"Última empresa (ID) identificada via paginação: {last_id}")
-
-        # Cadastra o CNPJ nos requisitos
         req_id = bitrix_requisite_add(last_id, cnpj)
         print(f"Requisite criado (ID): {req_id} para empresa ID: {last_id}")
 
@@ -170,28 +148,26 @@ def process_excel(path_excel: str):
             "COMPANY_ID_RETURNED": created_id
         })
 
-        # Pausa curta para evitar rate limit
         time.sleep(0.5)
 
     return pd.DataFrame(results)
 
+
 def main():
-    if len(sys.argv) < 2:
-        print("Uso: python bitrix_batch_create.py <caminho_para_planilha.xlsx>")
-        sys.exit(1)
-    excel_path = sys.argv[1]
+    excel_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Relação Empresas - Nome - CNPJ.xls")
     if not os.path.exists(excel_path):
         print(f"Arquivo não encontrado: {excel_path}")
         sys.exit(1)
 
     try:
         df_result = process_excel(excel_path)
-        out_path = "resultado_criacao_empresas.csv"
+        out_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "resultado_criacao_empresas.csv")
         df_result.to_csv(out_path, index=False, encoding="utf-8-sig")
         print(f"\nConcluído. Resultado salvo em: {out_path}")
     except Exception as e:
         print(f"Erro durante a execução: {e}")
         sys.exit(2)
+
 
 if __name__ == "__main__":
     main()

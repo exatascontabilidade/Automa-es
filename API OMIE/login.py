@@ -165,7 +165,7 @@ class DataProcessor:
         return boletos_para_processar
 
 # --- AUTOMAÇÃO ---
-class OnvioAutomator:
+class  OnvioAutomator:
     # ... (código de __init__ até _salvar_resultado inalterado) ...
     def __init__(self, config):
         self.config = config
