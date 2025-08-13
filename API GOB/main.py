@@ -16,8 +16,8 @@ PAGE_SIZE = 1000
 # === DEFINIÇÃO DOS TIPOS DE PARCELAMENTO ===
 TIPOS_PARCELAMENTO = {
     "ParcelamentoFederalSimplificado": {
-        "url_empresas": "https://integracao.gob.ctributaria.com.br/api/v1/ParcelamentoFederalSimplificado",
-        "url_parcelas": "https://integracao.gob.ctributaria.com.br/api/v1/ParcelamentoFederalSimplificadoParcelas?where[0][type]:=isNotNull&where[0][attribute]=darfId&where[1][type]=equals&where[1][attribute]=situacao&where[1][value]=A vencer",
+        "url_empresas": "https://integracao.gob.com.br/api/v1/ParcelamentoFederalSimplificado",
+        "url_parcelas": "https://integracao.gob.com.br/api/v1/ParcelamentoFederalSimplificadoParcelas?where[0][type]:=isNotNull&where[0][attribute]=darfId&where[1][type]=equals&where[1][attribute]=situacao&where[1][value]=A vencer",
         "id_empresa": "id",
         "id_parcelamento_ref": "parcelamentoFederalSimplificadoId",
         "id_arquivo": "darfId",
@@ -25,8 +25,8 @@ TIPOS_PARCELAMENTO = {
         "nome_pasta": "FEDERAL_SIMPLIFICADO"
     },
     "ParcelamentoPgfn": {
-        "url_empresas": "https://integracao.gob.ctributaria.com.br/api/v1/ParcelamentoPgfn",
-        "url_parcelas": "https://integracao.gob.ctributaria.com.br/api/v1/ParcelamentoPgfnParcelas?where[0][type]:=isNotNull&where[0][attribute]=darfId&where[1][type]=equals&where[1][attribute]=pago&where[1][value]=false",
+        "url_empresas": "https://integracao.gob.com.br/api/v1/ParcelamentoPgfn",
+        "url_parcelas": "https://integracao.gob.com.br/api/v1/ParcelamentoPgfnParcelas?where[0][type]:=isNotNull&where[0][attribute]=darfId&where[1][type]=equals&where[1][attribute]=pago&where[1][value]=false",
         "id_empresa": "id",
         "id_parcelamento_ref": "parcelamentoPgfnId",
         "id_arquivo": "darfId",
@@ -34,8 +34,8 @@ TIPOS_PARCELAMENTO = {
         "nome_pasta": "PGFN"
     },
     "ParcelamentoPrevidenciario": {
-        "url_empresas": "https://integracao.gob.ctributaria.com.br/api/v1/ParcelamentoPrevidenciario",
-        "url_parcelas": "https://integracao.gob.ctributaria.com.br/api/v1/ParcelamentoPrevidenciarioParcelas?where[0][type]:=isNotNull&where[0][attribute]=gpsId&where[1][type]=equals&where[1][attribute]=situacaoParcela&where[1][value]=Devedora",
+        "url_empresas": "https://integracao.gob.com.br/api/v1/ParcelamentoPrevidenciario",
+        "url_parcelas": "https://integracao.gob.com.br/api/v1/ParcelamentoPrevidenciarioParcelas?where[0][type]:=isNotNull&where[0][attribute]=gpsId&where[1][type]=equals&where[1][attribute]=situacaoParcela&where[1][value]=Devedora",
         "id_empresa": "id",
         "id_parcelamento_ref": "parcelamentoPrevidenciarioId",
         "id_arquivo": "gpsId",
@@ -43,7 +43,7 @@ TIPOS_PARCELAMENTO = {
         "nome_pasta": "PREVIDENCIARIO"
     },
     "ParcelamentoSimplesNacional": {
-        "url_empresas": "https://integracao.gob.ctributaria.com.br/api/v1/ParcelamentoSimplesNacional",
+        "url_empresas": "https://integracao.gob.com.br/api/v1/ParcelamentoSimplesNacional",
         "id_empresa": "id",
         "id_parcelamento_ref": "parcelamentoSimplesNacionalId",
         "id_arquivo": "darfId",
@@ -52,8 +52,8 @@ TIPOS_PARCELAMENTO = {
         "personalizado": True
     },
     "ParcelamentoNaoPrevidenciario": {
-        "url_empresas": "https://integracao.gob.ctributaria.com.br/api/v1/ParcelamentoNaoPrevidenciario",
-        "url_parcelas": "https://integracao.gob.ctributaria.com.br/api/v1/ParcelamentoNaoPrevidenciarioParcelas?where[0][type]:=isNotNull&where[0][attribute]=darfId&where[1][type]=equals&where[1][attribute]=situacao&where[1][value]=Em aberto",
+        "url_empresas": "https://integracao.gob.com.br/api/v1/ParcelamentoNaoPrevidenciario",
+        "url_parcelas": "https://integracao.gob.com.br/api/v1/ParcelamentoNaoPrevidenciarioParcelas?where[0][type]:=isNotNull&where[0][attribute]=darfId&where[1][type]=equals&where[1][attribute]=situacao&where[1][value]=Em aberto",
         "id_empresa": "id",
         "id_parcelamento_ref": "parcelamentoNaoPrevidenciarioTributosId",
         "id_arquivo": "darfId",
@@ -85,7 +85,7 @@ def baixar_arquivo(config, empresa, arquivo_id, nome_arquivo, registros_baixados
     caminho_arquivo = os.path.join(pasta_final, nome_arquivo)
 
     try:
-        url_download = f"https://integracao.gob.ctributaria.com.br/api/v1/Attachment/file/{arquivo_id}"
+        url_download = f"https://integracao.gob.com.br/api/v1/Attachment/file/{arquivo_id}"
         for tentativa in range(3):
             try:
                 r = requests.get(url_download, headers=HEADERS, timeout=20)
@@ -120,7 +120,7 @@ def processar_simples_nacional(config, registros_baixados, registros_com_erros):
 
     for id_parcelamento in ids_validos:
         url = (
-            "https://integracao.gob.ctributaria.com.br/api/v1/ParcelamentoSimplesNacionalParcelas"
+            "https://integracao.gob.com.br/api/v1/ParcelamentoSimplesNacionalParcelas"
             f"?where[0][type]:=isNotNull&where[0][attribute]=darfId"
             f"&where[1][type]=isNull&where[1][attribute]=valorPago"
             f"&where[2][type]=equals&where[2][attribute]=parcelamentoSimplesNacionalId"

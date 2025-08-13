@@ -1,0 +1,363 @@
+==> Criando empresa: JOSE ELENILTON DOS SANTOS | Código-Domínio: 402
+==> Criando empresa: JOSE EVERTON ALVES LIMA | Código-Domínio: 440
+==> Criando empresa: REGINALDO DE ALMEIDA | Código-Domínio: 451
+==> Criando empresa: GABRIEL AUGUSTO ELIAS | Código-Domínio: 478
+==> Criando empresa: HELEN CRISTINA SILVEIRA DE GO | Código-Domínio: 455
+==> Criando empresa: NAILZA DA COSTA DO NASCIMENTO | Código-Domínio: 559
+==> Criando empresa: ANGELICA DE ALMEIDA CONCEICAO | Código-Domínio: 566
+==> Criando empresa: 5W ENGENHARIA E CONSULTORIA LTDA | Código-Domínio: 374
+==> Criando empresa: ROSANGELA ALVES DE OLIVEIRA | Código-Domínio: 584
+==> Criando empresa: LUIZ GUSTAVO ALVES DOS SANTOS | Código-Domínio: 598
+==> Criando empresa: GILNEIDE ARAGAO DE SANTANA | Código-Domínio: 600
+==> Criando empresa: JERFESON FILGUEIRAS DOS SANTO | Código-Domínio: 601
+==> Criando empresa: ISABELLE SANTOS SILVA | Código-Domínio: 626
+[AVISO] CNPJ '7996854000119' normalizado para '7996854000119', mas não possui 14 dígitos.
+==> Criando empresa: A BELINHA COMERCIO VAREJISTA DE MOVEIS L | Código-Domínio: 616
+==> Criando empresa: A&J LUBRIFICANTES, PECAS E ACESSORIOS AU | Código-Domínio: 107
+==> Criando empresa: AC&M REPRESENTACOES COMERCIAIS LTDA | Código-Domínio: 115
+==> Criando empresa: ACESSON ON SERVICOS LTDA | Código-Domínio: 621
+==> Criando empresa: ACHEI COMERCIO E SERVICOS LTDA | Código-Domínio: 424
+==> Criando empresa: ADRIANO DOS REIS | Código-Domínio: 1
+==> Criando empresa: AG PATRIMONIAL LTDA | Código-Domínio: 503
+==> Criando empresa: AGRO MAIS PRODUTOS AGROPECUARIOS LTDA | Código-Domínio: 411
+==> Criando empresa: AGRONORTE DRONES LTDA | Código-Domínio: 611
+[AVISO] CNPJ '3983099000268' normalizado para '3983099000268', mas não possui 14 dígitos.
+==> Criando empresa: AGROPECUARIA FERTIL LTDA | Código-Domínio: 531
+[AVISO] CNPJ '3983099000187' normalizado para '3983099000187', mas não possui 14 dígitos.
+==> Criando empresa: AGROPECUARIA FERTIL LTDA | Código-Domínio: 530
+[AVISO] CNPJ '3983099000349' normalizado para '3983099000349', mas não possui 14 dígitos.
+==> Criando empresa: AGROPECUARIA FERTIL LTDA | Código-Domínio: 532
+[AVISO] CNPJ '3983099000420' normalizado para '3983099000420', mas não possui 14 dígitos.
+==> Criando empresa: AGROPECUARIA FERTIL LTDA | Código-Domínio: 534
+==> Criando empresa: AL.COMERCIO DE CONFECCOES TOBIENSE LTDA | Código-Domínio: 124
+==> Criando empresa: ALCANTARA PROJETOS RURAIS | Código-Domínio: 95
+==> Criando empresa: ALEXANDRE NASCIMENTO SOUZA | Código-Domínio: 341
+==> Criando empresa: ALF LUBRIFICANTES LTDA | Código-Domínio: 605
+==> Criando empresa: ALF LUBRIFICANTES LTDA | Código-Domínio: 606
+==> Criando empresa: ALFA E OMEGA EMPREENDIMENTOS LTDA | Código-Domínio: 379
+==> Criando empresa: ALVES FRANCA COMERCIO DE MOVEIS LTDA | Código-Domínio: 607
+==> Criando empresa: AMADINHOS COMERCIO DE PAPELARIA E BRINQU | Código-Domínio: 480
+==> Criando empresa: AMANDA DOS SANTOS SILVA 06456036518 | Código-Domínio: 569
+==> Criando empresa: AME-SE PILATES E OSTEOPATIA LTDA | Código-Domínio: 592
+[AVISO] CNPJ '7273339000100' normalizado para '7273339000100', mas não possui 14 dígitos.
+==> Criando empresa: ANTONIO GERALDO FILHO | Código-Domínio: 3
+[AVISO] CNPJ '9480081000149' normalizado para '9480081000149', mas não possui 14 dígitos.
+==> Criando empresa: AQUA LOCACOES DE VEICULOS LTDA | Código-Domínio: 281
+==> Criando empresa: AQUAPLUS FILIAL | Código-Domínio: 373
+==> Criando empresa: AQUAPLUS IND E COM DE PRODUTOS QUIMICOS | Código-Domínio: 289
+==> Criando empresa: ASSOCIACAO CULTURAL QUADRILHA JUNINA MEU | Código-Domínio: 5
+==> Criando empresa: ASSOCIACAO FORA DE FORMA FUTEBOL CLUBE D | Código-Domínio: 536
+[AVISO] CNPJ '8492189000199' normalizado para '8492189000199', mas não possui 14 dígitos.
+==> Criando empresa: AUSTREGESILO JUNIOR ARAGAO MELO | Código-Domínio: 251
+==> Criando empresa: AUTO POSTO CEU 2 LTDA | Código-Domínio: 439
+==> Criando empresa: AUTO POSTO DO TINHO LTDA | Código-Domínio: 120
+==> Criando empresa: AVAM ASSESSORIA PECUARIA LTDA | Código-Domínio: 542
+[AVISO] CNPJ '6313227000173' normalizado para '6313227000173', mas não possui 14 dígitos.
+==> Criando empresa: BARBOSA COMERCIO DE GAS LTDA | Código-Domínio: 535
+==> Criando empresa: BARBOSA REPRESENTACOES COMERCIAIS LTDA | Código-Domínio: 65
+==> Criando empresa: BARRETO E NASCIMENTO HOLDING PATRIMONIAL | Código-Domínio: 437
+==> Criando empresa: BDA JARDINS LTDA | Código-Domínio: 549
+==> Criando empresa: BDA PRODUTOS NATURAIS LTDA | Código-Domínio: 298
+==> Criando empresa: BENVILAR INDUSTRIA E COMERCIO LTDA | Código-Domínio: 613
+==> Criando empresa: BORDADOS DE TOBIAS LTDA | Código-Domínio: 552
+==> Criando empresa: BRUMAR BRASIL PRODUTOS NATURAIS LTDA | Código-Domínio: 436
+==> Criando empresa: BRUMAR FARMACIA DE MANIPULACAO LTDA | Código-Domínio: 387
+==> Criando empresa: BRUMAR FRANQUIA CONSULTORIA E ASSESSORIA | Código-Domínio: 462
+==> Criando empresa: BY TELECOM LTDA | Código-Domínio: 491
+==> Criando empresa: BY TELECOM LTDA | Código-Domínio: 465
+==> Criando empresa: BY TELECOM LTDA | Código-Domínio: 490
+[AVISO] CNPJ '1630321000132' normalizado para '1630321000132', mas não possui 14 dígitos.
+==> Criando empresa: C.S.J.R. ACADEMIA LTDA | Código-Domínio: 13
+==> Criando empresa: CAMILA SANTOS TRINDADE LTDA | Código-Domínio: 594
+==> Criando empresa: CAPIM CHEIROSO PARTICIPACOES LTDA | Código-Domínio: 284
+==> Criando empresa: CASA AGROPECUARIA SANTANA LTDA | Código-Domínio: 108
+==> Criando empresa: CASA DO PAO LTDA | Código-Domínio: 419
+==> Criando empresa: CENTRAL AGRO FERRAGENS LTDA | Código-Domínio: 395
+==> Criando empresa: CENTRO DE TERAPIA CONECTEA LTDA | Código-Domínio: 590
+==> Criando empresa: CENTRO DE TERAPIA HUMANIZAR LTDA | Código-Domínio: 511
+==> Criando empresa: CENTRO DE TERAPIA TRANSDISCIPLINAR HUMAN | Código-Domínio: 513
+==> Criando empresa: CG PARAFUSOS E FERRAMENTAS LTDA | Código-Domínio: 233
+==> Criando empresa: CITRUS MIX VARIEDADES LTDA | Código-Domínio: 585
+==> Criando empresa: CITRUS RURAL LTDA | Código-Domínio: 529
+==> Criando empresa: CLINICA ADELIA COSTA | Código-Domínio: 75
+==> Criando empresa: CLINICA INTEGRADA DE PROCEDIMENTOS E ESP | Código-Domínio: 68
+==> Criando empresa: CLINICA INTEGRADA DE PROCEDIMENTOS E ESP | Código-Domínio: 69
+==> Criando empresa: CLINICA INTEGRADA DE PROCEDIMENTOS E ESP | Código-Domínio: 80
+==> Criando empresa: CLINICA LUANDE LTDA | Código-Domínio: 211
+==> Criando empresa: CLINICA TERESA CRISTINA LTDA | Código-Domínio: 396
+==> Criando empresa: CLORUS QUIMICA COMERCIO DE PRODUTOS QUIM | Código-Domínio: 352
+[AVISO] CNPJ '2295238000117' normalizado para '2295238000117', mas não possui 14 dígitos.
+==> Criando empresa: COMERCIAL DE GAS IMPERATRIZ DOS CAMPOS L | Código-Domínio: 15
+==> Criando empresa: COMERCIAL ELETROVOLT LTDA | Código-Domínio: 261
+==> Criando empresa: COMERCIO E INDUSTRIA GABRIEL MACEDO LTDA | Código-Domínio: 267
+==> Criando empresa: CONSTRU RIBEIRO LTDA | Código-Domínio: 286
+==> Criando empresa: CONSTRUAGRO BARBOSA LTDA | Código-Domínio: 409
+==> Criando empresa: CONSTRUFERTIL COMERCIAL LTDA | Código-Domínio: 533
+[AVISO] CNPJ '7670261000168' normalizado para '7670261000168', mas não possui 14 dígitos.
+==> Criando empresa: COOPERATIVA DE TRANSPORTE ALTERNATIVO DE | Código-Domínio: 16
+==> Criando empresa: CORPOREVIDA LTDA | Código-Domínio: 119
+==> Criando empresa: CORUJA PRODUCOES | Código-Domínio: 428
+==> Criando empresa: CRISTAL BORDADOS INDUSTRIA E COMERCIO DE | Código-Domínio: 169
+==> Criando empresa: CRISTIANE BATISTA DOS SANTOS FABRICACAO | Código-Domínio: 347
+==> Criando empresa: DANIEL FREIRE DOS SANTOS 07608114584 | Código-Domínio: 304
+==> Criando empresa: DANTAS EMPREENDIMENTOS LTDA | Código-Domínio: 492
+==> Criando empresa: DEEP CONNECT TELECOM LTDA | Código-Domínio: 609
+==> Criando empresa: DELI JARDINS COMERCIO DE ALIMENTOS LTDA | Código-Domínio: 446
+==> Criando empresa: DELI JARDINS SERVICOS LTDA | Código-Domínio: 445
+==> Criando empresa: DERMAPIL CURSOS LTDA | Código-Domínio: 391
+==> Criando empresa: DESTAK MOTO PECAS LTDA | Código-Domínio: 553
+==> Criando empresa: DESTAK MOTO PECAS LTDA | Código-Domínio: 376
+==> Criando empresa: DISTRIDOCES DISTRIBUIDORA DE DOCES LTDA | Código-Domínio: 19
+==> Criando empresa: DOCE SONHO INDUSTRIAL LTDA | Código-Domínio: 257
+==> Criando empresa: DOCE SONHO LTDA | Código-Domínio: 39
+==> Criando empresa: DON BAGGIO LTDA | Código-Domínio: 398
+==> Criando empresa: DONA MARIA VARIEDADES LTDA | Código-Domínio: 339
+==> Criando empresa: DORIA COMERCIO DE DOCES E EMBALAGENS LTD | Código-Domínio: 575
+==> Criando empresa: DUDEE777 CONSULT SERVICE LTDA | Código-Domínio: 433
+==> Criando empresa: EAP SERVICOS ADMINISTRATIVOS LTDA | Código-Domínio: 474
+==> Criando empresa: ECEGH SERVICOS DE GESTAO HOSPITALAR LTDA | Código-Domínio: 557
+==> Criando empresa: EDICLAUDIO ALVES DO NASCIMENTO 972433455 | Código-Domínio: 160
+==> Criando empresa: ELIZEU CABELEIREIROS UNISSEX LTDA | Código-Domínio: 457
+==> Criando empresa: EMPLACADORA TOBIENSE LTDA | Código-Domínio: 20
+==> Criando empresa: EMPORIO BRUMAR PRODUTOS NATURAIS LTDA | Código-Domínio: 229
+==> Criando empresa: EMPORIO BRUMAR PRODUTOS NATURAIS LTDA | Código-Domínio: 237
+==> Criando empresa: EMPORIO BRUMAR PRODUTOS NATURAIS LTDA | Código-Domínio: 230
+==> Criando empresa: EMPORIO BRUMAR PRODUTOS NATURAIS LTDA | Código-Domínio: 208
+==> Criando empresa: ERICA VALERIA ALVES SANTANA 00598235507 | Código-Domínio: 308
+==> Criando empresa: ETIENE O. S. DE MACEDO SERVICOS DE SAUDE | Código-Domínio: 612
+==> Criando empresa: EVISSON SANTOS REPRESENTACOES LTDA | Código-Domínio: 510
+==> Criando empresa: EVOLUTION REVISAO FINANCEIRA LTDA | Código-Domínio: 615
+==> Criando empresa: EXATAS CONTABILIDADE LTDA | Código-Domínio: 45
+==> Criando empresa: EXATAS CONTABILIDADE START LTDA | Código-Domínio: 544
+==> Criando empresa: EXATAS SOLUCOES EMPRESARIAIS LTDA | Código-Domínio: 461
+==> Criando empresa: EZ ENTREGAS LTDA | Código-Domínio: 541
+==> Criando empresa: F & P TURISMO E TRANSPORTE LTDA | Código-Domínio: 444
+==> Criando empresa: F F A DE OLIVEIRA | Código-Domínio: 614
+==> Criando empresa: F.S.P CONSULTORIA E TREINAMENTOS LTDA | Código-Domínio: 157
+==> Criando empresa: F.S.P VISTORIA VEICULAR LTDA | Código-Domínio: 22
+[AVISO] CNPJ '483195000178' normalizado para '483195000178', mas não possui 14 dígitos.
+==> Criando empresa: FASITEC DESENVOLVIMENTO E TECNOLOGIA LTD | Código-Domínio: 470
+==> Criando empresa: FASITEC STARTUP TECNOLOGIA EM SERVICOS D | Código-Domínio: 482
+==> Criando empresa: FELIPPE ANDRADE LOPES CACHO SOCIEDADE IN | Código-Domínio: 610
+[AVISO] CNPJ '1665028000100' normalizado para '1665028000100', mas não possui 14 dígitos.
+==> Criando empresa: FERRAGENS PADRE CICERO LTDA | Código-Domínio: 564
+==> Criando empresa: FERTIL GRAO LTDA | Código-Domínio: 570
+==> Criando empresa: FERTIL GRAO LTDA | Código-Domínio: 545
+==> Criando empresa: FILIAL PRESUMIDO - COM, SERV E IND | Código-Domínio: 10111
+==> Criando empresa: FLODOALDO SIMOES JUNIOR | Código-Domínio: 188
+[AVISO] CNPJ '3826865000108' normalizado para '3826865000108', mas não possui 14 dígitos.
+==> Criando empresa: FM TOBIAS BARRETO ALMEIDA REIS LTDA | Código-Domínio: 242
+==> Criando empresa: FORTNET TELECOM LTDA | Código-Domínio: 393
+==> Criando empresa: FORTNET TELECOM LTDA | Código-Domínio: 394
+==> Criando empresa: FORTNET TELECOM TECNOLOGIA LTDA | Código-Domínio: 432
+==> Criando empresa: G & S SERVICOS E CONSTRUCOES LTDA | Código-Domínio: 522
+==> Criando empresa: G A DORIA | Código-Domínio: 400
+==> Criando empresa: GARVEX SOLUCOES TECNOLOGICAS LTDA | Código-Domínio: 494
+==> Criando empresa: GILVAN MAQ PECAS LTDA | Código-Domínio: 296
+==> Criando empresa: GIULLIAN CAROLINE ODONTOLOGIA LTDA | Código-Domínio: 435
+==> Criando empresa: GOMES RODRIGUES COMERCIO LTDA | Código-Domínio: 353
+==> Criando empresa: GTERRA CONSULTORIA UMBAUBA LTDA | Código-Domínio: 220
+==> Criando empresa: HEALTH SERVICE LTDA | Código-Domínio: 589
+==> Criando empresa: HOLDING GROUP SGP LTDA | Código-Domínio: 546
+==> Criando empresa: IGREJA EVANGELICA MISSIONARIA EM TOBIAS | Código-Domínio: 293
+==> Criando empresa: IGREJA FILHOS DO REINO - RD | Código-Domínio: 178
+==> Criando empresa: IMPERATRIZ ENXOVAIS LTDA | Código-Domínio: 241
+==> Criando empresa: INDUSTRIA ALAGOANA DE COLCHOES E ESPUMA | Código-Domínio: 206
+[AVISO] CNPJ '7565239000743' normalizado para '7565239000743', mas não possui 14 dígitos.
+==> Criando empresa: INFOTEC - SERVICOS DE PROVEDOR DA INTERN | Código-Domínio: 489
+[AVISO] CNPJ '7565239000662' normalizado para '7565239000662', mas não possui 14 dígitos.
+==> Criando empresa: INFOTEC - SERVICOS DE PROVEDOR DA INTERN | Código-Domínio: 488
+[AVISO] CNPJ '7565239000581' normalizado para '7565239000581', mas não possui 14 dígitos.
+==> Criando empresa: INFOTEC - SERVICOS DE PROVEDOR DA INTERN | Código-Domínio: 487
+[AVISO] CNPJ '7565239000239' normalizado para '7565239000239', mas não possui 14 dígitos.
+==> Criando empresa: INFOTEC - SERVICOS DE PROVEDOR DA INTERN | Código-Domínio: 486
+[AVISO] CNPJ '7565239000158' normalizado para '7565239000158', mas não possui 14 dígitos.
+==> Criando empresa: INFOTEC - SERVICOS DE PROVEDOR DA INTERN | Código-Domínio: 467
+==> Criando empresa: INGREDI BARRETO DE OLIVEIRA 05554102506 | Código-Domínio: 593
+==> Criando empresa: INOVAR TELECOM LTDA | Código-Domínio: 358
+==> Criando empresa: INV SERVICOS DE INSPECOES E END'S LTDA | Código-Domínio: 370
+==> Criando empresa: IRMAS MARIA LTDA | Código-Domínio: 508
+==> Criando empresa: ISLAN NET TELECOM LTDA | Código-Domínio: 551
+==> Criando empresa: J C REPRESENTACOES E COMERCIO DE PRODUTO | Código-Domínio: 540
+==> Criando empresa: J R FONSECA COMERCIO DE TINTAS LTDA | Código-Domínio: 349
+==> Criando empresa: J.R.ROMARIO SANTOS LTDA | Código-Domínio: 620
+==> Criando empresa: J.R.V FRIGORIFICO ESTRELAS LTDA | Código-Domínio: 29
+==> Criando empresa: JAMED COMERCIO E SERVICOS LTDA | Código-Domínio: 558
+[AVISO] CNPJ '7631833000108' normalizado para '7631833000108', mas não possui 14 dígitos.
+==> Criando empresa: JC COMERCIAL DE ALIMENTOS  ANDRADE LTDA | Código-Domínio: 90
+[AVISO] CNPJ '7631833000361' normalizado para '7631833000361', mas não possui 14 dígitos.
+==> Criando empresa: JC COMERCIAL DE ALIMENTOS ANDRADE LTDA | Código-Domínio: 91
+==> Criando empresa: JCA EMPREENDIMENTOS LTDA | Código-Domínio: 479
+==> Criando empresa: JEFERSON ALMEIDA DOS SANTOS 04258567558 | Código-Domínio: 149
+==> Criando empresa: JI MAQUINAS LTDA | Código-Domínio: 563
+[AVISO] CNPJ '2067343000107' normalizado para '2067343000107', mas não possui 14 dígitos.
+==> Criando empresa: JOAO BOSCO DA ROCHA DIAS | Código-Domínio: 33
+==> Criando empresa: JORGE DO RETALHO E GENEROS ALIMENTICIOS | Código-Domínio: 345
+==> Criando empresa: JOSAFA ALVES DOS SANTOS FERRAGENS LTDA | Código-Domínio: 256
+==> Criando empresa: JOSE DIAS DE SOUZA NETO 06289811550 | Código-Domínio: 143
+==> Criando empresa: JOSE EDVALDO DA CONCEICAO | Código-Domínio: 112
+==> Criando empresa: JOSE JANDIR DE OLIVEIRA | Código-Domínio: 493
+==> Criando empresa: JOSE JANDIR DE OLIVEIRA | Código-Domínio: 454
+==> Criando empresa: JOSE PAULO DOS SANTOS 94580197534 | Código-Domínio: 101
+==> Criando empresa: JOSE RONAILSON ALVES DORIA | Código-Domínio: 35
+==> Criando empresa: JOSERILZA ANDRADE DE OLIVEIRA | Código-Domínio: 565
+==> Criando empresa: JS COMERCIO DE MERCADORIAS EM GERAL LTDA | Código-Domínio: 582
+==> Criando empresa: KOMER RESTAURANTE LTDA | Código-Domínio: 371
+==> Criando empresa: L&D CONFECCOES LTDA | Código-Domínio: 548
+[AVISO] CNPJ '6291328000352' normalizado para '6291328000352', mas não possui 14 dígitos.
+==> Criando empresa: LATICINIOS CAPITOA LTDA | Código-Domínio: 572
+[AVISO] CNPJ '6291328000271' normalizado para '6291328000271', mas não possui 14 dígitos.
+==> Criando empresa: LATICINIOS CAPITOA LTDA | Código-Domínio: 227
+[AVISO] CNPJ '6291328000190' normalizado para '6291328000190', mas não possui 14 dígitos.
+==> Criando empresa: LATICINIOS CAPITOA LTDA | Código-Domínio: 4
+==> Criando empresa: LDA LTDA | Código-Domínio: 550
+==> Criando empresa: LIBERDADE DIGITAL LTDA | Código-Domínio: 72
+==> Criando empresa: LICO COMERCIO DE PNEUS E ACESSORIOS LTDA | Código-Domínio: 210
+==> Criando empresa: LICO COMERCIO DE PNEUS LTDA | Código-Domínio: 137
+==> Criando empresa: LIMPEMAXX INDUSTRIA E COMERCIO LTDA | Código-Domínio: 260
+[AVISO] CNPJ '543242000202' normalizado para '543242000202', mas não possui 14 dígitos.
+==> Criando empresa: LINK INFORMATICA - PROVEDOR DE ACESSO A | Código-Domínio: 555
+[AVISO] CNPJ '543242000121' normalizado para '543242000121', mas não possui 14 dígitos.
+==> Criando empresa: LINK INFORMATICA - PROVEDOR DE ACESSO A | Código-Domínio: 543
+[AVISO] CNPJ '7394409000189' normalizado para '7394409000189', mas não possui 14 dígitos.
+==> Criando empresa: LITORAL IND E COM DE PAPEL LTDA | Código-Domínio: 259
+[AVISO] CNPJ '4214147000135' normalizado para '4214147000135', mas não possui 14 dígitos.
+==> Criando empresa: LOC CONSTRUCOES E EMPREENDIMENTOS LTDA | Código-Domínio: 346
+==> Criando empresa: LOJAO FREITAS COMERCIO DO VESTUARIO LTDA | Código-Domínio: 175
+==> Criando empresa: LOJAO FREITAS ITABAIANINHA LTDA | Código-Domínio: 350
+==> Criando empresa: LOJAO FREITAS LTDA | Código-Domínio: 297
+==> Criando empresa: LOJAO FREITAS TOBIAS BARRETO LTDA | Código-Domínio: 292
+==> Criando empresa: LORENNA COSTA LTDA | Código-Domínio: 574
+==> Criando empresa: LOTERIA DO POVO LTDA | Código-Domínio: 561
+==> Criando empresa: LOTERIA DORIA & GOMES LTDA | Código-Domínio: 42
+==> Criando empresa: LOTERIA DORIA & GOMES LTDA | Código-Domínio: 43
+==> Criando empresa: LOTERICA A CONTEMPLADORA LTDA | Código-Domínio: 40
+[AVISO] CNPJ '3502296000137' normalizado para '3502296000137', mas não possui 14 dígitos.
+==> Criando empresa: LOTERICA CASA DOS SONHOS LTDA | Código-Domínio: 41
+==> Criando empresa: LUIZ ANTONIO SANDES VIEIRA | Código-Domínio: 464
+==> Criando empresa: M.S SERVICOS COMBINADOS LTDA | Código-Domínio: 588
+==> Criando empresa: MADEREIRA RONDONIA LTDA | Código-Domínio: 401
+==> Criando empresa: MADEREIRA SAO FRANCISCO LTDA | Código-Domínio: 270
+==> Criando empresa: MADEREIRA SAO FRANCISCO LTDA | Código-Domínio: 571
+==> Criando empresa: MAISON IZABELLA FERNANDES LTDA | Código-Domínio: 407
+==> Criando empresa: MARANATA INDUSTRIA DE CONFECCOES LTDA | Código-Domínio: 44
+==> Criando empresa: MARCIO ELIAS ANDRADE DANTAS | Código-Domínio: 375
+==> Criando empresa: MARCSON LISBOA ROCHA DOS SANTOS | Código-Domínio: 406
+==> Criando empresa: MARIA FABIANA CARREGOSA DE SANTANA | Código-Domínio: 359
+==> Criando empresa: MARQUINHOS ALINHAMENTOS COMERCIO E VENDA | Código-Domínio: 360
+[AVISO] CNPJ '9548597000269' normalizado para '9548597000269', mas não possui 14 dígitos.
+==> Criando empresa: MATERIAL DE CONSTRUCAO N. SRA SANTANA LT | Código-Domínio: 86
+[AVISO] CNPJ '9548597000188' normalizado para '9548597000188', mas não possui 14 dígitos.
+==> Criando empresa: MATERIAL DE CONSTRUCAO N. SRA SANTANA LT | Código-Domínio: 85
+==> Criando empresa: MATRIZ PRESUMIDO - COM, SERV E IND | Código-Domínio: 10110
+==> Criando empresa: MAX CONFECÇÕES TEXTIL LTDA | Código-Domínio: 427
+==> Criando empresa: MAXX INDUSTRIA E COMERCIO DE PAPEL LTDA | Código-Domínio: 164
+==> Criando empresa: MAXX INDUSTRIA E COMERCIO DE PAPEL LTDA | Código-Domínio: 163
+==> Criando empresa: MBPA PRODUTOS NATURAIS LTDA | Código-Domínio: 547
+==> Criando empresa: MINHO AUTOMOVEIS MULTIMARCAS LTDA | Código-Domínio: 528
+==> Criando empresa: MITIKAS TECNOLOGIA DA INFORMACAO LTDA | Código-Domínio: 81
+==> Criando empresa: MM CONSULTORIA E SERVICOS LTDA | Código-Domínio: 180
+==> Criando empresa: MM PRODUTOS ALIMENTICIOS LTDA | Código-Domínio: 567
+[AVISO] CNPJ '5230649000112' normalizado para '5230649000112', mas não possui 14 dígitos.
+==> Criando empresa: MMM UTILIDADES DO LAR LTDA | Código-Domínio: 604
+==> Criando empresa: N.B.S CLINICA DE NUTRICAO LTDA | Código-Domínio: 182
+==> Criando empresa: NARJARA RODRIGUES GENTIL | Código-Domínio: 554
+==> Criando empresa: NATALI INDUSTRIA E COMERCIO LTDA | Código-Domínio: 287
+==> Criando empresa: NF SHOWS E REPRESENTACOES LTDA | Código-Domínio: 378
+==> Criando empresa: NORDESTINO RESTAURANTE COMERCIO DE ALIME | Código-Domínio: 591
+==> Criando empresa: NORDESTINO RESTAURANTE COMERCIO DE ALIME | Código-Domínio: 587
+==> Criando empresa: NORTE E SUL COMERCIO DE PNEUS E REPRESEN | Código-Domínio: 499
+==> Criando empresa: NR SHOWS LTDA | Código-Domínio: 468
+==> Criando empresa: ODONTOINN CLINICA ODONTOLOGICA LTDA | Código-Domínio: 49
+==> Criando empresa: OLIVEIRA ANDRADE SOCIEDADE INDIVIDUAL DE | Código-Domínio: 212
+==> Criando empresa: P & S COMERCIO DE MAQUINAS LTDA | Código-Domínio: 449
+==> Criando empresa: P & S PRODUTOS AGROPECUARIOS LTDA | Código-Domínio: 448
+==> Criando empresa: PANIFICACAO 3 IRMAOS KATUTA LTDA | Código-Domínio: 367
+[AVISO] CNPJ '4245250000142' normalizado para '4245250000142', mas não possui 14 dígitos.
+==> Criando empresa: PANO FORTE INDUSTRIA E COMERCIO DE CONFE | Código-Domínio: 421
+==> Criando empresa: PAVIA SERVICOS ADMINISTRATIVOS LTDA | Código-Domínio: 475
+==> Criando empresa: PETROLUB DISTRIBUIDORA DA BAHIA LTDA | Código-Domínio: 500
+==> Criando empresa: PETROLUB DISTRIBUIDORA DE SERGIPE LTDA | Código-Domínio: 505
+==> Criando empresa: PETVET COMERCIO DE RACOES E ACESSORIOS L | Código-Domínio: 84
+==> Criando empresa: PHYSIA - TRAINING AND RESEARCH LTDA | Código-Domínio: 527
+==> Criando empresa: PINHEIRO GERENCIAMENTO DE BENS LTDA | Código-Domínio: 269
+==> Criando empresa: PONTO CERTO COMER  PAPELARIA E BRINQ LTA | Código-Domínio: 144
+==> Criando empresa: PONTO CERTO COMERCIO DE PAPELARIA E BRIN | Código-Domínio: 420
+==> Criando empresa: POSTO DE COMBUSTIVEL CEU III LTDA | Código-Domínio: 442
+[AVISO] CNPJ '7636332000106' normalizado para '7636332000106', mas não possui 14 dígitos.
+==> Criando empresa: POSTO DE COMBUSTIVEL CEU LTDA | Código-Domínio: 485
+==> Criando empresa: PRECOLIVRE.COM LTDA | Código-Domínio: 514
+==> Criando empresa: PRECOLIVRE.COM LTDA | Código-Domínio: 484
+==> Criando empresa: R R C TRANSPORTES LTDA | Código-Domínio: 203
+==> Criando empresa: RAIMUNDO FAUSTINO DO NASCIMENTO | Código-Domínio: 597
+==> Criando empresa: REAL - COMERCIO E INDUSTRIA | Código-Domínio: 10104
+==> Criando empresa: REAL - COMERCIO E SERVIÇO | Código-Domínio: 10105
+==> Criando empresa: REAL - POSTO DE COMBUSTIVEL | Código-Domínio: 10107
+==> Criando empresa: REAL CONVENIENCIA LTDA | Código-Domínio: 383
+[AVISO] CNPJ '7090128000213' normalizado para '7090128000213', mas não possui 14 dígitos.
+==> Criando empresa: REAL TEXTIL INDUSTRIA E COMERCIO LTDA | Código-Domínio: 361
+[AVISO] CNPJ '7090128000132' normalizado para '7090128000132', mas não possui 14 dígitos.
+==> Criando empresa: REAL TEXTIL INDUSTRIA E COMERCIO LTDA | Código-Domínio: 116
+==> Criando empresa: REALEZA REPRESENTACAO COMERCIAL LTDA | Código-Domínio: 538
+==> Criando empresa: REINA REFEICOES LTDA | Código-Domínio: 372
+[AVISO] CNPJ '4456761000103' normalizado para '4456761000103', mas não possui 14 dígitos.
+==> Criando empresa: REVENDEDORA DE GAS E BEBIDAS N. S. SANTA | Código-Domínio: 87
+==> Criando empresa: REVISA SOLUCOES EMPRESARIAIS E TRIBUTARI | Código-Domínio: 239
+==> Criando empresa: REVOREDO AGROPECUARIA LTDA | Código-Domínio: 501
+==> Criando empresa: REVOREDO EMPREENDIMENTOS LTDA | Código-Domínio: 502
+==> Criando empresa: REYNNER VET PET LTDA | Código-Domínio: 496
+==> Criando empresa: RICCI JOIAS LTDA | Código-Domínio: 132
+==> Criando empresa: ROCHA ALIMENTOS LTDA | Código-Domínio: 562
+==> Criando empresa: ROMARIO GAS DISTRIBUIDORA LTDA | Código-Domínio: 50
+==> Criando empresa: RSP VISTORIA VEICULAR LTDA | Código-Domínio: 390
+==> Criando empresa: RVS REPRESENTACOES LTDA | Código-Domínio: 599
+==> Criando empresa: SAFECRED SERVICOS ADMINISTRATIVOS LTDA | Código-Domínio: 473
+==> Criando empresa: SANDRA HIGINA DO NASCIMENTO SANTOS LTDA | Código-Domínio: 51
+==> Criando empresa: SANEMAIS INDUSTRIA E COMERCIO LTDA | Código-Domínio: 608
+==> Criando empresa: SANTA FÉ GESTÃO PATRIMONIAL LTDA | Código-Domínio: 388
+==> Criando empresa: SANTANA ODONTOLOGIA LTDA | Código-Domínio: 512
+==> Criando empresa: SAO MIGUEL 2 IND E COMERCIO LTDA | Código-Domínio: 422
+==> Criando empresa: SELENIUMBANK SOLUCOES EM PAGAMENTOS LIMI | Código-Domínio: 483
+[AVISO] CNPJ '9180777000150' normalizado para '9180777000150', mas não possui 14 dígitos.
+==> Criando empresa: SERGIPANA DISTRIBUIDORA DE MEDICAMENTOS | Código-Domínio: 523
+==> Criando empresa: SERGIPANA ENGENHARIA E SOLUCOES HOSPITAL | Código-Domínio: 539
+==> Criando empresa: SICONCARD ADMINISTRADORA E SERVICOS LTDA | Código-Domínio: 472
+==> Criando empresa: SOLANGE APARECIDA PAVAN ELIAS 0362634394 | Código-Domínio: 477
+==> Criando empresa: SONHO REAL INDUSTRIA E COMERCIO DE CONFE | Código-Domínio: 168
+==> Criando empresa: SPEED TELECOM LTDA | Código-Domínio: 556
+==> Criando empresa: START PLAY LTDA | Código-Domínio: 194
+==> Criando empresa: SUPERMERCADO DORIA BOQUIM LTDA | Código-Domínio: 8
+==> Criando empresa: SUPERMERCADO DORIA LTDA | Código-Domínio: 52
+==> Criando empresa: SUPERMERCADO SAO JOSE LTDA | Código-Domínio: 53
+[AVISO] CNPJ '3932909000257' normalizado para '3932909000257', mas não possui 14 dígitos.
+==> Criando empresa: SUPERMERCADO SUPERLAR LTDA | Código-Domínio: 268
+[AVISO] CNPJ '3932909000176' normalizado para '3932909000176', mas não possui 14 dígitos.
+==> Criando empresa: SUPERMERCADO SUPERLAR LTDA | Código-Domínio: 185
+[AVISO] CNPJ '5295716000187' normalizado para '5295716000187', mas não possui 14 dígitos.
+==> Criando empresa: SUPERMERCADO UNIBOOM LTDA | Código-Domínio: 294
+==> Criando empresa: TAJS LTDA | Código-Domínio: 452
+[AVISO] CNPJ '8791138000168' normalizado para '8791138000168', mas não possui 14 dígitos.
+==> Criando empresa: TALISMA IND. E COM. DE CONFECCOES LTDA | Código-Domínio: 595
+[AVISO] CNPJ '8791138000249' normalizado para '8791138000249', mas não possui 14 dígitos.
+==> Criando empresa: TALISMA IND. E COM. DE CONFECCOES LTDA | Código-Domínio: 596
+==> Criando empresa: TASAMA ADMINISTRACAO LTDA | Código-Domínio: 463
+==> Criando empresa: TIAGO AZARIAS SANTOS | Código-Domínio: 344
+==> Criando empresa: TMA CONSULTORIA TRIBUTARIA LTDA | Código-Domínio: 277
+==> Criando empresa: TOSCANA - RESTAURANTE E PIZZARIA LTDA | Código-Domínio: 526
+==> Criando empresa: TOVAR NOGUEIRA FONSECA | Código-Domínio: 228
+==> Criando empresa: TRUCK CENTER SAO JOAO LTDA | Código-Domínio: 343
+==> Criando empresa: UNITY L&R COMERCIO DE CONFECCOES E VARIE | Código-Domínio: 380
+==> Criando empresa: VEREZZA ESPACO CONCEITO LTDA | Código-Domínio: 573
+==> Criando empresa: VEREZZA FABRICA DE MOVEIS LTDA | Código-Domínio: 471
+==> Criando empresa: VETMASTER ECOMERCE LTDA | Código-Domínio: 438
+==> Criando empresa: VIA ROMA BAHIA | Código-Domínio: 525
+==> Criando empresa: VIA ROMA PIZZARIA, BAR E RESTAURANTE LTD | Código-Domínio: 524
+==> Criando empresa: VIA ROMA SALVADOR PIZZARIA, BAR E RESTAU | Código-Domínio: 537
+==> Criando empresa: VICTOR AUGUSTO REGENER PAVAN 04283316105 | Código-Domínio: 476
+==> Criando empresa: VORTEX EMPRESARIAL LTDA | Código-Domínio: 138
+==> Criando empresa: VORTX ED  LTDA | Código-Domínio: 310
+==> Criando empresa: VS SERVICOS LTDA | Código-Domínio: 603
+==> Criando empresa: VS SERVICOS LTDA | Código-Domínio: 586
+[AVISO] CNPJ '1884967000146' normalizado para '1884967000146', mas não possui 14 dígitos.
+==> Criando empresa: W. E. R DE JESUS COMERCIO E SERVICOS LTD | Código-Domínio: 619
+==> Criando empresa: WALLISON OLIVEIRA GAMA | Código-Domínio: 58

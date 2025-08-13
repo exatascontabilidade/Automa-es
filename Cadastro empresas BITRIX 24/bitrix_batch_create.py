@@ -4,6 +4,8 @@ import os
 import sys
 import time
 import json
+import re
+import unicodedata
 import typing as t
 
 import requests
@@ -24,7 +26,37 @@ HEADERS = {
 
 PAGE_SIZE = 50
 
+# ---------------------- Normalização de colunas ----------------------
+def _strip_accents(s: str) -> str:
+    return ''.join(ch for ch in unicodedata.normalize('NFKD', s) if not unicodedata.combining(ch))
 
+def _normalize_key(s: str) -> str:
+    s = _strip_accents(str(s)).upper()
+    s = re.sub(r'[^A-Z0-9]+', '', s)
+    return s
+
+COLUMN_ALIASES = {
+    "NOME": "NOME",
+    "EMPRESA": "NOME",
+    "RAZAOSOCIAL": "NOME",
+    "NOMEEMPRESA": "NOME",
+    "CLIENTE": "NOME",
+    "CNPJ": "CNPJ",
+    "CNPJCPF": "CNPJ",
+    "DOC": "CNPJ",
+    "CODIGODOMINIO": "CODIGO_DOMINIO",
+    "COD": "CODIGO_DOMINIO",
+    "CODIGO": "CODIGO_DOMINIO",
+    "CODIGODOCLIENTE": "CODIGO_DOMINIO",
+    "CODCLIENTE": "CODIGO_DOMINIO",
+    "CODIGODOMINIOEMPRESA": "CODIGO_DOMINIO",
+    "CODDOMINIO": "CODIGO_DOMINIO",
+    "CODIGOEMPRESA": "CODIGO_DOMINIO",
+}
+
+REQUIRED_TARGET_COLS = {"NOME", "CNPJ", "CODIGO_DOMINIO"}
+
+# ---------------------- Bitrix helpers ----------------------
 def bitrix_company_add(title: str, codigo_dominio: str) -> t.Optional[int]:
     payload = {
         "fields": {
@@ -46,7 +78,6 @@ def bitrix_company_add(title: str, codigo_dominio: str) -> t.Optional[int]:
     if "error" in data:
         raise RuntimeError(f"Bitrix error on company.add: {data}")
     return data.get("result")
-
 
 def bitrix_company_list_last_id() -> int:
     first_payload = {"order": {"ID": "ASC"}, "select": ["ID"], "start": 0}
@@ -75,7 +106,6 @@ def bitrix_company_list_last_id() -> int:
         raise RuntimeError("Last page returned no items.")
     return max(int(i["ID"]) for i in items if "ID" in i)
 
-
 def bitrix_requisite_add(entity_id: int, cnpj: str) -> int:
     payload = {
         "fields": {
@@ -93,81 +123,99 @@ def bitrix_requisite_add(entity_id: int, cnpj: str) -> int:
         raise RuntimeError(f"Bitrix error on requisite.add: {data}")
     return data.get("result")
 
+# ---------------------- Normalização de CNPJ ----------------------
+def normalize_cnpj_with_flag(cnpj: t.Any) -> t.Tuple[str, bool]:
+    """
+    Retorna (cnpj_normalizado, houve_normalizacao)
+    """
+    raw = str(cnpj)
+    digits = re.sub(r'\D+', '', raw)
+    changed = (raw != digits)
+    if len(digits) != 14:
+        print(f"[AVISO] CNPJ '{raw}' normalizado para '{digits}', mas não possui 14 dígitos.")
+    return digits, changed
 
-def normalize_cnpj(cnpj: str) -> str:
-    return str(cnpj).strip()
-
-
-def process_excel(path_excel: str):
+# ---------------------- Excel helpers ----------------------
+def read_excel_any(path_excel: str) -> pd.DataFrame:
     ext = os.path.splitext(path_excel)[1].lower()
-
     if ext == ".xls":
         try:
-            df = pd.read_excel(path_excel, engine="xlrd")
+            return pd.read_excel(path_excel, engine="xlrd")
         except ImportError:
-            raise ImportError("O formato .xls requer a instalação do pacote 'xlrd'. Use: pip install xlrd")
+            raise ImportError("O formato .xls requer o pacote 'xlrd'. Instale com: pip install xlrd")
     else:
-        df = pd.read_excel(path_excel)
+        return pd.read_excel(path_excel)
 
-    required_cols = {"NOME", "CNPJ", "CODIGO_DOMINIO"}
-    col_map = {}
-    for col in df.columns:
-        up = col.upper().strip()
-        if up in required_cols:
-            col_map[col] = up
+def build_column_map(df_cols: t.Iterable[str]) -> t.Dict[str, str]:
+    col_map: t.Dict[str, str] = {}
+    for orig in df_cols:
+        norm = _normalize_key(orig)
+        if norm in COLUMN_ALIASES:
+            target = COLUMN_ALIASES[norm]
+            if target not in col_map.values():
+                col_map[orig] = target
+    return col_map
 
-    if set(col_map.values()) != required_cols:
-        raise ValueError(f"Planilha deve conter colunas: {required_cols}. Encontradas: {df.columns.tolist()}")
+# ---------------------- Processamento principal ----------------------
+def process_excel(path_excel: str) -> t.List[t.Dict[str, str]]:
+    df = read_excel_any(path_excel)
+
+    col_map = build_column_map(df.columns)
+    missing = REQUIRED_TARGET_COLS - set(col_map.values())
+    if missing:
+        raise ValueError(f"Planilha deve conter colunas: {REQUIRED_TARGET_COLS}. Encontradas: {df.columns.tolist()}")
 
     df = df.rename(columns=col_map)
 
-    results = []
-    for _, row in df.iterrows():
+    normalized_only = []
+
+    for idx, row in df.iterrows():
         nome = str(row["NOME"]).strip()
-        cnpj = normalize_cnpj(row["CNPJ"])
         codigo = str(row["CODIGO_DOMINIO"]).strip()
+        cnpj_norm, was_normalized = normalize_cnpj_with_flag(row["CNPJ"])
+
+        if was_normalized:
+            normalized_only.append({"NOME": nome, "CODIGO_DOMINIO": codigo, "CNPJ": cnpj_norm})
 
         print(f"==> Criando empresa: {nome} | Código-Domínio: {codigo}")
         created_id = bitrix_company_add(nome, codigo)
-        if created_id:
-            print(f"ID retornado por company.add: {created_id}")
-            last_id = created_id
-        else:
-            print("company.add não retornou ID; será usado o método de paginação para localizar o último ID.")
-            last_id = bitrix_company_list_last_id()
+        if not created_id:
+            created_id = bitrix_company_list_last_id()
 
-        req_id = bitrix_requisite_add(last_id, cnpj)
-        print(f"Requisite criado (ID): {req_id} para empresa ID: {last_id}")
-
-        results.append({
-            "NOME": nome,
-            "CNPJ": cnpj,
-            "CODIGO_DOMINIO": codigo,
-            "COMPANY_ID_LIST_LAST": last_id,
-            "REQUISITE_ID": req_id,
-            "COMPANY_ID_RETURNED": created_id
-        })
-
+        bitrix_requisite_add(created_id, cnpj_norm)
         time.sleep(0.5)
 
-    return pd.DataFrame(results)
+    return normalized_only
 
-
+# ---------------------- main ----------------------
 def main():
-    excel_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Relação Empresas - Nome - CNPJ.xls")
+    if len(sys.argv) > 1:
+        excel_path = sys.argv[1]
+    else:
+        excel_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Relação Empresas - Nome - CNPJ.xls")
+
     if not os.path.exists(excel_path):
         print(f"Arquivo não encontrado: {excel_path}")
         sys.exit(1)
 
     try:
-        df_result = process_excel(excel_path)
-        out_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "resultado_criacao_empresas.csv")
-        df_result.to_csv(out_path, index=False, encoding="utf-8-sig")
-        print(f"\nConcluído. Resultado salvo em: {out_path}")
+        normalized_list = process_excel(excel_path)
+
+        base_dir = os.path.dirname(os.path.abspath(__file__))
+        out_txt = os.path.join(base_dir, "cnpjs_modificados.txt")
+
+        if normalized_list:
+            with open(out_txt, "w", encoding="utf-8") as f:
+                f.write("NOME | CODIGO_DOMINIO | CNPJ_NORMALIZADO\n")
+                for item in normalized_list:
+                    f.write(f"{item['NOME']} | {item['CODIGO_DOMINIO']} | {item['CNPJ']}\n")
+            print(f"Arquivo TXT com CNPJs modificados salvo em: {out_txt}")
+        else:
+            print("Nenhum CNPJ foi modificado; TXT não gerado.")
+
     except Exception as e:
         print(f"Erro durante a execução: {e}")
         sys.exit(2)
-
 
 if __name__ == "__main__":
     main()
