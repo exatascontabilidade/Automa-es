@@ -1,0 +1,25 @@
+Extrato para o CNPJ: Nao_Encontrado
+Banco: BRADESCO
+========================================
+
+   Data    |                                                                                                    Descrição                                                                                                    | Tipo |   Valor  
+-----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+----------
+18/07/2025 | SALDO ANTERIOR TRANSFERENCIA PIX                                                                                                                                                                                |      |    184,10
+25/07/2025 | 1558226 17.500,00 17.684,10 REM: P S COMERCIO DE MAQUI 25/07 OPERACAO CAPITAL GIRO 9990206 -17.560,01 124,09 CONTR PARC 009/048 Total 17.500,00 -17.560,01 Saldos Invest Fácil / Plus Data Histórico Valor (R$) |      |    124,09
+02/05/2025 | SALDO INVEST FÁCIL                                                                                                                                                                                              |      |    385,03
+05/05/2025 | SALDO INVEST FÁCIL                                                                                                                                                                                              |      | 18.805,03
+06/05/2025 | SALDO INVEST FÁCIL                                                                                                                                                                                              |      | 18.805,52
+07/05/2025 | SALDO INVEST FÁCIL                                                                                                                                                                                              |      | 18.806,01
+08/05/2025 | SALDO INVEST FÁCIL                                                                                                                                                                                              |      | 15.831,30
+09/05/2025 | SALDO INVEST FÁCIL                                                                                                                                                                                              |      | 15.831,73
+12/05/2025 | SALDO INVEST FÁCIL                                                                                                                                                                                              |      | 14.552,95
+13/05/2025 | SALDO INVEST FÁCIL                                                                                                                                                                                              |      | 14.553,35
+14/05/2025 | SALDO INVEST FÁCIL                                                                                                                                                                                              |      |  1.180,38
+15/05/2025 | SALDO INVEST FÁCIL                                                                                                                                                                                              |      |  1.008,68
+16/05/2025 | SALDO INVEST FÁCIL                                                                                                                                                                                              |      |  1.008,71
+19/05/2025 | SALDO INVEST FÁCIL                                                                                                                                                                                              |      |  1.008,74
+20/05/2025 | SALDO INVEST FÁCIL                                                                                                                                                                                              |      |  1.008,76
+21/05/2025 | SALDO INVEST FÁCIL                                                                                                                                                                                              |      |  1.008,79
+22/05/2025 | SALDO INVEST FÁCIL                                                                                                                                                                                              |      |  1.008,82
+23/05/2025 | SALDO INVEST FÁCIL                                                                                                                                                                                              |      |  1.008,85
+26/05/2025 | SALDO INVEST FÁCIL Os dados acima têm como base                                                                                                                                                                 |      |      0,00

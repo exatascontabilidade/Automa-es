@@ -3,15 +3,36 @@
     {
       "nome_banco": "efi",
       "palavras_identificadoras": [
-        "Efí S.A. - CNPJ 09.089.356/0001-18",
+        "Efí S.A.",
         "Banco 364 - Efí S.A. - Instituição de Pagamento"
       ],
+      "script": "efi.py",
       "config_extracao": {
         "padrao_cnpj": "CNPJ\\s+(\\d{2}\\.\\d{3}\\.\\d{3}/\\d{4}-\\d{2})",
         "ocorrencia_cnpj": 2,
-        "palavra_chave_inicio_tabela": "Lançamentos",
-        "padrao_data": "\\d{2}/\\d{2}/\\d{4}"
+        "metodo_extracao": "hibrido",
+        "config_hibrido": {
+          "palavra_chave_inicio": "lançamentos",
+          "padrao_data_transacao": "^\\d{2}/\\d{2}/\\d{4}$"
+        }
+      }
+    },
+    {
+      "nome_banco": "bradesco",
+      "palavras_identificadoras": [
+        "Extrato Mensal / Por Período",
+        "Extrato de: Ag: 5977"
+      ],
+        "script": "bradesco.py",
+        "config_extracao": {
+          "padrao_cnpj": "CNPJ\\s+(\\d{2}\\.\\d{3}\\.\\d{3}/\\d{4}-\\d{2})",
+          "ocorrencia_cnpj": 2,
+          "metodo_extracao": "hibrido",
+          "config_hibrido": {
+            "palavra_chave_inicio": "Lançamento",
+            "padrao_data_transacao": "^\\d{2}/\\d{2}/\\d{4}$"
+        }
       }
     }
-  ]
+  ] 
 }
