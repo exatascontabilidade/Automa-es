@@ -1,0 +1,23 @@
+Banco: BRADESCO
+
+   Data    |                            Descrição                             |  Tipo  |  Valor  
+-----------+------------------------------------------------------------------+--------+---------
+02/05/2025 | TRANSFERENCIA PIX 18.000,00 18.020,02 REM: P S COMERCIO DE MAQUI | CRÉDI  | 18000.00
+02/05/2025 | OPERACAO CAPITAL GIRO -4.724,00 13.296,02                        | DÉBITO |  4724.00
+02/05/2025 | OPERACAO CAPITAL GIRO -12.909,99 386,03                          | DÉBITO | 12909.99
+05/05/2025 | TRANSFERENCIA PIX 18.500,00 18.886,03 REM: JEMA REFLORESTAMENTO  | CRÉDI  | 18500.00
+05/05/2025 | PAGTO ELETRON COBRANCA 1622 -80,00 18.806,03 INFOTEC             | DÉBITO |    80.00
+08/05/2025 | RENTAB.INVEST FACILCRED*                                         | CRÉDI  |     0.01
+08/05/2025 | RENTAB.INVEST FACILCRED* 0,02 18.806,06 PAGTO ELETRON COBRANCA   | CRÉDI  |     0.02
+08/05/2025 | 1623 -2.975,00 15.831,06 PICCIN                                  | DÉBITO |  2975.00
+12/05/2025 | RENTAB.INVEST FACILCRED* 0,03 15.831,09 PAGTO ELETRON COBRANCA   | CRÉDI  |     0.03
+12/05/2025 | 1624 -1.240,41 14.590,68 CONSORCIO NACIONAL HONDA                | DÉBITO |  1240.41
+12/05/2025 | CARTAO CREDITO ANUIDADE                                          | DÉBITO |    38.66
+14/05/2025 | RENTAB.INVEST FACILCRED* 0,59 14.552,61 OPERACAO CAPITAL GIRO    | CRÉDI  |     0.59
+14/05/2025 | -4.371,45 10.181,16                                              | DÉBITO |  4371.45
+14/05/2025 | TRANSF CC PARA CC PJ -9.000,00 1.181,16 KELBER DE ANDRADE SANTOS | DÉBITO |  9000.00
+15/05/2025 | RENTAB.INVEST FACILCRED* 0,01 1.181,17 TARIFA BANCARIA           | CRÉDI  |     0.01
+15/05/2025 | -171,70 1.009,47 CESTA FLEX PJ 1                                 | DÉBITO |   171.70
+26/05/2025 | TRANSFERENCIA PIX 16.551,00 17.560,47 REM: P S COMERCIO DE MAQUI | CRÉDI  | 16551.00
+26/05/2025 | RENTAB.INVEST FACILCRED* 0,22 17.560,69 OPERACAO CAPITAL GIRO    | CRÉDI  |     0.22
+26/05/2025 | -17.560,01 0,68                                                  | DÉBITO | 17560.01
