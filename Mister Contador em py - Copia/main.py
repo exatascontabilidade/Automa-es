@@ -2,6 +2,7 @@ import pdfplumber
 import json
 import subprocess
 import os
+import sys
 from unidecode import unidecode
 
 def carregar_configuracao_principal(caminho_json: str) -> dict:
@@ -76,35 +77,56 @@ def main():
         print(f"Erro ao ler o arquivo PDF: {e}")
         return
 
+    # --- INÍCIO DO BLOCO CORRIGIDO ---
+
+    # 1. Identifica qual script deve ser chamado com base no texto do PDF
     script_a_chamar = identificar_banco_e_obter_script(texto_primeira_pagina, config_principal)
 
+    # 2. Verifica se um script foi de fato identificado
     if script_a_chamar:
-        # Constrói o caminho para o script especialista na mesma pasta
-        caminho_script_especialista = os.path.join(script_dir, script_a_chamar)
+        # 3. Constrói o caminho COMPLETO e CORRETO para o script na subpasta 'sct'
+        caminho_script_especialista = os.path.join(script_dir, 'sct', script_a_chamar)
+        
+        # 4. Verifica se o arquivo do script realmente existe no caminho esperado
         if not os.path.exists(caminho_script_especialista):
-            print(f"Erro Crítico: O script especialista '{script_a_chamar}' não foi encontrado no diretório.")
-            return
+            print(f"Erro Crítico: O script especialista '{script_a_chamar}' foi encontrado na configuração, mas o arquivo não existe no diretório 'sct'.")
+            print(f"Caminho verificado: {caminho_script_especialista}")
+            return # Para a execução
             
         print(f"\n--- Executando especialista: {script_a_chamar} ---")
-        # Chama o script especialista usando o interpretador Python e passa o caminho do PDF como argumento
-        # A mudança está aqui: adicionado errors='replace' para lidar com problemas de codificação.
-        resultado = subprocess.run(
-            ['python', caminho_script_especialista, caminho_do_arquivo_pdf], 
-            capture_output=True, 
-            text=True, 
-            encoding='utf-8', 
-            errors='replace'
-        )
         
-        # Imprime a saída do script especialista
-        print("\n--- Saída do Especialista ---")
-        print(resultado.stdout)
-        if resultado.stderr:
-            print("\n--- Erros do Especialista ---")
-            print(resultado.stderr)
-        print("--- Fim da execução do especialista ---")
+        try:
+            # 5. Executa o script especialista
+            resultado = subprocess.run(
+                ['python', caminho_script_especialista, caminho_do_arquivo_pdf], 
+                capture_output=True, 
+                text=True, 
+                encoding='utf-8', 
+                errors='replace',
+                check=True # Lança uma exceção se o script terminar com erro
+            )
+            
+            # Imprime a saída do script especialista se tudo correu bem
+            print("\n--- Saída do Especialista ---")
+            print(resultado.stdout)
+            print("--- Fim da execução do especialista ---")
+
+        except subprocess.CalledProcessError as e:
+            # Captura erros que ocorreram DENTRO do script especialista
+            print(f"\nERRO: O script especialista '{script_a_chamar}' falhou durante a execução.")
+            print(f"Código de Saída: {e.returncode}")
+            if e.stdout:
+                print("\n--- Saída Padrão (stdout) do erro ---")
+                print(e.stdout)
+            if e.stderr:
+                print("\n--- Saída de Erro (stderr) do especialista ---")
+                print(e.stderr)
     else:
+        # Mensagem para o caso de nenhum banco ser identificado no PDF
         print("Não foi possível determinar um script especialista para processar este PDF.")
+
+    # --- FIM DO BLOCO CORRIGIDO ---
+
 
 if __name__ == "__main__":
     main()

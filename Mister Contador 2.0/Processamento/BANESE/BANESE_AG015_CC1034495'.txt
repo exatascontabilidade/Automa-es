@@ -1,0 +1,9 @@
+Banco: BANESE
+Agência: 015
+Conta: 1034495
+
+   Data    |                                    Descrição                                     |   Tipo  | Valor 
+-----------+----------------------------------------------------------------------------------+---------+-------
+03/07/2025 | Internet TRANSF ON-LINE 000994004 Banking 015 03/103962-4 FASITEC DESENVOLVIMENT | CRÉDITO | 182.50
+03/07/2025 | PLANO TARIFAS 00017000                                                           |  DÉBITO |  98.00
+03/07/2025 | PLANO TARIFAS 00017000                                                           |  DÉBITO |  98.00

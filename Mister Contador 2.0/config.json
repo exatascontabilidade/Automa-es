@@ -1,0 +1,20 @@
+{
+  "roteamento": [
+    {
+      "tipo_banco": "BANESE",
+      "script": "banese.py"
+    },
+    {
+      "tipo_banco": "BNB",
+      "script": "bnb.py"
+    },
+    {
+      "tipo_banco": "BRADESCO",
+      "script": "bradesco.py"
+    },
+    {
+      "tipo_banco": "EFI",
+      "script": "efi.py"
+    }
+  ]
+}

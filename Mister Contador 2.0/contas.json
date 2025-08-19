@@ -1,0 +1,20 @@
+[
+  {
+    "nome_empresa": "HIPER FERRAGENS",
+    "agencia": "011",
+    "conta": "1025630",
+    "tipo_banco": "BANESE"
+  },
+  {
+    "nome_empresa": "BR SISTEMAS ON LINE",
+    "agencia": "015",
+    "conta": "1034495",
+    "tipo_banco": "BANESE"
+  },
+  {
+    "nome_empresa": "MAXX INDUSTRIA E COMERCIO DE PAPEL LTDA",
+    "agencia": "257",
+    "conta": "1.964-2",
+    "tipo_banco": "BNB"
+  }
+]

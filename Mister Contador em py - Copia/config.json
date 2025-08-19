@@ -21,7 +21,7 @@
       "nome_banco": "bradesco",
       "palavras_identificadoras": [
         "Extrato Mensal / Por Período",
-        "Extrato de: Ag: 5977"
+        "Saldos Invest Fácil / Plus"
       ],
         "script": "bradesco.py",
         "config_extracao": {
@@ -37,14 +37,47 @@
     {
       "nome_banco": "banese",
       "palavras_identificadoras": [
-        "Agência 011",
-        " Saldos e extratos"
+        "Banese"
       ],
         "script": "banese.py",
         "config_extracao": {
           "padrao_cnpj": "CNPJ\\s+(\\d{2}\\.\\d{3}\\.\\d{3}/\\d{4}-\\d{2})",
           "ocorrencia_cnpj": 2,
           "metodo_extracao": "hibrido",
+          "config_hibrido": {
+            "palavra_chave_inicio": "Lançamentos Futuros",
+            "padrao_data_transacao": "^\\d{2}/\\d{2}/\\d{4}$"
+        }
+      }
+    },
+    {
+      "nome_banco": "brasil",
+      "palavras_identificadoras": [
+        "Internet Banking BNB",
+        "BANCO DO NORDESTE DO BRASIL S.A."
+      ],
+        "script": "bnb.py",
+        "config_extracao": {
+          "padrao_cnpj": "CNPJ\\s+(\\d{2}\\.\\d{3}\\.\\d{3}/\\d{4}-\\d{2})",
+          "ocorrencia_cnpj": 2,
+          "metodo_extracao": "DEMONSTRATIVO DA MOVIMENTACAO DE CONTA CORRENTE",
+          "config_hibrido": {
+            "palavra_chave_inicio": "Lançamentos Futuros",
+            "padrao_data_transacao": "^\\d{2}/\\d{2}/\\d{4}$"
+        }
+      }
+    },
+    {
+      "nome_banco": "bnb",
+      "palavras_identificadoras": [
+        "Internet Banking BNB",
+        "BANCO DO NORDESTE DO BRASIL S.A."
+      ],
+        "script": "bnb.py",
+        "config_extracao": {
+          "padrao_cnpj": "CNPJ\\s+(\\d{2}\\.\\d{3}\\.\\d{3}/\\d{4}-\\d{2})",
+          "ocorrencia_cnpj": 2,
+          "metodo_extracao": "DEMONSTRATIVO DA MOVIMENTACAO DE CONTA CORRENTE",
           "config_hibrido": {
             "palavra_chave_inicio": "Lançamentos Futuros",
             "padrao_data_transacao": "^\\d{2}/\\d{2}/\\d{4}$"
