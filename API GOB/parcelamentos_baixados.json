@@ -1,0 +1,2253 @@
+[
+
+    {
+        "empresa": "AUSTREGESILO JUNIOR ARAGAO MELO 0001",
+        "cnpj": "08492189000199",
+        "tipo_parcelamento": "FEDERAL_SIMPLIFICADO",
+        "nome_arquivo": "08492189000199_AUSTREGESILO_JUNIOR_ARAGAO_MEL_SIEFPAR_02110001200147370892288_041_20250829.pdf",
+        "arquivo_id": "689c6f289a166ffd4",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\AUSTREGESILO JUNIOR ARAGAO MELO 0001 - 08492189000199\\FEDERAL_SIMPLIFICADO",
+        "codigo": "251"
+    },
+    {
+        "empresa": "SONHO REAL INDUSTRIA E COMERCIO DE CONFECCOES LTDA 0001",
+        "cnpj": "11076161000185",
+        "tipo_parcelamento": "FEDERAL_SIMPLIFICADO",
+        "nome_arquivo": "11076161000185_SONHO_REAL_INDUSTRIA_E_COMERCI_SIEFPAR_02110001200885051632369_024_20250829.pdf",
+        "arquivo_id": "689c6f3b8e1c20314",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\SONHO REAL INDUSTRIA E COMERCIO DE CONFECCOES LTDA 0001 - 11076161000185\\FEDERAL_SIMPLIFICADO",
+        "codigo": "168"
+    },
+    {
+        "empresa": "FORTNET TELECOM LTDA 0001",
+        "cnpj": "33097500000142",
+        "tipo_parcelamento": "FEDERAL_SIMPLIFICADO",
+        "nome_arquivo": "33097500000142_FORTNET_TELECOM_LTDA_0001_SIEFPAR_02110001200994745392392_022_20250829.pdf",
+        "arquivo_id": "689c6c128738968e0",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\FORTNET TELECOM LTDA 0001 - 33097500000142\\FEDERAL_SIMPLIFICADO",
+        "codigo": "393"
+    },
+    {
+        "empresa": "FORTNET TELECOM LTDA 0001",
+        "cnpj": "33097500000142",
+        "tipo_parcelamento": "FEDERAL_SIMPLIFICADO",
+        "nome_arquivo": "33097500000142_FORTNET_TELECOM_LTDA_0001_SIEFPAR_02110001200431315112492_018_20250829.pdf",
+        "arquivo_id": "689c6c3b8b9b3f4d0",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\FORTNET TELECOM LTDA 0001 - 33097500000142\\FEDERAL_SIMPLIFICADO",
+        "codigo": "393"
+    },
+    {
+        "empresa": "FORTNET TELECOM LTDA 0001",
+        "cnpj": "33097500000142",
+        "tipo_parcelamento": "FEDERAL_SIMPLIFICADO",
+        "nome_arquivo": "33097500000142_FORTNET_TELECOM_LTDA_0001_SIEFPAR_02110001200259193862320_030_20250829.pdf",
+        "arquivo_id": "689c6c2c4c8aada98",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\FORTNET TELECOM LTDA 0001 - 33097500000142\\FEDERAL_SIMPLIFICADO",
+        "codigo": "393"
+    },
+    {
+        "empresa": "ALFA E OMEGA EMPREENDIMENTOS LTDA 0001",
+        "cnpj": "28878713000171",
+        "tipo_parcelamento": "FEDERAL_SIMPLIFICADO",
+        "nome_arquivo": "28878713000171_ALFA_E_OMEGA_EMPREENDIMENTOS_L_SIEFPAR_02110001200343266182416_019_20250829.pdf",
+        "arquivo_id": "689c6c05b54a7942b",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\ALFA E OMEGA EMPREENDIMENTOS LTDA 0001 - 28878713000171\\FEDERAL_SIMPLIFICADO",
+        "codigo": "379"
+    },
+    {
+        "empresa": "FM TOBIAS BARRETO ALMEIDA REIS LTDA 0001",
+        "cnpj": "03826865000108",
+        "tipo_parcelamento": "FEDERAL_SIMPLIFICADO",
+        "nome_arquivo": "03826865000108_FM_TOBIAS_BARRETO_ALMEIDA_REIS_SIEFPAR_02110001201092448552435_011_20250829.pdf",
+        "arquivo_id": "689c6f15ac23f2853",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\FM TOBIAS BARRETO ALMEIDA REIS LTDA 0001 - 03826865000108\\FEDERAL_SIMPLIFICADO",
+        "codigo": "242"
+    },
+    {
+        "empresa": "FM TOBIAS BARRETO ALMEIDA REIS LTDA 0001",
+        "cnpj": "03826865000108",
+        "tipo_parcelamento": "FEDERAL_SIMPLIFICADO",
+        "nome_arquivo": "03826865000108_FM_TOBIAS_BARRETO_ALMEIDA_REIS_SIEFPAR_02110001200425741662401_018_20250829.pdf",
+        "arquivo_id": "689c724758bfd20c2",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\FM TOBIAS BARRETO ALMEIDA REIS LTDA 0001 - 03826865000108\\FEDERAL_SIMPLIFICADO",
+        "codigo": "242"
+    },
+    {
+        "empresa": "MAXX INDUSTRIA E COMERCIO DE PAPEL LTDA 0001",
+        "cnpj": "17935938000104",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "17935938000104_MAXX_INDUSTRIA_E_COMERCIO_DE_PAPEL_LTDA_SISPAR_013308790_002_20250829.pdf",
+        "arquivo_id": "68952242715efa6c5",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\MAXX INDUSTRIA E COMERCIO DE PAPEL LTDA 0001 - 17935938000104\\PGFN",
+        "codigo": "163"
+    },
+    {
+        "empresa": "46.535.912 LTDA 0001",
+        "cnpj": "46535912000169",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "46535912000169_46535912_LTDA_SISPAR_011605920_008_20250829.pdf",
+        "arquivo_id": "689522890aa2b521c",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\46.535.912 LTDA 0001 - 46535912000169\\PGFN",
+        "codigo": "525"
+    },
+    {
+        "empresa": "46.535.912 LTDA 0001",
+        "cnpj": "46535912000169",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "46535912000169_46535912_LTDA_SISPAR_011605920_007_20250731.pdf",
+        "arquivo_id": "68952286149514dbd",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\46.535.912 LTDA 0001 - 46535912000169\\PGFN",
+        "codigo": "525"
+    },
+    {
+        "empresa": "46.535.912 LTDA 0001",
+        "cnpj": "46535912000169",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "46535912000169_46535912_LTDA_SISPAR_012611820_004_20250731.pdf",
+        "arquivo_id": "689522819ce4f3d23",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\46.535.912 LTDA 0001 - 46535912000169\\PGFN",
+        "codigo": "525"
+    },
+    {
+        "empresa": "46.535.912 LTDA 0001",
+        "cnpj": "46535912000169",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "46535912000169_46535912_LTDA_SISPAR_012611820_005_20250829.pdf",
+        "arquivo_id": "68952284f20f23294",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\46.535.912 LTDA 0001 - 46535912000169\\PGFN",
+        "codigo": "525"
+    },
+    {
+        "empresa": "WALLISON OLIVEIRA GAMA 0001",
+        "cnpj": "22161614000198",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "22161614000198_WALLISON_OLIVEIRA_GAMA_SISPAR_013251622_002_20250829.pdf",
+        "arquivo_id": "68952254357dcb764",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\WALLISON OLIVEIRA GAMA 0001 - 22161614000198\\PGFN",
+        "codigo": "58"
+    },
+    {
+        "empresa": "JAMED COMERCIO E SERVICOS LTDA 0001",
+        "cnpj": "17927869000189",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "17927869000189_JAMED_COMERCIO_E_SERVICOS_LTDA_SISPAR_013019271_002_20250731.pdf",
+        "arquivo_id": "68952274284224462",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\JAMED COMERCIO E SERVICOS LTDA 0001 - 17927869000189\\PGFN",
+        "codigo": "558"
+    },
+    {
+        "empresa": "JAMED COMERCIO E SERVICOS LTDA 0001",
+        "cnpj": "17927869000189",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "17927869000189_JAMED_COMERCIO_E_SERVICOS_LTDA_SISPAR_013019271_003_20250829.pdf",
+        "arquivo_id": "689522785ca89bcc0",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\JAMED COMERCIO E SERVICOS LTDA 0001 - 17927869000189\\PGFN",
+        "codigo": "558"
+    },
+    {
+        "empresa": "JAMED COMERCIO E SERVICOS LTDA 0001",
+        "cnpj": "17927869000189",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "17927869000189_JAMED_COMERCIO_E_SERVICOS_LTDA_SISPAR_013027184_003_20250829.pdf",
+        "arquivo_id": "689522755b4f26335",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\JAMED COMERCIO E SERVICOS LTDA 0001 - 17927869000189\\PGFN",
+        "codigo": "558"
+    },
+    {
+        "empresa": "JAMED COMERCIO E SERVICOS LTDA 0001",
+        "cnpj": "17927869000189",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "17927869000189_JAMED_COMERCIO_E_SERVICOS_LTDA_SISPAR_013027159_003_20250829.pdf",
+        "arquivo_id": "68952267b3ec8fe73",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\JAMED COMERCIO E SERVICOS LTDA 0001 - 17927869000189\\PGFN",
+        "codigo": "558"
+    },
+    {
+        "empresa": "CENTRO DE TERAPIA HUMANIZAR LTDA 0001",
+        "cnpj": "50393278000144",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "50393278000144_CENTRO_DE_TERAPIA_HUMANIZAR_LTDA_SISPAR_012958540_003_20250829.pdf",
+        "arquivo_id": "6895220bf0f4f7d7f",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\CENTRO DE TERAPIA HUMANIZAR LTDA 0001 - 50393278000144\\PGFN",
+        "codigo": "511"
+    },
+    {
+        "empresa": "MM CONSULTORIA E SERVICOS LTDA 0001",
+        "cnpj": "26667104000148",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "26667104000148_MM_CONSULTORIA_E_SERVICOS_LTDA_SISPAR_012763705_003_20250731.pdf",
+        "arquivo_id": "68952254a708c1a43",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\MM CONSULTORIA E SERVICOS LTDA 0001 - 26667104000148\\PGFN",
+        "codigo": "180"
+    },
+    {
+        "empresa": "MM CONSULTORIA E SERVICOS LTDA 0001",
+        "cnpj": "26667104000148",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "26667104000148_MM_CONSULTORIA_E_SERVICOS_LTDA_SISPAR_012763705_004_20250829.pdf",
+        "arquivo_id": "689522584163d590d",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\MM CONSULTORIA E SERVICOS LTDA 0001 - 26667104000148\\PGFN",
+        "codigo": "180"
+    },
+    {
+        "empresa": "MM CONSULTORIA E SERVICOS LTDA 0001",
+        "cnpj": "26667104000148",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "26667104000148_MM_CONSULTORIA_E_SERVICOS_LTDA_SISPAR_012763705_002_20250630.pdf",
+        "arquivo_id": "68952251317c038ed",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\MM CONSULTORIA E SERVICOS LTDA 0001 - 26667104000148\\PGFN",
+        "codigo": "180"
+    },
+    {
+        "empresa": "CASA DO PAO LTDA 0001",
+        "cnpj": "46333558000190",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "46333558000190_CASA_DO_PAO_LTDA_SISPAR_012687890_004_20250829.pdf",
+        "arquivo_id": "68952267ef326e3c1",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\CASA DO PAO LTDA 0001 - 46333558000190\\PGFN",
+        "codigo": "419"
+    },
+    {
+        "empresa": "CASA DO PAO LTDA 0001",
+        "cnpj": "46333558000190",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "46333558000190_CASA_DO_PAO_LTDA_SISPAR_012687890_003_20250731.pdf",
+        "arquivo_id": "68952263d21fb9e7c",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\CASA DO PAO LTDA 0001 - 46333558000190\\PGFN",
+        "codigo": "419"
+    },
+    {
+        "empresa": "CASA DO PAO LTDA 0001",
+        "cnpj": "46333558000190",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "46333558000190_CASA_DO_PAO_LTDA_SISPAR_012687890_002_20250630.pdf",
+        "arquivo_id": "68952260a1740335d",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\CASA DO PAO LTDA 0001 - 46333558000190\\PGFN",
+        "codigo": "419"
+    },
+    {
+        "empresa": "DONA MARIA VARIEDADES LTDA 0001",
+        "cnpj": "42363060000119",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "42363060000119_DONA_MARIA_VARIEDADES_LTDA_SISPAR_012417485_004_20250731.pdf",
+        "arquivo_id": "68952262ab08137e4",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\DONA MARIA VARIEDADES LTDA 0001 - 42363060000119\\PGFN",
+        "codigo": "339"
+    },
+    {
+        "empresa": "DONA MARIA VARIEDADES LTDA 0001",
+        "cnpj": "42363060000119",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "42363060000119_DONA_MARIA_VARIEDADES_LTDA_SISPAR_012417485_003_20250630.pdf",
+        "arquivo_id": "6895225e76f8c7dae",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\DONA MARIA VARIEDADES LTDA 0001 - 42363060000119\\PGFN",
+        "codigo": "339"
+    },
+    {
+        "empresa": "DONA MARIA VARIEDADES LTDA 0001",
+        "cnpj": "42363060000119",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "42363060000119_DONA_MARIA_VARIEDADES_LTDA_SISPAR_012417485_005_20250829.pdf",
+        "arquivo_id": "68952267b6936683c",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\DONA MARIA VARIEDADES LTDA 0001 - 42363060000119\\PGFN",
+        "codigo": "339"
+    },
+    {
+        "empresa": "WALLISON OLIVEIRA GAMA 0001",
+        "cnpj": "22161614000198",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "22161614000198_WALLISON_OLIVEIRA_GAMA_SISPAR_012428435_001_20250430.pdf",
+        "arquivo_id": "67f8462c228c6cfee",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\WALLISON OLIVEIRA GAMA 0001 - 22161614000198\\PGFN",
+        "codigo": "58"
+    },
+    {
+        "empresa": "G & S SERVICOS E CONSTRUCOES LTDA 0001",
+        "cnpj": "26769939000109",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "26769939000109_G_&_S_SERVICOS_E_CONSTRUCOES_LTDA_SISPAR_012310179_002_20250430.pdf",
+        "arquivo_id": "686e73003066a30cd",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN",
+        "codigo": "522"
+    },
+    {
+        "empresa": "G & S SERVICOS E CONSTRUCOES LTDA 0001",
+        "cnpj": "26769939000109",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "26769939000109_G_&_S_SERVICOS_E_CONSTRUCOES_LTDA_SISPAR_012310179_004_20250630.pdf",
+        "arquivo_id": "686e73094070c38e4",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN",
+        "codigo": "522"
+    },
+    {
+        "empresa": "G & S SERVICOS E CONSTRUCOES LTDA 0001",
+        "cnpj": "26769939000109",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "26769939000109_G_&_S_SERVICOS_E_CONSTRUCOES_LTDA_SISPAR_012310179_005_20250731.pdf",
+        "arquivo_id": "686e730d298f2ed6d",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN",
+        "codigo": "522"
+    },
+    {
+        "empresa": "G & S SERVICOS E CONSTRUCOES LTDA 0001",
+        "cnpj": "26769939000109",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "26769939000109_G_&_S_SERVICOS_E_CONSTRUCOES_LTDA_SISPAR_012310179_003_20250530.pdf",
+        "arquivo_id": "686e7304b7943d2c7",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN",
+        "codigo": "522"
+    },
+    {
+        "empresa": "PONTO CERTO COMERCIO DE PAPELARIA E BRINQUEDOS LTDA 0001",
+        "cnpj": "33242698000100",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "33242698000100_PONTO_CERTO_COMERCIO_DE_PAPELARIA_E_BRINQUEDOS_LTDA_SISPAR_012262486_005_20250731.pdf",
+        "arquivo_id": "686e730b1c302f9e1",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\PONTO CERTO COMERCIO DE PAPELARIA E BRINQUEDOS LTDA 0001 - 33242698000100\\PGFN",
+        "codigo": "144"
+    },
+    {
+        "empresa": "ECEGH SERVICOS DE GESTAO HOSPITALAR LTDA 0001",
+        "cnpj": "24794078000193",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "24794078000193_ECEGH_SERVICOS_DE_GESTAO_HOSPITALAR_LTDA_SISPAR_012257735_006_20250829.pdf",
+        "arquivo_id": "6895229255c6745dc",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\ECEGH SERVICOS DE GESTAO HOSPITALAR LTDA 0001 - 24794078000193\\PGFN",
+        "codigo": "557"
+    },
+    {
+        "empresa": "NARJARA RODRIGUES GENTIL 0001",
+        "cnpj": "31687476000176",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "31687476000176_NARJARA_RODRIGUES_GENTIL_SISPAR_007246209_033_20250829.pdf",
+        "arquivo_id": "6899c0467468f497c",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\NARJARA RODRIGUES GENTIL 0001 - 31687476000176\\PGFN",
+        "codigo": "554"
+    },
+    {
+        "empresa": "JAMED COMERCIO E SERVICOS LTDA 0001",
+        "cnpj": "17927869000189",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "17927869000189_JAMED_COMERCIO_E_SERVICOS_LTDA_SISPAR_011228925_002_20241230.pdf",
+        "arquivo_id": "67cb8735277470b08",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\JAMED COMERCIO E SERVICOS LTDA 0001 - 17927869000189\\PGFN",
+        "codigo": "558"
+    },
+    {
+        "empresa": "JAMED COMERCIO E SERVICOS LTDA 0001",
+        "cnpj": "17927869000189",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "17927869000189_JAMED_COMERCIO_E_SERVICOS_LTDA_SISPAR_011228925_005_20250331.pdf",
+        "arquivo_id": "67cb8742561b64ea4",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\JAMED COMERCIO E SERVICOS LTDA 0001 - 17927869000189\\PGFN",
+        "codigo": "558"
+    },
+    {
+        "empresa": "JAMED COMERCIO E SERVICOS LTDA 0001",
+        "cnpj": "17927869000189",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "17927869000189_JAMED_COMERCIO_E_SERVICOS_LTDA_SISPAR_011228925_004_20250228.pdf",
+        "arquivo_id": "67cb873dce6f390bb",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\JAMED COMERCIO E SERVICOS LTDA 0001 - 17927869000189\\PGFN",
+        "codigo": "558"
+    },
+    {
+        "empresa": "JAMED COMERCIO E SERVICOS LTDA 0001",
+        "cnpj": "17927869000189",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "17927869000189_JAMED_COMERCIO_E_SERVICOS_LTDA_SISPAR_011228925_003_20250131.pdf",
+        "arquivo_id": "67cb87399dd7bb088",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\JAMED COMERCIO E SERVICOS LTDA 0001 - 17927869000189\\PGFN",
+        "codigo": "558"
+    },
+    {
+        "empresa": "GILVAN MAQ PECAS LTDA 0001",
+        "cnpj": "21505061000180",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "21505061000180_GILVAN_MAQ_PECAS_LTDA_SISPAR_011632862_008_20250829.pdf",
+        "arquivo_id": "68952252292876a71",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\GILVAN MAQ PECAS LTDA 0001 - 21505061000180\\PGFN",
+        "codigo": null
+    },
+    {
+        "empresa": "PRECISAO AUTOMECANICA LTDA 0001",
+        "cnpj": "31409551000137",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "31409551000137_PRECISAO_AUTOMECANICA_LTDA_SISPAR_011603101_002_20250228.pdf",
+        "arquivo_id": "67f845db6d67f2952",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\PRECISAO AUTOMECANICA LTDA 0001 - 31409551000137\\PGFN",
+        "codigo": null
+    },
+    {
+        "empresa": "PRECISAO AUTOMECANICA LTDA 0001",
+        "cnpj": "31409551000137",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "31409551000137_PRECISAO_AUTOMECANICA_LTDA_SISPAR_011603101_003_20250331.pdf",
+        "arquivo_id": "67f845dfef65739bc",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\PRECISAO AUTOMECANICA LTDA 0001 - 31409551000137\\PGFN",
+        "codigo": null
+    },
+    {
+        "empresa": "PRECISAO AUTOMECANICA LTDA 0001",
+        "cnpj": "31409551000137",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "31409551000137_PRECISAO_AUTOMECANICA_LTDA_SISPAR_011794913_003_20250331.pdf",
+        "arquivo_id": "681b8370990d7a6f5",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\PRECISAO AUTOMECANICA LTDA 0001 - 31409551000137\\PGFN",
+        "codigo": null
+    },
+    {
+        "empresa": "PRECISAO AUTOMECANICA LTDA 0001",
+        "cnpj": "31409551000137",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "31409551000137_PRECISAO_AUTOMECANICA_LTDA_SISPAR_011794913_004_20250430.pdf",
+        "arquivo_id": "681b8373ccfd56348",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\PRECISAO AUTOMECANICA LTDA 0001 - 31409551000137\\PGFN",
+        "codigo": null
+    },
+    {
+        "empresa": "PRECISAO AUTOMECANICA LTDA 0001",
+        "cnpj": "31409551000137",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "31409551000137_PRECISAO_AUTOMECANICA_LTDA_SISPAR_011794913_005_20250530.pdf",
+        "arquivo_id": "681b8377434f6d458",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\PRECISAO AUTOMECANICA LTDA 0001 - 31409551000137\\PGFN",
+        "codigo": null
+    },
+    {
+        "empresa": "PRECISAO AUTOMECANICA LTDA 0001",
+        "cnpj": "31409551000137",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "31409551000137_PRECISAO_AUTOMECANICA_LTDA_SISPAR_011794913_002_20250228.pdf",
+        "arquivo_id": "681b836d430842b7d",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\PRECISAO AUTOMECANICA LTDA 0001 - 31409551000137\\PGFN",
+        "codigo": null
+    },
+    {
+        "empresa": "J C REPRESENTACOES E COMERCIO DE PRODUTOS FARMACEUTICOS LTDA 0001",
+        "cnpj": "12217268000169",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "12217268000169_J_C_REPRESENTACOES_E_COMERCIO_DE_PRODUTOS_FARMACEUTICOS_LTDA_SISPAR_011609810_006_20250630.pdf",
+        "arquivo_id": "68952258bac26495f",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\J C REPRESENTACOES E COMERCIO DE PRODUTOS FARMACEUTICOS LTDA 0001 - 12217268000169\\PGFN",
+        "codigo": "540"
+    },
+    {
+        "empresa": "J C REPRESENTACOES E COMERCIO DE PRODUTOS FARMACEUTICOS LTDA 0001",
+        "cnpj": "12217268000169",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "12217268000169_J_C_REPRESENTACOES_E_COMERCIO_DE_PRODUTOS_FARMACEUTICOS_LTDA_SISPAR_011609810_008_20250829.pdf",
+        "arquivo_id": "689522623e3477d9e",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\J C REPRESENTACOES E COMERCIO DE PRODUTOS FARMACEUTICOS LTDA 0001 - 12217268000169\\PGFN",
+        "codigo": "540"
+    },
+    {
+        "empresa": "J C REPRESENTACOES E COMERCIO DE PRODUTOS FARMACEUTICOS LTDA 0001",
+        "cnpj": "12217268000169",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "12217268000169_J_C_REPRESENTACOES_E_COMERCIO_DE_PRODUTOS_FARMACEUTICOS_LTDA_SISPAR_011609810_007_20250731.pdf",
+        "arquivo_id": "6895225c863878021",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\J C REPRESENTACOES E COMERCIO DE PRODUTOS FARMACEUTICOS LTDA 0001 - 12217268000169\\PGFN",
+        "codigo": "540"
+    },
+    {
+        "empresa": "J C REPRESENTACOES E COMERCIO DE PRODUTOS FARMACEUTICOS LTDA 0001",
+        "cnpj": "12217268000169",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "12217268000169_J_C_REPRESENTACOES_E_COMERCIO_DE_PRODUTOS_FARMACEUTICOS_LTDA_SISPAR_011609810_005_20250530.pdf",
+        "arquivo_id": "689522552fc3483ab",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\J C REPRESENTACOES E COMERCIO DE PRODUTOS FARMACEUTICOS LTDA 0001 - 12217268000169\\PGFN",
+        "codigo": "540"
+    },
+    {
+        "empresa": "AUSTREGESILO JUNIOR ARAGAO MELO 0001",
+        "cnpj": "08492189000199",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "08492189000199_AUSTREGESILO_JUNIOR_ARAGAO_MELO_SISPAR_005478700_045_20250829.pdf",
+        "arquivo_id": "6895228432d93531a",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\AUSTREGESILO JUNIOR ARAGAO MELO 0001 - 08492189000199\\PGFN",
+        "codigo": "251"
+    },
+    {
+        "empresa": "AUSTREGESILO JUNIOR ARAGAO MELO 0001",
+        "cnpj": "08492189000199",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "08492189000199_AUSTREGESILO_JUNIOR_ARAGAO_MELO_SISPAR_005478700_044_20250731.pdf",
+        "arquivo_id": "689522801669ff7f4",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\AUSTREGESILO JUNIOR ARAGAO MELO 0001 - 08492189000199\\PGFN",
+        "codigo": "251"
+    },
+    {
+        "empresa": "AUSTREGESILO JUNIOR ARAGAO MELO 0001",
+        "cnpj": "08492189000199",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "08492189000199_AUSTREGESILO_JUNIOR_ARAGAO_MELO_SISPAR_005478700_043_20250630.pdf",
+        "arquivo_id": "6895227c3ebf48da3",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\AUSTREGESILO JUNIOR ARAGAO MELO 0001 - 08492189000199\\PGFN",
+        "codigo": "251"
+    },
+    {
+        "empresa": "DONA MARIA VARIEDADES LTDA 0001",
+        "cnpj": "42363060000119",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "42363060000119_DONA_MARIA_VARIEDADES_LTDA_SISPAR_008353978_020_20250228.pdf",
+        "arquivo_id": "67a68c49a6dcc719e",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\DONA MARIA VARIEDADES LTDA 0001 - 42363060000119\\PGFN",
+        "codigo": "339"
+    },
+    {
+        "empresa": "DONA MARIA VARIEDADES LTDA 0001",
+        "cnpj": "42363060000119",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "42363060000119_DONA_MARIA_VARIEDADES_LTDA_SISPAR_008353978_017_20241129.pdf",
+        "arquivo_id": "67a68c3c17fb64b6e",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\DONA MARIA VARIEDADES LTDA 0001 - 42363060000119\\PGFN",
+        "codigo": "339"
+    },
+    {
+        "empresa": "DONA MARIA VARIEDADES LTDA 0001",
+        "cnpj": "42363060000119",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "42363060000119_DONA_MARIA_VARIEDADES_LTDA_SISPAR_008353978_019_20250131.pdf",
+        "arquivo_id": "67a68c453e4febbf8",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\DONA MARIA VARIEDADES LTDA 0001 - 42363060000119\\PGFN",
+        "codigo": "339"
+    },
+    {
+        "empresa": "DONA MARIA VARIEDADES LTDA 0001",
+        "cnpj": "42363060000119",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "42363060000119_DONA_MARIA_VARIEDADES_LTDA_SISPAR_008353978_018_20241230.pdf",
+        "arquivo_id": "67a68c40a75e352be",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\DONA MARIA VARIEDADES LTDA 0001 - 42363060000119\\PGFN",
+        "codigo": "339"
+    },
+    {
+        "empresa": "DISTRIDOCES DISTRIBUIDORA DE DOCES LTDA 0001",
+        "cnpj": "32855512000126",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "32855512000126_DISTRIDOCES_DISTRIBUIDORA_DE_DOCES_LTDA_SISPAR_010041889_012_20250331.pdf",
+        "arquivo_id": "67cb86525812dd9e8",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\DISTRIDOCES DISTRIBUIDORA DE DOCES LTDA 0001 - 32855512000126\\PGFN",
+        "codigo": "19"
+    },
+    {
+        "empresa": "ODONTOINN CLINICA ODONTOLOGICA LTDA 0001",
+        "cnpj": "27565210000183",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "27565210000183_ODONTOINN_CLINICA_ODONTOLOGICA_LTDA_SISPAR_009318422_020_20250829.pdf",
+        "arquivo_id": "68952274e3d467f4f",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\ODONTOINN CLINICA ODONTOLOGICA LTDA 0001 - 27565210000183\\PGFN",
+        "codigo": "49"
+    },
+    {
+        "empresa": "CLINICA INTEGRADA DE PROCEDIMENTOS E ESPECIALIDADES MEDICAS OLIVEIRA RAMOS LTDA 0001",
+        "cnpj": "10741183000150",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "10741183000150_CLINICA_INTEGRADA_DE_PROCEDIMENTOS_E_ESPECIALIDADES_MEDICAS_OLIVEIRA_RAMOS_LTDA_SISPAR_005331846_046_20250829.pdf",
+        "arquivo_id": "689522682223804b8",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\CLINICA INTEGRADA DE PROCEDIMENTOS E ESPECIALIDADES MEDICAS OLIVEIRA RAMOS LTDA 0001 - 10741183000150\\PGFN",
+        "codigo": "68"
+    },
+    {
+        "empresa": "ALFA E OMEGA EMPREENDIMENTOS LTDA 0001",
+        "cnpj": "28878713000171",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "28878713000171_ALFA_E_OMEGA_EMPREENDIMENTOS_LTDA_SISPAR_009029036_021_20250829.pdf",
+        "arquivo_id": "6895225abcc64630d",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\ALFA E OMEGA EMPREENDIMENTOS LTDA 0001 - 28878713000171\\PGFN",
+        "codigo": "379"
+    },
+    {
+        "empresa": "FASITEC DESENVOLVIMENTO E TECNOLOGIA LTDA 0001",
+        "cnpj": "00483195000178",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "00483195000178_FASITEC_DESENVOLVIMENTO_E_TECNOLOGIA_LTDA_SISPAR_010991718_011_20250829.pdf",
+        "arquivo_id": "6895224e56619be88",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\FASITEC DESENVOLVIMENTO E TECNOLOGIA LTDA 0001 - 00483195000178\\PGFN",
+        "codigo": "470"
+    },
+    {
+        "empresa": "FASITEC DESENVOLVIMENTO E TECNOLOGIA LTDA 0001",
+        "cnpj": "00483195000178",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "00483195000178_FASITEC_DESENVOLVIMENTO_E_TECNOLOGIA_LTDA_SISPAR_004731373_049_20250829.pdf",
+        "arquivo_id": "68952243468bdf03d",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\FASITEC DESENVOLVIMENTO E TECNOLOGIA LTDA 0001 - 00483195000178\\PGFN",
+        "codigo": "470"
+    },
+    {
+        "empresa": "FASITEC DESENVOLVIMENTO E TECNOLOGIA LTDA 0001",
+        "cnpj": "00483195000178",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "00483195000178_FASITEC_DESENVOLVIMENTO_E_TECNOLOGIA_LTDA_SISPAR_003893581_057_20250829.pdf",
+        "arquivo_id": "6895221cc36bfff01",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\FASITEC DESENVOLVIMENTO E TECNOLOGIA LTDA 0001 - 00483195000178\\PGFN",
+        "codigo": "470"
+    },
+    {
+        "empresa": "G & S SERVICOS E CONSTRUCOES LTDA 0001",
+        "cnpj": "26769939000109",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "26769939000109_G_&_S_SERVICOS_E_CONSTRUCOES_LTDA_SISPAR_010768020_008_20250331.pdf",
+        "arquivo_id": "67f8457741119cd54",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN",
+        "codigo": "522"
+    },
+    {
+        "empresa": "G & S SERVICOS E CONSTRUCOES LTDA 0001",
+        "cnpj": "26769939000109",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "26769939000109_G_&_S_SERVICOS_E_CONSTRUCOES_LTDA_SISPAR_010768020_009_20250430.pdf",
+        "arquivo_id": "67f8457b86a1c5066",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN",
+        "codigo": "522"
+    },
+    {
+        "empresa": "G & S SERVICOS E CONSTRUCOES LTDA 0001",
+        "cnpj": "26769939000109",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "26769939000109_G_&_S_SERVICOS_E_CONSTRUCOES_LTDA_SISPAR_010767973_006_20250131.pdf",
+        "arquivo_id": "67851fdef3fc19f27",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN",
+        "codigo": "522"
+    },
+    {
+        "empresa": "G & S SERVICOS E CONSTRUCOES LTDA 0001",
+        "cnpj": "26769939000109",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "26769939000109_G_&_S_SERVICOS_E_CONSTRUCOES_LTDA_SISPAR_010767973_004_20241129.pdf",
+        "arquivo_id": "67851fd66e9b14259",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN",
+        "codigo": "522"
+    },
+    {
+        "empresa": "G & S SERVICOS E CONSTRUCOES LTDA 0001",
+        "cnpj": "26769939000109",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "26769939000109_G_&_S_SERVICOS_E_CONSTRUCOES_LTDA_SISPAR_010767973_003_20241031.pdf",
+        "arquivo_id": "67851fd1a8d9f3318",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN",
+        "codigo": "522"
+    },
+    {
+        "empresa": "G & S SERVICOS E CONSTRUCOES LTDA 0001",
+        "cnpj": "26769939000109",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "26769939000109_G_&_S_SERVICOS_E_CONSTRUCOES_LTDA_SISPAR_010767973_005_20241230.pdf",
+        "arquivo_id": "67851fdab8fc963e4",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN",
+        "codigo": "522"
+    },
+    {
+        "empresa": "G & S SERVICOS E CONSTRUCOES LTDA 0001",
+        "cnpj": "26769939000109",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "26769939000109_G_&_S_SERVICOS_E_CONSTRUCOES_LTDA_SISPAR_010767973_002_20240930.pdf",
+        "arquivo_id": "67851fcd16a61ae3d",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN",
+        "codigo": "522"
+    },
+    {
+        "empresa": "G & S SERVICOS E CONSTRUCOES LTDA 0001",
+        "cnpj": "26769939000109",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "26769939000109_G_&_S_SERVICOS_E_CONSTRUCOES_LTDA_SISPAR_010768043_011_20250630.pdf",
+        "arquivo_id": "6895221757da16500",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN",
+        "codigo": "522"
+    },
+    {
+        "empresa": "G & S SERVICOS E CONSTRUCOES LTDA 0001",
+        "cnpj": "26769939000109",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "26769939000109_G_&_S_SERVICOS_E_CONSTRUCOES_LTDA_SISPAR_010768043_012_20250731.pdf",
+        "arquivo_id": "6895221b3ed63c81d",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN",
+        "codigo": "522"
+    },
+    {
+        "empresa": "G & S SERVICOS E CONSTRUCOES LTDA 0001",
+        "cnpj": "26769939000109",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "26769939000109_G_&_S_SERVICOS_E_CONSTRUCOES_LTDA_SISPAR_010768043_013_20250829.pdf",
+        "arquivo_id": "6895221f8c7ca493f",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN",
+        "codigo": "522"
+    },
+    {
+        "empresa": "G & S SERVICOS E CONSTRUCOES LTDA 0001",
+        "cnpj": "26769939000109",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "26769939000109_G_&_S_SERVICOS_E_CONSTRUCOES_LTDA_SISPAR_010768043_009_20250430.pdf",
+        "arquivo_id": "6895220ea2665b64d",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN",
+        "codigo": "522"
+    },
+    {
+        "empresa": "G & S SERVICOS E CONSTRUCOES LTDA 0001",
+        "cnpj": "26769939000109",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "26769939000109_G_&_S_SERVICOS_E_CONSTRUCOES_LTDA_SISPAR_010768043_008_20250331.pdf",
+        "arquivo_id": "6895220ac77cbb66b",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN",
+        "codigo": "522"
+    },
+    {
+        "empresa": "G & S SERVICOS E CONSTRUCOES LTDA 0001",
+        "cnpj": "26769939000109",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "26769939000109_G_&_S_SERVICOS_E_CONSTRUCOES_LTDA_SISPAR_010768043_010_20250530.pdf",
+        "arquivo_id": "6895221309fb41f8b",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN",
+        "codigo": "522"
+    },
+    {
+        "empresa": "G & S SERVICOS E CONSTRUCOES LTDA 0001",
+        "cnpj": "26769939000109",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "26769939000109_G_&_S_SERVICOS_E_CONSTRUCOES_LTDA_SISPAR_010768065_012_20250731.pdf",
+        "arquivo_id": "6895221b7aeec1f6e",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN",
+        "codigo": "522"
+    },
+    {
+        "empresa": "G & S SERVICOS E CONSTRUCOES LTDA 0001",
+        "cnpj": "26769939000109",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "26769939000109_G_&_S_SERVICOS_E_CONSTRUCOES_LTDA_SISPAR_010768065_011_20250630.pdf",
+        "arquivo_id": "6895221770ecef3ad",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN",
+        "codigo": "522"
+    },
+    {
+        "empresa": "G & S SERVICOS E CONSTRUCOES LTDA 0001",
+        "cnpj": "26769939000109",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "26769939000109_G_&_S_SERVICOS_E_CONSTRUCOES_LTDA_SISPAR_010768065_010_20250530.pdf",
+        "arquivo_id": "68952212daa72ab5a",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN",
+        "codigo": "522"
+    },
+    {
+        "empresa": "G & S SERVICOS E CONSTRUCOES LTDA 0001",
+        "cnpj": "26769939000109",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "26769939000109_G_&_S_SERVICOS_E_CONSTRUCOES_LTDA_SISPAR_010768065_009_20250430.pdf",
+        "arquivo_id": "6895220e80fdc543d",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN",
+        "codigo": "522"
+    },
+    {
+        "empresa": "G & S SERVICOS E CONSTRUCOES LTDA 0001",
+        "cnpj": "26769939000109",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "26769939000109_G_&_S_SERVICOS_E_CONSTRUCOES_LTDA_SISPAR_010768065_013_20250829.pdf",
+        "arquivo_id": "6895221fe648a5cd3",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN",
+        "codigo": "522"
+    },
+    {
+        "empresa": "G & S SERVICOS E CONSTRUCOES LTDA 0001",
+        "cnpj": "26769939000109",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "26769939000109_G_&_S_SERVICOS_E_CONSTRUCOES_LTDA_SISPAR_010768065_008_20250331.pdf",
+        "arquivo_id": "6895220a821674818",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\G & S SERVICOS E CONSTRUCOES LTDA 0001 - 26769939000109\\PGFN",
+        "codigo": "522"
+    },
+    {
+        "empresa": "SERGIPANA DISTRIBUIDORA DE MEDICAMENTOS LTDA 0001",
+        "cnpj": "09180777000150",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "09180777000150_SERGIPANA_DISTRIBUIDORA_DE_MEDICAMENTOS_LTDA_SISPAR_008721322_018_20250228.pdf",
+        "arquivo_id": "67a68b271e852438a",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\SERGIPANA DISTRIBUIDORA DE MEDICAMENTOS LTDA 0001 - 09180777000150\\PGFN",
+        "codigo": "523"
+    },
+    {
+        "empresa": "SERGIPANA DISTRIBUIDORA DE MEDICAMENTOS LTDA 0001",
+        "cnpj": "09180777000150",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "09180777000150_SERGIPANA_DISTRIBUIDORA_DE_MEDICAMENTOS_LTDA_SISPAR_008721322_017_20250131.pdf",
+        "arquivo_id": "67a68b22b13c19e45",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\SERGIPANA DISTRIBUIDORA DE MEDICAMENTOS LTDA 0001 - 09180777000150\\PGFN",
+        "codigo": "523"
+    },
+    {
+        "empresa": "SERGIPANA DISTRIBUIDORA DE MEDICAMENTOS LTDA 0001",
+        "cnpj": "09180777000150",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "09180777000150_SERGIPANA_DISTRIBUIDORA_DE_MEDICAMENTOS_LTDA_SISPAR_008721322_013_20240930.pdf",
+        "arquivo_id": "67a68b1180e36657f",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\SERGIPANA DISTRIBUIDORA DE MEDICAMENTOS LTDA 0001 - 09180777000150\\PGFN",
+        "codigo": "523"
+    },
+    {
+        "empresa": "SERGIPANA DISTRIBUIDORA DE MEDICAMENTOS LTDA 0001",
+        "cnpj": "09180777000150",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "09180777000150_SERGIPANA_DISTRIBUIDORA_DE_MEDICAMENTOS_LTDA_SISPAR_008721322_016_20241230.pdf",
+        "arquivo_id": "67a68b1e471cac631",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\SERGIPANA DISTRIBUIDORA DE MEDICAMENTOS LTDA 0001 - 09180777000150\\PGFN",
+        "codigo": "523"
+    },
+    {
+        "empresa": "SERGIPANA DISTRIBUIDORA DE MEDICAMENTOS LTDA 0001",
+        "cnpj": "09180777000150",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "09180777000150_SERGIPANA_DISTRIBUIDORA_DE_MEDICAMENTOS_LTDA_SISPAR_008721322_014_20241031.pdf",
+        "arquivo_id": "67a68b15de949800a",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\SERGIPANA DISTRIBUIDORA DE MEDICAMENTOS LTDA 0001 - 09180777000150\\PGFN",
+        "codigo": "523"
+    },
+    {
+        "empresa": "SERGIPANA DISTRIBUIDORA DE MEDICAMENTOS LTDA 0001",
+        "cnpj": "09180777000150",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "09180777000150_SERGIPANA_DISTRIBUIDORA_DE_MEDICAMENTOS_LTDA_SISPAR_008721322_015_20241129.pdf",
+        "arquivo_id": "67a68b1a163849d2f",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\SERGIPANA DISTRIBUIDORA DE MEDICAMENTOS LTDA 0001 - 09180777000150\\PGFN",
+        "codigo": "523"
+    },
+    {
+        "empresa": "VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "41210457000108",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "41210457000108_VIA_ROMA_SALVADOR_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010991102_006_20250331.pdf",
+        "arquivo_id": "67cb8549d391443af",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\PGFN",
+        "codigo": "537"
+    },
+    {
+        "empresa": "VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "41210457000108",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "41210457000108_VIA_ROMA_SALVADOR_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010991102_005_20250228.pdf",
+        "arquivo_id": "67cb8545c95b3cfca",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\PGFN",
+        "codigo": "537"
+    },
+    {
+        "empresa": "VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "41210457000108",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "41210457000108_VIA_ROMA_SALVADOR_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010991102_003_20241230.pdf",
+        "arquivo_id": "67cb853d86eb0d4cd",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\PGFN",
+        "codigo": "537"
+    },
+    {
+        "empresa": "VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "41210457000108",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "41210457000108_VIA_ROMA_SALVADOR_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010991102_004_20250131.pdf",
+        "arquivo_id": "67cb85419ae1c8d0e",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\PGFN",
+        "codigo": "537"
+    },
+    {
+        "empresa": "VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "41210457000108",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "41210457000108_VIA_ROMA_SALVADOR_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010991102_002_20241129.pdf",
+        "arquivo_id": "67cb8538cf46119bf",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\PGFN",
+        "codigo": "537"
+    },
+    {
+        "empresa": "VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "41210457000108",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "41210457000108_VIA_ROMA_SALVADOR_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010991201_011_20250829.pdf",
+        "arquivo_id": "68952209b5b1c3f3a",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\PGFN",
+        "codigo": "537"
+    },
+    {
+        "empresa": "VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "41210457000108",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "41210457000108_VIA_ROMA_SALVADOR_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010991201_009_20250630.pdf",
+        "arquivo_id": "68952200c8e87d2f4",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\PGFN",
+        "codigo": "537"
+    },
+    {
+        "empresa": "VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "41210457000108",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "41210457000108_VIA_ROMA_SALVADOR_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010991201_006_20250331.pdf",
+        "arquivo_id": "689521f40914a68ae",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\PGFN",
+        "codigo": "537"
+    },
+    {
+        "empresa": "VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "41210457000108",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "41210457000108_VIA_ROMA_SALVADOR_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010991201_007_20250430.pdf",
+        "arquivo_id": "689521f83630c9bfa",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\PGFN",
+        "codigo": "537"
+    },
+    {
+        "empresa": "VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "41210457000108",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "41210457000108_VIA_ROMA_SALVADOR_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010991201_008_20250530.pdf",
+        "arquivo_id": "689521fc733098d28",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\PGFN",
+        "codigo": "537"
+    },
+    {
+        "empresa": "VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "41210457000108",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "41210457000108_VIA_ROMA_SALVADOR_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010991201_010_20250731.pdf",
+        "arquivo_id": "689522059c7543f29",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\PGFN",
+        "codigo": "537"
+    },
+    {
+        "empresa": "VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "41210457000108",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "41210457000108_VIA_ROMA_SALVADOR_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010991201_004_20250131.pdf",
+        "arquivo_id": "689521eb432bd5325",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\PGFN",
+        "codigo": "537"
+    },
+    {
+        "empresa": "VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "41210457000108",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "41210457000108_VIA_ROMA_SALVADOR_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010991201_002_20241129.pdf",
+        "arquivo_id": "689521e29802e6739",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\PGFN",
+        "codigo": "537"
+    },
+    {
+        "empresa": "VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "41210457000108",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "41210457000108_VIA_ROMA_SALVADOR_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010991201_003_20241230.pdf",
+        "arquivo_id": "689521e6d202263ac",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\PGFN",
+        "codigo": "537"
+    },
+    {
+        "empresa": "VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "41210457000108",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "41210457000108_VIA_ROMA_SALVADOR_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010991201_005_20250228.pdf",
+        "arquivo_id": "689521ef8ad0a9abc",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\PGFN",
+        "codigo": "537"
+    },
+    {
+        "empresa": "P & S PRODUTOS AGROPECUARIOS LTDA 0001",
+        "cnpj": "17204638000147",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "17204638000147_P_&_S_PRODUTOS_AGROPECUARIOS_LTDA_SISPAR_003642191_061_20250829.pdf",
+        "arquivo_id": "68952233352df0c82",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\P & S PRODUTOS AGROPECUARIOS LTDA 0001 - 17204638000147\\PGFN",
+        "codigo": "448"
+    },
+    {
+        "empresa": "J C REPRESENTACOES E COMERCIO DE PRODUTOS FARMACEUTICOS LTDA 0001",
+        "cnpj": "12217268000169",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "12217268000169_J_C_REPRESENTACOES_E_COMERCIO_DE_PRODUTOS_FARMACEUTICOS_LTDA_SISPAR_008548847_024_20250731.pdf",
+        "arquivo_id": "68952231ecdc7f917",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\J C REPRESENTACOES E COMERCIO DE PRODUTOS FARMACEUTICOS LTDA 0001 - 12217268000169\\PGFN",
+        "codigo": "540"
+    },
+    {
+        "empresa": "J C REPRESENTACOES E COMERCIO DE PRODUTOS FARMACEUTICOS LTDA 0001",
+        "cnpj": "12217268000169",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "12217268000169_J_C_REPRESENTACOES_E_COMERCIO_DE_PRODUTOS_FARMACEUTICOS_LTDA_SISPAR_008548847_023_20250630.pdf",
+        "arquivo_id": "6895222ec393fa4dc",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\J C REPRESENTACOES E COMERCIO DE PRODUTOS FARMACEUTICOS LTDA 0001 - 12217268000169\\PGFN",
+        "codigo": "540"
+    },
+    {
+        "empresa": "J C REPRESENTACOES E COMERCIO DE PRODUTOS FARMACEUTICOS LTDA 0001",
+        "cnpj": "12217268000169",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "12217268000169_J_C_REPRESENTACOES_E_COMERCIO_DE_PRODUTOS_FARMACEUTICOS_LTDA_SISPAR_008548847_025_20250829.pdf",
+        "arquivo_id": "689522355a560522b",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\J C REPRESENTACOES E COMERCIO DE PRODUTOS FARMACEUTICOS LTDA 0001 - 12217268000169\\PGFN",
+        "codigo": "540"
+    },
+    {
+        "empresa": "J C REPRESENTACOES E COMERCIO DE PRODUTOS FARMACEUTICOS LTDA 0001",
+        "cnpj": "12217268000169",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "12217268000169_J_C_REPRESENTACOES_E_COMERCIO_DE_PRODUTOS_FARMACEUTICOS_LTDA_SISPAR_008548847_022_20250530.pdf",
+        "arquivo_id": "6895222b7b2d6a994",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\J C REPRESENTACOES E COMERCIO DE PRODUTOS FARMACEUTICOS LTDA 0001 - 12217268000169\\PGFN",
+        "codigo": "540"
+    },
+    {
+        "empresa": "PETROLUB DISTRIBUIDORA DA BAHIA LTDA 0001",
+        "cnpj": "23300238000138",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "23300238000138_PETROLUB_DISTRIBUIDORA_DA_BAHIA_LTDA_SISPAR_009531735_020_20250829.pdf",
+        "arquivo_id": "68952232a8cb18d5b",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\PETROLUB DISTRIBUIDORA DA BAHIA LTDA 0001 - 23300238000138\\PGFN",
+        "codigo": "500"
+    },
+    {
+        "empresa": "POSTO DE COMBUSTIVEL CEU III LTDA 0001",
+        "cnpj": "13644570000166",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "13644570000166_POSTO_DE_COMBUSTIVEL_CEU_III_LTDA_SISPAR_009740220_012_20250131.pdf",
+        "arquivo_id": "6785206371c3a201d",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\POSTO DE COMBUSTIVEL CEU III LTDA 0001 - 13644570000166\\PGFN",
+        "codigo": "442"
+    },
+    {
+        "empresa": "POSTO DE COMBUSTIVEL CEU III LTDA 0001",
+        "cnpj": "13644570000166",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "13644570000166_POSTO_DE_COMBUSTIVEL_CEU_III_LTDA_SISPAR_010059346_017_20250829.pdf",
+        "arquivo_id": "68952241a29959d44",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\POSTO DE COMBUSTIVEL CEU III LTDA 0001 - 13644570000166\\PGFN",
+        "codigo": "442"
+    },
+    {
+        "empresa": "POSTO DE COMBUSTIVEL CEU III LTDA 0001",
+        "cnpj": "13644570000166",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "13644570000166_POSTO_DE_COMBUSTIVEL_CEU_III_LTDA_SISPAR_009740210_012_20250131.pdf",
+        "arquivo_id": "67852056c7287a7a4",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\POSTO DE COMBUSTIVEL CEU III LTDA 0001 - 13644570000166\\PGFN",
+        "codigo": "442"
+    },
+    {
+        "empresa": "POSTO DE COMBUSTIVEL CEU III LTDA 0001",
+        "cnpj": "13644570000166",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "13644570000166_POSTO_DE_COMBUSTIVEL_CEU_III_LTDA_SISPAR_008878203_022_20250829.pdf",
+        "arquivo_id": "68952240bd2b583b4",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\POSTO DE COMBUSTIVEL CEU III LTDA 0001 - 13644570000166\\PGFN",
+        "codigo": "442"
+    },
+    {
+        "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "29151045000149",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010823986_006_20250228.pdf",
+        "arquivo_id": "67f92d16416e5c267",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
+    },
+    {
+        "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "29151045000149",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010823986_008_20250430.pdf",
+        "arquivo_id": "67f92d1f9e4c2f37e",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
+    },
+    {
+        "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "29151045000149",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010823986_007_20250331.pdf",
+        "arquivo_id": "67f92d1a8f18e7d0f",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
+    },
+    {
+        "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "29151045000149",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010823986_004_20241230.pdf",
+        "arquivo_id": "67f92d0dedff57c8a",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
+    },
+    {
+        "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "29151045000149",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010823986_002_20241031.pdf",
+        "arquivo_id": "67f92d04b4b8a1c53",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
+    },
+    {
+        "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "29151045000149",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010823986_003_20241129.pdf",
+        "arquivo_id": "67f92d09e520ca1ad",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
+    },
+    {
+        "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "29151045000149",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010823986_005_20250131.pdf",
+        "arquivo_id": "67f92d11d0b7e5fad",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
+    },
+    {
+        "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "29151045000149",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010829640_012_20250829.pdf",
+        "arquivo_id": "6895223e529f5c128",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
+    },
+    {
+        "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "29151045000149",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010829640_007_20250331.pdf",
+        "arquivo_id": "6895222c8aec87d2a",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
+    },
+    {
+        "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "29151045000149",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010829640_008_20250430.pdf",
+        "arquivo_id": "6895222fcfe6423e4",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
+    },
+    {
+        "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "29151045000149",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010829640_010_20250630.pdf",
+        "arquivo_id": "6895223728365ecd7",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
+    },
+    {
+        "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "29151045000149",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010829640_009_20250530.pdf",
+        "arquivo_id": "6895223336e8b0523",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
+    },
+    {
+        "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "29151045000149",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010829640_011_20250731.pdf",
+        "arquivo_id": "6895223ac3df56b7e",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
+    },
+    {
+        "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "29151045000149",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010829640_002_20241031.pdf",
+        "arquivo_id": "68952219c7a6177e6",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
+    },
+    {
+        "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "29151045000149",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010829640_006_20250228.pdf",
+        "arquivo_id": "689522290db67931a",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
+    },
+    {
+        "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "29151045000149",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010829640_005_20250131.pdf",
+        "arquivo_id": "689522259a86d150e",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
+    },
+    {
+        "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "29151045000149",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010829640_003_20241129.pdf",
+        "arquivo_id": "6895221d3977bfc88",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
+    },
+    {
+        "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "29151045000149",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010829640_004_20241230.pdf",
+        "arquivo_id": "68952220e7ced72d5",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
+    },
+    {
+        "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "29151045000149",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010824100_011_20250731.pdf",
+        "arquivo_id": "6895222d4963d8201",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
+    },
+    {
+        "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "29151045000149",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010824100_012_20250829.pdf",
+        "arquivo_id": "68952231625937fc3",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
+    },
+    {
+        "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "29151045000149",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010824100_010_20250630.pdf",
+        "arquivo_id": "689522295a4ff3ef0",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
+    },
+    {
+        "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "29151045000149",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010824100_008_20250430.pdf",
+        "arquivo_id": "6895222192a4cbf50",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
+    },
+    {
+        "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "29151045000149",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010824100_006_20250228.pdf",
+        "arquivo_id": "68952219d3c926430",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
+    },
+    {
+        "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "29151045000149",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010824100_009_20250530.pdf",
+        "arquivo_id": "689522259e102f7b9",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
+    },
+    {
+        "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "29151045000149",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010824100_007_20250331.pdf",
+        "arquivo_id": "6895221d8285c47fb",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
+    },
+    {
+        "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "29151045000149",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010824100_005_20250131.pdf",
+        "arquivo_id": "68952215c01d79db2",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
+    },
+    {
+        "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "29151045000149",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010824100_003_20241129.pdf",
+        "arquivo_id": "6895220e5b372f47a",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
+    },
+    {
+        "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "29151045000149",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010824100_004_20241230.pdf",
+        "arquivo_id": "68952212182be174b",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
+    },
+    {
+        "empresa": "VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "29151045000149",
+        "tipo_parcelamento": "PGFN",
+        "nome_arquivo": "29151045000149_VIA_ROMA_PIZZARIA_BAR_E_RESTAURANTE_LTDA_SISPAR_010824100_002_20241031.pdf",
+        "arquivo_id": "6895220aa851c79c0",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 29151045000149\\PGFN",
+        "codigo": "524"
+    },
+    {
+        "empresa": "POSTO DE COMBUSTIVEL CEU III LTDA 0001",
+        "cnpj": "13644570000166",
+        "tipo_parcelamento": "PREVIDENCIARIO",
+        "nome_arquivo": "13644570000166_POSTO_DE_COMBUSTIVEL_CEU_III_LTDA_SICOB_645275522_008_20250829.pdf",
+        "arquivo_id": "68966903ca361b9bf",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\POSTO DE COMBUSTIVEL CEU III LTDA 0001 - 13644570000166\\PREVIDENCIARIO",
+        "codigo": "442"
+    },
+    {
+        "empresa": "AL. COMERCIO DE CONFECCOES TOBIENSE LTDA 0001",
+        "cnpj": "11983419000127",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "11983419000127_AL_COMERCIO_DE_CONFECCOES_TOBI_PARCSN_SIMPLIFICADO_202506_202508.pdf",
+        "arquivo_id": "689f0f01be9428958",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\AL. COMERCIO DE CONFECCOES TOBIENSE LTDA 0001 - 11983419000127\\SIMPLES_NACIONAL",
+        "codigo": "124"
+    },
+    {
+        "empresa": "AL. COMERCIO DE CONFECCOES TOBIENSE LTDA 0001",
+        "cnpj": "11983419000127",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "11983419000127_AL_COMERCIO_DE_CONFECCOES_TOBI_PARCSN_SIMPLIFICADO_202508_202508.pdf",
+        "arquivo_id": "689afda61930bbd21",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\AL. COMERCIO DE CONFECCOES TOBIENSE LTDA 0001 - 11983419000127\\SIMPLES_NACIONAL",
+        "codigo": "124"
+    },
+    {
+        "empresa": "AL. COMERCIO DE CONFECCOES TOBIENSE LTDA 0001",
+        "cnpj": "11983419000127",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "11983419000127_AL_COMERCIO_DE_CONFECCOES_TOBI_PARCSN_SIMPLIFICADO_202507_202508.pdf",
+        "arquivo_id": "689f0ef35faa35fb8",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\AL. COMERCIO DE CONFECCOES TOBIENSE LTDA 0001 - 11983419000127\\SIMPLES_NACIONAL",
+        "codigo": "124"
+    },
+    {
+        "empresa": "46.535.912 LTDA 0001",
+        "cnpj": "46535912000169",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "46535912000169_46535912_LTDA_PARCSN_SIMPLIFICADO_202508_202508.pdf",
+        "arquivo_id": "689afde9161d4be19",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\46.535.912 LTDA 0001 - 46535912000169\\SIMPLES_NACIONAL",
+        "codigo": "525"
+    },
+    {
+        "empresa": "46.535.912 LTDA 0001",
+        "cnpj": "46535912000169",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "46535912000169_46535912_LTDA_PARCSN_SIMPLIFICADO_202507_202508.pdf",
+        "arquivo_id": "689f4e0a5925a9ebf",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\46.535.912 LTDA 0001 - 46535912000169\\SIMPLES_NACIONAL",
+        "codigo": "525"
+    },
+    {
+        "empresa": "DEEP CONNECT TELECOM LTDA 0001",
+        "cnpj": "12087327000121",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "12087327000121_DEEP_CONNECT_TELECOM_LTDA_PARCSN_SIMPLIFICADO_202506_202508.pdf",
+        "arquivo_id": "689f127f0454374c0",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\DEEP CONNECT TELECOM LTDA 0001 - 12087327000121\\SIMPLES_NACIONAL",
+        "codigo": "609"
+    },
+    {
+        "empresa": "DEEP CONNECT TELECOM LTDA 0001",
+        "cnpj": "12087327000121",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "12087327000121_DEEP_CONNECT_TELECOM_LTDA_PARCSN_SIMPLIFICADO_202508_202508.pdf",
+        "arquivo_id": "689afd00c94524bc3",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\DEEP CONNECT TELECOM LTDA 0001 - 12087327000121\\SIMPLES_NACIONAL",
+        "codigo": "609"
+    },
+    {
+        "empresa": "DEEP CONNECT TELECOM LTDA 0001",
+        "cnpj": "12087327000121",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "12087327000121_DEEP_CONNECT_TELECOM_LTDA_PARCSN_SIMPLIFICADO_202507_202508.pdf",
+        "arquivo_id": "689f12a3e3887a300",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\DEEP CONNECT TELECOM LTDA 0001 - 12087327000121\\SIMPLES_NACIONAL",
+        "codigo": "609"
+    },
+    {
+        "empresa": "MAX CONFECCOES TEXTIL LTDA 0001",
+        "cnpj": "52169106000117",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "52169106000117_MAX_CONFECCOES_TEXTIL_LTDA_PARCSN_SIMPLIFICADO_202508_202508.pdf",
+        "arquivo_id": "689afd7337885f416",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\MAX CONFECCOES TEXTIL LTDA 0001 - 52169106000117\\SIMPLES_NACIONAL",
+        "codigo": "427"
+    },
+    {
+        "empresa": "TAJS LTDA 0001",
+        "cnpj": "42187460000110",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "42187460000110_TAJS_LTDA_PARCSN_SIMPLIFICADO_202508_202508.pdf",
+        "arquivo_id": "689afcc14fb390819",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\TAJS LTDA 0001 - 42187460000110\\SIMPLES_NACIONAL",
+        "codigo": "452"
+    },
+    {
+        "empresa": "CASA DO PAO LTDA 0001",
+        "cnpj": "46333558000190",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "46333558000190_CASA_DO_PAO_LTDA_PARCSN_SIMPLIFICADO_202508_202508.pdf",
+        "arquivo_id": "689afe1d52e98db8f",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\CASA DO PAO LTDA 0001 - 46333558000190\\SIMPLES_NACIONAL",
+        "codigo": "419"
+    },
+    {
+        "empresa": "CASA DO PAO LTDA 0001",
+        "cnpj": "46333558000190",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "46333558000190_CASA_DO_PAO_LTDA_PARCSN_SIMPLIFICADO_202507_202508.pdf",
+        "arquivo_id": "689f64e586a199510",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\CASA DO PAO LTDA 0001 - 46333558000190\\SIMPLES_NACIONAL",
+        "codigo": "419"
+    },
+    {
+        "empresa": "CASA DO PAO LTDA 0001",
+        "cnpj": "46333558000190",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "46333558000190_CASA_DO_PAO_LTDA_PARCSN_SIMPLIFICADO_202506_202508.pdf",
+        "arquivo_id": "689f653b7e1321d94",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\CASA DO PAO LTDA 0001 - 46333558000190\\SIMPLES_NACIONAL",
+        "codigo": "419"
+    },
+    {
+        "empresa": "FM TOBIAS BARRETO ALMEIDA REIS LTDA 0001",
+        "cnpj": "03826865000108",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "03826865000108_FM_TOBIAS_BARRETO_ALMEIDA_REIS_PARCSN_SIMPLIFICADO_202508_202508.pdf",
+        "arquivo_id": "689deccc9d8a0b1c6",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\FM TOBIAS BARRETO ALMEIDA REIS LTDA 0001 - 03826865000108\\SIMPLES_NACIONAL",
+        "codigo": "242"
+    },
+    {
+        "empresa": "SAO MIGUEL 2 IND E COMERCIO LTDA 0001",
+        "cnpj": "45418856000110",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "45418856000110_SAO_MIGUEL_2_IND_E_COMERCIO_LT_PARCSN_SIMPLIFICADO_202508_202508.pdf",
+        "arquivo_id": "689afd0f104016674",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\SAO MIGUEL 2 IND E COMERCIO LTDA 0001 - 45418856000110\\SIMPLES_NACIONAL",
+        "codigo": "422"
+    },
+    {
+        "empresa": "NORTE E SUL COMERCIO DE PNEUS E REPRESENTACOES LTDA 0001",
+        "cnpj": "28579353000107",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "28579353000107_NORTE_E_SUL_COMERCIO_DE_PNEUS__PARCSN_SIMPLIFICADO_202508_202508.pdf",
+        "arquivo_id": "689afd5436dc2aeb6",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\NORTE E SUL COMERCIO DE PNEUS E REPRESENTACOES LTDA 0001 - 28579353000107\\SIMPLES_NACIONAL",
+        "codigo": "499"
+    },
+    {
+        "empresa": "NORTE E SUL COMERCIO DE PNEUS E REPRESENTACOES LTDA 0001",
+        "cnpj": "28579353000107",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "28579353000107_NORTE_E_SUL_COMERCIO_DE_PNEUS__PARCSN_SIMPLIFICADO_202507_202508.pdf",
+        "arquivo_id": "689f622d585ec6b16",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\NORTE E SUL COMERCIO DE PNEUS E REPRESENTACOES LTDA 0001 - 28579353000107\\SIMPLES_NACIONAL",
+        "codigo": "499"
+    },
+    {
+        "empresa": "NORTE E SUL COMERCIO DE PNEUS E REPRESENTACOES LTDA 0001",
+        "cnpj": "28579353000107",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "28579353000107_NORTE_E_SUL_COMERCIO_DE_PNEUS__PARCSN_SIMPLIFICADO_202506_202507.pdf",
+        "arquivo_id": "6872f25aa34a376ba",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\NORTE E SUL COMERCIO DE PNEUS E REPRESENTACOES LTDA 0001 - 28579353000107\\SIMPLES_NACIONAL",
+        "codigo": "499"
+    },
+    {
+        "empresa": "NORTE E SUL COMERCIO DE PNEUS E REPRESENTACOES LTDA 0001",
+        "cnpj": "28579353000107",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "28579353000107_NORTE_E_SUL_COMERCIO_DE_PNEUS__PARCSN_SIMPLIFICADO_202505_202508.pdf",
+        "arquivo_id": "689f630fd437de42e",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\NORTE E SUL COMERCIO DE PNEUS E REPRESENTACOES LTDA 0001 - 28579353000107\\SIMPLES_NACIONAL",
+        "codigo": "499"
+    },
+    {
+        "empresa": "PONTO CERTO COMERCIO DE PAPELARIA E BRINQUEDOS LTDA 0001",
+        "cnpj": "33242698000100",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "33242698000100_PONTO_CERTO_COMERCIO_DE_PAPELA_PARCSN_SIMPLIFICADO_202508_202508.pdf",
+        "arquivo_id": "689afe3d15d62d6af",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\PONTO CERTO COMERCIO DE PAPELARIA E BRINQUEDOS LTDA 0001 - 33242698000100\\SIMPLES_NACIONAL",
+        "codigo": "144"
+    },
+    {
+        "empresa": "PONTO CERTO COMERCIO DE PAPELARIA E BRINQUEDOS LTDA 0001",
+        "cnpj": "33242698000100",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "33242698000100_PONTO_CERTO_COMERCIO_DE_PAPELA_PARCSN_SIMPLIFICADO_202507_202508.pdf",
+        "arquivo_id": "689f5e8beb9996f7d",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\PONTO CERTO COMERCIO DE PAPELARIA E BRINQUEDOS LTDA 0001 - 33242698000100\\SIMPLES_NACIONAL",
+        "codigo": "144"
+    },
+    {
+        "empresa": "ECEGH SERVICOS DE GESTAO HOSPITALAR LTDA 0001",
+        "cnpj": "24794078000193",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "24794078000193_ECEGH_SERVICOS_DE_GESTAO_HOSPI_PARCSN_SIMPLIFICADO_202508_202508.pdf",
+        "arquivo_id": "689afd1b46dfa90be",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\ECEGH SERVICOS DE GESTAO HOSPITALAR LTDA 0001 - 24794078000193\\SIMPLES_NACIONAL",
+        "codigo": "557"
+    },
+    {
+        "empresa": "ECEGH SERVICOS DE GESTAO HOSPITALAR LTDA 0001",
+        "cnpj": "24794078000193",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "24794078000193_ECEGH_SERVICOS_DE_GESTAO_HOSPI_PARCSN_SIMPLIFICADO_202507_202508.pdf",
+        "arquivo_id": "689f63b6a3a5bc7f1",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\ECEGH SERVICOS DE GESTAO HOSPITALAR LTDA 0001 - 24794078000193\\SIMPLES_NACIONAL",
+        "codigo": "557"
+    },
+    {
+        "empresa": "WALLISON OLIVEIRA GAMA 0001",
+        "cnpj": "22161614000198",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "22161614000198_WALLISON_OLIVEIRA_GAMA_PARCSN_SIMPLIFICADO_202508_202508.pdf",
+        "arquivo_id": "689afd22ef47466cb",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\WALLISON OLIVEIRA GAMA 0001 - 22161614000198\\SIMPLES_NACIONAL",
+        "codigo": "58"
+    },
+    {
+        "empresa": "WALLISON OLIVEIRA GAMA 0001",
+        "cnpj": "22161614000198",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "22161614000198_WALLISON_OLIVEIRA_GAMA_PARCSN_SIMPLIFICADO_202507_202508.pdf",
+        "arquivo_id": "689f5b049b08a9305",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\WALLISON OLIVEIRA GAMA 0001 - 22161614000198\\SIMPLES_NACIONAL",
+        "codigo": "58"
+    },
+    {
+        "empresa": "ISLAN NET TELECOM LTDA 0001",
+        "cnpj": "26434616000164",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "26434616000164_ISLAN_NET_TELECOM_LTDA_PARCSN_SIMPLIFICADO_202508_202508.pdf",
+        "arquivo_id": "689afe30c1881a64b",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\ISLAN NET TELECOM LTDA 0001 - 26434616000164\\SIMPLES_NACIONAL",
+        "codigo": "551"
+    },
+    {
+        "empresa": "JEFERSON ALMEIDA DOS SANTOS 04258567558 0001",
+        "cnpj": "33698795000102",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "33698795000102_JEFERSON_ALMEIDA_DOS_SANTOS_04_PARCSN_SIMPLIFICADO_202508_202508.pdf",
+        "arquivo_id": "689afe0195934a5e8",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\JEFERSON ALMEIDA DOS SANTOS 04258567558 0001 - 33698795000102\\SIMPLES_NACIONAL",
+        "codigo": "149"
+    },
+    {
+        "empresa": "JEFERSON ALMEIDA DOS SANTOS 04258567558 0001",
+        "cnpj": "33698795000102",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "33698795000102_JEFERSON_ALMEIDA_DOS_SANTOS_04_PARCSN_SIMPLIFICADO_202507_202508.pdf",
+        "arquivo_id": "689f5e50246ba5c94",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\JEFERSON ALMEIDA DOS SANTOS 04258567558 0001 - 33698795000102\\SIMPLES_NACIONAL",
+        "codigo": "149"
+    },
+    {
+        "empresa": "JEFERSON ALMEIDA DOS SANTOS 04258567558 0001",
+        "cnpj": "33698795000102",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "33698795000102_JEFERSON_ALMEIDA_DOS_SANTOS_04_PARCSN_SIMPLIFICADO_202506_202508.pdf",
+        "arquivo_id": "689f5d73788e0bf31",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\JEFERSON ALMEIDA DOS SANTOS 04258567558 0001 - 33698795000102\\SIMPLES_NACIONAL",
+        "codigo": "149"
+    },
+    {
+        "empresa": "JEFERSON ALMEIDA DOS SANTOS 04258567558 0001",
+        "cnpj": "33698795000102",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "33698795000102_JEFERSON_ALMEIDA_DOS_SANTOS_04_PARCSN_SIMPLIFICADO_202505_202508.pdf",
+        "arquivo_id": "689f5d8154deac6db",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\JEFERSON ALMEIDA DOS SANTOS 04258567558 0001 - 33698795000102\\SIMPLES_NACIONAL",
+        "codigo": "149"
+    },
+    {
+        "empresa": "START PLAY LTDA 0001",
+        "cnpj": "30018375000140",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "30018375000140_START_PLAY_LTDA_PARCSN_SIMPLIFICADO_202508_202508.pdf",
+        "arquivo_id": "689b0738b62c882f3",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\START PLAY LTDA 0001 - 30018375000140\\SIMPLES_NACIONAL",
+        "codigo": "194"
+    },
+    {
+        "empresa": "START PLAY LTDA 0001",
+        "cnpj": "30018375000140",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "30018375000140_START_PLAY_LTDA_PARCSN_SIMPLIFICADO_202507_202508.pdf",
+        "arquivo_id": "689f54615a0f726f4",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\START PLAY LTDA 0001 - 30018375000140\\SIMPLES_NACIONAL",
+        "codigo": "194"
+    },
+    {
+        "empresa": "START PLAY LTDA 0001",
+        "cnpj": "30018375000140",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "30018375000140_START_PLAY_LTDA_PARCSN_SIMPLIFICADO_202506_202508.pdf",
+        "arquivo_id": "689f54a627eb2ce54",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\START PLAY LTDA 0001 - 30018375000140\\SIMPLES_NACIONAL",
+        "codigo": "194"
+    },
+    {
+        "empresa": "START PLAY LTDA 0001",
+        "cnpj": "30018375000140",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "30018375000140_START_PLAY_LTDA_PARCSN_SIMPLIFICADO_202505_202508.pdf",
+        "arquivo_id": "689f5463e78596f4f",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\START PLAY LTDA 0001 - 30018375000140\\SIMPLES_NACIONAL",
+        "codigo": "194"
+    },
+    {
+        "empresa": "MADEREIRA RONDONIA LTDA 0001",
+        "cnpj": "50428807000106",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "50428807000106_MADEREIRA_RONDONIA_LTDA_PARCSN_SIMPLIFICADO_202508_202508.pdf",
+        "arquivo_id": "689afd3f6822055a1",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\MADEREIRA RONDONIA LTDA 0001 - 50428807000106\\SIMPLES_NACIONAL",
+        "codigo": "401"
+    },
+    {
+        "empresa": "MITIKAS TECNOLOGIA DA INFORMACAO LTDA 0001",
+        "cnpj": "22949522000177",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "22949522000177_MITIKAS_TECNOLOGIA_DA_INFORMAC_PARCSN_SIMPLIFICADO_202505_202505.pdf",
+        "arquivo_id": "6825f1b3282e1ce36",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\MITIKAS TECNOLOGIA DA INFORMACAO LTDA 0001 - 22949522000177\\SIMPLES_NACIONAL",
+        "codigo": "81"
+    },
+    {
+        "empresa": "JAMED COMERCIO E SERVICOS LTDA 0001",
+        "cnpj": "17927869000189",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "17927869000189_JAMED_COMERCIO_E_SERVICOS_LTDA_PARCSN_SIMPLIFICADO_202501_202502.pdf",
+        "arquivo_id": "67b2a937a819f44f2",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\JAMED COMERCIO E SERVICOS LTDA 0001 - 17927869000189\\SIMPLES_NACIONAL",
+        "codigo": "558"
+    },
+    {
+        "empresa": "JAMED COMERCIO E SERVICOS LTDA 0001",
+        "cnpj": "17927869000189",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "17927869000189_JAMED_COMERCIO_E_SERVICOS_LTDA_PARCSN_SIMPLIFICADO_202412_202502.pdf",
+        "arquivo_id": "67b2a5231e5876fa1",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\JAMED COMERCIO E SERVICOS LTDA 0001 - 17927869000189\\SIMPLES_NACIONAL",
+        "codigo": "558"
+    },
+    {
+        "empresa": "JAMED COMERCIO E SERVICOS LTDA 0001",
+        "cnpj": "17927869000189",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "17927869000189_JAMED_COMERCIO_E_SERVICOS_LTDA_PARCSN_SIMPLIFICADO_202502_202502.pdf",
+        "arquivo_id": "67a9d73f2293924af",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\JAMED COMERCIO E SERVICOS LTDA 0001 - 17927869000189\\SIMPLES_NACIONAL",
+        "codigo": "558"
+    },
+    {
+        "empresa": "PRECISAO AUTOMECANICA LTDA 0001",
+        "cnpj": "31409551000137",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "31409551000137_PRECISAO_AUTOMECANICA_LTDA_PARCSN_SIMPLIFICADO_202508_202508.pdf",
+        "arquivo_id": "689b08e42dec75ab0",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\PRECISAO AUTOMECANICA LTDA 0001 - 31409551000137\\SIMPLES_NACIONAL",
+        "codigo": null
+    },
+    {
+        "empresa": "PRECISAO AUTOMECANICA LTDA 0001",
+        "cnpj": "31409551000137",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "31409551000137_PRECISAO_AUTOMECANICA_LTDA_PARCSN_SIMPLIFICADO_202507_202508.pdf",
+        "arquivo_id": "689f5ae4b44afba12",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\PRECISAO AUTOMECANICA LTDA 0001 - 31409551000137\\SIMPLES_NACIONAL",
+        "codigo": null
+    },
+    {
+        "empresa": "PRECISAO AUTOMECANICA LTDA 0001",
+        "cnpj": "31409551000137",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "31409551000137_PRECISAO_AUTOMECANICA_LTDA_PARCSN_SIMPLIFICADO_202506_202508.pdf",
+        "arquivo_id": "689f5b0a41993421f",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\PRECISAO AUTOMECANICA LTDA 0001 - 31409551000137\\SIMPLES_NACIONAL",
+        "codigo": null
+    },
+    {
+        "empresa": "PRECISAO AUTOMECANICA LTDA 0001",
+        "cnpj": "31409551000137",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "31409551000137_PRECISAO_AUTOMECANICA_LTDA_PARCSN_SIMPLIFICADO_202505_202508.pdf",
+        "arquivo_id": "689f5c594639e6062",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\PRECISAO AUTOMECANICA LTDA 0001 - 31409551000137\\SIMPLES_NACIONAL",
+        "codigo": null
+    },
+    {
+        "empresa": "PRECISAO AUTOMECANICA LTDA 0001",
+        "cnpj": "31409551000137",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "31409551000137_PRECISAO_AUTOMECANICA_LTDA_PARCSN_SIMPLIFICADO_202504_202507.pdf",
+        "arquivo_id": "6872e609df43fc882",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\PRECISAO AUTOMECANICA LTDA 0001 - 31409551000137\\SIMPLES_NACIONAL",
+        "codigo": null
+    },
+    {
+        "empresa": "PRECISAO AUTOMECANICA LTDA 0001",
+        "cnpj": "31409551000137",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "31409551000137_PRECISAO_AUTOMECANICA_LTDA_PARCSN_SIMPLIFICADO_202503_202505.pdf",
+        "arquivo_id": "68271acdf2172c2f5",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\PRECISAO AUTOMECANICA LTDA 0001 - 31409551000137\\SIMPLES_NACIONAL",
+        "codigo": null
+    },
+    {
+        "empresa": "PRECISAO AUTOMECANICA LTDA 0001",
+        "cnpj": "31409551000137",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "31409551000137_PRECISAO_AUTOMECANICA_LTDA_PARCSN_SIMPLIFICADO_202502_202504.pdf",
+        "arquivo_id": "67fd391d72cf08021",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\PRECISAO AUTOMECANICA LTDA 0001 - 31409551000137\\SIMPLES_NACIONAL",
+        "codigo": null
+    },
+    {
+        "empresa": "ECEGH SERVICOS DE GESTAO HOSPITALAR LTDA 0001",
+        "cnpj": "24794078000193",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "24794078000193_ECEGH_SERVICOS_DE_GESTAO_HOSPI_PARCSN_SIMPLIFICADO_202501_202502.pdf",
+        "arquivo_id": "67b2a545d31e9ccf5",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\ECEGH SERVICOS DE GESTAO HOSPITALAR LTDA 0001 - 24794078000193\\SIMPLES_NACIONAL",
+        "codigo": "557"
+    },
+    {
+        "empresa": "ECEGH SERVICOS DE GESTAO HOSPITALAR LTDA 0001",
+        "cnpj": "24794078000193",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "24794078000193_ECEGH_SERVICOS_DE_GESTAO_HOSPI_PARCSN_SIMPLIFICADO_202412_202502.pdf",
+        "arquivo_id": "67b2a5332d028b14b",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\ECEGH SERVICOS DE GESTAO HOSPITALAR LTDA 0001 - 24794078000193\\SIMPLES_NACIONAL",
+        "codigo": "557"
+    },
+    {
+        "empresa": "ECEGH SERVICOS DE GESTAO HOSPITALAR LTDA 0001",
+        "cnpj": "24794078000193",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "24794078000193_ECEGH_SERVICOS_DE_GESTAO_HOSPI_PARCSN_SIMPLIFICADO_202502_202502.pdf",
+        "arquivo_id": "67aa12464a2aa1f1c",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\ECEGH SERVICOS DE GESTAO HOSPITALAR LTDA 0001 - 24794078000193\\SIMPLES_NACIONAL",
+        "codigo": "557"
+    },
+    {
+        "empresa": "DELI JARDINS COMERCIO DE ALIMENTOS LTDA 0001",
+        "cnpj": "38030572000196",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "38030572000196_DELI_JARDINS_COMERCIO_DE_ALIME_PARCSN_SIMPLIFICADO_202507_202507.pdf",
+        "arquivo_id": "687119674fa30dcbe",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\DELI JARDINS COMERCIO DE ALIMENTOS LTDA 0001 - 38030572000196\\SIMPLES_NACIONAL",
+        "codigo": "446"
+    },
+    {
+        "empresa": "DELI JARDINS COMERCIO DE ALIMENTOS LTDA 0001",
+        "cnpj": "38030572000196",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "38030572000196_DELI_JARDINS_COMERCIO_DE_ALIME_PARCSN_SIMPLIFICADO_202506_202507.pdf",
+        "arquivo_id": "6872eacf8ab090333",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\DELI JARDINS COMERCIO DE ALIMENTOS LTDA 0001 - 38030572000196\\SIMPLES_NACIONAL",
+        "codigo": "446"
+    },
+    {
+        "empresa": "DELI JARDINS COMERCIO DE ALIMENTOS LTDA 0001",
+        "cnpj": "38030572000196",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "38030572000196_DELI_JARDINS_COMERCIO_DE_ALIME_PARCSN_SIMPLIFICADO_202505_202507.pdf",
+        "arquivo_id": "6872eae15390ffbfa",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\DELI JARDINS COMERCIO DE ALIMENTOS LTDA 0001 - 38030572000196\\SIMPLES_NACIONAL",
+        "codigo": "446"
+    },
+    {
+        "empresa": "DELI JARDINS COMERCIO DE ALIMENTOS LTDA 0001",
+        "cnpj": "38030572000196",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "38030572000196_DELI_JARDINS_COMERCIO_DE_ALIME_PARCSN_SIMPLIFICADO_202504_202507.pdf",
+        "arquivo_id": "6872eada0fbc79dfa",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\DELI JARDINS COMERCIO DE ALIMENTOS LTDA 0001 - 38030572000196\\SIMPLES_NACIONAL",
+        "codigo": "446"
+    },
+    {
+        "empresa": "DELI JARDINS COMERCIO DE ALIMENTOS LTDA 0001",
+        "cnpj": "38030572000196",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "38030572000196_DELI_JARDINS_COMERCIO_DE_ALIME_PARCSN_SIMPLIFICADO_202503_202505.pdf",
+        "arquivo_id": "68271ab441036b90b",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\DELI JARDINS COMERCIO DE ALIMENTOS LTDA 0001 - 38030572000196\\SIMPLES_NACIONAL",
+        "codigo": "446"
+    },
+    {
+        "empresa": "DELI JARDINS COMERCIO DE ALIMENTOS LTDA 0001",
+        "cnpj": "38030572000196",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "38030572000196_DELI_JARDINS_COMERCIO_DE_ALIME_PARCSN_SIMPLIFICADO_202502_202504.pdf",
+        "arquivo_id": "67fcece1ca938c207",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\DELI JARDINS COMERCIO DE ALIMENTOS LTDA 0001 - 38030572000196\\SIMPLES_NACIONAL",
+        "codigo": "446"
+    },
+    {
+        "empresa": "DESTAK MOTO PECAS LTDA 0001",
+        "cnpj": "32391143000168",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "32391143000168_DESTAK_MOTO_PECAS_LTDA_PARCSN_SIMPLIFICADO_202508_202508.pdf",
+        "arquivo_id": "689b071875014a29d",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\DESTAK MOTO PECAS LTDA 0001 - 32391143000168\\SIMPLES_NACIONAL",
+        "codigo": "376"
+    },
+    {
+        "empresa": "BORDADOS DE TOBIAS LTDA 0001",
+        "cnpj": "37125022000198",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "37125022000198_BORDADOS_DE_TOBIAS_LTDA_PARCSN_SIMPLIFICADO_202508_202508.pdf",
+        "arquivo_id": "689afd8399bbdd336",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\BORDADOS DE TOBIAS LTDA 0001 - 37125022000198\\SIMPLES_NACIONAL",
+        "codigo": "552"
+    },
+    {
+        "empresa": "LICO COMERCIO DE PNEUS E ACESSORIOS LTDA 0001",
+        "cnpj": "43770112000134",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "43770112000134_LICO_COMERCIO_DE_PNEUS_E_ACESS_PARCSN_SIMPLIFICADO_202508_202508.pdf",
+        "arquivo_id": "689b06e7e4aea788c",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\LICO COMERCIO DE PNEUS E ACESSORIOS LTDA 0001 - 43770112000134\\SIMPLES_NACIONAL",
+        "codigo": "210"
+    },
+    {
+        "empresa": "LICO COMERCIO DE PNEUS E ACESSORIOS LTDA 0001",
+        "cnpj": "43770112000134",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "43770112000134_LICO_COMERCIO_DE_PNEUS_E_ACESS_PARCSN_SIMPLIFICADO_202507_202508.pdf",
+        "arquivo_id": "689f40e5b0d6b1c22",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\LICO COMERCIO DE PNEUS E ACESSORIOS LTDA 0001 - 43770112000134\\SIMPLES_NACIONAL",
+        "codigo": "210"
+    },
+    {
+        "empresa": "LICO COMERCIO DE PNEUS LTDA 0001",
+        "cnpj": "33037737000138",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "33037737000138_LICO_COMERCIO_DE_PNEUS_LTDA_PARCSN_SIMPLIFICADO_202503_202505.pdf",
+        "arquivo_id": "6827113f285e062e9",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\LICO COMERCIO DE PNEUS LTDA 0001 - 33037737000138\\SIMPLES_NACIONAL",
+        "codigo": "137"
+    },
+    {
+        "empresa": "SUPERMERCADO UNIBOOM LTDA 0001",
+        "cnpj": "05295716000187",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "05295716000187_SUPERMERCADO_UNIBOOM_LTDA_PARCSN_SIMPLIFICADO_202508_202508.pdf",
+        "arquivo_id": "689deca6d7b9a38ae",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\SUPERMERCADO UNIBOOM LTDA 0001 - 05295716000187\\SIMPLES_NACIONAL",
+        "codigo": "294"
+    },
+    {
+        "empresa": "SUPERMERCADO UNIBOOM LTDA 0001",
+        "cnpj": "05295716000187",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "05295716000187_SUPERMERCADO_UNIBOOM_LTDA_PARCSN_SIMPLIFICADO_202507_202508.pdf",
+        "arquivo_id": "689f22b8020b6f04d",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\SUPERMERCADO UNIBOOM LTDA 0001 - 05295716000187\\SIMPLES_NACIONAL",
+        "codigo": "294"
+    },
+    {
+        "empresa": "JOAO BOSCO DA ROCHA DIAS LTDA 0001",
+        "cnpj": "02067343000107",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "02067343000107_JOAO_BOSCO_DA_ROCHA_DIAS_LTDA_PARCSN_PERT_202508_202508.pdf",
+        "arquivo_id": "689afd704dcc9b5b5",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\JOAO BOSCO DA ROCHA DIAS LTDA 0001 - 02067343000107\\SIMPLES_NACIONAL",
+        "codigo": "33"
+    },
+    {
+        "empresa": "MM CONSULTORIA E SERVICOS LTDA 0001",
+        "cnpj": "26667104000148",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "26667104000148_MM_CONSULTORIA_E_SERVICOS_LTDA_PARCSN_SIMPLIFICADO_202505_202505.pdf",
+        "arquivo_id": "6825f167b59a4e8f6",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\MM CONSULTORIA E SERVICOS LTDA 0001 - 26667104000148\\SIMPLES_NACIONAL",
+        "codigo": "180"
+    },
+    {
+        "empresa": "MM CONSULTORIA E SERVICOS LTDA 0001",
+        "cnpj": "26667104000148",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "26667104000148_MM_CONSULTORIA_E_SERVICOS_LTDA_PARCSN_SIMPLIFICADO_202504_202505.pdf",
+        "arquivo_id": "68270f5b3311e9583",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\MM CONSULTORIA E SERVICOS LTDA 0001 - 26667104000148\\SIMPLES_NACIONAL",
+        "codigo": "180"
+    },
+    {
+        "empresa": "MM CONSULTORIA E SERVICOS LTDA 0001",
+        "cnpj": "26667104000148",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "26667104000148_MM_CONSULTORIA_E_SERVICOS_LTDA_PARCSN_SIMPLIFICADO_202503_202505.pdf",
+        "arquivo_id": "68270f65252fd213c",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\MM CONSULTORIA E SERVICOS LTDA 0001 - 26667104000148\\SIMPLES_NACIONAL",
+        "codigo": "180"
+    },
+    {
+        "empresa": "MM CONSULTORIA E SERVICOS LTDA 0001",
+        "cnpj": "26667104000148",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "26667104000148_MM_CONSULTORIA_E_SERVICOS_LTDA_PARCSN_SIMPLIFICADO_202502_202504.pdf",
+        "arquivo_id": "67fce55c8973363bd",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\MM CONSULTORIA E SERVICOS LTDA 0001 - 26667104000148\\SIMPLES_NACIONAL",
+        "codigo": "180"
+    },
+    {
+        "empresa": "MM CONSULTORIA E SERVICOS LTDA 0001",
+        "cnpj": "26667104000148",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "26667104000148_MM_CONSULTORIA_E_SERVICOS_LTDA_PARCSN_SIMPLIFICADO_202501_202503.pdf",
+        "arquivo_id": "67d46040c7175b000",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\MM CONSULTORIA E SERVICOS LTDA 0001 - 26667104000148\\SIMPLES_NACIONAL",
+        "codigo": "180"
+    },
+    {
+        "empresa": "MM CONSULTORIA E SERVICOS LTDA 0001",
+        "cnpj": "26667104000148",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "26667104000148_MM_CONSULTORIA_E_SERVICOS_LTDA_PARCSN_SIMPLIFICADO_202411_202501.pdf",
+        "arquivo_id": "678872a2d529835f7",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\MM CONSULTORIA E SERVICOS LTDA 0001 - 26667104000148\\SIMPLES_NACIONAL",
+        "codigo": "180"
+    },
+    {
+        "empresa": "MM CONSULTORIA E SERVICOS LTDA 0001",
+        "cnpj": "26667104000148",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "26667104000148_MM_CONSULTORIA_E_SERVICOS_LTDA_PARCSN_SIMPLIFICADO_202410_202412.pdf",
+        "arquivo_id": "67639d6c464e5fc87",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\MM CONSULTORIA E SERVICOS LTDA 0001 - 26667104000148\\SIMPLES_NACIONAL",
+        "codigo": "180"
+    },
+    {
+        "empresa": "MM CONSULTORIA E SERVICOS LTDA 0001",
+        "cnpj": "26667104000148",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "26667104000148_MM_CONSULTORIA_E_SERVICOS_LTDA_PARCSN_SIMPLIFICADO_202412_202502.pdf",
+        "arquivo_id": "67aacca86283c9a68",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\MM CONSULTORIA E SERVICOS LTDA 0001 - 26667104000148\\SIMPLES_NACIONAL",
+        "codigo": "180"
+    },
+    {
+        "empresa": "CLINICA DE PROCEDIMENTOS EM SAUDE RAMOS LEITE LTDA 0001",
+        "cnpj": "13183699000114",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "13183699000114_CLINICA_DE_PROCEDIMENTOS_EM_SA_PARCSN_SIMPLIFICADO_202508_202508.pdf",
+        "arquivo_id": "689b0731112d3b925",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\CLINICA DE PROCEDIMENTOS EM SAUDE RAMOS LEITE LTDA 0001 - 13183699000114\\SIMPLES_NACIONAL",
+        "codigo": "75"
+    },
+    {
+        "empresa": "PAVIA SERVICOS ADMINISTRATIVOS LTDA 0001",
+        "cnpj": "48369199000156",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "48369199000156_PAVIA_SERVICOS_ADMINISTRATIVOS_PARCSN_SIMPLIFICADO_202505_202505.pdf",
+        "arquivo_id": "682609c2be6b8685f",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\PAVIA SERVICOS ADMINISTRATIVOS LTDA 0001 - 48369199000156\\SIMPLES_NACIONAL",
+        "codigo": "475"
+    },
+    {
+        "empresa": "PAVIA SERVICOS ADMINISTRATIVOS LTDA 0001",
+        "cnpj": "48369199000156",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "48369199000156_PAVIA_SERVICOS_ADMINISTRATIVOS_PARCSN_SIMPLIFICADO_202502_202502.pdf",
+        "arquivo_id": "67a9d624183d5ac9a",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\PAVIA SERVICOS ADMINISTRATIVOS LTDA 0001 - 48369199000156\\SIMPLES_NACIONAL",
+        "codigo": "475"
+    },
+    {
+        "empresa": "PAVIA SERVICOS ADMINISTRATIVOS LTDA 0001",
+        "cnpj": "48369199000156",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "48369199000156_PAVIA_SERVICOS_ADMINISTRATIVOS_PARCSN_SIMPLIFICADO_202501_202501.pdf",
+        "arquivo_id": "6786a9df1c4214872",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\PAVIA SERVICOS ADMINISTRATIVOS LTDA 0001 - 48369199000156\\SIMPLES_NACIONAL",
+        "codigo": "475"
+    },
+    {
+        "empresa": "PAVIA SERVICOS ADMINISTRATIVOS LTDA 0001",
+        "cnpj": "48369199000156",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "48369199000156_PAVIA_SERVICOS_ADMINISTRATIVOS_PARCSN_SIMPLIFICADO_202411_202501.pdf",
+        "arquivo_id": "678872fdab317beb8",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\PAVIA SERVICOS ADMINISTRATIVOS LTDA 0001 - 48369199000156\\SIMPLES_NACIONAL",
+        "codigo": "475"
+    },
+    {
+        "empresa": "PAVIA SERVICOS ADMINISTRATIVOS LTDA 0001",
+        "cnpj": "48369199000156",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "48369199000156_PAVIA_SERVICOS_ADMINISTRATIVOS_PARCSN_SIMPLIFICADO_202410_202412.pdf",
+        "arquivo_id": "67639c818959bfb34",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\PAVIA SERVICOS ADMINISTRATIVOS LTDA 0001 - 48369199000156\\SIMPLES_NACIONAL",
+        "codigo": "475"
+    },
+    {
+        "empresa": "PAVIA SERVICOS ADMINISTRATIVOS LTDA 0001",
+        "cnpj": "48369199000156",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "48369199000156_PAVIA_SERVICOS_ADMINISTRATIVOS_PARCSN_SIMPLIFICADO_202409_202412.pdf",
+        "arquivo_id": "67639da1220810a5f",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\PAVIA SERVICOS ADMINISTRATIVOS LTDA 0001 - 48369199000156\\SIMPLES_NACIONAL",
+        "codigo": "475"
+    },
+    {
+        "empresa": "PAVIA SERVICOS ADMINISTRATIVOS LTDA 0001",
+        "cnpj": "48369199000156",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "48369199000156_PAVIA_SERVICOS_ADMINISTRATIVOS_PARCSN_SIMPLIFICADO_202412_202501.pdf",
+        "arquivo_id": "6788728840d2fef26",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\PAVIA SERVICOS ADMINISTRATIVOS LTDA 0001 - 48369199000156\\SIMPLES_NACIONAL",
+        "codigo": "475"
+    },
+    {
+        "empresa": "DONA MARIA VARIEDADES LTDA 0001",
+        "cnpj": "42363060000119",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "42363060000119_DONA_MARIA_VARIEDADES_LTDA_PARCSN_SIMPLIFICADO_202508_202508.pdf",
+        "arquivo_id": "689afd96a2017ff9d",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\DONA MARIA VARIEDADES LTDA 0001 - 42363060000119\\SIMPLES_NACIONAL",
+        "codigo": "339"
+    },
+    {
+        "empresa": "DONA MARIA VARIEDADES LTDA 0001",
+        "cnpj": "42363060000119",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "42363060000119_DONA_MARIA_VARIEDADES_LTDA_PARCSN_SIMPLIFICADO_202507_202508.pdf",
+        "arquivo_id": "689f1663eee23a188",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\DONA MARIA VARIEDADES LTDA 0001 - 42363060000119\\SIMPLES_NACIONAL",
+        "codigo": "339"
+    },
+    {
+        "empresa": "DONA MARIA VARIEDADES LTDA 0001",
+        "cnpj": "42363060000119",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "42363060000119_DONA_MARIA_VARIEDADES_LTDA_PARCSN_SIMPLIFICADO_202506_202508.pdf",
+        "arquivo_id": "689f16502e339a53a",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\DONA MARIA VARIEDADES LTDA 0001 - 42363060000119\\SIMPLES_NACIONAL",
+        "codigo": "339"
+    },
+    {
+        "empresa": "JK PERFUMARIA E COSMETICO LTDA 0001",
+        "cnpj": "17989116000106",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "17989116000106_JK_PERFUMARIA_E_COSMETICO_LTDA_PARCSN_SIMPLIFICADO_202502_202502.pdf",
+        "arquivo_id": "67a9d5d9e0d123d13",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\JK PERFUMARIA E COSMETICO LTDA 0001 - 17989116000106\\SIMPLES_NACIONAL",
+        "codigo": null
+    },
+    {
+        "empresa": "FM TOBIAS BARRETO ALMEIDA REIS LTDA 0001",
+        "cnpj": "03826865000108",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "03826865000108_FM_TOBIAS_BARRETO_ALMEIDA_REIS_PARCSN_SIMPLIFICADO_202503_202503.pdf",
+        "arquivo_id": "67d20e1e9805a2989",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\FM TOBIAS BARRETO ALMEIDA REIS LTDA 0001 - 03826865000108\\SIMPLES_NACIONAL",
+        "codigo": "242"
+    },
+    {
+        "empresa": "FM TOBIAS BARRETO ALMEIDA REIS LTDA 0001",
+        "cnpj": "03826865000108",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "03826865000108_FM_TOBIAS_BARRETO_ALMEIDA_REIS_PARCSN_SIMPLIFICADO_202501_202503.pdf",
+        "arquivo_id": "67d4cc55be696e834",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\FM TOBIAS BARRETO ALMEIDA REIS LTDA 0001 - 03826865000108\\SIMPLES_NACIONAL",
+        "codigo": "242"
+    },
+    {
+        "empresa": "FM TOBIAS BARRETO ALMEIDA REIS LTDA 0001",
+        "cnpj": "03826865000108",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "03826865000108_FM_TOBIAS_BARRETO_ALMEIDA_REIS_PARCSN_SIMPLIFICADO_202412_202503.pdf",
+        "arquivo_id": "67d45fcab4a24a28a",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\FM TOBIAS BARRETO ALMEIDA REIS LTDA 0001 - 03826865000108\\SIMPLES_NACIONAL",
+        "codigo": "242"
+    },
+    {
+        "empresa": "SELENIUMBANK SOLUCOES EM PAGAMENTOS LIMITADA 0001",
+        "cnpj": "19934004000175",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "19934004000175_SELENIUMBANK_SOLUCOES_EM_PAGAM_PARCSN_SIMPLIFICADO_202508_202508.pdf",
+        "arquivo_id": "689afcd3308023207",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\SELENIUMBANK SOLUCOES EM PAGAMENTOS LIMITADA 0001 - 19934004000175\\SIMPLES_NACIONAL",
+        "codigo": "483"
+    },
+    {
+        "empresa": "GILVAN MAQ PECAS LTDA 0001",
+        "cnpj": "21505061000180",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "21505061000180_GILVAN_MAQ_PECAS_LTDA_PARCSN_SIMPLIFICADO_202402_202503.pdf",
+        "arquivo_id": "67d45ff0b540b3930",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\GILVAN MAQ PECAS LTDA 0001 - 21505061000180\\SIMPLES_NACIONAL",
+        "codigo": null
+    },
+    {
+        "empresa": "GILVAN MAQ PECAS LTDA 0001",
+        "cnpj": "21505061000180",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "21505061000180_GILVAN_MAQ_PECAS_LTDA_PARCSN_SIMPLIFICADO_202401_202503.pdf",
+        "arquivo_id": "67d45fa384a2998ab",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\GILVAN MAQ PECAS LTDA 0001 - 21505061000180\\SIMPLES_NACIONAL",
+        "codigo": null
+    },
+    {
+        "empresa": "REVOREDO AGROPECUARIA LTDA 0001",
+        "cnpj": "21043204000180",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "21043204000180_REVOREDO_AGROPECUARIA_LTDA_PARCSN_SIMPLIFICADO_202508_202508.pdf",
+        "arquivo_id": "689b08d0035f84dae",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\REVOREDO AGROPECUARIA LTDA 0001 - 21043204000180\\SIMPLES_NACIONAL",
+        "codigo": "501"
+    },
+    {
+        "empresa": "EAP SERVICOS ADMINISTRATIVOS LTDA 0001",
+        "cnpj": "48812981000106",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "48812981000106_EAP_SERVICOS_ADMINISTRATIVOS_L_PARCSN_SIMPLIFICADO_202508_202508.pdf",
+        "arquivo_id": "689afd8c04b561e10",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\EAP SERVICOS ADMINISTRATIVOS LTDA 0001 - 48812981000106\\SIMPLES_NACIONAL",
+        "codigo": "474"
+    },
+    {
+        "empresa": "INOVAR TELECOM LTDA 0001",
+        "cnpj": "25530936000155",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "25530936000155_INOVAR_TELECOM_LTDA_PARCSN_SIMPLIFICADO_202508_202508.pdf",
+        "arquivo_id": "689afdb318e47a1e1",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\INOVAR TELECOM LTDA 0001 - 25530936000155\\SIMPLES_NACIONAL",
+        "codigo": "358"
+    },
+    {
+        "empresa": "INOVAR TELECOM LTDA 0001",
+        "cnpj": "25530936000155",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "25530936000155_INOVAR_TELECOM_LTDA_PARCSN_SIMPLIFICADO_202507_202507.pdf",
+        "arquivo_id": "68711928ce49657a0",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\INOVAR TELECOM LTDA 0001 - 25530936000155\\SIMPLES_NACIONAL",
+        "codigo": "358"
+    },
+    {
+        "empresa": "INOVAR TELECOM LTDA 0001",
+        "cnpj": "25530936000155",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "25530936000155_INOVAR_TELECOM_LTDA_PARCSN_SIMPLIFICADO_202506_202507.pdf",
+        "arquivo_id": "687295dab2251d00d",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\INOVAR TELECOM LTDA 0001 - 25530936000155\\SIMPLES_NACIONAL",
+        "codigo": "358"
+    },
+    {
+        "empresa": "VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "41210457000108",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "41210457000108_VIA_ROMA_SALVADOR_PIZZARIA_BAR_PARCSN_SIMPLIFICADO_202506_202506.pdf",
+        "arquivo_id": "684907dc12d0e9dda",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\SIMPLES_NACIONAL",
+        "codigo": "537"
+    },
+    {
+        "empresa": "VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "41210457000108",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "41210457000108_VIA_ROMA_SALVADOR_PIZZARIA_BAR_PARCSN_SIMPLIFICADO_202505_202505.pdf",
+        "arquivo_id": "6825f1776189a6473",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\SIMPLES_NACIONAL",
+        "codigo": "537"
+    },
+    {
+        "empresa": "VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "41210457000108",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "41210457000108_VIA_ROMA_SALVADOR_PIZZARIA_BAR_PARCSN_SIMPLIFICADO_202504_202505.pdf",
+        "arquivo_id": "68270e8e9a760738f",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\SIMPLES_NACIONAL",
+        "codigo": "537"
+    },
+    {
+        "empresa": "VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "41210457000108",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "41210457000108_VIA_ROMA_SALVADOR_PIZZARIA_BAR_PARCSN_SIMPLIFICADO_202503_202505.pdf",
+        "arquivo_id": "68270ea07c24b24f8",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\SIMPLES_NACIONAL",
+        "codigo": "537"
+    },
+    {
+        "empresa": "VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "41210457000108",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "41210457000108_VIA_ROMA_SALVADOR_PIZZARIA_BAR_PARCSN_SIMPLIFICADO_202502_202504.pdf",
+        "arquivo_id": "67fce4f2c777ecd9b",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\SIMPLES_NACIONAL",
+        "codigo": "537"
+    },
+    {
+        "empresa": "VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "41210457000108",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "41210457000108_VIA_ROMA_SALVADOR_PIZZARIA_BAR_PARCSN_SIMPLIFICADO_202501_202503.pdf",
+        "arquivo_id": "67d4e04c6e1d980f7",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\SIMPLES_NACIONAL",
+        "codigo": "537"
+    },
+    {
+        "empresa": "VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "41210457000108",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "41210457000108_VIA_ROMA_SALVADOR_PIZZARIA_BAR_PARCSN_SIMPLIFICADO_202411_202501.pdf",
+        "arquivo_id": "6788729b6fbcd8d06",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\SIMPLES_NACIONAL",
+        "codigo": "537"
+    },
+    {
+        "empresa": "VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "41210457000108",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "41210457000108_VIA_ROMA_SALVADOR_PIZZARIA_BAR_PARCSN_SIMPLIFICADO_202410_202412.pdf",
+        "arquivo_id": "67639bc050a5b0217",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\SIMPLES_NACIONAL",
+        "codigo": "537"
+    },
+    {
+        "empresa": "VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001",
+        "cnpj": "41210457000108",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "41210457000108_VIA_ROMA_SALVADOR_PIZZARIA_BAR_PARCSN_SIMPLIFICADO_202412_202502.pdf",
+        "arquivo_id": "67aacb2a57fabf696",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\VIA ROMA SALVADOR PIZZARIA, BAR E RESTAURANTE LTDA 0001 - 41210457000108\\SIMPLES_NACIONAL",
+        "codigo": "537"
+    },
+    {
+        "empresa": "CLINICA FERTLY LTDA 0001",
+        "cnpj": "03584783000196",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "03584783000196_CLINICA_FERTLY_LTDA_PARCSN_RELP_202506_202506.pdf",
+        "arquivo_id": "684907d2bcc841681",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\CLINICA FERTLY LTDA 0001 - 03584783000196\\SIMPLES_NACIONAL",
+        "codigo": null
+    },
+    {
+        "empresa": "P & S COMERCIO DE MAQUINAS LTDA 0001",
+        "cnpj": "16479534000182",
+        "tipo_parcelamento": "SIMPLES_NACIONAL",
+        "nome_arquivo": "16479534000182_P_&_S_COMERCIO_DE_MAQUINAS_LTD_PARCSN_RELP_202508_202508.pdf",
+        "arquivo_id": "689afc76ad37acec4",
+        "pasta": "c:\\Users\\Exatas\\Documents\\GitHub\\Automa-es\\API GOB\\temp\\P & S COMERCIO DE MAQUINAS LTDA 0001 - 16479534000182\\SIMPLES_NACIONAL",
+        "codigo": "449"
+    }
+]
